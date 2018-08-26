@@ -74,8 +74,8 @@
 			<desc>[RimeSteel] is used to forge the mighty Wurmslayer.</desc>
 		</RimeSteel>
 		<MilitaryXP>
-			<name>Military Experience</name>
-			<desc>You earn [MilitaryXP] by killing enemy units or losing your own in battle.</desc>
+			<name>군사 경험</name>
+			<desc>[MilitaryXP] 은 전투에서 적을 죽이거나 유닛을 잃을때 얻을 수 있습니다.</desc>
 		</MilitaryXP>
 	</sheet>
 	<sheet name="unit">
