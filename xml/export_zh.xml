@@ -63,7 +63,7 @@
 		</Stone>
 		<Iron>
 			<name>철</name>
-			<desc>[Iron] is used to forge powerful weapons and craft better tools.</desc>
+			<desc>[Iron] 은 강력한 무기를 만들거나 도구를 향상시킬수 있습니다.</desc>
 		</Iron>
 		<Prestige>
 			<name>Commercial Influence</name>
