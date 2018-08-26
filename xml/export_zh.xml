@@ -59,7 +59,7 @@
 		</SheepFood>
 		<Stone>
 			<name>석재</name>
-			<desc>[Stone] can be spent to upgrade your clan buildings.</desc>
+			<desc>[Stone] 는 건물을 업그레이드할때 소비됩니다.</desc>
 		</Stone>
 		<Iron>
 			<name>철</name>
