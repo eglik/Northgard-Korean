@@ -120,9 +120,9 @@
 			<desc>좋은 양조자는 꾸준히 맥주를 제공하며 부족의 [Happy] 를 올려줍니다.</desc>
 		</InnKeeper>
 		<Skald>
-			<name>음유시인</name>
-			<desc>Skalds' tales of your clan's deeds will increase your [Fame] and [Happy].</desc>
-			<flavor>"Skald" literally means "poet." Skaldic poetry is one of the two main forms of Old Norse poetry, the other being Eddic poetry.</flavor>
+			<name>스칼드</name>
+			<desc>스칼드의 이야기는 당신의 [Fame] 와 [Happy] 를 증가시킵니다.</desc>
+			<flavor>"스칼드" 은 "시인"을 의미합니다. Skaldic poetry is one of the two main forms of Old Norse poetry, the other being Eddic poetry.</flavor>
 		</Skald>
 		<Miner>
 			<name>광부</name>
