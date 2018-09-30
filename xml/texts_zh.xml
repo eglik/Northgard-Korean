@@ -1,0 +1,1223 @@
+<texts>
+	<t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
+	<t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
+	<t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Signy|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
+
+	<t id="soon">곧 공개...</t>
+	<t id="flavor_quote">- "::text::"</t>
+	<t id="unknown_clan">미발견</t>
+	<t id="random">랜덤</t>
+	<g id="months">
+		<t id="s1">1월</t>
+		<t id="s2">2월</t>
+		<t id="s3">3월</t>
+		<t id="s4">4월</t>
+		<t id="s5">5월</t>
+		<t id="s6">6월</t>
+		<t id="s7">7월</t>
+		<t id="s8">8월</t>
+		<t id="s9">9월</t>
+		<t id="s10">10월</t>
+		<t id="s11">11월</t>
+		<t id="s12">12월</t>
+	</g>
+	<t id="date">::year:: 기원후 - ::month::</t>
+	<t id="dateCampaign">Year ::year:: - ::month::</t>
+	<g id="titles">
+		<t id="population">인구수</t>
+		<t id="civilians">시민</t>
+		<t id="warband">군사</t>
+		<t id="allies">동맹</t>
+		<t id="buildings">건물</t>
+		<t id="standard">기본</t>
+		<t id="military">병영</t>
+		<t id="advanced">특수</t>
+	</g>
+	<g id="victories">
+		<t id="all">전체</t>
+		<g id="military">
+			<t id="title">정복</t>
+			<t id="desc">다른 플레이어의 <font color="#R">타운홀</font>을 파괴하여 노스가드의 지배자가 되십시오.</t>
+		</g>
+		<g id="lore">
+			<t id="title">지혜</t>
+			<t id="desc">고대의 지식을 발견하여 <font color="#R">현명한 부족의 지도자</font>가 되십시오.</t>
+		</g>
+		<g id="yggdrasil">
+			<t id="title">이그드라실</t>
+			<t id="desc">Find the legendary World Tree, <font color="#R">Yggdrasil</font>, and be the first to conquer it.</t>
+		</g>
+		<g id="helheim">
+			<t id="title">헬하임</t>
+			<t id="desc">Take control of the <font color="#R">Gates of Helheim</font> and defend the area against the [Valkyrie]s.</t>
+		</g>
+		<g id="money">
+			<t id="title">교역</t>
+			<t id="desc">부를 쌓아 <font color="#R">위대한 상인</font>이 되십시오.</t>
+		</g>
+		<g id="fame">
+			<t id="title">명예</t>
+			<t id="desc">충분한 [Territory]를 얻고 당신의 [Fame]을 드높여 <font color="#R">왕</font>의 작위를 얻으세요.</t>
+		</g>
+		<g id="odinsword">
+			<t id="title">오딘의 검</t>
+			<t id="desc">Build a <font color="#R">Forge</font> in the Magma Flow and forge Odin's legendary sword using [Iron].</t>
+		</g>
+		<g id="campaign">
+			<t id="title">스토리 모드</t>
+		</g>
+		<t id="progress"><font color="::color::">::v::/::max::</font></t>
+		<t id="areas_controlled">::p:: 점령한 영토</t>
+		<t id="fame_collected">::p:: 획득한 명성</t>
+		<t id="built_hall">왕의 제단 건설</t>
+		<t id="produced_money">::p::수집한 크로나</t>
+		<t id="built_lighthouse">등대 건설</t>
+		<t id="total_prestige">::p:: 경제 영향력</t>
+		<t id="merchants">::p:: 활성화된 상인/선원</t>
+		<t id="money_stock">::p:: 보유한 크로나</t>
+		<t id="lore_masters">::p:: 활성화된 전승지기/선원</t>
+		<t id="lore_masters_boar">::p:: 활성화된 전승지기/선원/수리공</t>
+		<t id="blessings">::p::신들의 축복</t>
+		<t id="defeated_players">::p:: 부족 파괴</t>
+		<t id="found_odinsword">용암의 땅 발견</t>
+		<t id="built_forge">대장간 건설</t>
+		<t id="forged_parts">::p:: 검 부위</t>
+		<t id="found_ygg">이그드라실 발견</t>
+		<t id="colonize_ygg">이그드라실 점령</t>
+		<t id="found_hel">헬하임 발견</t>
+		<t id="colonize_hel">헬하임 점령</t>
+		<t id="timer_hel">::p:: 달째 점령중</t>
+		<t id="you">당신</t>
+		<t id="no_fame_vict">당신의 클랜은 승리하지 못했습니다.</t>
+		<t id="unknown_player">미발견된 부족</t>
+		<t id="player"><font color="::color::">::name::</font> 의 ::clan:: 부족</t>
+		<t id="title">승리조건</t>
+	</g>
+	<g id="buttons">
+		<t id="build">건설<font color="#T" opacity="0.5">[::hotkey::]</font> </t>
+		<t id="buy_drakkar">Build a Longship for <img src="/r/Wood"/>::cost::</t>
+		<t id="start_raid">약탈시작</t>
+		<t id="resume_raid">약탈재개</t>
+		<t id="stop_raid">약탈중단</t>
+		<t id="choose_trade_road">무역로 건설</t>
+		<t id="change_trade_road">무역로 변경</t>
+		<t id="upgrade_building">업그레이드</t>
+		<t id="unlock_great_route">Unlock Great Routes</t>
+		<t id="colonize">점령하기 <img src="/r/::r::"/><font color="::color::">::cost::</font>殖民</t>
+		<t id="cantColonize">점령 불가능</t>
+		<t id="cancel_colonize">점령 취소</t>
+		<t id="improve_tools"><img src="/r/Iron"/> 장비강화</t>
+		<t id="forge_start"><img src="/r/Forge"/> 대장간</t>
+		<t id="sacrifice_sheep">도축</t>
+		<t id="organize_feast">축제열기</t>
+		<t id="feasting">축제중...</t>
+		<t id="retreat"><img src="/i/Retreat"/> 후퇴</t>
+		<t id="manage_port"><img src="/r/Sailors"/> 항구관리</t>
+		<t id="transfer_zone"><img src="/i/TransferZone"/> 이송지역</t>
+		<t id="claim_zone"><img src="/i/ClaimZone"/> 요청지역</t>
+		<t id="defense_on">방어</t>
+		<t id="defense_off">자동</t>
+		<t id="upgrade_zone">지역개발</t>
+		<t id="rally_warchief">집결</t>
+		<t id="spawn_bear">소집</t>
+	</g>
+	<g id="help">
+		<t id="zone_to_explore">이 영역은 아직 탐험하지 않았습니다. <b><img src="/u/Scout"/><font color="#U">척후병</font></b>을 보내십시오.</t>
+		<t id="ruins_explored">이 폐허는 이미 탐색됐습니다.</t>
+		<t id="wreck_scavenged">이 난파선은 이미 탐색됐습니다.</t>
+		<t id="brokenHouse_visited">이 부서진 집은 이미 방문했습니다.</t>
+		<t id="win_fame">이 영토를 점령하여 <img src="/r/Fame"/><font color="#F">::value::</font>의 명성을 획득하십시오.</t>
+		<t id="kill_fame">와이번을 물리치고 <img src="/r/Fame"/><font color="#F">::value::</font>의 명성을 획득하십시오.</t>
+		<t id="forge_desc">Forge the ::part:: of the Sword of Odin for <img src="/r/::res::"/><font color="::color::">::count::</font>.</t>
+		<t id="forge_count">::nb:: done</t>
+		<g id="sword_parts">
+			<t id="hilt">Hilt</t>
+			<t id="guard">Guard</t>
+			<t id="blade">Blade</t>
+		</g>
+		<t id="forge_progress">Forging ::part:: (::p::%)</t>
+		<t id="giants_progress">Relationship with giants (::p::%)</t>
+		<t id="vedrfolnir_progress">Vedrfolnir leaving (::p::%)</t>
+		<g id="victories">
+			<t id="yggdrasil">Colonize the area to become protector of Northgard and achieve victory!</t>
+			<t id="helheim">Colonize the Gates of Helheim and keep it under your control to achieve victory!</t>
+			<t id="magmaflow">Build a Forge in this area and forge the Sword of Odin to achieve victory!</t>
+		</g>
+	</g>
+	<g id="ui">
+		<g id="menu">
+			<t id="save">저장하기</t>
+			<t id="play">돌아가기</t>
+			<t id="return_map">나가기</t>
+			<t id="options">설정</t>
+			<t id="return_title">메인메뉴로 나가기</t>
+			<t id="concede">항복</t>
+			<t id="continue_game">이어하기</t>
+			<t id="continue_campaign">이어하기</t>
+			<t id="retry_campaign">재시작</t>
+			<t id="watch_game">계속 관전하기</t>
+			<t id="clan_select">부족 선택</t>
+			<t id="back">뒤로</t>
+			<t id="game_pause">게임 중단</t>
+			<t id="game_unpause">게임 재시작</t>
+			<t id="show_victory_conditions">승리조건 보기</t>
+			<t id="campaign_lore">스토리 다시하기</t>
+			<t id="campaign_load">불러오기</t>
+		</g>
+		<g id="profile">
+			<t id="title">플레이어 정보</t>
+			<t id="overall">통합전적</t>
+			<t id="rank_titles">시민|전사|대족장|영주|귀족|왕|제왕|스칸디나비아의 신</t>
+			<t id="games_won">게임 승리: ::value::</t>
+			<t id="next_rank">다음 랭크: ::value::</t>
+			<t id="clan">부족전적</t>
+			<t id="clan_win">::win:: 승리한 게임 <font color="#T" opacity="0.5">（::played::판）</font></t>
+			<t id="clan_won">::win:: 승리한 게임 <font color="#T" opacity="0.5">（::played::판）</font></t>
+			<t id="stats_bears">죽인 곰 수: ::count::</t>
+			<t id="stats_houses">건설한 집 수: ::count::</t>
+			<t id="stats_killed">시민들이 죽은 횟수: ::count::</t>
+			<t id="stats_feasts">축제를 거행한 수: ::count::</t>
+			<t id="stats_story_mode">스토리 모드</t>
+			<t id="stats_story_completed">아무 난이도로 챕터 클리어 : ::count::/::total::</t>
+			<t id="stats_story_completed_hard">익스트림 난이도로 챕터 클리어 : ::count::/::total::</t>
+			<t id="stats_story_objectives">보조미션 클리어 : ::count::/::total::</t>
+		</g>
+		<g id="options">
+			<t id="title">설정</t>
+			<t id="apply">변경 적용</t>
+			<g id="controls">
+				<t id="title">컨트롤</t>
+				<g id="a">
+					<t id="title">카메라 위로 이동</t>
+					<t id="key1">W</t>
+					<t id="key2">Up</t>
+				</g>
+				<g id="b">
+					<t id="title">카메라 좌로 이동</t>
+					<t id="key1">A</t>
+					<t id="key2">Left</t>
+				</g>
+				<g id="c">
+					<t id="title">카메라 아래로 이동</t>
+					<t id="key1">S</t>
+					<t id="key2">Down</t>
+				</g>
+				<g id="d">
+					<t id="title">카메라 우로 이동</t>
+					<t id="key1">D</t>
+					<t id="key2">Right</t>
+				</g>
+				<g id="e">
+					<t id="title">건설</t>
+					<t id="key1">B</t>
+				</g>
+				<g id="f">
+					<t id="title">전승</t>
+					<t id="key1">L</t>
+				</g>
+				<g id="g">
+					<t id="title">게임중단</t>
+					<t id="key1">P</t>
+				</g>
+				<g id="h">
+					<t id="title">승리조건</t>
+					<t id="key1">V</t>
+				</g>
+				<g id="i">
+					<t id="title">알람 보기</t>
+					<t id="key1">Space</t>
+				</g>
+				<g id="j">
+					<t id="title">Minimap Display Type</t>
+					<t id="key1">T</t>
+				</g>
+				<g id="k">
+					<t id="title">Show World Info</t>
+					<t id="key1">I</t>
+				</g>
+				<g id="l">
+					<t id="title">Flip Building</t>
+					<t id="key1">F</t>
+				</g>
+				<g id="m">
+					<t id="title">Select Cycle</t>
+					<t id="key1">Tab</t>
+				</g>
+				<g id="n">
+					<t id="title">핑(아군)</t>
+					<t id="key1">Alt</t>
+				</g>
+				<g id="o">
+					<t id="title">타운홀로 돌아가기</t>
+					<t id="key1">Backspace</t>
+				</g>
+				<g id="p">
+					<t id="title">Single Unit Order</t>
+					<t id="key1">Ctrl (Hold)</t>
+				</g>
+				<g id="q">
+					<t id="title">군사 선택</t>
+					<t id="key1">E</t>
+				</g>
+				<g id="r">
+					<t id="title">놀고있는 일꾼 선택</t>
+					<t id="key1">U</t>
+				</g>
+				<g id="s">
+					<t id="title">모든 시민 선택</t>
+					<t id="key1">G</t>
+				</g>
+				<g id="t">
+					<t id="title">모든 척후병 선택</t>
+					<t id="key1">H</t>
+				</g>
+				<g id="u">
+					<t id="title">채팅</t>
+					<t id="key1">Enter</t>
+				</g>
+				<g id="v">
+					<t id="title">명령 취소</t>
+					<t id="key1">X</t>
+				</g>
+			</g>
+			<g id="game">
+				<t id="title">게임</t>
+				<t id="scroll_speed">이동 속도</t>
+				<t id="enable_tuto">도움말 켜기</t>
+				<t id="enable_borderscroll">Enable Border Scrolling</t>
+				<t id="enable_softcursors">소프트웨어 커서 켜기</t>
+				<t id="lang">언어</t>
+				<t id="use_campaign_hero">스토리모드에서 대족장 사용하기</t>
+			</g>
+			<g id="graphics">
+				<t id="title">그래픽</t>
+				<t id="sao">SSAO</t>
+				<t id="shadows">고품질 그림자</t>
+				<t id="ground">고품질 텍스쳐</t>
+				<t id="resolution">해상도</t>
+				<t id="fullscreen">전체화면</t>
+				<t id="exclusive">Exclusive</t>
+				<t id="vsync">VSync</t>
+				<t id="auto_on_off">자동|켜기|끄기</t>
+				<t id="ui_scale">UI 스케일</t>
+			</g>
+			<g id="sound">
+				<t id="title">음량</t>
+				<t id="music_volume">배경음</t>
+				<t id="ambient_volume">Ambient</t>
+				<t id="sound_volume">효과음</t>
+			</g>
+			<g id="credits">
+				<t id="title">제작자</t>
+				<g id="list">
+					<t id="s1">A game by</t>
+					<t id="s2">Shiro Games</t>
+					<t id="s3">Creative Director</t>
+					<t id="s4">Nicolas Cannasse</t>
+					<t id="s5">3D Graphics</t>
+					<t id="s6">Etienne Makowski</t>
+					<t id="s7">Animation</t>
+					<t id="s8">Stéphane Videlo</t>
+					<t id="s9">Graphic Design</t>
+					<t id="s10">Jeremy Vitry|Etienne Makowski|Elodie Perquis|Anaïs Maamar|Etienne Hebinger|Etienne Pov|Aurore Solé</t>
+					<t id="s11">Programming</t>
+					<t id="s12">Bernard Stouls|Nicolas Cannasse|Amandine Guilhaumon|Tom Rethaller</t>
+					<t id="s13">Game Design</t>
+					<t id="s14">Philippe Renouil|Nicolas Cannasse|Sébastien Vidal|Frédéric Oughdentz|Adrien Briatta</t>
+					<t id="s15">Music</t>
+					<t id="s16">Camille Schoell</t>
+					<t id="s17">Sound</t>
+					<t id="s18">Frédéric Motte</t>
+					<t id="s19">Community Relations</t>
+					<t id="s20">Adrien Briatta</t>
+					<t id="s21">Executive Producer</t>
+					<t id="s22">Camille Schoell</t>
+				</g>
+			</g>
+			<t id="thanks">플레이 해주셔서 감사합니다!</t>
+		</g>
+		<t id="confirm_key_overwrite">이 단축키는 이미 사용중입니다. 덮어쓰시겠습니까?</t>
+		<t id="confirm_restore_keys">단축키를 모두 기본값으로 복원하시겠습니까?</t>
+		<t id="restore_keys">기본값으로</t>
+		<t id="campaign_choose">캠페인 선택</t>
+		<t id="no_loaded_file">저장파일 없음</t>
+		<t id="loading_file">불러오기</t>
+		<t id="new_file">새 저장</t>
+		<t id="saving_file">저장된 게임</t>
+		<t id="new_game">새 게임 만들기</t>
+		<t id="game_settings">게임 설정</t>
+		<t id="clan_name">플레이어 이름</t>
+		<t id="clan_color">부족 색깔 선택</t>
+		<t id="game_difficulty">날씨 난이도</t>
+		<t id="difficulty_label">난이도</t>
+		<t id="game_mapsize">맵 크기</t>
+		<t id="game_maptype">맵 종류</t>
+		<t id="ia_count">AI 플레이어</t>
+		<t id="clan_choose">확인</t>
+		<t id="game_saved">게임 저장됨</t>
+		<t id="add_tags">태그 추가...</t>
+		<t id="tags">태그</t>
+		<t id="search_keywords">검색</t>
+		<t id="single_player">싱글 플레이어</t>
+		<t id="played_time">플레이 시간</t>
+		<t id="seed">시드</t>
+		<t id="version">버전</t>
+		<t id="nbClans">부족</t>
+		<t id="enabled"><font color="#G">활성화</font></t>
+		<t id="disabled"><font color="#B">비활성화</font></t>
+		<t id="server_name">서버 이름</t>
+		<t id="disable_tips">Disable Tips</t>
+		<g id="difficulty">
+			<t id="easy">쉬움</t>
+			<t id="normal">보통</t>
+			<t id="hard">어려움</t>
+		</g>
+		<g id="campaign_difficulty">
+			<t id="easy">쉬움</t>
+			<t id="normal">보통</t>
+			<t id="hard">익스트림</t>
+		</g>
+		<g id="map_size">
+			<t id="small">소형</t>
+			<t id="medium">중형</t>
+			<t id="large">대형</t>
+			<t id="big">초대형</t>
+		</g>
+		<g id="newgame">
+			<t id="victory_conditions">승리조건들</t>
+			<t id="map_victory">특수조건</t>
+			<t id="advanced_options">고급설정</t>
+		</g>
+	</g>
+	<g id="specialCampaign">
+		<g id="ui">
+			<t id="play_intro">Play Intro</t>
+		</g>
+		<t id="foothold_goat">Halvard and the Heidrun Clan have met their end.</t>
+		<t id="skirmish_renfort">The mercenary search party will arrive in ::value:: months.</t>
+		<t id="giants_giantAttack">The Jötnar are attacking us.</t>
+		<t id="bifrost_bifrostEvent">Hvedrung will soon blow the Gjallarhorn. We should brace ourselves!</t>
+		<t id="footholdSwampDesc">This area is uninhabitable due to toxic fumes, sullied water and disease-bearing insects.</t>
+		<t id="footholdSwampName">Noxious Swamp</t>
+		<t id="giantSwordName">Ancient Jötunn Relic</t>
+		<t id="giantHeroNameA">Jafnadr</t>
+		<t id="giantHeroDescA">The powerful Champion of Jötunnheim's workers, here to help you overthrow the lords who have inherited the land.</t>
+		<t id="giantHeroFlavorA">Seize the means of wool production!</t>
+		<t id="giantHeroNameB">Lög</t>
+		<t id="giantHeroDescB">The dreaded Judicator of Jötunnheim, supreme enforcer of the lords' inherited authority and defender of private property.</t>
+		<t id="giantHeroFlavorB">I am the law!</t>
+		<t id="chooseGiantClan">Choose a faction or assist in crushing the other.</t>
+		<t id="chooseGiantSkrymirDesc">Skrymir is the king of Jötunnheim and owner of the land. His people strongly believe this entitles them to the products of the sheep.</t>
+		<t id="chooseGiantFjolsvinDesc">Fjolsvin leads the workers of Jötunnheim. This faction believes their hard work should prevail over inherited property in the distribution of goods.</t>
+		<t id="chooseGiantConfirm">Join Faction</t>
+		<t id="greatOutpost">Main Trading Post</t>
+		<t id="wurmSlayerForge">Train your villagers to become [Smith]s and forge the mighty Wurmslayer using [RimeSteel].</t>
+		<t id="wurmSlayerSmith">Only a Smith of the Bear Clan can forge the famed Wurmslayer.</t>
+		<t id="forgeWurm_desc">Forge the Wurmslayer for <img src="/r/::res::"/><font color="::color::">::count::</font>.</t>
+		<t id="forgeWurmTip">Train your villagers to become [Smith]s and forge the Wurmslayer.</t>
+		<t id="wurmHilt">Wurmslayer</t>
+		<t id="wurmGuard">Grip</t>
+		<t id="wurmBlade">Blade</t>
+		<t id="bannerRecovering">[::unit::] is gravely wounded and will return to fight the Hrímgandr after recovering.</t>
+	</g>
+	<g id="dialogs">
+		<t id="button_ok">OK</t>
+		<t id="button_cancel">Cancel</t>
+		<t id="button_back">Back</t>
+		<t id="button_save">Save</t>
+		<t id="button_confirm_exit">Confirm Quit</t>
+		<t id="congrats">Congratulations!</t>
+
+		<t id="destroy_confirm">Are you sure you want to destroy this building?</t>
+		<t id="transfer_zone_confirm">Transfer area to <font color="::color::">::name::</font>?</t>
+
+		<t id="victory_title">VICTORY</t>
+		<t id="defeat_title">DEFEAT</t>
+
+		<t id="won">Congratulations! You have achieved a <font color="#G">::vname::</font> victory!</t>
+		<t id="team_won">Congratulations! Your team has achieved a <font color="#G">::vname::</font> victory!</t>
+		<t id="lost"><font color="::color::">::name::</font> has achieved a <font color="#R">::vname::</font> victory...</t>
+
+		<t id="defeat">You <font color="#B">lost</font> your Town Hall. Your clan is defeated...</t>
+
+		<t id="game_paused">Game Paused</t>
+		<t id="confirm_overwrite">Overwrite existing file ::name::?</t>
+		<t id="resume_game_wait">Resume will be available in ::time::s.</t>
+		<t id="pause_remaining">You have ::count:: pauses left.</t>
+		<t id="resume_time">Game will resume in ::time::s.</t>
+
+		<t id="on">ON</t>
+		<t id="off">OFF</t>
+
+		<t id="confirm_quit_desktop">Exit to desktop?</t>
+
+		<t id="confirm_exit">Quit game without saving your progress?</t>
+		<t id="confirm_exit_game">Are you sure you want to quit?</t>
+		<t id="confirm_concede">Are you sure you want to concede the game?</t>
+		<t id="confirm_exit_multi">Quitting the game now will end the session and disconnect all players!</t>
+		<t id="confirm_save_delete">Delete file ::name::?</t>
+		<t id="save_format">::name::</t>
+		<t id="user_format">::user::</t>
+		<t id="info_format">::clan:: Clan - Difficulty: ::diff::</t>
+		<t id="time_format">::time:: min.</t>
+
+		<t id="tech_title">Lore</t>
+		<t id="tech_free">Obtained for free with ::desc::</t>
+		<t id="tech_blessings_extra">Unlock all Blessings to achieve a Wisdom victory!</t>
+		<t id="tech_got_blessing">::count::/::max:: Knowledge</t>
+		<t id="tech_req_blessing">Requires ::count::/::max:: Knowledge</t>
+		<t id="choose_clone_tech">Choose a tech to replace ::tech::</t>
+
+		<t id="close">Close</t>
+		<g id="meteo">
+			<t id="summer">We should prepare for winter.</t>
+			<t id="winter">Our Food production is reduced.</t>
+		</g>
+		<g id="trade">
+			<t id="title">Trading</t>
+			<t id="desc">Choose which resource your merchants will sell to earn [Money]:</t>
+			<t id="need_resource">No [::id::] in stock</t>
+			<t id="trade_with">Choose which faction to trade with:</t>
+			<t id="button">Start Trade Route</t>
+			<t id="cant_trade_at_war">You can't trade with a clan you're at war with</t>
+			<t id="campaign_at_war">You can't trade with the opposing [Giant] faction!</t>
+			<t id="cant_trade_this">They will not accept this resource.</t>
+			<t id="cant_trade_boar">The Boar Clan can't trade with other clans.</t>
+			<t id="cant_trade_with_clan">You can't trade with this clan.</t>
+			<t id="cant_trade_twice">You can't trade the same resource twice with the same clan.</t>
+			<t id="nobody">You haven't met any other clans yet.</t>
+			<t id="cancel">Cancel Trade Route</t>
+			<t id="cancelPrestige">Cancel Great Trade Route</t>
+		</g>
+		<t id="colonize_progress">Colonization (::v::%)</t>
+		<t id="uncolonize_progress">Losing control (::v::%)</t>
+
+		<t id="mine_depleted">This mine is depleted. You can destroy it.</t>
+
+		<t id="trade_bonus">You are currently trading [::res::] with <font color="::color::">::name::</font><br/></t>
+		<g id="choose_tool">
+			<t id="title">Choose Tool to Upgrade</t>
+			<t id="tip">[::id::]s produce ::percent:: more [::res::].</t>
+			<t id="tip_miner">[::id::]s extract ::percent:: more ore from deposits.</t>
+			<t id="tip_villager">Increases [Villager]s' build and repair speed by ::percent::.</t>
+			<t id="tip_mender">Increases [Mender]s' healing speed by ::percent:: and produce ::percent:: more [Lore].</t>
+			<t id="tip_skald">[::id::]s produce ::percent:: more [Fame] and [Happy], and ::percent:: more [Money] with [GreatDeeds].</t>
+
+			<t id="tip_healerWithMedecine">Increases [Healer]s' healing speed by ::percent::. They also produce ::percent:: more [Food] with [Medecine].</t>
+			<t id="tip_healerNoMedicine">Increases [Healer]s' healing speed by ::percent::.</t>
+			<t id="tip_sailor">[::id::]s produce ::percent:: more [Money], [Lore] and [Fame].</t>
+			<t id="tip_sailor_snake">[::id::]s produce ::percent:: more [Money] and [Lore].</t>
+			<t id="tip_warrior">[::id::]s gain the Charge ability and ::percent:: attack.</t>
+			<t id="tip_axethrower">Increases [::id::]s' attack range and power by ::percent::.</t>
+			<t id="tip_shieldbearer">Doubles [::id::]s' protection against ranged attacks and increases resistance by ::percent::.</t>
+			<t id="tip_skirmisher">[::id::]s gain the Poison ability and ::percent:: attack.</t>
+
+			<t id="upgraded"><font color="#G">Already improved</font></t>
+			<t id="no_unit"><font color="#B">Building required</font></t>
+			<t id="no_tool">[::id::]s can't be improved.</t>
+			<t id="no_tool_ally">You can't improve ally units.</t>
+		</g>
+		<t id="scout_req_camp">Your [Scout] needs a Scouting Camp to explore new areas.</t>
+		<t id="hero_cooldown">Waiting for ::name:: (::p::%)</t>
+		<t id="waiting_drakkar">Waiting for your Longship to return...</t>
+
+		<t id="new_title">New title:</t>
+		<t id="new_age">::age:::</t>
+		<t id="fame_level_up">Word of your success as a leader has reached other clans, and you have gained a new ability.</t>
+		<t id="maxed_pop">You don't have enough space to increase your population. Build more houses.</t>
+		<t id="no_unit_to_heal">There are no wounded or sick units to heal within your territory.</t>
+		<t id="currently_healing">Healing: ::name:: (::p::%)</t>
+		<t id="no_growth">You need more [Happy] to grow your population.</t>
+
+		<t id="drakkar_bring_fame">Sailors will fight for [Fame]</t>
+		<t id="drakkar_bring_no_fame">Your clan can't fight for [Fame]</t>
+		<t id="drakkar_bring_lore">Sailors will discover [Lore]</t>
+		<g id="manage_harbor">
+
+			<t id="title_raid">Raid</t>
+			<t id="raid_desc">Choose an additional resource for your [Sailor]s to look for:</t>
+			<t id="cant_raid_nosailor">You need to assign [Sailor]s to launch a raid.</t>
+
+			<t id="explore">Explore</t>
+			<t id="explore_tip">Your [Sailor]s will explore a new coastal area while raiding.</t>
+			<t id="explore_progress">Exploring (::p::%)</t>
+			<t id="cant_explore_nosailor">You need to have active [Sailor]s to explore.</t>
+			<t id="cant_explore_noarea">There is no area left for your [Sailor]s to explore.</t>
+
+			<t id="title_raven_port">Mercenaries</t>
+			<t id="mercenary_desc">Mercenaries will attack a selected coastal area and stay there if they emerge victorious.</t>
+			<t id="mercenary_deploy">Deploy Mercenaries</t>
+			<t id="mercenary_deploy_help">Choose a coastal area in which to deploy [Mercenary]s.</t>
+			<t id="mercenary_cooldown">Recruiting (::p::%)</t>
+			<t id="mercenary_cant_deploy">You have not discovered a coastal area for deployment.</t>
+
+			<t id="title_great_routes">Great Trade Routes</t>
+			<t id="great_route_desc">Earn [Prestige] with Great Trade Routes and work toward a Trade victory.</t>
+			<t id="start_route">Start Great Trade Route</t>
+			<t id="stop_route">Stop Route</t>
+			<t id="no_money">You don't have enough [Money]s to create a Great Trade Route.</t>
+			<t id="noLighthouse">Build a Lighthouse on this ::portKind:: to unlock Great Trade Routes.</t>
+			<t id="uniqueLighthouse">One of your ports already has a Lighthouse.</t>
+
+			<t id="loot_zone">Loot <img src="/r/::r::"/>::q::</t>
+		</g>
+	</g>
+	<g id="fame">
+		<t id="fame_titles">Chieftain|Thane|Jarl|King</t>
+		<t id="ages">Age 15|Age 16|Age 18</t>
+		<t id="age0_name">The Cunning</t>
+		<t id="age_desc"><font color="#R">::age::: ::name::</font></t>
+	</g>
+	<g id="happy_categories">
+		<t id="s1">영토</t>
+		<t id="s2">양조자</t>
+		<t id="s3">군사유닛</t>
+		<t id="s4">건물 보너스</t>
+		<t id="s5">Food Reserves</t>
+		<t id="s6">Wealth</t>
+		<t id="s7"></t> <!-- Deprecated -->
+		<t id="s8">축제</t>
+		<t id="s9">대족장의 영광</t>
+		<t id="s10">더 좋은 집이 필요해요!</t>
+		<t id="s11">다친사람이 너무 많아요!!</t>
+		<t id="s12">부족이 유명하지 않습니다!</t> <!-- Deprecated -->
+		<t id="s13">더 좋은 타운홀이 필요해요!</t>
+		<t id="s14"></t> <!-- UnitsMalus, status_happy used -->
+		<t id="s15"></t> <!-- Population, status_happy.current used -->
+		<t id="s16">Geyser</t>
+		<t id="s17">Svarn's Gratitude</t>
+		<!-- s18 is somewhere else -- see UI -->
+		<t id="s19">[SpecterWarrior]</t>
+	</g>
+	<g id="status_happy">
+		<t id="nohome">We don't have houses!</t>
+		<t id="nofood">We're starving!</t>
+		<t id="nowood">We're freezing!</t>
+		<t id="sick">We're sick!</t>
+		<t id="total">Current Happiness</t>
+		<t id="current">Expected Happiness</t>
+		<t id="next">You currently have <img src="/r/Happy"/><font color="#G">+::v::</font>. One new villager will join your clan every <font color="#R">::time::</font> days.</t>
+	</g>
+	<g id="tip">
+
+		<!-- RESOURCES UI -->
+
+		<t id="happy_progress">Next villager: ::p::%</t>
+		<t id="cycle">Cycle</t>
+		<t id="select_all">Select All</t>
+
+		<t id="sheep_production">Sheepfold</t>
+		<t id="feast_bonus">Feast Bonus</t>
+		<t id="temple_bonus">Altar of Kings</t>
+		<t id="food_consumption">Consumption</t>
+
+		<t id="territory_money">Town Hall</t>
+		<t id="buildings_upkeep">Building Upkeep</t>
+		<t id="building_upkeep_year">Building Upkeep Per Year</t>
+		<t id="wood_consumption">Firewood</t>
+
+		<t id="population_desc">This is your current clan size. You have enough houses for <font color="#R">::max::</font> people.</t>
+
+		<t id="warband_default">Your current Warband size. Build training camps to increase it.</t>
+		<t id="warband_maxed">Build more training camps to increase the size of your Warband!</t>
+
+		<t id="population_lore">Population</t>
+
+		<t id="trade_in">Incoming Trade</t>
+		<t id="trade_out">Outgoing Trade</t>
+		<t id="trade_prestige">Great Trade Routes</t>
+
+		<t id="need_thall_upgrade">Requires upgraded Town Hall</t>
+
+		<t id="require_res_limit">
+			Requires <font color="::color::"><img src="/r/::id::"/> ::value::</font>
+		</t>
+
+		<t id="percent_explored">::p::% explored</t>
+		<t id="percent_built">::p::% built</t>
+
+		<!-- MINIMAP -->
+
+		<t id="open_main_menu">Open Main Menu <font color="#T" opacity="0.5">[Esc]</font></t>
+		<t id="game_pause">Pause Game <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="world_info">Toggle World Info <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="minimap_mode">Toggle Minimap Display: <font color="#T" opacity="0.7">[::hotkey::] Icons/Military</font></t>
+		<t id="open_chat">Write a Chat Message <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="ping_team">Ping Team <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+
+		<!-- OTHER -->
+
+		<g id="fame">
+			<t id="current_title">Current title: <font color="#R">::title::</font></t>
+			<t id="next_title">Next title: <font color="#R">::title::</font>; requires <img src="/r/Fame"/><font color="#F">::count::</font></t>
+			<t id="territory">Territory</t>
+			<t id="feasts">Feasts held</t>
+			<t id="uncolonize">Areas sacked</t>
+			<t id="knowledge">Lore discovered</t>
+			<t id="upgrades">Buildings upgraded</t>
+			<t id="defeated">Defeated ::name::</t>
+			<t id="faction">Defeated ::name::</t>
+			<t id="friend_with">Friends with ::name::</t>
+			<t id="building">::name::</t>
+			<t id="unit">::name::</t>
+			<t id="campaign_request">::name:: requests</t>
+
+			<t id="no_fame_desc">The Clan of the Snake cannot gain [Fame].</t>
+			<t id="current_age">Current age: <font color="#R">::name::</font></t>
+			<t id="next_age">Signy will reach <font color="#R">::name::</font> in <font color="#F">::date::</font></t>
+		</g>
+
+		<t id="fame_score">Clan Fame</t>
+
+		<t id="destroy_building">Destroy Building</t>
+		<t id="cancel_building">Cancel Construction</t>
+		<t id="cancel_order">Cancel Order <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+
+		<t id="cant_repair_under_attack">You can't repair a building while <font color="#R">under attack</font>!</t>
+
+		<t id="calendar_winter"><font color="#R">Winter:</font> your military units get ::percent:: power when fighting outside of your territory. Food production is reduced and Wood consumption is increased.</t>
+		<t id="calendar_summer"><font color="#R">Summer:</font> make sure to stock up on Food for the coming winter.</t>
+		<t id="assigned_units">Number of assigned clan members</t>
+		<t id="assigned_sheep">Number of assigned [Sheep]s</t>
+		<t id="available_resources">Remaining ::name:: in this area</t>
+		<t id="default_upgrade">Allows you to train one more [::unit::], and all [::unit::]s in this area gain a ::percent:: [::res::] production bonus.</t>
+
+		<t id="hire_hero">Hire: [::unit::]</t>
+		<t id="hire_hero_maxed">You can only have one [::unit::].</t>
+		<t id="hire_hero_maxpop">You need more houses to recruit this [::unit::].</t>
+
+		<t id="rally_warchief">When activated, newly trained [::unit::]s will automatically rally to your [::name::].</t>
+		<t id="rally_warchief_campaign">When activated, newly trained [::unit::]s will automatically rally to [::name::].</t>
+
+		<t id="buy_marketplace">Buy <img src="/r/::r::"/><font color="#R">::count::</font> for <img src="/r/Money"/><font color="#R">::cost::</font></t>
+		<t id="building_no_slot">This building doesn't take up a slot in the area.</t>
+
+		<t id="building_require">Requires ::name::</t>
+		<t id="building_req_fame">Requires <img src="/r/Fame"/><font color="#F">::count::</font></t>
+		<t id="building_req_tech">Requires ::name:: tech unlock</t>
+		<t id="building_req_beach">Requires a beach</t>
+		<t id="building_req_deposit">Requires Stone/Iron deposit</t>
+		<t id="building_req_food_tile">Requires an area with a natural Food resource</t>
+		<t id="building_single">You can only build one.</t>
+
+		<t id="scorched_effect">[ScorchedEarth] : -::malusProd::% production, snakes military units and buildings have +::snakeBonus::% bonus attack</t>
+		<t id="can_cast_scorched">You can use [ScorchedEarth] in this area</t>
+		<t id="cannot_cast_scorched">Signy must be in the center of the territory to use [ScorchedEarth]</t>
+
+		<t id="berserk_cooldown">Cooldown at ::p::%</t>
+		<t id="Vedrfolnir_healed">The Vedrfolnir scouts areas for the clan that helped him.</t>
+
+		<t id="require_tech">You need to learn <img src="/r/Lore"/>::name::.</t>
+		<t id="require_fame">You need to learn <img src="/r/Fame"/>::name::.</t>
+		<t id="greater_jord">Warchief and upgraded towers get +::percent::% Attack</t>
+		<t id="victory_title">::vname:: Victory</t>
+
+		<t id="sacrifice_sheep">Slaughter a [Sheep] to gain <img src="/r/Food"/>::food::</t>
+		<t id="repair_building">Repair for <img src="/r/::r::"/>::count::</t>
+
+		<t id="victory_conditions">Click or press <font color="#R">[::hotkey::]</font> to view conditions for victory.</t>
+
+		<t id="team_player">Allied Clan</t>
+		<t id="black_market">You can smuggle goods to this clan using the Black Market.</t>
+		<g id="align">
+			<t id="color"><font color="::color::">::name::</font></t>
+			<t id="clan">, leader of the <font color="#R">::name::</font> Clan</t>
+			<t id="war">You are currently <font color="#B">at war</font> with ::name::!</t>
+			<t id="neutral">You have <font color="#R">neutral relations</font> with ::name::.</t>
+			<t id="angry">You have <font color="#B">bad relations</font> with ::name::.</t>
+			<t id="peace">You have <font color="#G">good relations</font> with ::name::.</t>
+			<t id="improve_relation">Trade with him to improve them.</t>
+			<t id="at_war_no_trade">Trading is suspended during this time.</t>
+			<t id="fame">He currently has <img src="/r/Fame"/><font color="#F">::fame::</font>.</t>
+		</g>
+		<t id="feast_help">
+			A feast gives <font color="#G">+::const::</font> and <font color="#G">::percent::</font> bonus to all production and [Happy] for one month, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.
+		</t>
+		<t id="feast_help_no_fame">
+			A feast gives <font color="#G">+::const::</font> and <font color="#G">::percent::</font> bonus to all production and [Happy] for one month.
+		</t>
+		<t id="helheim_progress">Controlled for ::months::/::max:: months</t>
+
+		<g id="stats">
+			<t id="attack">Attack Power</t>
+			<t id="defense">Resistance</t>
+			<t id="lifePoints">Health</t>
+		</g>
+
+		<t id="inf_fame_unlocked">- <font color="#F">::name::</font>:<br/>::desc::</t>
+		<t id="inf_fame_locked"><font color="#D"> - ::name:::</font> (requires <img src="/r/Fame"/><font color="#F">::req::</font>)<br/><font color="#D">::desc::</font></t>
+		<t id="inf_fame_locked_nofame"><font color="#D"> - ::name:::</font><br/><font color="#D">::desc::</font></t>
+
+		<t id="improve_tools">Allows you to improve your units' tools, increasing their abilities.</t>
+		<t id="free_tools">You have some free tool upgrades available!</t>
+		<t id="free_cost">::count:: free tools</t>
+		<t id="military_select_all">Select Warband <font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="military_togle_bear">Press <font color="#T" opacity="0.5">[::hotkey::]</font> again to deselect [BearMaiden]</t>
+
+		<g id="warnings">
+			<t id="food">Our clan is starving! We need to gather more Food!</t>
+			<t id="stock">Our Food reserves are maxed out! We need to build more Silos!</t>
+			<t id="wood">Our clan is freezing! We need to gather more Wood!</t>
+			<t id="money">We can't maintain our buildings! We need more Kröwns!</t>
+			<t id="pop">Our population cannot grow! We need more houses!</t>
+			<t id="happy">Our population isn't growing! We need more happiness!</t>
+			<t id="betterhappiness">Our people are surviving... but they could definitely be happier.</t>
+			<t id="goodhappiness">Our people are decently happy. Don't rest on your laurels, though!</t>
+			<t id="excellenthappiness">Our people are overjoyed and grateful to you. Keep it up!</t>
+			<t id="notconstructing">We need to bring a villager here to advance the construction!</t>
+			<t id="nobodyassigned">We don't have any clan member working here.</t>
+			<t id="burning">Our building is damaged! We need to send a [Villager] to repair it!</t>
+			<t id="nowork">Some of us don't have anything to do for now...</t>
+			<t id="nohome">Some of us don't have a house!</t>
+			<t id="nothappy">We are not happy!</t>
+			<t id="nofood">We're starving! We need to gather more Food!</t>
+			<t id="nowood">We're freezing! We need to gather more Wood!</t>
+			<t id="sick">Some of us are sick! We need to heal them before they die!</t>
+			<t id="tech_available">We have enough [Lore] to acquire Knowledge!</t>
+			<t id="blessing_available">We can obtain a new blessing from the gods!</t>
+			<t id="too_far_malus">We are too far from our territory! Our attack power is reduced by ::inv_percent::.</t>
+		</g>
+		<t id="cant_colonize_occupied">You can't colonize an area that is defended.</t>
+		<t id="cant_colonize_warring">You can't colonize when you don't have a safe area you control next to it.</t>
+		<t id="cant_colonize_attacked">You can't colonize while your nearby territory is under attack!</t>
+		<t id="cant_colonize_notallowed">You can't colonize this territory because it is not exploitable.</t>
+
+		<t id="colonize_money_food">Colonize with either [Food] or [Money]</t>
+		<t id="upgrade_zone">Increases the number of possible buildings in this area (only once).</t>
+		<t id="transfer_zone_to">Transfer Area to <font color="::color::">::name::</font></t>
+		<t id="claim_zone_to">Request Area from <font color="::color::">::name::</font> (friendly AI only)</t>
+		<t id="cooldown_transfer_zone">::months:: months until a new transfer is available.</t>
+
+		<t id="multi_tags"><font color="#FFFFFF">Tags</font> can be used by other players to look for your game.</t>
+
+		<t id="victory_progress">Victory Progress</t>
+		<t id="already_one_bear">[BearMaiden] is already under your control.</t>
+		<t id="need_in_territory">You can only use this action inside your territory.</t>
+
+		<t id="friend_needed"><font color="#T">::name::</font> must be in your friends list to join the game!</t>
+		<t id="friend_send_invite">Resend Invitation</t>
+
+		<t id="need_upgrade_scout">Requires an upgraded Scout Camp</t>
+
+		<t id="subselect_unit">Select Unit</t>
+		<t id="subselect_ctrl">Ctrl +</t>
+		<t id="subselect_group">Select Similar Units</t>
+
+		<t id="heal_current">Currently healed</t>
+		<t id="heal_current_other">Healed by another [::hutId::]</t>
+		<t id="heal_select">Heal This Unit</t>
+
+		<t id="trade_out_recap">You are trading <img src="/r/::res::"/><font color="#B">::amount::</font> for <img src="/r/Money"/><font color="#G">::money::</font>.</t>
+		<t id="trade_in_recap"><font color="::color::">::name::</font> is trading you <img src="/r/::res::"/><font color="#B">::amount::</font> for <img src="/r/Money"/><font color="#G">::money::</font>.</t>
+
+		<t id="chat_mute">Mute Options<br/><font color="#T" opacity="0.5">Toggle channels and/or players messages</font></t>
+	</g>
+	<g id="tip_action">
+
+		<t id="not_enough_warband">Grow your [Warband]</t>
+		<t id="cant_pay_warband_cost">Costs <img src="/r/Money"/><font color="#B">::cost::</font></t>
+		<t id="building_fully_assigned">This building is full.</t>
+		<t id="recruit_cost">[::id::] <img src="/r/Money"/><font color="#R">::cost::</font></t>
+		<t id="need_scout">[Scout] required</t>
+		<t id="ruin_explore">Explore</t>
+		<t id="wreck_scavenge">Scavenge</t>
+		<t id="brokenHouse_visit">Visit</t>
+		<t id="already_explored"><font color="#B">Already explored</font></t>
+		<t id="already_scavenged"><font color="#B">Already scavenged</font></t>
+		<t id="already_visited"><font color="#B">Already visited</font></t>
+		<t id="too_many_buildings_here"><img src="/r/Building"/><font color="#B">::count::/::max::</font> buildings in this area.</t>
+		<t id="repair_cost">Repair <img src="/r/::r::"/><font color="::color::">::cost::</font></t>
+	</g>
+	<g id="tip_help">
+		<t id="tip"></t>
+	</g>
+	<g id="notify">
+		<t id="test">Testing Notifications</t>
+		<t id="unknown_player">An Unknown Clan</t>
+
+		<g id="low">
+			<t id="food">Our clan is starving! We need to produce and store more [Food]!</t>
+			<t id="wood">Our clan is freezing! We need to produce and store more [Wood]!</t>
+			<t id="happy">Our clan is unhappy! We need to increase our [Happy] by recruiting [Innkeeper]s!</t>
+			<t id="money">We can't pay our <img src="/r/Money"/><font color="#B">building upkeep!</font> One of our <font color="#G">::name::</font> has been damaged. Repair it or it will burn!</t>
+		</g>
+
+		<t id="not_enough_houses">Our clan can't grow because it needs <font color="#B">more houses</font>!</t>
+		<t id="not_enough_happy">Our clan can't grow because it is <font color="#B">unhappy</font>!</t>
+		<t id="route_cancelled">You have no [::res::]: Trade Route with <font color="::color::">::name::</font> has stopped.</t>
+		<t id="great_route_cancelled">You have no [::res::]: Great Trade Route has stopped.</t>
+
+		<t id="zone_explored">Our [Scout]s have explored a new area!</t>
+		<t id="build_finished">Construction of <font color="#G">::name::</font> is complete.</t>
+		<t id="territory_under_attack">Our territory is <font color="#B">under attack!</font> We need to defend ourselves!</t>
+		<t id="units_under_attack">Some of our units are <font color="#B">under attack!</font> We need to defend ourselves!</t>
+		<t id="zone_lost">We've lost control of this area! Let's take it back!</t>
+		<t id="ruin_explored">Our scouts found ancient riches in the Ruins. We have gained <img src="/r/Money"/><font color="#G">::gold::</font> and <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
+		<t id="wreck_scavenged">Our scouts scavenged a Shipwreck. We have gained <img src="/r/Wood"/><font color="#G">::wood::</font> and <img src="/r/Money"/><font color="#G">::gold::</font>.</t>
+		<t id="brokenHouse_visited">Our scouts found some riches in the abandoned houses. We have gained <img src="/r/Wood"/><font color="#G">::wood::</font> and <img src="/r/Money"/><font color="#G">::gold::</font>.</t>
+		<t id="fame_player_reached_title"><font color="::color::">::name::</font> has gained the Fame title <font color="#G">::title::</font>!</t>
+		<t id="contact_faction">We have established contact with <font color="::color::">::name::</font>. How should we deal with them?</t>
+		<t id="contact_player">We have established contact with <font color="::color::">::name::</font>, leader of the ::clan:: Clan.</t>
+		<t id="wyvern_defeated">We defeated the Wyvern! We have gained <img src="/r/Fame"/>::fame::.</t>
+		<t id="wyvern_defeated_no_fame">We defeated the Wyvern!</t>
+		<t id="wyvern_defeated_by">The mighty Wyvern has been defeated by <font color="::color::">::name::</font>!</t>
+		<t id="beware"><font color="#B">BEWARE:</font></t>
+		<t id="beware_under_attack">You are under attack!</t>
+		<t id="beware_ally_under_attack">Your ally is under attack!</t>
+
+		<t id="food_maxed">We <font color="#R">can't store</font> any more <img src="/r/Food"/>Food! Build more Food Silos.</t>
+
+		<t id="faction_defeated"><font color="::color::">::name::</font> has been defeated!</t>
+		<t id="faction_conceded"><font color="::color::">::name::</font> has conceded!</t>
+		<t id="faction_defeated_by"><font color="::color::">::name::</font> has been defeated by <font color="::byColor::">::by::</font>!</t>
+
+		<t id="giants_friends"><font color="::color::">::name::</font> are now your friends! [GiantHero] has joined your clan and is waiting at your Town Hall!</t>
+		<t id="giants_friends_with"><font color="::color::">::name::</font> has befriended <font color="::byColor::">::by::</font>! He has gained tremendous power with this alliance!</t>
+
+		<t id="lost_align">Our attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
+
+		<t id="scout_hurt">Our [Scout] was hurt while exploring a new area.</t>
+		<t id="scout_die">Our [Scout] <font color="#R">died</font> while exploring a new area.</t>
+
+		<t id="victory_zone_discovered">We have discovered the <font color="#G">::name::</font>. We should take control of it to achieve victory (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
+		<t id="victory_zone_discovered_no_fame">We have discovered the <font color="#G">::name::</font>. We should take control of it to achieve victory.</t>
+		<t id="victory_zone_discovered_by"><font color="::color::">::name::</font> has discovered the <font color="#G">::bname::</font>! Let's take control of it to achieve victory.</t>
+		<t id="victory_zone_discovered_nowin">We have discovered the <font color="#G">::name::</font>: it will help us achieve victory (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
+		<t id="victory_zone_discovered_nowin_nofame">We have discovered the <font color="#G">::name::</font>.</t>
+		<t id="victory_zone_discovered_by_nowin"><font color="::color::">::name::</font> has discovered the <font color="#G">::bname::</font>! It could help us achieve victory.</t>
+
+		<t id="waiting_lore">We have enough [Lore] to acquire new Knowledge.</t>
+
+		<t id="new_year">Congratulations! Our clan has made it to a <font color="#G">new year!</font></t>
+
+		<t id="player_unlocked_blessing"><font color="::color::">::name::</font> has obtained ::blessing::! ::count:: more and they will achieve victory!</t>
+		<g id="player_blessing_count">
+			<t id="three">Three</t>
+			<t id="two">Two</t>
+			<t id="one">One</t>
+		</g>
+
+		<t id="zone_explored_sailors">Our [Sailor]s have explored a new area!</t>
+
+		<t id="camp_destroyed">We have destroyed a <font color="#R">::bname::</font>, gaining <img src="/r/Fame"/><font color="#F">::fame::</font> and <img src="/r/::res::"/><font color="#G">::q::</font>.</t>
+		<t id="camp_destroyed_nofame">We have destroyed a <font color="#R">::bname::</font>, gaining <img src="/r/::res::"/><font color="#G">::q::</font>.</t>
+
+		<t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> has started colonizing the Yggdrasil! We need to hurry and stop them!</t>
+		<t id="trading_step"><font color="::color::">::name::</font> has already produced <img src="/r/Money"/><font color="#B">::amount::</font>!</t>
+		<t id="trading_step_prestige"><font color="::color::">::name::</font> has already reached <img src="/r/Prestige"/><font color="#B">::amount::</font>!</t>
+		<t id="trading_step_prestige_owner">You reached <img src="/r/Prestige"/><font color="#G">::amount::</font>! New riches are coming to us!</t>
+		<t id="altar_built"><font color="::color::">::name::</font> has built a [Temple]!</t>
+		<t id="lighthouse_built"><font color="::color::">::name::</font> has built a [Lighthouse]!</t>
+		<t id="forged_part"><font color="::color::">::name::</font> has just finished forging the <font color="#R">::part::</font> to the Sword of Odin!</t>
+		<t id="fame_step"><font color="::color::">::name::</font> has already reached <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
+		<t id="age_step">Signy is becoming stronger!</t>
+
+		<t id="snake_hero_cooldown">[WarchiefSnake]'s [ScorchedEarth] is now available again</t>
+		<t id="wolf_hero_cooldown">[Berserker]'s [Dominion] is now available again</t>
+		<t id="mercenaries_cooldown">[Mercenaries] is now available again</t>
+
+		<t id="place_control"><font color="::color::">::name::</font> just gained control of ::bname::!</t>
+
+		<t id="incoming_raid">A mercenary ship has been spotted near our coasts! We must prepare!</t>
+		<t id="incoming_raid_other">A mercenary ship has been spotted nearby.</t>
+
+		<t id="ally_trade"><font color="::color::">::name::</font> has started trading [::res::] with you!</t>
+		<t id="ally_trade_off"><font color="::color::">::name::</font> has stopped trading [::res::] with you.</t>
+		<t id="ally_started_feast"><font color="::color::">::name::</font> has organized a feast.</t>
+		<t id="got_transfer_zone"><font color="::color::">::name::</font> has transferred control of a new area to you.</t>
+		<t id="ally_under_attack">Your ally <font color="::allyColor::">::allyName::</font> is being attacked by <font color="::color::">::name::</font>! He might need your help!</t>
+
+		<t id="mercenary_loot">Your [Mercenary]s have looted <img src="/r/::r::"/>::q::.</t>
+
+		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! He will now help us explore Northgard. We have gained <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
+		<t id="vedrfolnir_explored">[Vedrfolnir] has revealed a new area!</t>
+		<t id="vedrfolnir_left">[Vedrfolnir] has left Northgard!</t>
+
+		<t id="prestige_drakkar">A ship came back from a Great Trade Route. We have gained ::res1::, ::res2:: and ::res3::.</t>
+	</g>
+	<g id="endgame_event">
+		<t id="day">Day ::value::</t>
+		<t id="new_player"><font color="::color::">::name::</font> has landed on the shores of Northgard!</t>
+		<t id="colonize"><font color="::color::">::name::</font> has colonized a new area.</t>
+		<t id="uncolonize"><font color="::color::">::name::</font> has lost an area.</t>
+		<t id="ruin_explore"><font color="::color::">::name::</font> has explored ::bname::.</t>
+		<t id="fametitle"><font color="::color::">::name::</font> has gained the Fame title <font color="#G">::title::</font>!</t>
+		<t id="mapevent">New event in Northgard: <font color="#B">::name::</font></t>
+		<t id="defeat"><font color="::color::">::name::</font> was defeated!</t>
+		<t id="victory"><font color="::color::">::name::</font> is now King of Northgard!</t>
+		<t id="attackedByFoes"><font color="::color::">::name::</font> is under attack.</t>
+		<t id="attackedByFaction"><font color="::color::">::name::</font> is being attacked by <font color="::colorBy::">::nameBy::</font>.</t>
+		<t id="transferZone"><font color="::color::">::name::</font> has transferred an area to <font color="::colorTo::">::nameTo::</font>.</t>
+	</g>
+	<g id="title">
+		<t id="campaign">캠페인 모드</t>
+		<t id="multiplayer">멀티 플레이</t>
+		<t id="new_game">새 게임</t>
+		<t id="load_game">불러오기</t>
+		<t id="profile">내 정보</t>
+		<t id="options">설정</t>
+		<t id="game_replay">다시보기</t>
+		<t id="exit">나가기</t>
+		<t id="back">뒤로</t>
+		<t id="accept">게임시작</t>
+		<t id="new_version">패치 노트</t>
+		<t id="soon">곧 공개</t>
+		<t id="available">출시됨</t>
+		<t id="buy">지금 구매</t>
+		<t id="clans_bonus">시작 보너스:</t>
+		<t id="clans_fame">명성 보너스:</t>
+		<t id="clans_bonuses">보너스:</t>
+		<t id="clan_of">::name:: 부족</t>
+		<t id="clan_fame_desc"><font color="#R">::name:::</font> (requires <img src="/r/Fame"/><font color="#F">::fame::</font>)<br/>::desc::<br/></t>
+	</g>
+	<g id="multi_menu">
+		<t id="new_game">게임 생성</t>
+		<t id="join">게임 참가</t>
+		<t id="leaderboard">순위표</t>
+		<t id="profile">플레이어 순위</t>
+		<t id="back">메인 메뉴로</t>
+		<t id="bad_leaver">You have left a ranked game. Wait ::time:: to play.</t>
+
+		<g id="create_sub">
+			<g id="start_error">
+				<t id="launch_asked">Game creation requested. Waiting for the server to respond.</t>
+				<t id="bad_game_name">Inappropriate word(s) have been found in your game's name. Please change it and retry.</t>
+				<t id="bad_tags">Inappropriate word(s) have been found in your game's tags. Please amend your tags and retry.</t>
+				<t id="elo">Getting your ::elo:: from the server...</t>
+				<t id="victories">Please choose at least one victory condition.</t>
+			</g>
+		</g>
+
+		<g id="join_sub">
+			<t id="game_name">NAME</t>
+			<t id="game_mode">MODE</t>
+			<t id="average_elo">Average ::elo:::</t>
+		</g>
+
+		<g id="leaderboard_sub">
+			<t id="top_rank">Top Ranked Players</t>
+			<t id="current_rank">Your Rank</t>
+			<t id="win_rate">Win rate</t>
+			<t id="not_ranked">Play a ranked game to be in the leaderboard</t>
+		</g>
+
+		<g id="profile_sub">
+			<t id="title">Player Ranking</t>
+			<t id="history">Match History</t>
+			<t id="flavor">Covering the last ::nb:: games</t>
+			<t id="clan">::clan:: Clan</t>
+			<t id="gameMode">Duel|Free For All|2V2|3V3|2V2V2|4V4|2V2V2V2</t>
+		</g>
+	</g><g id="campaign">
+		<t id="back">Back to Menu</t>
+		<t id="chapter">CHAPTER ::x::</t>
+		<t id="act">Act ::x::</t>
+		<t id="cinematic_play">PLAY</t>
+		<t id="cinematic_locked">LOCKED</t>
+		<t id="cinematic_act_ending">ACT ENDING</t>
+		<t id="cinematic_prologue">PROLOGUE</t>
+		<t id="cinematic_epilogue">EPILOGUE</t>
+		<t id="main_objectives">Objectives</t>
+		<t id="bonus">Bonus</t>
+		<t id="bonus_objectives">Bonus Objectives</t>
+		<t id="bonus_hidden">Bonus objectives will be revealed once you complete the chapter for the first time.</t>
+		<t id="select_bannerman">Select a Bannerman</t>
+		<t id="change_bannerman">Change Bannerman</t>
+		<t id="skip">Skip ></t>
+		<t id="allied_banner">Ally</t>
+		<t id="no_build">Building unavailable in this chapter</t>
+		<t id="all_bonuses_unlocked">Congratulations! You can now use story mode Heroes as Warchiefs in single-player and multiplayer modes!</t>
+	</g>
+
+	<g id="generation_quotes">
+		<t id="s1">Sculpting island terrain...</t>
+		<t id="s2">Generating mountains...</t>
+		<t id="s3">Carving icy lakes...</t>
+		<t id="s4">Growing forests...</t>
+		<t id="s5">Spawning unfriendly creatures...</t>
+		<t id="s6">Almost ready!</t>
+	</g>
+
+	<g id="map_loading_quotes">
+		<t id="s1">Locating island...</t>
+		<t id="s2">Heading to Town Hall...</t>
+		<t id="s3">Almost ready!</t>
+	</g>
+
+	<g id="client_loading_quotes">
+		<t id="waiting">Waiting for server...</t>
+		<t id="ready">Almost ready!</t>
+	</g>
+
+	<g id="tuto">
+		<t id="build">
+			Click the <font color="#G">Build</font> button to construct a building.
+			Select any spot in the area to place the building.
+		</t>
+
+		<t id="if_house">
+			Click <font color="#G">Build</font> to construct another building.
+			Select either a <font color="#R">Woodcutter's Lodge</font> to produce [Wood] or a <font color="#R">Scout Camp</font> to discover new areas.
+		</t>
+
+		<t id="click_villager">
+			Your building is ready! Click to select a [Villager].
+			Clicking twice will select <font color="#G">all units</font> with the same job in a given area.
+		</t>
+
+		<t id="recruit_wood">
+			Select a unit and right-click on the <font color="#G">Woodcutter's Lodge</font> to turn your [Villager]s into [Woodcutter]s.
+			You can right-click several times to issue multiple orders.
+		</t>
+
+		<t id="recruit_scout">
+			Select a unit and right-click on the <font color="#G">Scout Camp</font> to turn your [Villager]s into [Scout]s.
+		</t>
+
+		<t id="need_scout">
+			You need [Scout]s to explore Northgard. Build a <font color="#G">Scout Camp</font> and turn one of your [Villager]s into a [Scout].
+		</t>
+
+		<t id="need_wood">
+			You need [Woodcutter]s to produce [Wood]. Build a <font color="#G">Woodcutter's Lodge</font> and turn one of your [Villager]s into a Woodcutter.
+		</t>
+		<t id="wait_discover">
+			Your [Scout]s will discover new areas.
+			Please wait until your [Scout] has finished discovering an area.
+		</t>
+		<t id="recruit_warrior">
+			This new area is defended by enemies!
+			Build a <font color="#G">Training Camp</font> and turn one of your [Villager]s into a [Warrior].
+		</t>
+		<t id="attack">
+			Select your [Warrior] and right-click on the area occupied by foes to attack them!
+			Recruiting several [Warrior]s will increase your chances of victory but reduce your [Food]/[Wood] production.
+		</t>
+		<t id="colonize">
+			To expand your territory, you need to <font color="#G">colonize</font> the new area using [Food].
+			Click on the area and spend some [Food] to colonize it.
+		</t>
+		<t id="end">
+			The colonized areas will allow you to construct new buildings.
+			Make sure to store enough [Food] and [Wood] to survive Northgard's harsh winters.
+		</t>
+		<t id="happy">
+			[Happy] is of paramount importance. DO NOT let it fall below 0.
+			It automatically earns you new villagers, doing so faster as it increases.
+			Keep it as high as you possibly can.
+		</t>
+	</g>
+
+	<g id="events">
+		<t id="rats_lost_food">Rats have infested our Food reserves, and we lost <img src="/r/Food"/><font color="#B">::count::</font>! We should build more Food Silos!</t>
+		<t id="rats_sickness">Rats have spread disease. <font color="#B">::count::</font> of our members are <font color="#B">sick</font>!</t>
+		<t id="rats_protected">Our silos have protected us from the rat infestation.</t>
+		<t id="earthquake">An earthquake has <font color="#B">damaged ::count:: of our buildings</font>. We need to repair them quickly!</t>
+		<t id="resourceGiven">Well done! You helped Svarn by giving him ::nbRes:: [::res::]. You get ::fame:: [Fame] and a [Happy] bonus until the next request.</t>
+		<t id="resourceFailed">You failed to help Svarn with [::res::]!</t>
+	</g>
+
+	<g id="network">
+		<t id="elo">Glory Points</t>
+		<t id="elo_shortcut">GP</t>
+		<t id="multi_menu">Multiplayer</t>
+		<t id="multi_title">Multiplayer Game</t>
+		<t id="multi_create">Create Multiplayer Game</t>
+		<t id="multi_load">Load Multiplayer Game</t>
+		<t id="multi_info_title">GAME INFO</t>
+		<t id="no_game_found">No available game was found.</t>
+		<t id="could_not_join">Could not join the game.</t>
+		<t id="owner_has_quit">Host has left.</t>
+		<t id="confirm_kick_player">Remove ::name:: from lobby?</t>
+		<t id="confirm_exit_player">Exit lobby?</t>
+		<t id="create_game">Create Game</t>
+		<t id="refresh_list">Refresh List</t>
+		<t id="refreshing">Refreshing List...</t>
+		<t id="game_name">Game Name</t>
+		<t id="game_mode">Game Mode</t>
+		<t id="game_modes">Duel|Free For All|Team 2v2|Team 3v3|Team 2v2v2|Team 4v4|Team 2v2v2v2</t>
+		<t id="game_generation">Map Generation</t>
+		<t id="game_generation_types">Random|Balanced</t>
+		<t id="modes_all">All</t>
+		<t id="open_game">Open Game</t>
+		<t id="join_game">Join Game</t>
+		<t id="joining_game">Joining Game...</t>
+		<t id="invite">Invite</t>
+		<t id="invite_error">Oops... an error has occured while trying to join the game.</t>
+		<t id="exit">Exit</t>
+		<t id="game_visibility">Game Type</t>
+		<t id="game_visibilities">Public|Invite Only|Ranked</t>
+		<t id="game_visibility_info"><font color="#T">::kind::(</font><font color="::color::">::count::/::max::</font><font color="#T">)</font></t>
+		<t id="game_distance">Local|Regional|Continental|WorldWide</t>
+		<t id="players">Players</t>
+		<t id="options">Options</t>
+		<t id="clan_choice">Clan</t>
+		<t id="random_clan">Random</t>
+		<t id="player_color">Color</t>
+		<t id="start_game">Start Game</t>
+		<t id="waiting_for_players">Waiting for players...</t>
+		<t id="waiting_for_teams">Invalid team distribution</t>
+		<t id="waiting_for_colors">Player color conflict</t>
+		<t id="waiting_for_player">Waiting for player...</t>
+		<t id="player_ready">READY!</t>
+		<t id="invited_by"><font color="#R">::name::</font> has invited you to a multiplayer game. Do you wish to join?</t>
+		<t id="chat">Chat</t>
+		<t id="chat_message">Message</t>
+		<t id="chat_send_button">Send</t>
+		<t id="no_steam">You need to log in through Steam to access multiplayer. If Steam is already connected, please restart it.</t>
+		<t id="team">Team</t>
+		<t id="color">Color</t>
+		<t id="teams">Random|Team 1|Team 2|Team 3|Team 4</t>
+		<t id="AIlevel">Random|Easy|Medium|Hard</t>
+		<t id="connecting">Connecting to server...</t>
+		<t id="server_error">An error occurred while opening the server socket.</t>
+		<t id="client_error">Failed to connect to game server.</t>
+		<t id="client_lost">Connection to game server lost. Retrying...</t>
+		<t id="retry_button">Retry</t>
+		<t id="host">Host</t>
+		<t id="slot">Open|AI|Close</t>
+		<t id="chat_channels">General|Team</t>
+		<t id="chat_team">TEAM</t>
+		<t id="tab_cycle">Press TAB to Cycle Channels</t>
+		<t id="rejoin_ranked">You already have a ranked game in progress.</t>
+		<t id="rejoin_game">Reconnect to Last Game</t>
+		<t id="transfer_ownership">Transferring game ownership...</t>
+		<t id="changing_host">Host has quit, switching host...</t>
+		<t id="start_counter">Game will start in ::time::s.</t>
+		<t id="game_launch">Starting game!</t>
+		<t id="start_game_cancel">Stop Countdown</t>
+		<t id="start_game_canceled">Game start was interrupted...</t>
+		<t id="lobby_full">Full</t>
+		<t id="version_mismatch">Your game version and the host version do not match.</t>
+		<t id="player_join"><font color="::color::">::name::</font> has joined the game.</t>
+		<t id="player_left"><font color="#B"><font color="::color::">::name::</font> has left the game.</font></t>
+		<t id="player_disconnected"><font color="#B"><font color="::color::">::name::</font> has disconnected.</font></t>
+		<t id="AI_take_control"><font color="#W"><font color="::color::">::name::</font> has been disconnected for ::time::mn. An AI has temporarily taken control of the clan.</font></t>
+		<t id="AI_has_control"><font color="#W">An AI has taken control of the clan.</font></t>
+		<t id="add_friend">Add a Friend</t>
+		<t id="waiting_friend_answer">Waiting for answer...</t>
+		<t id="friend_invite_time">Time remaining: ::v::s.</t>
+		<t id="server_zone">Game Server</t>
+		<t id="server_zones_labels">Europe|Peer-to-Peer</t>
+		<t id="server_zones">eu|p2p</t>
+		<t id="leagueKind">Wood|Stone|Iron|Gold|Rimesteel</t>
+		<t id="league">::kind:: League</t>
+		<t id="db_timeout">The server is not responding. Check your connexion or try again later.</t>
+		<t id="db_invite_timeout">You've been invited to a Ranked game but your ranking couldn't be retrieved from the server.</t>
+		<t id="rematch">::name:: has proposed a rematch</t>
+		<t id="rematch_yes">Rematch in...</t>
+		<t id="rematch_no">Vote failed</t>
+		<g id="elo_update">
+			<t id="progress">::newElo:: ::pts::</t>
+			<t id="not_yet">Your ranking will be updated at the end of the game.</t>
+			<t id="waiting">Waiting for rank update</t>
+			<t id="error">The server is not responding. Your ranking can't be updated.</t>
+			<t id="league_reached">Congratulations, you have reached a new league!</t>
+			<t id="league_demoted">You have been demoted from your league...</t>
+			<t id="league_reached1">The Gods smile upon you!</t>
+			<t id="league_reached2">You have been promoted to a higher league!</t>
+			<t id="league_demoted1">The Gods are displeased.</t>
+			<t id="league_demoted2">You have been demoted to a lower league.</t>
+		</g>
+	</g>
+</texts>
