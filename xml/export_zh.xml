@@ -1260,7 +1260,7 @@
 			</cinematic>
 		</Betrayal>
 		<Journey>
-			<name>Exodus</name>
+			<name>탈출</name>
 			<desc>We have safely escaped to a remote region. We must now reach the shores of Northgard.</desc>
 			<objectives>
 				<0 id="mShore">
