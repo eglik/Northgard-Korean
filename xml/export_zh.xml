@@ -1024,7 +1024,7 @@
 			<desc>Proud of their legacy of astonishing achievements, they are renowned as much for their honorable and regal manner as for their harsh justice and unyielding strength. Valuing wealth and fame, they are highly ambitious expansionists.</desc>
 			<bonuses>
 				<0>
-					<desc>추가 자원 + ::value::[Food] [Wood] [Money] 을 가지고 시작합니다.</desc>
+					<desc>추가 자원 + ::value::[Food] [Wood] [Money] 를 가지고 시작합니다.</desc>
 				</0>
 				<1>
 					<desc>The Hall of [Skald]s replaces the Brewery and produces additional [Fame].</desc>
