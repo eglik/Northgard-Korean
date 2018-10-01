@@ -6,7 +6,7 @@
 		</Food>
 		<Wood>
 			<name>목재</name>
-			<desc>[Wood] 는 건물을 건설하거나 장작의 재료로 쓰입니다, 특히 겨울에는 소모량이 더 많습니다.</desc>
+			<desc>[Wood] 는 건물을 건설하거나 장작의 재료로 쓰입니다. 특히 겨울에는 소모량이 더 많습니다.</desc>
 		</Wood>
 		<Money>
 			<name>크로나</name>
@@ -77,7 +77,7 @@
 	<sheet name="unit">
 		<Villager>
 			<name>시민</name>
-			<desc>시민은 야생에서 [Food] 를 수집합니다. 겨울동안 당신의 부족이 굶지않도록 비축하세요.</desc>
+			<desc>시민은 야생에서 [Food] 을 수집합니다. 겨울동안 당신의 부족이 굶지않도록 비축하세요.</desc>
 			<flavor>일할 준비 완료!</flavor>
 		</Villager>
 		<Woodcutter>
