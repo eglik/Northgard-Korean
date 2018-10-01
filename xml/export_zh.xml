@@ -1004,9 +1004,9 @@
 	</sheet>
 	<sheet name="clan">
 		<Wolf>
-			<name>Wolf</name>
-			<totem>Fenrir</totem>
-			<title>The Clan of the Wolf</title>
+			<name>늑대</name>
+			<totem>펜릴</totem>
+			<title>늑대의 부족</title>
 			<desc>Aggressive, protective of their freedom, and more than a little reckless. They are well prepared to face the dangers of Northgard and use their combined might and mobility to leave little chance to all but the most resilient.</desc>
 			<bonuses>
 				<0>
@@ -1018,13 +1018,13 @@
 			</bonuses>
 		</Wolf>
 		<Stag>
-			<name>Stag</name>
-			<totem>Eikthyrnir</totem>
-			<title>The Clan of the Stag</title>
+			<name>수사슴</name>
+			<totem>에이크쉬니르</totem>
+			<title>수사슴의 부족</title>
 			<desc>Proud of their legacy of astonishing achievements, they are renowned as much for their honorable and regal manner as for their harsh justice and unyielding strength. Valuing wealth and fame, they are highly ambitious expansionists.</desc>
 			<bonuses>
 				<0>
-					<desc>You start with +::value::[Food], [Wood] and [Money].</desc>
+					<desc>추가 자원 +::value::[Food] [Wood] [Money] 을 가지고 시작합니다.</desc>
 				</0>
 				<1>
 					<desc>The Hall of [Skald]s replaces the Brewery and produces additional [Fame].</desc>
@@ -1032,9 +1032,9 @@
 			</bonuses>
 		</Stag>
 		<Goat>
-			<name>Goat</name>
-			<totem>Heidrun</totem>
-			<title>The Clan of the Goat</title>
+			<name>산양</name>
+			<totem>헤이드룬</totem>
+			<title>산양의 부족</title>
 			<desc>When it comes to surviving in dangerous conditions and building sturdy settlements, the Goat Clan has no rival. They will endure and survive no matter what.</desc>
 			<bonuses>
 				<0>
@@ -1046,9 +1046,9 @@
 			</bonuses>
 		</Goat>
 		<Raven>
-			<name>Raven</name>
-			<totem>Huginn and Muninn</totem>
-			<title>The Clan of the Raven</title>
+			<name>까마귀</name>
+			<totem>후긴과 무닌</totem>
+			<title>까마귀의 부족</title>
 			<desc>Great explorers and merchants, their mighty fleet allowed them to be the first to land on Northgard. They are strong trade partners if you don’t mind their constant scheming. Brash and swift, they will often be found roaming where you least expect them.</desc>
 			<bonuses>
 				<0>
@@ -1060,9 +1060,9 @@
 			</bonuses>
 		</Raven>
 		<Bear>
-			<name>Bear</name>
-			<totem>Bjarki</totem>
-			<title>The Clan of the Bear</title>
+			<name>곰</name>
+			<totem>비야키</totem>
+			<title>곰의 부족</title>
 			<desc>Stalwart protectors of the land, the Bjarki clan claims the most resilient warriors. Hailing from the northern reaches of the realm, they are also very well equipped to survive the harsh winters of Northgard.</desc>
 			<bonuses>
 				<0>
@@ -1077,9 +1077,9 @@
 			</bonuses>
 		</Bear>
 		<Boar>
-			<name>Boar</name>
-			<totem>Slidrugtanni</totem>
-			<title>The Clan of the Boar</title>
+			<name>멧돼지</name>
+			<totem>슬리드룩타니</totem>
+			<title>멧돼지의 부족</title>
 			<desc>A reclusive bunch forgotten by the other clans and recently rediscovered, the Boar Clan is both mystical and untamed. Their understanding of the world is unmatched, as are their boorish and primitive ways.</desc>
 			<bonuses>
 				<0>
@@ -1094,9 +1094,9 @@
 			</bonuses>
 		</Boar>
 		<Snake>
-			<name>Snake</name>
-			<totem>Sváfnir</totem>
-			<title>The Clan of the Snake</title>
+			<name>뱀</name>
+			<totem>스바프니르</totem>
+			<title>뱀의 부족</title>
 			<desc>Cunning and deceitful, the Snake has little regard for fame or honour. Members of the clan prefer working in the shadows and using guerilla tactics rather than open warfare.</desc>
 			<bonuses>
 				<0>
