@@ -1,61 +1,61 @@
 <cdb>
 	<sheet name="resource">
 		<Food>
-			<name>Food</name>
-			<desc>[Food] is necessary to feed your clan. Stock up on food before winter. Avoid starvation at all costs.</desc>
+			<name>식량</name>
+			<desc>[Food] 은 당신의 부족원들에게 필요한 식량입니다. 겨울이 되기전 비축하세요. Avoid starvation at all costs(전원이 굶어죽는것을 피하세요).</desc>
 		</Food>
 		<Wood>
-			<name>Wood</name>
-			<desc>[Wood] is used to construct buildings and as Firewood, especially during winter.</desc>
+			<name>목재</name>
+			<desc>[Wood] 는 건물을 건설하거나 장작의 재료로 쓰입니다, 특히 겨울에는 소모량이 더 많습니다.</desc>
 		</Wood>
 		<Money>
-			<name>Kröwns</name>
-			<desc>[Money] are used to recruit your Warband and for building upkeep.</desc>
+			<name>크로나</name>
+			<desc>[Money] 는 군사를 소집하거나 건물을 유지하는데에 쓰입니다.</desc>
 		</Money>
 		<Building>
-			<name>Building</name>
+			<name>건물</name>
 		</Building>
 		<Happy>
-			<name>Happiness</name>
+			<name>행복도</name>
 			<desc>[Happy] will attract new villagers to your Town Hall. Improve your people's Happiness to accelerate this process.</desc>
 		</Happy>
 		<Population>
-			<name>Population</name>
+			<name>인구</name>
 		</Population>
 		<Warband>
-			<name>Warband</name>
+			<name>군사</name>
 		</Warband>
 		<Lore>
-			<name>Lore</name>
+			<name>전승</name>
 			<desc>[Lore] discovered in Northgard will allow you to improve your clan's Knowledge.</desc>
 		</Lore>
 		<Wheat>
-			<name>Wheat</name>
+			<name>밀</name>
 		</Wheat>
 		<Fame>
-			<name>Fame</name>
+			<name>명예</name>
 			<desc>Increase your [Fame] and be proclaimed King of Northgard!</desc>
 		</Fame>
 		<Fish>
-			<name>Fish</name>
+			<name>물고기</name>
 		</Fish>
 		<Meat>
-			<name>Meat</name>
+			<name>고기</name>
 		</Meat>
 		<Sailors>
-			<name>Sailors</name>
+			<name>선원들</name>
 		</Sailors>
 		<Territory>
-			<name>Territory</name>
+			<name>영토</name>
 		</Territory>
 		<Forge>
-			<name>Forge</name>
+			<name>대장간</name>
 		</Forge>
 		<Healing>
 			<name>Healing</name>
 		</Healing>
 		<SheepFood>
-			<name>Food</name>
+			<name>식량</name>
 		</SheepFood>
 		<Stone>
 			<name>Stone</name>
@@ -76,9 +76,9 @@
 	</sheet>
 	<sheet name="unit">
 		<Villager>
-			<name>Villager</name>
-			<desc>Villagers gather [Food] in the wild. Stock up so that your clan doesn't starve during winter.</desc>
-			<flavor>Ready to work!</flavor>
+			<name>시민</name>
+			<desc>시민은 야생에서 [Food] 를 수집합니다. 겨울동안 당신의 부족이 굶지않도록 비축하세요.</desc>
+			<flavor>일할 준비 완료!</flavor>
 		</Villager>
 		<Woodcutter>
 			<name>Woodcutter</name>
