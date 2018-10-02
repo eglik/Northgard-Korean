@@ -81,33 +81,33 @@
 			<flavor>일할 준비 완료!</flavor>
 		</Villager>
 		<Woodcutter>
-			<name>Woodcutter</name>
-			<desc>Specialized in harvesting [Wood], Woodcutters are necessary to improve your clan's settlement.</desc>
+			<name>나무꾼</name>
+			<desc>[Wood] 를 수집하는데에 있어서 전문가입니다. 나무꾼은 부족을 발전 시키는데에 꼭 필요합니다.</desc>
 		</Woodcutter>
 		<Farmer>
-			<name>Farmer</name>
+			<name>농부</name>
 			<desc>Experienced in growing crops, Farmers produce [Food] in larger quantities during summer.</desc>
 		</Farmer>
 		<Hunter>
-			<name>Hunter</name>
+			<name>사냥꾼</name>
 			<desc>Skilled Hunters will track and kill deer to provide [Meat] for your clan.</desc>
 		</Hunter>
 		<Fisherman>
-			<name>Fisherman</name>
+			<name>어부</name>
 			<plural>Fishermen</plural>
 			<desc>Fishermen provide fresh [Fish] for your clan. Their production is not affected by winter.</desc>
 		</Fisherman>
 		<Merchant>
-			<name>Merchant</name>
+			<name>상인</name>
 			<desc>Maintaining buildings and recruiting a Warband costs [Money]. Merchants generate steady income for your clan.</desc>
 		</Merchant>
 		<Sailor>
-			<name>Sailor</name>
-			<desc>Sailors will raid nearby coasts and bring [Money] and [Fame] or [Lore] to your clan.</desc>
+			<name>선원</name>
+			<desc>선원들이 근처 해안을 습격하여 [Money] 와 [Fame] 혹은 [Lore] 을 부족에 가져올것입니다.</desc>
 			<props.noFameDesc>Sailors will raid nearby coasts and bring [Money] and [Lore] to your clan.</props.noFameDesc>
 		</Sailor>
 		<RuneMaster>
-			<name>Loremaster</name>
+			<name>전승지기</name>
 			<desc>Masters of ancient [Lore], they can study runestones, increasing your Knowledge.</desc>
 			<flavor>Basically a Viking nerd.</flavor>
 		</RuneMaster>
@@ -121,7 +121,7 @@
 			<flavor>"Skald" literally means "poet." Skaldic poetry is one of the two main forms of Old Norse poetry, the other being Eddic poetry.</flavor>
 		</Skald>
 		<Miner>
-			<name>Miner</name>
+			<name>광부</name>
 			<desc>Miners extract [Stone] and [Iron] from the area until the deposits are depleted.</desc>
 			<flavor>What's yours is mine!</flavor>
 		</Miner>
