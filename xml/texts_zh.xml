@@ -77,7 +77,7 @@
 		<t id="money_stock">::p:: 보유한 크로나</t>
 		<t id="lore_masters">::p:: 활성화된 전승지기/선원</t>
 		<t id="lore_masters_boar">::p:: 활성화된 전승지기/선원/수리공</t>
-		<t id="blessings">::p::신들의 축복</t>
+		<t id="blessings">::p:: 신들의 축복</t>
 		<t id="defeated_players">::p:: 부족 파괴</t>
 		<t id="found_odinsword">용암의 땅 발견</t>
 		<t id="built_forge">대장간 건설</t>
