@@ -478,7 +478,7 @@
 			<t id="desc">Choose which resource your merchants will sell to earn [Money]:</t>
 			<t id="need_resource">No [::id::] in stock</t>
 			<t id="trade_with">Choose which faction to trade with:</t>
-			<t id="button">Start Trade Route</t>
+			<t id="button">교역 시작</t>
 			<t id="cant_trade_at_war">You can't trade with a clan you're at war with</t>
 			<t id="campaign_at_war">You can't trade with the opposing [Giant] faction!</t>
 			<t id="cant_trade_this">They will not accept this resource.</t>
@@ -486,7 +486,7 @@
 			<t id="cant_trade_with_clan">You can't trade with this clan.</t>
 			<t id="cant_trade_twice">You can't trade the same resource twice with the same clan.</t>
 			<t id="nobody">You haven't met any other clans yet.</t>
-			<t id="cancel">Cancel Trade Route</t>
+			<t id="cancel">교역 취소</t>
 			<t id="cancelPrestige">Cancel Great Trade Route</t>
 		</g>
 		<t id="colonize_progress">Colonization (::v::%)</t>
@@ -496,8 +496,8 @@
 
 		<t id="trade_bonus">You are currently trading [::res::] with <font color="::color::">::name::</font><br/></t>
 		<g id="choose_tool">
-			<t id="title">Choose Tool to Upgrade</t>
-			<t id="tip">[::id::]s produce ::percent:: more [::res::].</t>
+			<t id="title">향상시킬 도구를 선택하세요</t>
+			<t id="tip">[::id::]s produce ::percent:: more [::res::]. 테스트</t>
 			<t id="tip_miner">[::id::]s extract ::percent:: more ore from deposits.</t>
 			<t id="tip_villager">Increases [Villager]s' build and repair speed by ::percent::.</t>
 			<t id="tip_mender">Increases [Mender]s' healing speed by ::percent:: and produce ::percent:: more [Lore].</t>
@@ -534,7 +534,7 @@
 		<t id="drakkar_bring_lore">Sailors will discover [Lore]</t>
 		<g id="manage_harbor">
 
-			<t id="title_raid">Raid</t>
+			<t id="title_raid">약탈</t>
 			<t id="raid_desc">Choose an additional resource for your [Sailor]s to look for:</t>
 			<t id="cant_raid_nosailor">You need to assign [Sailor]s to launch a raid.</t>
 
@@ -563,8 +563,8 @@
 		</g>
 	</g>
 	<g id="fame">
-		<t id="fame_titles">Chieftain|Thane|Jarl|King</t>
-		<t id="ages">Age 15|Age 16|Age 18</t>
+		<t id="fame_titles">족장|영주|귀족|왕</t>
+		<t id="ages">15세|16세|18세</t>
 		<t id="age0_name">The Cunning</t>
 		<t id="age_desc"><font color="#R">::age::: ::name::</font></t>
 	</g>
@@ -579,7 +579,7 @@
 		<t id="s8">축제</t>
 		<t id="s9">대족장의 영광</t>
 		<t id="s10">더 좋은 집이 필요해요!</t>
-		<t id="s11">다친사람이 너무 많아요!!</t>
+		<t id="s11">다친사람이 너무 많아요!</t>
 		<t id="s12">부족이 유명하지 않습니다!</t> <!-- Deprecated -->
 		<t id="s13">더 좋은 타운홀이 필요해요!</t>
 		<t id="s14"></t> <!-- UnitsMalus, status_happy used -->
@@ -590,26 +590,26 @@
 		<t id="s19">[SpecterWarrior]</t>
 	</g>
 	<g id="status_happy">
-		<t id="nohome">We don't have houses!</t>
-		<t id="nofood">We're starving!</t>
-		<t id="nowood">We're freezing!</t>
-		<t id="sick">We're sick!</t>
-		<t id="total">Current Happiness</t>
+		<t id="nohome">집이 없어요!</t>
+		<t id="nofood">배고파요!</t>
+		<t id="nowood">추워요!</t>
+		<t id="sick">아파요!</t>
+		<t id="total">현재 행복도</t>
 		<t id="current">Expected Happiness</t>
-		<t id="next">You currently have <img src="/r/Happy"/><font color="#G">+::v::</font>. One new villager will join your clan every <font color="#R">::time::</font> days.</t>
+		<t id="next">현재 행복도는 <img src="/r/Happy"/><font color="#G">+::v::</font> 입니다. 새 시민이 생기기까지 <font color="#R">::time::</font> 일 소요됩니다.</t>
 	</g>
 	<g id="tip">
 
 		<!-- RESOURCES UI -->
 
-		<t id="happy_progress">Next villager: ::p::%</t>
+		<t id="happy_progress">다음 시민: ::p::%</t>
 		<t id="cycle">Cycle</t>
-		<t id="select_all">Select All</t>
+		<t id="select_all">전체 선택</t>
 
 		<t id="sheep_production">Sheepfold</t>
-		<t id="feast_bonus">Feast Bonus</t>
-		<t id="temple_bonus">Altar of Kings</t>
-		<t id="food_consumption">Consumption</t>
+		<t id="feast_bonus">축제 보너스</t>
+		<t id="temple_bonus">왕의 제단</t>
+		<t id="food_consumption">소비량</t>
 
 		<t id="territory_money">Town Hall</t>
 		<t id="buildings_upkeep">Building Upkeep</t>
