@@ -1,5 +1,5 @@
 <texts>
-	<t id="ia_names">아르비드|아스게르|아우둔|발터|발드|요른|브랜트|카누테|콜비|코레이|아이나르|아이릭|데링|피스케|플로키|프레이|가쓰|구나르|할슈타인|학세|호저|이바르|예리크|켈트|크누트|라몬트|라이프|올라프|오르센|슈타인|스벤|토르센|토발즈|비다르|힌다오르프|브린힐트|프레이디스|군힐드|란바이흐|시브|토룬|비디스|하랄드|매그너스|울프</t>
+	<t id="ia_names">아르비드|아스게르|아우둔|발터|발드|요른|브랜트|카누테|콜비|코레이|아이나르|아이릭|에링|피스케|플로키|프레이|가쓰|구나르|할슈타인|학세|호저|이바르|예리크|켈트|크누트|라몬트|라이프|올라프|오르센|슈타인|스벤|토르센|토발즈|비다르|힌다오르프|브린힐트|프레이디스|군힐드|란바이흐|시브|토룬|비디스|하랄드|매그너스|울프</t>
 	<t id="men_names">디아프|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
 	<t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Signy|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
 
@@ -421,60 +421,60 @@
 		<t id="bannerRecovering">[::unit::] is gravely wounded and will return to fight the Hrímgandr after recovering.</t>
 	</g>
 	<g id="dialogs">
-		<t id="button_ok">OK</t>
-		<t id="button_cancel">Cancel</t>
-		<t id="button_back">Back</t>
-		<t id="button_save">Save</t>
+		<t id="button_ok">확인</t>
+		<t id="button_cancel">취소</t>
+		<t id="button_back">뒤로가기</t>
+		<t id="button_save">저장</t>
 		<t id="button_confirm_exit">Confirm Quit</t>
-		<t id="congrats">Congratulations!</t>
+		<t id="congrats">축하드립니다!</t>
 
-		<t id="destroy_confirm">Are you sure you want to destroy this building?</t>
-		<t id="transfer_zone_confirm">Transfer area to <font color="::color::">::name::</font>?</t>
+		<t id="destroy_confirm">정말 이 건물을 부수시겠습니까?</t>
+		<t id="transfer_zone_confirm"><font color="::color::">::name::</font> 에게 영토를 이전하시겠습니까??</t>
 
-		<t id="victory_title">VICTORY</t>
-		<t id="defeat_title">DEFEAT</t>
+		<t id="victory_title">승리</t>
+		<t id="defeat_title">패배</t>
 
-		<t id="won">Congratulations! You have achieved a <font color="#G">::vname::</font> victory!</t>
-		<t id="team_won">Congratulations! Your team has achieved a <font color="#G">::vname::</font> victory!</t>
+		<t id="won">축하드립니다! You have achieved a <font color="#G">::vname::</font> victory!</t>
+		<t id="team_won">축하드립니다! Your team has achieved a <font color="#G">::vname::</font> victory!</t>
 		<t id="lost"><font color="::color::">::name::</font> has achieved a <font color="#R">::vname::</font> victory...</t>
 
-		<t id="defeat">You <font color="#B">lost</font> your Town Hall. Your clan is defeated...</t>
+		<t id="defeat">타운홀이 <font color="#B">파괴</font> 되었습니다. 당신의 부족은 패배하였습니다...</t>
 
-		<t id="game_paused">Game Paused</t>
+		<t id="game_paused">게임 중지</t>
 		<t id="confirm_overwrite">Overwrite existing file ::name::?</t>
-		<t id="resume_game_wait">Resume will be available in ::time::s.</t>
-		<t id="pause_remaining">You have ::count:: pauses left.</t>
-		<t id="resume_time">Game will resume in ::time::s.</t>
+		<t id="resume_game_wait">게임 재개 요청까지 ::time:: 초.</t>
+		<t id="pause_remaining">게임 중지가 ::count:: 회 남았습니다.</t>
+		<t id="resume_time">게임이 ::time:: 초 후에 재개됩니다.</t>
 
-		<t id="on">ON</t>
-		<t id="off">OFF</t>
+		<t id="on">켜기</t>
+		<t id="off">크기</t>
 
-		<t id="confirm_quit_desktop">Exit to desktop?</t>
+		<t id="confirm_quit_desktop">바탕화면으로 나가시겠습니까?</t>
 
 		<t id="confirm_exit">Quit game without saving your progress?</t>
-		<t id="confirm_exit_game">Are you sure you want to quit?</t>
-		<t id="confirm_concede">Are you sure you want to concede the game?</t>
+		<t id="confirm_exit_game">정말 퇴장하시겠습니까?</t>
+		<t id="confirm_concede">정말 항복하시겠습니까?</t>
 		<t id="confirm_exit_multi">Quitting the game now will end the session and disconnect all players!</t>
-		<t id="confirm_save_delete">Delete file ::name::?</t>
+		<t id="confirm_save_delete">::name:: 을 삭제하시겠습니까?</t>
 		<t id="save_format">::name::</t>
 		<t id="user_format">::user::</t>
-		<t id="info_format">::clan:: Clan - Difficulty: ::diff::</t>
-		<t id="time_format">::time:: min.</t>
+		<t id="info_format">::clan:: 부족 - 난이도: ::diff::</t>
+		<t id="time_format">::time:: 분.</t>
 
-		<t id="tech_title">Lore</t>
+		<t id="tech_title">전승</t>
 		<t id="tech_free">Obtained for free with ::desc::</t>
-		<t id="tech_blessings_extra">Unlock all Blessings to achieve a Wisdom victory!</t>
-		<t id="tech_got_blessing">::count::/::max:: Knowledge</t>
-		<t id="tech_req_blessing">Requires ::count::/::max:: Knowledge</t>
+		<t id="tech_blessings_extra">모든 축복에 도달하여 지혜 승리에 도달하십시오!</t>
+		<t id="tech_got_blessing">::count::/::max:: 지식</t>
+		<t id="tech_req_blessing">::count::/::max:: 지식 필요</t>
 		<t id="choose_clone_tech">Choose a tech to replace ::tech::</t>
 
-		<t id="close">Close</t>
+		<t id="close">닫기</t>
 		<g id="meteo">
-			<t id="summer">We should prepare for winter.</t>
-			<t id="winter">Our Food production is reduced.</t>
+			<t id="summer">겨울을 준비해야합니다.</t>
+			<t id="winter">식량 생산량이 감소하였습니다.</t>
 		</g>
 		<g id="trade">
-			<t id="title">Trading</t>
+			<t id="title">교역</t>
 			<t id="desc">Choose which resource your merchants will sell to earn [Money]:</t>
 			<t id="need_resource">No [::id::] in stock</t>
 			<t id="trade_with">Choose which faction to trade with:</t>
@@ -586,7 +586,7 @@
 		<t id="s15"></t> <!-- Population, status_happy.current used -->
 		<t id="s16">Geyser</t>
 		<t id="s17">Svarn's Gratitude</t>
-		<!-- s18 is somewhere else -- see UI -->
+		<!-- s18 is somewhere else - see UI -->
 		<t id="s19">[SpecterWarrior]</t>
 	</g>
 	<g id="status_happy">
