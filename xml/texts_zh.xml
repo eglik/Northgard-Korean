@@ -1,6 +1,6 @@
 <texts>
-	<t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
-	<t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
+	<t id="ia_names">아르비드|아스게르|아우둔|발터|발드|요른|브랜트|카누테|콜비|코레이|아이나르|아이릭|데링|피스케|플로키|프레이|가쓰|구나르|할슈타인|학세|호저|이바르|예리크|켈트|크누트|라몬트|라이프|올라프|오르센|슈타인|스벤|토르센|토발즈|비다르|힌다오르프|브린힐트|프레이디스|군힐드|란바이흐|시브|토룬|비디스|하랄드|매그너스|울프</t>
+	<t id="men_names">디아프|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
 	<t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Signy|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
 
 	<t id="soon">곧 공개...</t>
@@ -45,11 +45,11 @@
 		</g>
 		<g id="yggdrasil">
 			<t id="title">이그드라실</t>
-			<t id="desc">Find the legendary World Tree, <font color="#R">Yggdrasil</font>, and be the first to conquer it.</t>
+			<t id="desc">전설속의 세계수 <font color="#R">이그드라실</font> 을 찾고, 가장 먼저 정복하십시오.</t>
 		</g>
 		<g id="helheim">
 			<t id="title">헬하임</t>
-			<t id="desc">Take control of the <font color="#R">Gates of Helheim</font> and defend the area against the [Valkyrie]s.</t>
+			<t id="desc"><font color="#R">헬하임의 관문</font> 을 점령하고, [Valkyrie]s 들의 저항을 막아내십시오.</t>
 		</g>
 		<g id="money">
 			<t id="title">교역</t>
@@ -57,11 +57,11 @@
 		</g>
 		<g id="fame">
 			<t id="title">명예</t>
-			<t id="desc">충분한 [Territory]를 얻고 당신의 [Fame]을 드높여 <font color="#R">왕</font>의 작위를 얻으세요.</t>
+			<t id="desc">충분한 [Territory]를 얻고 당신의 [Fame]을 드높여 <font color="#R">왕</font>의 작위를 얻으십시오.</t>
 		</g>
 		<g id="odinsword">
 			<t id="title">오딘의 검</t>
-			<t id="desc">Build a <font color="#R">Forge</font> in the Magma Flow and forge Odin's legendary sword using [Iron].</t>
+			<t id="desc">용암의 땅에 <font color="#R">대장간</font> 을 짓고, [Iron]을 사용하여 오딘의 전설의 검을 만드십시오.</t>
 		</g>
 		<g id="campaign">
 			<t id="title">스토리 모드</t>
