@@ -709,7 +709,7 @@
 		</Coinage>
 		<Recruit>
 			<name>신규모집</name>
-			<desc>인구 증가 속도가 :: percent:: 만큼 증가합니다. 유닛이 적에게 살해당했을 경우 +50% 만큼 증가합니다.</desc>
+			<desc>인구 증가 속도가 ::percent:: 만큼 증가합니다. 유닛이 적에게 살해당했을 경우 +50% 만큼 증가합니다.</desc>
 		</Recruit>
 		<Medecine>
 			<name>의학</name>
