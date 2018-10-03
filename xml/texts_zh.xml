@@ -23,6 +23,11 @@
 	</g>
 	<t id="date">::year:: 기원후 - ::month::</t>
 	<t id="dateCampaign">Year ::year:: - ::month::</t>
+
+	<t id="res"><img src="/r/::res::"/><font color="#G">::qty::</font></t>
+	<t id="res_fame"><img src="/r/Fame"/><font color="#F">::qty::</font></t>
+	<t id="res_list_separator">, </t>
+
 	<g id="titles">
 		<t id="population">인구수</t>
 		<t id="civilians">시민</t>
@@ -126,8 +131,9 @@
 		<t id="ruins_explored">이 폐허는 이미 탐색됐습니다.</t>
 		<t id="wreck_scavenged">이 난파선은 이미 탐색됐습니다.</t>
 		<t id="brokenHouse_visited">이 부서진 집은 이미 방문했습니다.</t>
-		<t id="win_fame">이 영토를 점령하여 <img src="/r/Fame"/><font color="#F">::value::</font>의 명성을 획득하십시오.</t>
-		<t id="kill_fame">와이번을 물리치고 <img src="/r/Fame"/><font color="#F">::value::</font>의 명성을 획득하십시오.</t>
+		<t id="win_res_faction">Eradicate this faction to gain ::resList::.</t>
+		<t id="win_res">Colonize this area to gain ::resList::.</t>
+		<t id="kill_fame">Kill the Wyvern and gain ::resList::.</t>
 		<t id="forge_desc">Forge the ::part:: of the Sword of Odin for <img src="/r/::res::"/><font color="::color::">::count::</font>.</t>
 		<t id="forge_count">::nb:: done</t>
 		<g id="sword_parts">
@@ -137,6 +143,7 @@
 		</g>
 		<t id="forge_progress">Forging ::part:: (::p::%)</t>
 		<t id="giants_progress">Relationship with giants (::p::%)</t>
+		<t id="myrk_progress">Relationship with myrkálfar (::p::%)</t>
 		<t id="vedrfolnir_progress">Vedrfolnir leaving (::p::%)</t>
 		<g id="victories">
 			<t id="yggdrasil">Colonize the area to become protector of Northgard and achieve victory!</t>
@@ -279,6 +286,10 @@
 					<t id="title">명령 취소</t>
 					<t id="key1">X</t>
 				</g>
+				<g id="w">
+					<t id="title">Military Paths</t>
+					<t id="key1">M</t>
+				</g>
 			</g>
 			<g id="game">
 				<t id="title">게임</t>
@@ -352,6 +363,11 @@
 		<t id="difficulty_label">난이도</t>
 		<t id="game_mapsize">맵 크기</t>
 		<t id="game_maptype">맵 종류</t>
+		<t id="game_major_mode">게임 모드</t>
+		<g id="game_major_modes">
+			<t id="m1">노스가드</t>
+			<t id="m2">라그나로크</t>
+		</g>
 		<t id="ia_count">AI 플레이어</t>
 		<t id="clan_choose">확인</t>
 		<t id="game_saved">게임 저장됨</t>
@@ -387,6 +403,34 @@
 			<t id="victory_conditions">승리조건들</t>
 			<t id="map_victory">특수조건</t>
 			<t id="advanced_options">고급설정</t>
+		</g>
+			<g id="military_paths">
+			<t id="title">Military Paths</t>
+			<g id="categories">
+				<t id="c_1">Tactician</t>
+				<t id="c_2">Guardian</t>
+				<t id="c_3">Conqueror</t>
+			</g>
+			<t id="choose_path_title">Select a military path</t>
+			<t id="choose_path_button">Select</t>
+			<t id="confirm_choose">Are you sure you want to choose the ::category:: path?</t>
+			<t id="level">Level ::x::</t>
+
+			<t id="ability_unlocked">New Ability Unlocked</t>
+			<t id="notify_unlocked"><font color="::color::">::name::</font> has unlocked a new military ability.<br/><font color="#A">::ability::</font></t>
+		</g>
+	</g>
+
+	<g id="abilities">
+		<g id="no_use_reason">
+			<t id="cant_colonize_zone">This area can't be colonized at this time.</t>
+			<t id="no_tower">No allied defense tower in this area.</t>
+			<t id="no_producing_building">Need a [Food], [Wood] or [Money] building.</t>
+			<t id="no_building">There is no building in this area.</t>
+			<t id="no_civilians">There are no civilians in this area.</t>
+			<t id="not_enemy_area">Enemy area required.</t>
+			<t id="no_military_camp">You don't own a Military camp in this area.</t>
+			<t id="currently_used">Already in use.</t>
 		</g>
 	</g>
 	<g id="specialCampaign">
@@ -497,8 +541,8 @@
 		<t id="trade_bonus">You are currently trading [::res::] with <font color="::color::">::name::</font><br/></t>
 		<g id="choose_tool">
 			<t id="title">향상시킬 도구를 선택하세요</t>
-			<t id="tip">[::id::]s produce ::percent:: more [::res::]. 테스트</t>
-			<t id="tip_miner">[::id::]s extract ::percent:: more ore from deposits.</t>
+			<t id="tip">[::id::]s produce ::percent:: more [::res::]. 나무꾼임</t>
+			<t id="tip_miner">Increase extracting speed by ::percent::.</t>
 			<t id="tip_villager">Increases [Villager]s' build and repair speed by ::percent::.</t>
 			<t id="tip_mender">Increases [Mender]s' healing speed by ::percent:: and produce ::percent:: more [Lore].</t>
 			<t id="tip_skald">[::id::]s produce ::percent:: more [Fame] and [Happy], and ::percent:: more [Money] with [GreatDeeds].</t>
@@ -507,10 +551,10 @@
 			<t id="tip_healerNoMedicine">Increases [Healer]s' healing speed by ::percent::.</t>
 			<t id="tip_sailor">[::id::]s produce ::percent:: more [Money], [Lore] and [Fame].</t>
 			<t id="tip_sailor_snake">[::id::]s produce ::percent:: more [Money] and [Lore].</t>
-			<t id="tip_warrior">[::id::]s gain the Charge ability and ::percent:: attack.</t>
+			<t id="tip_warrior">[::id::]s gain the [WarriorCharge] ability and ::percent:: attack.</t>
 			<t id="tip_axethrower">Increases [::id::]s' attack range and power by ::percent::.</t>
 			<t id="tip_shieldbearer">Doubles [::id::]s' protection against ranged attacks and increases resistance by ::percent::.</t>
-			<t id="tip_skirmisher">[::id::]s gain the Poison ability and ::percent:: attack.</t>
+			<t id="tip_skirmisher">[::id::]s gain the [SkirmisherPoison] ability and ::percent:: attack.</t>
 
 			<t id="upgraded"><font color="#G">Already improved</font></t>
 			<t id="no_unit"><font color="#B">Building required</font></t>
@@ -629,6 +673,8 @@
 
 		<t id="need_thall_upgrade">Requires upgraded Town Hall</t>
 
+		<t id="friend_no_attack">You are friendly with the [Myrkalfar]. They will not attack you anymore.</t>
+
 		<t id="require_res_limit">
 			Requires <font color="::color::"><img src="/r/::id::"/> ::value::</font>
 		</t>
@@ -667,6 +713,9 @@
 			<t id="next_age">Signy will reach <font color="#R">::name::</font> in <font color="#F">::date::</font></t>
 		</g>
 
+		<t id="cooldown">Cooldown: ::value:: months</t>
+		<t id="passive">Passive</t>
+
 		<t id="fame_score">Clan Fame</t>
 
 		<t id="destroy_building">Destroy Building</t>
@@ -699,11 +748,13 @@
 		<t id="building_req_deposit">Requires Stone/Iron deposit</t>
 		<t id="building_req_food_tile">Requires an area with a natural Food resource</t>
 		<t id="building_single">You can only build one.</t>
+		<t id="building_already_in_area">This building is already present in this area</t>
 
 		<t id="scorched_effect">[ScorchedEarth] : -::malusProd::% production, snakes military units and buildings have +::snakeBonus::% bonus attack</t>
 		<t id="can_cast_scorched">You can use [ScorchedEarth] in this area</t>
 		<t id="cannot_cast_scorched">Signy must be in the center of the territory to use [ScorchedEarth]</t>
 
+		<t id="remaining_time">Remaining time ::value::</t>
 		<t id="berserk_cooldown">Cooldown at ::p::%</t>
 		<t id="Vedrfolnir_healed">The Vedrfolnir scouts areas for the clan that helped him.</t>
 
@@ -753,6 +804,7 @@
 		<t id="free_cost">::count:: free tools</t>
 		<t id="military_select_all">Select Warband <font color="#T" opacity="0.5">[::hotkey::]</font></t>
 		<t id="military_togle_bear">Press <font color="#T" opacity="0.5">[::hotkey::]</font> again to deselect [BearMaiden]</t>
+		<t id="free_tower_upgrade">You have free tower upgrades available!</t>
 
 		<g id="warnings">
 			<t id="food">Our clan is starving! We need to gather more Food!</t>
@@ -776,6 +828,7 @@
 			<t id="tech_available">We have enough [Lore] to acquire Knowledge!</t>
 			<t id="blessing_available">We can obtain a new blessing from the gods!</t>
 			<t id="too_far_malus">We are too far from our territory! Our attack power is reduced by ::inv_percent::.</t>
+			<t id="military_path_available">Choose a Military Path</t>
 		</g>
 		<t id="cant_colonize_occupied">You can't colonize an area that is defended.</t>
 		<t id="cant_colonize_warring">You can't colonize when you don't have a safe area you control next to it.</t>
@@ -858,7 +911,7 @@
 		<t id="fame_player_reached_title"><font color="::color::">::name::</font> has gained the Fame title <font color="#G">::title::</font>!</t>
 		<t id="contact_faction">We have established contact with <font color="::color::">::name::</font>. How should we deal with them?</t>
 		<t id="contact_player">We have established contact with <font color="::color::">::name::</font>, leader of the ::clan:: Clan.</t>
-		<t id="wyvern_defeated">We defeated the Wyvern! We have gained <img src="/r/Fame"/>::fame::.</t>
+		<t id="wyvern_defeated">We defeated the Wyvern! We have gained ::resList::.</t>
 		<t id="wyvern_defeated_no_fame">We defeated the Wyvern!</t>
 		<t id="wyvern_defeated_by">The mighty Wyvern has been defeated by <font color="::color::">::name::</font>!</t>
 		<t id="beware"><font color="#B">BEWARE:</font></t>
@@ -868,11 +921,16 @@
 		<t id="food_maxed">We <font color="#R">can't store</font> any more <img src="/r/Food"/>Food! Build more Food Silos.</t>
 
 		<t id="faction_defeated"><font color="::color::">::name::</font> has been defeated!</t>
+		<t id="faction_defeated_res"><font color="::color::">::name::</font> has been defeated! You gain ::resList::.</t>
 		<t id="faction_conceded"><font color="::color::">::name::</font> has conceded!</t>
 		<t id="faction_defeated_by"><font color="::color::">::name::</font> has been defeated by <font color="::byColor::">::by::</font>!</t>
+		<t id="faction_defeated_by_res"><font color="::color::">::name::</font> has been defeated by <font color="::byColor::">::by::</font>! You gain ::resList::.</t>
 
 		<t id="giants_friends"><font color="::color::">::name::</font> are now your friends! [GiantHero] has joined your clan and is waiting at your Town Hall!</t>
 		<t id="giants_friends_with"><font color="::color::">::name::</font> has befriended <font color="::byColor::">::by::</font>! He has gained tremendous power with this alliance!</t>
+
+		<t id="myrk_attack">[Myrkalfar]s have launched an assault against <font color="::color::">::name::</font>.</t>
+		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]s</font> are now your friends! They will not attack you anymore.</t>
 
 		<t id="lost_align">Our attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 
@@ -885,6 +943,10 @@
 		<t id="victory_zone_discovered_nowin">We have discovered the <font color="#G">::name::</font>: it will help us achieve victory (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
 		<t id="victory_zone_discovered_nowin_nofame">We have discovered the <font color="#G">::name::</font>.</t>
 		<t id="victory_zone_discovered_by_nowin"><font color="::color::">::name::</font> has discovered the <font color="#G">::bname::</font>! It could help us achieve victory.</t>
+
+		<t id="volcan_discovered">We have discovered an active <font color="#G">::name::</font>! (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
+		<t id="volcan_discovered_no_fame">We have discovered an active <font color="#G">::name::</font>!</t>
+		<t id="volcan_discovered_by"><font color="::color::">::name::</font> has discovered an active <font color="#G">::bname::</font>!</t>
 
 		<t id="waiting_lore">We have enough [Lore] to acquire new Knowledge.</t>
 
@@ -899,8 +961,8 @@
 
 		<t id="zone_explored_sailors">Our [Sailor]s have explored a new area!</t>
 
-		<t id="camp_destroyed">We have destroyed a <font color="#R">::bname::</font>, gaining <img src="/r/Fame"/><font color="#F">::fame::</font> and <img src="/r/::res::"/><font color="#G">::q::</font>.</t>
-		<t id="camp_destroyed_nofame">We have destroyed a <font color="#R">::bname::</font>, gaining <img src="/r/::res::"/><font color="#G">::q::</font>.</t>
+		<t id="camp_destroyed">We have destroyed a <font color="#R">::bname::</font> and gained ::resList::.</t>
+		<t id="bonus_colonize">We have colonized ::bname:: and gained ::resList::.</t>
 
 		<t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> has started colonizing the Yggdrasil! We need to hurry and stop them!</t>
 		<t id="trading_step"><font color="::color::">::name::</font> has already produced <img src="/r/Money"/><font color="#B">::amount::</font>!</t>
@@ -912,8 +974,8 @@
 		<t id="fame_step"><font color="::color::">::name::</font> has already reached <img src="/r/Fame"/><font color="#B">::amount::</font>!</t>
 		<t id="age_step">Signy is becoming stronger!</t>
 
-		<t id="snake_hero_cooldown">[WarchiefSnake]'s [ScorchedEarth] is now available again</t>
-		<t id="wolf_hero_cooldown">[Berserker]'s [Dominion] is now available again</t>
+		<t id="snake_hero_cooldown">[ScorchedEarth] is now available again</t>
+		<t id="wolf_hero_cooldown">[Dominion] is now available again</t>
 		<t id="mercenaries_cooldown">[Mercenaries] is now available again</t>
 
 		<t id="place_control"><font color="::color::">::name::</font> just gained control of ::bname::!</t>
@@ -934,6 +996,10 @@
 		<t id="vedrfolnir_left">[Vedrfolnir] has left Northgard!</t>
 
 		<t id="prestige_drakkar">A ship came back from a Great Trade Route. We have gained ::res1::, ::res2:: and ::res3::.</t>
+		<t id="ancient_grave">You've gained control of ::nb:: [SpecterWarrior]s by studying an [AncientGraveyard]</t>
+
+		<t id="free_feast">You've gained a free feast.</t>
+		<t id="free_tower_upgrade">You've gained a free Defense Tower upgrade.</t>
 	</g>
 	<g id="endgame_event">
 		<t id="day">Day ::value::</t>
@@ -969,6 +1035,11 @@
 		<t id="clans_bonuses">보너스:</t>
 		<t id="clan_of">::name:: 부족</t>
 		<t id="clan_fame_desc"><font color="#R">::name:::</font> (requires <img src="/r/Fame"/><font color="#F">::fame::</font>)<br/>::desc::<br/></t>
+
+		<g id="new_ragnarok">
+			<t id="title">Ragnarok Update</t>
+			<t id="desc">The Ragnarok Update features a brand new map, unique events, new tiles, neutral factions and monsters!<br/>The update also includes a brand new Military Experience system, allowing you to unlock unique skills for your warchief and your clan!</t>
+		</g>
 	</g>
 	<g id="multi_menu">
 		<t id="new_game">게임 생성</t>
@@ -1003,10 +1074,19 @@
 
 		<g id="profile_sub">
 			<t id="title">Player Ranking</t>
+			<t id="match_played">Matches played: ::nb::</t>
+			<t id="win_rate">Win rate: ::nb::%</t>
 			<t id="history">Match History</t>
 			<t id="flavor">Covering the last ::nb:: games</t>
 			<t id="clan">::clan:: Clan</t>
 			<t id="gameMode">Duel|Free For All|2V2|3V3|2V2V2|4V4|2V2V2V2</t>
+
+			<t id="new_season_title">Welcome to the ::name:: Season!</t>
+			<t id="new_season_desc">Season ::name:: is now over. Fight for your spot on the leaderboards now! ::gloryPoints:: have been reset. The new season is now open until the next major update.</t>
+			<t id="current_season">Season ::nb::: ::name::</t>
+			<t id="prev_season">Previous Seasons</t>
+			<t id="next_season">Next Seasons</t>
+			<t id="rank">Rank ::nb::</t>
 		</g>
 	</g><g id="campaign">
 		<t id="back">Back to Menu</t>
@@ -1134,7 +1214,7 @@
 		<t id="refresh_list">Refresh List</t>
 		<t id="refreshing">Refreshing List...</t>
 		<t id="game_name">Game Name</t>
-		<t id="game_mode">Game Mode</t>
+		<t id="game_mode">Players</t>
 		<t id="game_modes">Duel|Free For All|Team 2v2|Team 3v3|Team 2v2v2|Team 4v4|Team 2v2v2v2</t>
 		<t id="game_generation">Map Generation</t>
 		<t id="game_generation_types">Random|Balanced</t>
@@ -1198,8 +1278,8 @@
 		<t id="waiting_friend_answer">Waiting for answer...</t>
 		<t id="friend_invite_time">Time remaining: ::v::s.</t>
 		<t id="server_zone">Game Server</t>
-		<t id="server_zones_labels">Europe|Peer-to-Peer</t>
-		<t id="server_zones">eu|p2p</t>
+		<t id="server_zones_labels">Europe|North America|Peer-to-Peer</t>
+		<t id="server_zones">eu|na|p2p</t>
 		<t id="leagueKind">Wood|Stone|Iron|Gold|Rimesteel</t>
 		<t id="league">::kind:: League</t>
 		<t id="db_timeout">The server is not responding. Check your connexion or try again later.</t>

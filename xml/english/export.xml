@@ -73,6 +73,10 @@
 			<name>Rimesteel</name>
 			<desc>[RimeSteel] is used to forge the mighty Wurmslayer.</desc>
 		</RimeSteel>
+		<MilitaryXP>
+			<name>Military Experience</name>
+			<desc>You earn [MilitaryXP] by killing enemy units or losing your own in battle.</desc>
+		</MilitaryXP>
 	</sheet>
 	<sheet name="unit">
 		<Villager>
@@ -149,7 +153,7 @@
 		</Warrior>
 		<ShieldBearer>
 			<name>Shield Bearer</name>
-			<desc>Shield Bearers are a strong defensive unit that take ::inv_percent:: less damage from ranged units and watchtowers.</desc>
+			<desc>Shield Bearers are a strong defensive unit that take ::inv_percent:: less damage from projectiles.</desc>
 			<flavor>SHIELD WALL!</flavor>
 		</ShieldBearer>
 		<AxeWielder>
@@ -252,6 +256,12 @@
 			<desc>The mysterious leader of the Boar Clan, hellbent on bringing about Ragnarök. His actions were somehow foretold by the Runes. Some believe he is not a mere mortal.</desc>
 			<flavor>I shall be "the villain" if it makes things more comprehensible for your feeble mind. And yes: I know you are reading this.</flavor>
 		</Berserker02>
+		<Militia>
+			<name>Militia</name>
+		</Militia>
+		<Bodyguard>
+			<name>Bodyguard</name>
+		</Bodyguard>
 		<Death>
 			<name>Draugr</name>
 			<plural>Draugar</plural>
@@ -261,7 +271,7 @@
 		<Giant>
 			<name>Jötunn</name>
 			<plural>Jötnar</plural>
-			<desc>Ancient creatures from the Dark Ages, Jötnar are peaceful until you attack them. If you do, brace yourself!</desc>
+			<desc>Ancient creatures from the Dark Ages, [Giant]s are peaceful until you attack them. If you do, brace yourself!</desc>
 			<flavor>Ymir, the primitive giant, is said to be the father of all giants and dwarves.</flavor>
 		</Giant>
 		<UndeadGiant>
@@ -278,10 +288,11 @@
 		<Myrkalfar>
 			<name>Myrkálf</name>
 			<plural>Myrkálfar</plural>
+			<desc>The [Myrkalfar]s are an agressive and cunning native faction. Never trust them and watch their moves carefully.</desc>
 		</Myrkalfar>
 		<Kobold>
 			<name>Kobold</name>
-			<desc>Kobolds can be a great trade partner, but also an annoyance when they take valuable land.</desc>
+			<desc>[Kobold]s can be a great trade partner, but also an annoyance when they take valuable land.</desc>
 		</Kobold>
 		<Wolf>
 			<name>Wolf</name>
@@ -310,12 +321,22 @@
 			<desc>Originally champions of the gods, some Valkyries have been corrupted by the powers of Helheim.</desc>
 			<flavor>"Valkyrie" means "chooser of the slain," as they decide which fallen warriors will join Odin in Valhöll.</flavor>
 		</Valkyrie>
+		<SpecterWarrior>
+			<name>Spectral Warrior</name>
+			<desc>These undead Vikings are dangerous foes whose mere presence within your borders will reduce your clan's [Happy]. Projectiles have ::percent:: chances missing them.</desc>
+			<flavor>An intricate Seidr burial ritual can bring back the soul of a warrior who didn't die in battle, so that they can fight for glory one last time and find peace.</flavor>
+		</SpecterWarrior>
 		<IceWorm>
 			<name>Hrímgandr</name>
 			<plural>Hrímgandar</plural>
 			<desc>A giant, near-invincible rime serpent living mostly underground. Only the Wurmslayer can make a dent in its diamond-hard icy scales.</desc>
 			<flavor>Said to be the spawn of Jörmungandr, imbued with Niflheim's fumes.</flavor>
 		</IceWorm>
+		<Golem>
+			<name>Rock Golem</name>
+			<desc>[Golem]s are powerful creatures that can burn their foes with molten lava.</desc>
+			<flavor>[loud crackling]</flavor>
+		</Golem>
 		<Sheep>
 			<name>Sheep</name>
 			<plural>Sheep</plural>
@@ -366,7 +387,7 @@
 		</HealerHut>
 		<MenderHut>
 			<name>Mender's Hut</name>
-			<desc>Train your villagers to become [Mender]s who will heal your wounded or sick clan members in your territory.</desc>
+			<desc>Train your villagers to become [Mender]s who will heal your wounded clan members in your territory and gather [Lore] when not otherwise busy.</desc>
 			<flavor>Smells faintly of cabbage.</flavor>
 			<upgrade.desc>Heal your clan members ::percent:: faster.</upgrade.desc>
 		</MenderHut>
@@ -426,22 +447,22 @@
 		<TrainingCamp>
 			<name>Training Camp</name>
 			<desc>Allows you to recruit military units and increases your [Warband] size.</desc>
-			<upgrade.desc>Gain +::value::[Warband] and increase your [Warrior]s' attack by 5%.</upgrade.desc>
+			<upgrade.desc>Gain +::value::[Warband] and increase your [Warrior]s' attack by ::percent_value1::.</upgrade.desc>
 		</TrainingCamp>
 		<SkirmishCenter>
 			<name>Skirmisher Camp</name>
 			<desc>Allows you to recruit [Skirmisher]s. Increases your [Warband] size.</desc>
-			<upgrade.desc>Gain +::value::[Warband] and increase your [Skirmisher]s' attack by 5%.</upgrade.desc>
+			<upgrade.desc>Gain +::value::[Warband] and increase your [Skirmisher]s' attack by ::percent_value1::.</upgrade.desc>
 		</SkirmishCenter>
 		<AxeCenter>
 			<name>Axe Thrower Camp</name>
 			<desc>Allows you to recruit [AxeWielder]s, powerful ranged units, and increases your [Warband] size.</desc>
-			<upgrade.desc>Gain +::value::[Warband] and increase your [AxeWielder]s' attack by 5%.</upgrade.desc>
+			<upgrade.desc>Gain +::value::[Warband] and increase your [AxeWielder]s' attack by ::percent_value1::.</upgrade.desc>
 		</AxeCenter>
 		<ShieldCenter>
 			<name>Shield Bearer Camp</name>
 			<desc>Allows you to recruit [ShieldBearer]s, which are well protected against ranged units and towers, and increases your [Warband] size.</desc>
-			<upgrade.desc>Gain +::value::[Warband] and increase your [ShieldBearer]s' attack by 5%.</upgrade.desc>
+			<upgrade.desc>Gain +::value::[Warband] and increase your [ShieldBearer]s' attack by ::percent_value1::.</upgrade.desc>
 		</ShieldCenter>
 		<WatchTower>
 			<name>Defense Tower</name>
@@ -470,6 +491,10 @@
 			<desc>Train a villager to become a [RuneMaster] who will produce [Lore].</desc>
 			<flavor>Quite a bit heavier than a book.</flavor>
 		</CarvedStone>
+		<Totem>
+			<name>Carved Statue</name>
+			<desc>This carving displays your prowess to all Vikings of the land!</desc>
+		</Totem>
 		<Temple>
 			<name>Altar of Kings</name>
 			<plural>Altars of Kings</plural>
@@ -494,7 +519,7 @@
 		<TownHall>
 			<name>Town Hall</name>
 			<desc>Spawns new [Villager]s when you have enough [Happy].</desc>
-			<upgrade.desc>Allows you to upgrade other buildings. Increases maximum [Population] by 2 and population growth by ::percent::.</upgrade.desc>
+			<upgrade.desc>Allows you to upgrade other buildings. Increases maximum [Population] by ::value:: and population growth by ::percent1::.</upgrade.desc>
 		</TownHall>
 		<RuneStone>
 			<name>Runestone</name>
@@ -575,15 +600,22 @@
 			<name>Jötunn Camp</name>
 			<desc>[Giant]s are usually peaceful... Trade enough [Food] with them and they might join you.</desc>
 		</GiantCamp>
+		<GiantSpawner>
+			<name>Giant Spawner</name>
+		</GiantSpawner>
 		<MyrkalfarHouse>
-			<name>Myrkálf Camp</name>
+			<name>Myrkálfar Camp</name>
+			<desc>The dwelling of the [Myrkalfar]s is also their base of operation. Destroying it might be the only way to stop them.</desc>
 		</MyrkalfarHouse>
 		<MyrkalfarFirecamp>
 			<name>Myrkalfar Campfire</name>
 		</MyrkalfarFirecamp>
+		<MyrkalfarSpawner>
+			<name>Myrkalfar Spawner</name>
+		</MyrkalfarSpawner>
 		<KoboldHouse>
 			<name>Kobold Camp</name>
-			<desc>Kobolds will spawn here and in nearby territories.</desc>
+			<desc>[Kobold]s will spawn here and spread to nearby territories.</desc>
 		</KoboldHouse>
 		<KoboldFirecamp>
 			<name>Kobold Campfire</name>
@@ -610,6 +642,8 @@
 		</Geyser>
 		<AncientGraveyard>
 			<name>Ancient Graveyard</name>
+			<desc>You can send [RuneMaster]s to study these burial grounds, and maybe find unexpected allies.</desc>
+			<flavor>To a trained eye, it is obvious that Seidr, an ancient form of sorcery Freyia taught the Æsir, was practiced here.</flavor>
 		</AncientGraveyard>
 		<IceWall>
 			<name>Ice Wall</name>
@@ -636,11 +670,10 @@
 		<IceWormDen>
 			<name>Ice Worm Den</name>
 		</IceWormDen>
-		<Volcano>
-			<name>Volcano</name>
-		</Volcano>
 		<Meteor>
-			<name>Meteor</name>
+			<name>Molten Rock</name>
+			<plural>Molten Rocks</plural>
+			<desc>An unnatural glow surrounds this rock. Mine it quickly or face the magic within!</desc>
 		</Meteor>
 		<VedrfolnirCrash>
 			<name>Vedrfolnir Crash</name>
@@ -669,6 +702,11 @@
 			<name>Magma Flow</name>
 			<desc>The magma in this area can be used to craft very powerful weapons.</desc>
 		</MagmaFlow>
+		<Volcano>
+			<name>Volcano</name>
+			<plural>Volcanoes</plural>
+			<desc>A dangerous active volcano. Watch out for flying [Meteor]s!</desc>
+		</Volcano>
 	</sheet>
 	<sheet name="tech">
 		<Lumber>
@@ -709,7 +747,7 @@
 		</Coinage>
 		<Recruit>
 			<name>Recruitment</name>
-			<desc>Increases population growth speed by ::percent::. +50% during 6 months when one of your unit is killed by an enemy.</desc>
+			<desc>Permanently increases population growth speed by ::percent0::. This raises to ::percent1:: during ::value2:: months if any unit from your clan is killed by an enemy clan.</desc>
 		</Recruit>
 		<Medecine>
 			<name>Medicine</name>
@@ -721,7 +759,8 @@
 		</MilitaryStrategy>
 		<Security>
 			<name>Feeling Safe</name>
-			<desc>Gain +::value::[Happy] if you have a [Hero01] and +1[Happy] per upgraded military camp.</desc>
+			<desc>Gain +::value::[Happy] if you have a [Hero01] and +::value1::[Happy] per upgraded military camp.</desc>
+			<props.firstNameDesc>Gain +::value::[Happy] if you have [Hero01] and +::value1::[Happy] per upgraded military camp.</props.firstNameDesc>
 		</Security>
 		<Knowledge>
 			<name>Erudition</name>
@@ -759,7 +798,7 @@
 		</Ascetic>
 		<Pillage>
 			<name>Spoils of War</name>
-			<desc>Gain +::value::[Money] for each enemy unit killed.</desc>
+			<desc>Gain some [Money] for each enemy unit killed.</desc>
 		</Pillage>
 		<Plunder>
 			<name>Plunder</name>
@@ -795,7 +834,7 @@
 		</FoodTrade>
 		<BetterSilo>
 			<name>Eradication</name>
-			<desc>Silos gain a ::percent:: [Food] production bonus and you gain +1[Happy] per Silo. Also reduce [FoodSilo] upgrade cost  by 50%.</desc>
+			<desc>[FoodSilo]s gain a ::percent:: [Food] production bonus and you gain +::value2::[Happy] per [Silo]. Also reduce [FoodSilo] upgrade cost  by ::percent_value1::.</desc>
 		</BetterSilo>
 		<BuildingUpkeep>
 			<name>Advanced Silos</name>
@@ -831,7 +870,7 @@
 		</GreatExplorers>
 		<Wealth>
 			<name>Exotic Goods</name>
-			<desc>Gain +::value::[Happy] per Harbor, +2[Happy] if upgraded.</desc>
+			<desc>Gain +::value::[Happy] per Harbor, +::value1::[Happy] if upgraded.</desc>
 		</Wealth>
 		<Hibernate>
 			<name>Hibernation</name>
@@ -839,11 +878,11 @@
 		</Hibernate>
 		<LandProtect>
 			<name>Protector of the Land</name>
-			<desc>Gain +1[Happy] per area with at least one military camp.</desc>
+			<desc>Gain +::value::[Happy] per area with at least one military camp.</desc>
 		</LandProtect>
 		<ShieldMaster>
 			<name>Shield Mastery</name>
-			<desc>[ShieldBearer]s cost less [Money], and their resistance is increased by ::percent::.</desc>
+			<desc>[ShieldBearer]s cost less [Money], and their resistance is increased by ::percent::. [ShieldCenter] have no upkeep cost.</desc>
 		</ShieldMaster>
 		<Harpoons>
 			<name>Harpoons</name>
@@ -851,7 +890,7 @@
 		</Harpoons>
 		<WinterFestival>
 			<name>Winter Festival</name>
-			<desc>During winter, [Food] production loss is reduced by ::inv_percent:: and [Happy] is increased by 3.</desc>
+			<desc>During winter, [Food] production loss is reduced by ::inv_percent:: and [Happy] is increased by ::value1::.</desc>
 		</WinterFestival>
 		<Bartering>
 			<name>Bartering</name>
@@ -883,7 +922,7 @@
 		</Osmosis>
 		<BlackMarket>
 			<name>Black Market</name>
-			<desc>[Merchant]s produce +10% more [Money]. &lt;br/&gt;Gain +::percent:: [Money] when trading with enemy clan, degrading diplomatic relations. You can trade even when at war. Enemy clans get no resources from black market trading.</desc>
+			<desc>[Merchant]s produce +::percent1:: more [Money].&lt;br/&gt;You gain +::percent::[Money] when trading with enemy clan, deteriorating diplomatic relations. You can trade even when at war. Enemy clans get no resource from black market trading.</desc>
 		</BlackMarket>
 		<StolenLore>
 			<name>Stolen Lore</name>
@@ -891,15 +930,15 @@
 		</StolenLore>
 		<Guerilla>
 			<name>Guerilla Tactics</name>
-			<desc>Military units have +::percent:: atk per civilian killed (currently ::nb::% - 40% max, ::nb2:: /20 killed)</desc>
+			<desc>Permanently increases your military units' attack power by +::percent:: per enemy civilian killed (currently ::nb::% - 40% max, ::nb2::/20 killed).</desc>
 		</Guerilla>
 		<Rapacious>
 			<name>Rapacious Exploitation</name>
-			<desc>Bonus of special tiles is doubled.&lt;br/&gt;Ruins and shipwreck grant +::value::[Happy]</desc>
+			<desc>Bonus of special tiles is doubled.&lt;br/&gt;Tiles with [Ruins]s or [BrokenShores]s provide +::value::[Happy].</desc>
 		</Rapacious>
 		<UnderPressure>
 			<name>Under Pressure</name>
-			<desc>You gain +::value:: [Happy] and +::value:: [Food] for each enemy clan with your military units near or inside their frontiers.&lt;br/&gt;Increase [Skirmisher]s attack by 20%</desc>
+			<desc>You gain +::value::[Happy] and +::value2::[Food] for each enemy clan having any of your military units stationed next to or within their borders.&lt;br/&gt;Increases the [Skirmisher]s' attack power by ::percent1::. They are no longer affected by the attack penalty from their distance to Town Hall.</desc>
 		</UnderPressure>
 		<GotBerserk>
 			<name>Dominion</name>
@@ -907,7 +946,7 @@
 		</GotBerserk>
 		<MilitaryWolf>
 			<name>Assault</name>
-			<desc>Your military units gain a ::percent:: attack bonus when fighting outside your territory. [Berserker]'s Dominion cooldown is reduced by 50%</desc>
+			<desc>Your military units gain a ::percent:: attack bonus when fighting outside your territory. [Berserker]'s Dominion cooldown is reduced by ::percent_value1::</desc>
 		</MilitaryWolf>
 		<FreeTools>
 			<name>Spare Tools</name>
@@ -915,11 +954,11 @@
 		</FreeTools>
 		<FeastResist>
 			<name>Teamwork</name>
-			<desc>You gain one free feast. Your Defense Towers and all your military units gain ::percent:: resistance when feasting.</desc>
+			<desc>You gain ::value1:: free feast per year. Your Defense Towers and all your military units gain ::percent:: resistance when feasting.</desc>
 		</FeastResist>
 		<Supply>
 			<name>Supplies</name>
-			<desc>You gain +::value:: [Food], [Wood] and [Money], and +10 [Stone].</desc>
+			<desc>You gain +::value:: [Food], [Wood] and [Money], and +::value1:: [Stone].</desc>
 		</Supply>
 		<Dedication>
 			<name>Dedication</name>
@@ -927,7 +966,7 @@
 		</Dedication>
 		<Recruits>
 			<name>Recruits</name>
-			<desc>You receive ::value:: [Villager]s, ::value:: max population and 1 [Happy].</desc>
+			<desc>You receive ::value:: [Villager]s, ::value:: max population and ::value1::[Happy].</desc>
 		</Recruits>
 		<Mercenaries>
 			<name>Mercenaries</name>
@@ -939,7 +978,7 @@
 		</KindredSpirit>
 		<BearAwake>
 			<name>The Bear Awakens</name>
-			<desc>You gain +::value::[Fame] per enemy unit killed in an area with the [Maiden]. Your military units gain +1% power per 100 [Fame].</desc>
+			<desc>You gain +::value::[Fame] per enemy unit killed in an area with the [Maiden]. Your military units gain +::percent_value1:: power per ::value2::[Fame].</desc>
 		</BearAwake>
 		<OldKnowledge>
 			<name>Heritage</name>
@@ -951,12 +990,12 @@
 		</GreaterBlessings>
 		<PrideSnake>
 			<name>Pride of the Clan</name>
-			<desc>[WarchiefSnake] gains 20% move speed and can now attack at range.</desc>
+			<desc>[WarchiefSnake] gains ::percent_value:: move speed and can now attack at range.</desc>
 		</PrideSnake>
 		<ScorchedEarth>
 			<name>Scorched Earth</name>
-			<desc>[WarchiefSnake] can use [ScorchedEarth] to burn an empty or enemy zone during 3 months (3 month cooldown).&lt;br/&gt;Burned zone : -50% production, snakes units and buildings +50% att.&lt;br/&gt;[WarchiefSnake] can go through tiles with foes without engaging combat.</desc>
-			<props.fameName>Tears of Earth</props.fameName>
+			<desc>[WarchiefSnake] can use [ScorchedEarth] to burn any area during ::value0:: months (::value3:: month cooldown).&lt;br/&gt;Burned zone : -::percent_value1:: production, snakes units and buildings +::percent_value2:: attack.&lt;br/&gt;[WarchiefSnake] moves faster and can go through tiles with foes without engaging combat.</desc>
+			<props.fameName>Tears of The Earth</props.fameName>
 		</ScorchedEarth>
 		<UnlockHall>
 			<name>DEPRECATED</name>
@@ -987,7 +1026,7 @@
 		</NatureGift>
 		<FreyaBlessing>
 			<name>Freya's Blessing</name>
-			<desc>Reduces loss of [Food] production during winter by ::inv_percent::.</desc>
+			<desc>Reduces loss of [Food] production during winter by ::inv_percent0:: and [Wood] consumption by ::inv_percent1::.</desc>
 		</FreyaBlessing>
 		<ThorBlessing>
 			<name>Baldr's Blessing</name>
@@ -995,7 +1034,7 @@
 		</ThorBlessing>
 		<LokiBlessing>
 			<name>Jörd's Blessing</name>
-			<desc>You gain ::value*2:: [Stone] and ::value:: [Iron].</desc>
+			<desc>You gain ::value0:: [Stone] and ::value1:: [Iron].</desc>
 		</LokiBlessing>
 		<FinalBlessing>
 			<name>Ancestral Knowledge</name>
@@ -1133,6 +1172,9 @@
 		<Sick>
 			<desc>Sick clan members.</desc>
 		</Sick>
+		<Dehydrated>
+			<desc>Dehydrated clan members</desc>
+		</Dehydrated>
 		<WinterMalus>
 			<desc>Your military units have ::inv_percent:: reduced power during winter outside your territory and 10% inside your territory.</desc>
 		</WinterMalus>
@@ -1179,6 +1221,31 @@
 			<announce>Portals leading to Helheim have opened. We need to take defensive action before the [Death]s arrive!</announce>
 			<desc>[Death]s will soon spawn from the portals.</desc>
 		</DraugrAttack>
+		<FallenSailors>
+			<name>Fallen Sailors</name>
+			<announce>Ahoy! Fallen Sailors are approaching your coasts!</announce>
+			<desc>These [SpecterWarrior]s used to fight for our side...</desc>
+		</FallenSailors>
+		<BloodMoon>
+			<name>Blood Moon</name>
+			<announce>The &lt;b&gt;Blood Moon&lt;/b&gt; is coming! Prepare for a fight!</announce>
+			<desc>All units gain +::percent_value:: Attack outside of their territory for the duration of the Blood Moon.</desc>
+		</BloodMoon>
+		<Eruption>
+			<name>Volcanic Eruption</name>
+			<announce>Loud rumbles come out of the volcano! Prepare yourselves!</announce>
+			<desc>[Meteor] will soon fall on Northgard. They are a good source of stone, as well as a hidden threat.</desc>
+		</Eruption>
+		<GolemAwake>
+			<name>[Golem]s Awakening</name>
+			<announce>[Meteor] fell from the sky! </announce>
+			<desc>Mine the stone quickly, or face a raging foe!</desc>
+		</GolemAwake>
+		<Canicule>
+			<name>Sweltering Heat</name>
+			<announce>A scorching heat descends on Northgard! Keep your Vikings in areas with access to water.</announce>
+			<desc>Farms and Hunter's camps can't produce food. Your units can lose HP if in an area with no lake or sea shore.</desc>
+		</Canicule>
 		<Unfreeze>
 			<name>Spring</name>
 			<announce>The undead army will unfreeze and attack you at the beginning of the 5th summer. We must prepare to survive!</announce>
@@ -3938,5 +4005,110 @@
 		<BannerBear>
 			<desc>Brave and arrogant, the bannermaiden of the Bear Clan is a tough woman who bows to no one and shows little mercy for the weakhearted. She refused to recognize you as the rightful king since you lost the Regal Horn, and so she challenged you to a contest, from which you emerged victorious. She had no choice but to grudgingly pledge her allegiance.</desc>
 		</BannerBear>
+	</sheet>
+	<sheet name="biome">
+		<Meadow>
+			<name>Meadow</name>
+		</Meadow>
+		<WildLands>
+			<name>Wild Lands</name>
+		</WildLands>
+		<Taiga>
+			<name>Taiga</name>
+		</Taiga>
+		<Foothills>
+			<name>Foothills</name>
+		</Foothills>
+		<Steppe>
+			<name>Steppe</name>
+		</Steppe>
+		<Autumn>
+			<name>Autumn</name>
+		</Autumn>
+		<Toundra>
+			<name>Tundra</name>
+		</Toundra>
+		<Ragnarok>
+			<name>Ragnarok</name>
+		</Ragnarok>
+		<Frosted>
+			<name>Frosted</name>
+		</Frosted>
+	</sheet>
+	<sheet name="ability">
+		<Dominion>
+			<name>Dominion</name>
+			<desc>Colonize cleared area for free.</desc>
+		</Dominion>
+		<ScorchedEarth>
+			<name>Scorched Earth</name>
+			<desc>Burn any zone during ::value0:: months.&lt;br/&gt;Burned zone : -::percent_value1:: production, snakes units and buildings +::percent_value2:: attack.</desc>
+		</ScorchedEarth>
+		<Warcry>
+			<name>Warcry</name>
+			<desc>Enemy units (non neutral) are feared for ::value0:: seconds.</desc>
+		</Warcry>
+		<CallToArms>
+			<name>Call To Arms</name>
+			<desc>Converts all civilians in the area into [Militia]. They can't go outside of your territory.</desc>
+		</CallToArms>
+		<Bodyguard>
+			<name>Bodyguard</name>
+			<desc>A bodyguard is attached to your warchief. The Warchief gains +::percent0:: attack power and ::percent_value1:: damage reduction.</desc>
+		</Bodyguard>
+		<WarEffort>
+			<name>War Effort</name>
+			<desc>You can choose a free military Lore.</desc>
+		</WarEffort>
+		<WarriorCharge>
+			<name>Charge</name>
+			<desc>Increases run speed when the engaged target is close enough.</desc>
+		</WarriorCharge>
+		<SkirmisherPoison>
+			<name>Poison</name>
+			<desc>Decrease target attack power and move speed by ::inv_percent0:: during ::value1::sec.</desc>
+		</SkirmisherPoison>
+		<GolemBurn>
+			<name>Magma Strike</name>
+			<desc>Target suffers ::value0:: dmg/sec for ::value1::sec.</desc>
+		</GolemBurn>
+		<LeatherArmor>
+			<name>Reinforced Armor</name>
+			<desc>Military units have ::percent_value:: chance of negating incoming attacks.</desc>
+		</LeatherArmor>
+		<SuppressingFireTower>
+			<name>Suppressing Fire</name>
+			<desc>You gain a free [WatchTower] upgrade each year (does not stack).</desc>
+		</SuppressingFireTower>
+		<SuppressingFireMilitary>
+			<name>Suppressing Fire</name>
+			<desc>Units within an area that contains an allied [WatchTower] gain +::percent_value:: defense.</desc>
+		</SuppressingFireMilitary>
+		<Garrison>
+			<name>Garrison</name>
+			<desc>Each [WatchTower] adds +::value0:: to your maximum warband (+::value1:: if upgraded).&lt;br/&gt;Each kill on allied territory gives +::percent_value2:: [MilitaryXP].</desc>
+		</Garrison>
+		<BloodBath>
+			<name>Blood Bath</name>
+			<desc>Each time one of your units dies in enemy territory, friendly units in the area gain +::percent_value0:: attack and +::percent_value1:: defense for ::value2:: month. The bonus is lost when units exit the area.</desc>
+		</BloodBath>
+		<VeteranWarAxeThrower>
+			<name>Veteran Fighters</name>
+			<desc>[AxeWielder]s have +::percent_value:: attack range.</desc>
+		</VeteranWarAxeThrower>
+		<VeteranWarWarrior>
+			<name>Veteran Fighters</name>
+			<desc>[Warrior]s have +::percent:: health.</desc>
+		</VeteranWarWarrior>
+		<VeteranWarShieldBearer>
+			<name>Veteran Fighters</name>
+			<desc>[ShieldBearer]s reduce projectile damage by +::percent_value::</desc>
+		</VeteranWarShieldBearer>
+		<VeteranWarSkirmisher>
+			<name>Veteran Fighters</name>
+			<desc>[Skirmisher]s damage to Watch Towers cannot be repaired.</desc>
+		</VeteranWarSkirmisher>
+	</sheet>
+	<sheet name="militaryPath">
 	</sheet>
 </cdb>
