@@ -838,7 +838,7 @@
 		</BetterSilo>
 		<BuildingUpkeep>
 			<name>Advanced Silos</name>
-			<desc>Increases [Food] production by +2 for each Silo (+::value:: if upgraded).</desc>
+			<desc>Increases [Food] production by +::value1:: for each [FoodSilo] (+::value:: if upgraded).</desc>
 		</BuildingUpkeep>
 		<ProudStag>
 			<name>Young and Proud</name>
@@ -846,7 +846,7 @@
 		</ProudStag>
 		<GreatDeeds>
 			<name>The Value of Great Deeds</name>
-			<desc>Skalds will produce +::value::[Money] (+2 if their building is upgraded).</desc>
+			<desc>Skalds will produce +::value::[Money] (+::value1:: if their building is upgraded).</desc>
 		</GreatDeeds>
 		<GloryClan>
 			<name>Glory of the Clan</name>
@@ -986,7 +986,7 @@
 		</OldKnowledge>
 		<GreaterBlessings>
 			<name>Greater Blessings</name>
-			<desc>&lt;font color="#R"&gt;Freya: &lt;/font&gt;Blizzard penalty is massively reduced (50%)&lt;br/&gt;&lt;font color="#R"&gt;Baldr: &lt;/font&gt; +5[Happy]&lt;br/&gt;&lt;font color="#R"&gt;Jörd: &lt;/font&gt; Warchief and upgraded towers get +10% Attack</desc>
+			<desc>&lt;font color="#R"&gt;Freya: &lt;/font&gt;Winter penalty is massively reduced (::inv_percent0:: for [Food], ::inv_percent1:: for [Wood])&lt;br/&gt;&lt;font color="#R"&gt;Baldr: &lt;/font&gt; +::value2::[Happy]&lt;br/&gt;&lt;font color="#R"&gt;Jörd: &lt;/font&gt; Warchief and upgraded towers get +::percent_value3:: Attack</desc>
 		</GreaterBlessings>
 		<PrideSnake>
 			<name>Pride of the Clan</name>
