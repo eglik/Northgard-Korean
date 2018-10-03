@@ -130,7 +130,7 @@
 			<desc>Scouts explore new areas, allowing you to expand your territory. They can also explore Ruins and Shipwrecks.</desc>
 		</Scout>
 		<Healer>
-			<name>Healer</name>
+			<name>치유사</name>
 			<desc>Healers gather medicinal herbs that your wounded will use to heal themselves. The wounded must be within your territory to heal.</desc>
 			<flavor>Wolol...oh, sorry, wrong line.</flavor>
 		</Healer>

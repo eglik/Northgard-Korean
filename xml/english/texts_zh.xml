@@ -1,0 +1,1088 @@
+<texts>
+	<t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
+	<t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
+	<t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Signy|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
+
+	<t id="soon">即将开始……</t>
+	<t id="flavor_quote">- "::text::"</t>
+	<t id="unknown_clan">未知</t>
+	<t id="random">Random</t>
+	<g id="months">
+		<t id="s1">1월</t>
+		<t id="s2">2월</t>
+		<t id="s3">3월</t>
+		<t id="s4">4월</t>
+		<t id="s5">5월</t>
+		<t id="s6">6월</t>
+		<t id="s7">7월</t>
+		<t id="s8">8월</t>
+		<t id="s9">9월</t>
+		<t id="s10">10월</t>
+		<t id="s11">11월</t>
+		<t id="s12">12월</t>
+	</g>
+	<t id="date">::year:: 기원후 - ::month::</t>
+	<t id="dateCampaign">Year ::year:: - ::month::</t>
+	<g id="titles">
+		<t id="population">인구수</t>
+		<t id="civilians">시민</t>
+		<t id="warband">군사</t>
+		<t id="allies">동맹</t>
+		<t id="buildings">건물</t>
+		<t id="standard">기본</t>
+		<t id="military">병영</t>
+		<t id="advanced">특수</t>
+	</g>
+	<g id="victories">
+		<t id="all">전체</t>
+		<g id="military">
+			<t id="title">정복</t>
+			<t id="desc">다른 플레이어의 <font color="#R">타운홀</font>을 파괴하여 노스가드의 지배자가 되십시오.</t>
+		</g>
+		<g id="lore">
+			<t id="title">지혜</t>
+			<t id="desc">고대의 지식을 발견하여 <font color="#R">현명한 부족의 지도자</font>가 되십시오.</t>
+		</g>
+		<g id="yggdrasil">
+			<t id="title">이그드라실</t>
+			<t id="desc">找到传奇的世界树<font color="#R">Yggdrasil</font>，并成为其第一位征服者。</t>
+		</g>
+		<g id="helheim">
+			<t id="title">헬하임</t>
+			<t id="desc">控制<font color="#R">Helheim之门</font>，并包围此地免受[Valkyrie]攻占</t>
+		</g>
+		<g id="money">
+			<t id="title">교역</t>
+			<t id="desc">부를 쌓아 <font color="#R">위대한 상인</font>이 되십시오.</t>
+		</g>
+		<g id="fame">
+			<t id="title">명예</t>
+			<t id="desc">충분한 [Territory]를 얻고 당신의 [Fame]을 드높여 <font color="#R">왕</font>의 작위를 얻으세요.</t>
+		</g>
+		<g id="odinsword">
+			<t id="title">오딘의 검</t>
+			<t id="desc">ㅇㅇ<font color="#R">대장간</font>ㅇㅇㅇㅇ，并且使用[Iron]锻造奥丁的传奇之剑。</t>
+		</g>
+		<g id="campaign">
+			<t id="title">스토리 모드</t>
+		</g>
+		<t id="progress"><font color="::color::">::v::/::max::</font></t>
+		<t id="areas_controlled">::p::已控制地区</t>
+		<t id="fame_collected">::p::已获得声望</t>
+		<t id="built_hall">建造王者祭坛</t>
+		<t id="produced_money">::p::수집한 크라운</t>
+		<t id="built_lighthouse">등대건설</t>
+		<t id="total_prestige">::p::商业影响</t>
+		<t id="merchants">::p::活跃的商人/水手</t>
+		<t id="money_stock">::p::存储的克朗</t>
+		<t id="lore_masters">::p::个活跃的学者或水手</t>
+		<t id="lore_masters_boar">::p::个活跃的学者/水手/修护者</t>
+		<t id="blessings">::p::신들의 축복</t>
+		<t id="defeated_players">::p::부족 패배</t>
+		<t id="found_odinsword">용암의 땅 발견</t>
+		<t id="built_forge">대장간 건설</t>
+		<t id="forged_parts">::p::已锻造剑的零件</t>
+		<t id="found_ygg">发现世界树</t>
+		<t id="colonize_ygg">控制世界树</t>
+		<t id="found_hel">发现Helheim</t>
+		<t id="colonize_hel">控制Helheim</t>
+		<t id="timer_hel">::p::已控制月份</t>
+		<t id="you">你</t>
+		<t id="no_fame_vict">你的部落无法取得这场胜利</t>
+		<t id="unknown_player">未知部落</t>
+		<t id="player"><font color="::color::">::name::</font> 的::clan::部落</t>
+		<t id="title">获胜条件</t>
+	</g>
+	<g id="buttons">
+		<t id="build">建造<font color="#T" opacity="0.5">[::hotkey::]</font> </t>
+		<t id="buy_drakkar">花费<img src="/r/Wood"/>::cost::建造长船</t>
+		<t id="start_raid">开始袭击</t>
+		<t id="resume_raid">继续袭击</t>
+		<t id="stop_raid">停止袭击</t>
+		<t id="choose_trade_road">开发贸易线路</t>
+		<t id="change_trade_road">改变贸易线路</t>
+		<t id="upgrade_building">升级</t>
+		<t id="unlock_great_route">解锁重大航线</t>
+		<t id="colonize">花费<img src="/r/::r::"/><font color="::color::">::cost::</font>殖民</t>
+		<t id="cantColonize">无法殖民</t>
+		<t id="cancel_colonize">取消殖民</t>
+		<t id="improve_tools"><img src="/r/Iron"/> 改进工具</t>
+		<t id="forge_start"><img src="/r/Forge"/> 锻造</t>
+		<t id="sacrifice_sheep">屠宰</t>
+		<t id="organize_feast">组织一次宴会</t>
+		<t id="feasting">当前宴会...</t>
+		<t id="retreat"><img src="/i/Retreat"/> 撤退</t>
+		<t id="manage_port"><img src="/r/Sailors"/> 管理港口</t>
+		<t id="transfer_zone"><img src="/i/TransferZone"/> 转让地盘</t>
+		<t id="claim_zone"><img src="/i/ClaimZone"/> 要求地盘</t>
+		<t id="defense_on">防御</t>
+		<t id="defense_off">自动</t>
+		<t id="upgrade_zone">开发区</t>
+		<t id="rally_warchief">集结</t>
+		<t id="spawn_bear">召唤</t>
+	</g>
+	<g id="help">
+		<t id="zone_to_explore">尚未探索该地区。首先派遣<b><img src="/u/Scout"/><font color="#U">侦察兵</font></b>。</t>
+		<t id="ruins_explored">已探索该废墟。</t>
+		<t id="wreck_scavenged">已彻底搜查该船骸。</t>
+		<t id="brokenHouse_visited">已经访问过这个破旧的房屋了。</t>
+		<t id="win_fame">殖民此地以获得<img src="/r/Fame"/><font color="#F">::value::</font>。</t>
+		<t id="kill_fame">杀死双足飞龙以获得<img src="/r/Fame"/><font color="#F">::value::</font>。</t>
+		<t id="forge_desc">为<img src="/r/::res::"/><font color="::color::">::count::</font>锻造奥丁之剑的::part::</t>
+		<t id="forge_count">::nb::已完成</t>
+		<g id="sword_parts">
+			<t id="hilt">柄</t>
+			<t id="guard">守卫</t>
+			<t id="blade">刀片</t>
+		</g>
+		<t id="forge_progress">锻造::part:: (::p::%)</t>
+		<t id="giants_progress">巨人关系(::p::%)</t>
+		<t id="vedrfolnir_progress">维德佛尔尼尔离开所剩时间 (::p::%)</t>
+		<g id="victories">
+			<t id="yggdrasil">殖民此地，成为Northgard的保护者并获得胜利！</t>
+			<t id="helheim">殖民并牢牢控制Helheim之门，以获得胜利！</t>
+			<t id="magmaflow">在此地建造一座熔炉，并重新锻造奥丁之剑，以获得胜利！</t>
+		</g>
+	</g>
+	<g id="ui">
+		<g id="menu">
+			<t id="save">保存游戏</t>
+			<t id="play">返回游戏</t>
+			<t id="return_map">退出</t>
+			<t id="options">选项</t>
+			<t id="return_title">退到标题</t>
+			<t id="concede">承认游戏失败</t>
+			<t id="continue_game">继续游戏</t>
+			<t id="continue_campaign">继续</t>
+			<t id="retry_campaign">重试</t>
+			<t id="watch_game">继续观看游戏</t>
+			<t id="clan_select">选择部落</t>
+			<t id="back">返回</t>
+			<t id="game_pause">暂停游戏</t>
+			<t id="game_unpause">继续游戏</t>
+			<t id="show_victory_conditions">查看获胜条件</t>
+			<t id="campaign_lore">重放剧情</t>
+			<t id="campaign_load">加载</t>
+		</g>
+		<g id="profile">
+			<t id="title">玩家个人资料</t>
+			<t id="overall">整体进度</t>
+			<t id="rank_titles">村民|战士|酋长|塞恩|首领|国王|大领主|北帝</t>
+			<t id="games_won">游戏赢得：::value::</t>
+			<t id="next_rank">下一级：::value::</t>
+			<t id="clan">部落进度</t>
+			<t id="clan_win">::win::场游戏获胜<font color="#T" opacity="0.5">（已玩::played::场）</font></t>
+			<t id="clan_won">::win::场游戏获胜<font color="#T" opacity="0.5">（已玩::played::场）</font></t>
+			<t id="stats_bears">杀死熊：::count::</t>
+			<t id="stats_houses">建造房屋：::count::</t>
+			<t id="stats_killed">丢失村民：::count::</t>
+			<t id="stats_feasts">组织宴会：::count::</t>
+			<t id="stats_story_mode">故事模式</t>
+			<t id="stats_story_completed">以任意难度通关的章节：::count::/::total::</t>
+			<t id="stats_story_completed_hard">以极其困难难度通关的章节：::count::/::total::</t>
+			<t id="stats_story_objectives">已完成的二级目标：::count::/::total::</t>
+		</g>
+		<g id="options">
+			<t id="title">选项</t>
+			<t id="apply">应用修改</t>
+			<g id="controls">
+				<t id="title">控制</t>
+				<g id="a">
+					<t id="title">向上移动摄像头</t>
+					<t id="key1">W</t>
+					<t id="key2">上</t>
+				</g>
+				<g id="b">
+					<t id="title">向左移动摄像头</t>
+					<t id="key1">A</t>
+					<t id="key2">左</t>
+				</g>
+				<g id="c">
+					<t id="title">向下移动摄像头</t>
+					<t id="key1">S</t>
+					<t id="key2">下</t>
+				</g>
+				<g id="d">
+					<t id="title">向右移动摄像头</t>
+					<t id="key1">D</t>
+					<t id="key2">右</t>
+				</g>
+				<g id="e">
+					<t id="title">建筑</t>
+					<t id="key1">B</t>
+				</g>
+				<g id="f">
+					<t id="title">知识</t>
+					<t id="key1">L</t>
+				</g>
+				<g id="g">
+					<t id="title">暂停</t>
+					<t id="key1">P</t>
+				</g>
+				<g id="h">
+					<t id="title">获胜条件</t>
+					<t id="key1">V</t>
+				</g>
+				<g id="i">
+					<t id="title">查看通知</t>
+					<t id="key1">空格键</t>
+				</g>
+				<g id="j">
+					<t id="title">迷你地图显示类型</t>
+					<t id="key1">T</t>
+				</g>
+				<g id="k">
+					<t id="title">显示世界信息</t>
+					<t id="key1">I</t>
+				</g>
+				<g id="l">
+					<t id="title">反转建筑</t>
+					<t id="key1">F</t>
+				</g>
+				<g id="m">
+					<t id="title">循环选择</t>
+					<t id="key1">表格</t>
+				</g>
+				<g id="n">
+					<t id="title">标记地图（团队）</t>
+					<t id="key1">Alt</t>
+				</g>
+				<g id="o">
+					<t id="title">返回市政厅</t>
+					<t id="key1">退格键</t>
+				</g>
+				<g id="p">
+					<t id="title">单一单位命令</t>
+					<t id="key1">Ctrl （按住）</t>
+				</g>
+				<g id="q">
+					<t id="title">选择战团</t>
+					<t id="key1">E</t>
+				</g>
+				<g id="r">
+					<t id="title">选择空闲工人</t>
+					<t id="key1">U</t>
+				</g>
+				<g id="s">
+					<t id="title">选择全部村民</t>
+					<t id="key1">G</t>
+				</g>
+				<g id="t">
+					<t id="title">选择全部侦察兵</t>
+					<t id="key1">H</t>
+				</g>
+				<g id="u">
+					<t id="title">聊天</t>
+					<t id="key1">进入</t>
+				</g>
+				<g id="v">
+					<t id="title">取消命令</t>
+					<t id="key1">X</t>
+				</g>
+			</g>
+			<g id="game">
+				<t id="title">游戏</t>
+				<t id="scroll_speed">滚动速度</t>
+				<t id="enable_tuto">启用提示</t>
+				<t id="enable_borderscroll">启用边框滚动</t>
+				<t id="enable_softcursors">启用软件光标</t>
+				<t id="lang">语言</t>
+				<t id="use_campaign_hero">使用故事模式战争首领</t>
+			</g>
+			<g id="graphics">
+				<t id="title">图像</t>
+				<t id="sao">SSAO</t>
+				<t id="shadows">高质量阴影</t>
+				<t id="ground">高质量地面纹理</t>
+				<t id="resolution">分辨率</t>
+				<t id="fullscreen">全屏</t>
+				<t id="exclusive">独有</t>
+				<t id="vsync">垂直同步</t>
+				<t id="auto_on_off">自动|开|关</t>
+				<t id="ui_scale">UI缩放</t>
+			</g>
+			<g id="sound">
+				<t id="title">声音</t>
+				<t id="music_volume">音乐</t>
+				<t id="ambient_volume">环境</t>
+				<t id="sound_volume">音效</t>
+			</g>
+			<g id="credits">
+				<t id="title">制作人员</t>
+				<g id="list">
+					<t id="s1">游戏制作</t>
+					<t id="s2">Shiro Games</t>
+					<t id="s3">创意总监</t>
+					<t id="s4">Nicolas Cannasse</t>
+					<t id="s5">3D图像</t>
+					<t id="s6">Etienne Makowski</t>
+					<t id="s7">动画</t>
+					<t id="s8">Stéphane Videlo</t>
+					<t id="s9">平面设计</t>
+					<t id="s10">Jeremy Vitry|Etienne Makowski|Elodie Perquis|Anaïs Maamar|Etienne Hebinger|Etienne Pov</t>
+					<t id="s11">程序</t>
+					<t id="s12">伯纳德·斯陶尔斯|尼古拉斯·喀纳斯|阿曼迪恩·吉尔豪蒙</t>
+					<t id="s13">游戏设计</t>
+					<t id="s14">菲利普·瑞努尔|尼古拉斯·喀纳斯|塞巴斯蒂安·维达尔|弗雷德里克·欧登斯|阿德里安·布利安塔</t>
+					<t id="s15">音乐</t>
+					<t id="s16">Camille Schoell</t>
+					<t id="s17">音效</t>
+					<t id="s18">Frédéric Motte</t>
+					<t id="s19">社区关系</t>
+					<t id="s20">阿德里安·布利阿塔</t>
+					<t id="s21">监制</t>
+					<t id="s22">卡米拉·斯考尔</t>
+				</g>
+			</g>
+			<t id="thanks">感谢你玩此游戏！</t>
+		</g>
+		<t id="confirm_key_overwrite">此键已被占用。 你想覆盖它吗？</t>
+		<t id="confirm_restore_keys">确定要恢复默认键盘设置吗？</t>
+		<t id="restore_keys">恢复为默认设置</t>
+		<t id="campaign_choose">选择战役游戏</t>
+		<t id="no_loaded_file">没有存档</t>
+		<t id="loading_file">载入游戏</t>
+		<t id="new_file">新文件</t>
+		<t id="saving_file">正在保存游戏</t>
+		<t id="new_game">创建新游戏</t>
+		<t id="game_settings">游戏设置</t>
+		<t id="clan_name">玩家姓名</t>
+		<t id="clan_color">选择部落颜色</t>
+		<t id="game_difficulty">世界敌意</t>
+		<t id="difficulty_label">难度</t>
+		<t id="game_mapsize">地图大小</t>
+		<t id="game_maptype">地图类型</t>
+		<t id="ia_count">AI玩家</t>
+		<t id="clan_choose">确定</t>
+		<t id="game_saved">游戏已保存</t>
+		<t id="add_tags">增加标记...</t>
+		<t id="tags">标记</t>
+		<t id="search_keywords">寻找关键词…</t>
+		<t id="single_player">单人游戏</t>
+		<t id="played_time">已玩时间</t>
+		<t id="seed">种子</t>
+		<t id="version">版本</t>
+		<t id="nbClans">部落</t>
+		<t id="enabled"><font color="#G">启用</font></t>
+		<t id="disabled"><font color="#B">禁用</font></t>
+		<t id="server_name">服务器名称</t>
+		<t id="disable_tips">请勿显示提示</t>
+		<g id="difficulty">
+			<t id="easy">低</t>
+			<t id="normal">中</t>
+			<t id="hard">高</t>
+		</g>
+		<g id="campaign_difficulty">
+			<t id="easy">普通</t>
+			<t id="normal">困难</t>
+			<t id="hard">极其困难</t>
+		</g>
+		<g id="map_size">
+			<t id="small">小</t>
+			<t id="medium">中</t>
+			<t id="large">大</t>
+			<t id="big">巨大</t>
+		</g>
+		<g id="newgame">
+			<t id="victory_conditions">获胜条件</t>
+			<t id="map_victory">地图上的特殊项目</t>
+			<t id="advanced_options">高级选项</t>
+		</g>
+	</g>
+	<g id="specialCampaign">
+		<g id="ui">
+			<t id="play_intro">游戏介绍</t>
+		</g>
+		<t id="foothold_goat">哈瓦德和海德伦部落天数已尽。</t>
+		<t id="skirmish_renfort">在雇佣军的搜索队到达前的::value::个月。</t>
+		<t id="giants_giantAttack">霜巨人正在攻击我们。</t>
+		<t id="bifrost_bifrostEvent">洛基将很快会吹响加拉尔号角。我们应该奋起抗战！</t>
+		<t id="footholdSwampDesc">该地区因毒雾、污水和传染疾病的昆虫而不适宜居住。</t>
+		<t id="footholdSwampName">有毒沼泽</t>
+		<t id="giantSwordName">古代霜巨人遗址</t>
+		<t id="giantHeroNameA">亚夫纳德</t>
+		<t id="giantHeroDescA">尤敦黑姆强大的人民群众来此助你推翻领主，帮你继承国土。</t>
+		<t id="giantHeroFlavorA">了解羊毛的生产方式！</t>
+		<t id="giantHeroNameB">罗格</t>
+		<t id="giantHeroDescB">尤敦黑姆可怕的执法者，领主继承权的最高执行者和财产私有化的捍卫者。</t>
+		<t id="giantHeroFlavorB">我就是法律！</t>
+		<t id="chooseGiantClan">选择一个庞大部落，成为其盟友。</t>
+		<t id="chooseGiantSkrymirDesc">斯克里米尔是尤敦黑姆的国王，也是这片土地的合法拥有者。他的人民坚信，就凭这一点他们就应该拥有绵羊制品。</t>
+		<t id="chooseGiantFjolsvinDesc">尤士云是尤敦黑姆辛勤工作的人民的领袖。他们认为，在重新划分资源时，应该靠辛勤劳动说话，而不是什么都不做就继承财富。</t>
+		<t id="chooseGiantConfirm">加入阵营</t>
+		<t id="greatOutpost">主商栈</t>
+		<t id="wurmSlayerForge">训练你的村民成为[Smith]，并用[RimeSteel]锻造强大的屠龙者。</t>
+		<t id="wurmSlayerSmith">只有熊族的铁匠才知道如何锻造著名的屠龙者。</t>
+		<t id="forgeWurm_desc">锻造屠龙者<img src="/r/::res::"/><font color="::color::">::count::</font></t>
+		<t id="forgeWurmTip">将你的村民训练成[Smith]，以锻造屠龙者。</t>
+		<t id="wurmHilt">屠龙者</t>
+		<t id="wurmGuard">剑柄</t>
+		<t id="wurmBlade">剑身</t>
+		<t id="bannerRecovering">[::unit::]伤亡惨重，而一旦恢复，他们将会席卷重来，再次攻击赫明甘德。</t>
+	</g>
+	<g id="dialogs">
+		<t id="button_ok">确定</t>
+		<t id="button_cancel">取消</t>
+		<t id="button_back">返回</t>
+		<t id="button_save">保存</t>
+		<t id="button_confirm_exit">确认退出</t>
+		<t id="congrats">恭喜！</t>
+		<t id="destroy_confirm">确定要摧毁这栋建筑吗？</t>
+		<t id="transfer_zone_confirm">把地盘转让给<font color="::color::">::name::</font>吗？</t>
+		<t id="victory_title">VICTORY</t>
+		<t id="defeat_title">DEFEAT</t>
+		<t id="won">恭喜！你获得了<font color="#G">::vname::</font>胜利！</t>
+		<t id="team_won">恭喜！你的团队获得了<font color="#G">::vname::</font>胜利！</t>
+		<t id="lost"><font color="::color::">::name::</font>获得了<font color="#R">::vname::</font>胜利！</t>
+		<t id="defeat">你<font color="#B">失去</font>了市政厅。你的部落失败了...</t>
+		<t id="game_paused">游戏已暂停</t>
+		<t id="confirm_overwrite">覆盖现有文件::name::吗？</t>
+		<t id="resume_game_wait">::time::秒后继续。</t>
+		<t id="pause_remaining">你剩下 ::count:: 次暂停。</t>
+		<t id="resume_time">::time::秒后继续游戏。</t>
+		<t id="on">开启</t>
+		<t id="off">关闭</t>
+		<t id="confirm_quit_desktop">退到桌面？</t>
+		<t id="confirm_exit">退出并且不保存游戏？</t>
+		<t id="confirm_exit_game">是否确定要退出？</t>
+		<t id="confirm_concede">确定要承认游戏失败吗？</t>
+		<t id="confirm_exit_multi">现在退出游戏将关闭会话并且中断与所有玩家的连接！</t>
+		<t id="confirm_save_delete">删除文件::name::吗？</t>
+		<t id="save_format">::name::</t>
+		<t id="user_format">::user::</t>
+		<t id="info_format">::clan::部落- 难度：::diff::</t>
+		<t id="time_format">::time::分钟。</t>
+		<t id="tech_title">知识</t>
+		<t id="tech_free">免费获取::desc::</t>
+		<t id="tech_blessings_extra">解锁所有祝福以获得智慧胜利！</t>
+		<t id="tech_got_blessing">::count::/::max::已学到的知识</t>
+		<t id="tech_req_blessing">需要::count::/::max::已学到的知识</t>
+		<t id="choose_clone_tech">选择要替换的技术才能::tech::</t>
+		<t id="close">关闭</t>
+		<g id="meteo">
+			<t id="summer">我们应该为冬天做好准备</t>
+			<t id="winter">我们的食物产量下降了</t>
+		</g>
+		<g id="trade">
+			<t id="title">贸易</t>
+			<t id="desc">选择让你的商人拿去挣[Money]的资源：</t>
+			<t id="need_resource">没有 [::id::] 存货</t>
+			<t id="trade_with">选择与之交易的阵营：</t>
+			<t id="button">开始贸易线路</t>
+			<t id="cant_trade_at_war">你不能与正在交战的部落进行交易</t>
+			<t id="campaign_at_war">你不能和敌对[Giant]阵营交易！</t>
+			<t id="cant_trade_this">他们不会接受这种资源。</t>
+			<t id="cant_trade_boar">野猪族不能和其他部族交易。</t>
+			<t id="cant_trade_with_clan">您无法与这个部分进行贸易。</t>
+			<t id="cant_trade_twice">不能两次使用相同资源与同一个部落交易。</t>
+			<t id="nobody">你尚未遇到任何其他部落。</t>
+			<t id="cancel">取消贸易线路</t>
+			<t id="cancelPrestige">取消重大贸易航线</t>
+		</g>
+		<t id="colonize_progress">殖民(::v::%)</t>
+		<t id="uncolonize_progress">失去控制(::v::%)</t>
+		<t id="mine_depleted">这座矿山已枯竭。你可以摧毁它。</t>
+		<t id="trade_bonus">你正在与<font color="::color::">::name::</font>交易[::res::]<br/></t>
+		<g id="choose_tool">
+			<t id="title">选择要升级的工具</t>
+			<t id="tip">[::id::] 生产多出 ::percent:: 的 [::res::]。</t>
+			<t id="tip_miner">[::id::]能从矿床中多提取出 ::percent:: 的矿石。</t>
+			<t id="tip_villager">[Villager]的建造和修理速度提高::percent::。</t>
+			<t id="tip_mender">使 [Mender] 的治疗速度提高 ::percent:: 并且生产多出 ::percent:: 的 [Lore]。</t>
+			<t id="tip_skald">[::id::] 促成多出 ::percent:: 的 [Fame] 和 [Happy]，以及多出 ::percent:: 的 [Money]。</t>
+			<t id="tip_healerWithMedecine">使 [Healer] 的治疗速度提高 ::percent::。利用 [Medecine]，他们还生产多出 ::percent:: 的 [Food]。</t>
+			<t id="tip_healerNoMedicine">使 [Healer] 的治疗速度提高 ::percent::。</t>
+			<t id="tip_sailor">[::id::] 生产多出 ::percent:: 的 [Money]、[Lore] 和 [Fame]。</t>
+			<t id="tip_sailor_snake">[::id::] 生产多出 ::percent:: 的 [Money] 和 [Lore]。</t>
+			<t id="tip_warrior">[::id::]获得冲锋能力和::percent::攻击。</t>
+			<t id="tip_axethrower">[::id::]的攻击范围和力量提高::percent::。</t>
+			<t id="tip_shieldbearer">[::id::]对远程攻击的防御力翻倍，并且抵抗力提高::percent::。</t>
+			<t id="tip_skirmisher">[::id::] 获得放毒能力以及 ::percent:: 攻击力。</t>
+			<t id="upgraded"><font color="#G">已改进</font></t>
+			<t id="no_unit"><font color="#B">需要建筑</font></t>
+			<t id="no_tool">[::id::]无法改进。</t>
+			<t id="no_tool_ally">你不能增进盟军兵力单位。</t>
+		</g>
+		<t id="scout_req_camp">[Scout]需要新侦察营以便探索新区域。</t>
+		<t id="hero_cooldown">等待::name:: (::p::%)</t>
+		<t id="waiting_drakkar">等你的长船返航...</t>
+		<t id="new_title">新头衔：</t>
+		<t id="new_age">::age:::</t>
+		<t id="fame_level_up">你成功担任领袖的消息已传到其他部落，因此你获得了新能力。</t>
+		<t id="maxed_pop">你没有足够的空间增加人口。建造更多房子。</t>
+		<t id="no_unit_to_heal">你的领地内没有需要治疗的伤患。</t>
+		<t id="currently_healing">治疗::name:: (::p::%)</t>
+		<t id="no_growth">你需要更多[Happy]以增长人口。</t>
+		<t id="drakkar_bring_fame">水手将为[Fame]而战</t>
+		<t id="drakkar_bring_no_fame">你的部落不能为 [Fame]而战</t>
+		<t id="drakkar_bring_lore">水手将发现[Lore]</t>
+		<g id="manage_harbor">
+			<t id="title_raid">突袭</t>
+			<t id="raid_desc">另选一种资源让你的 [Sailor] 去寻找：</t>
+			<t id="cant_raid_nosailor">你需要派遣[Sailor]发动突袭。</t>
+			<t id="explore">探索</t>
+			<t id="explore_tip">你的[Sailor]将在袭击的同时探索新的海岸地区。</t>
+			<t id="explore_progress">探索(::p::%)</t>
+			<t id="cant_explore_nosailor">你需要有活跃的[Sailor]进行探索。</t>
+			<t id="cant_explore_noarea">没剩下任何需要你的[Sailor]探索的地方</t>
+			<t id="title_raven_port">雇佣兵</t>
+			<t id="mercenary_desc">雇佣兵会攻击选定的沿海地区，获胜之后驻兵于此。</t>
+			<t id="mercenary_deploy">部署雇佣兵</t>
+			<t id="mercenary_deploy_help">选择部署[Mercenary]的海岸地区。</t>
+			<t id="mercenary_cooldown">招募(::p::%)</t>
+			<t id="mercenary_cant_deploy">你尚未发现可以部署的海岸地区。</t>
+			<t id="title_great_routes">重大贸易航线</t>
+			<t id="great_route_desc">凭借重大贸易航线赚取 [Prestige]，致力于获得贸易胜利。</t>
+			<t id="start_route">开辟重大贸易航线</t>
+			<t id="stop_route">停止航线</t>
+			<t id="no_money">你没有足够的[Money]来创建一条重大贸易航线</t>
+			<t id="noLighthouse">在此::portKind::建造了一座灯塔，以解锁重大贸易航线</t>
+			<t id="uniqueLighthouse">您的一个港口已拥有一座灯塔</t>
+			<t id="loot_zone">掠夺<img src="/r/::r::"/>::q::</t>
+		</g>
+	</g>
+	<g id="fame">
+		<t id="fame_titles">酋长|领主|首领|国王</t>
+		<t id="ages">15 岁|16 岁|18 岁</t>
+		<t id="age0_name">狡猾</t>
+		<t id="age_desc"><font color="#R">::age::: ::name::</font></t>
+	</g>
+	<g id="happy_categories">
+		<t id="s1">领地</t>
+		<t id="s2">酿酒师</t>
+		<t id="s3">军队</t>
+		<t id="s4">建造奖励</t>
+		<t id="s5">食物储备</t>
+		<t id="s6">财富</t>
+		<t id="s7"></t>
+		<t id="s8">宴会</t>
+		<t id="s9">酋长荣誉</t>
+		<t id="s10">我们要更好的房屋！</t>
+		<t id="s11">我们的伤员太多！</t>
+		<t id="s12">我们的部落不出名！</t>
+		<t id="s13">我们要更好的市政厅！</t>
+		<t id="s14"></t>
+		<t id="s15"></t>
+		<t id="s16">间歇泉</t>
+		<t id="s17">斯瓦尔恩的谢礼</t>
+		<!-- s18 is somewhere else -- see UI -->
+		<t id="s19">[SpecterWarrior]</t>
+	</g>
+	<g id="status_happy">
+		<t id="nohome">我们没有房子！</t>
+		<t id="nofood">我们饿了！</t>
+		<t id="nowood">我们冷死了！</t>
+		<t id="sick">我们病了！</t>
+		<t id="total">当前幸福度</t>
+		<t id="current">期望的幸福度</t>
+		<t id="next">你现在有<img src="/r/Happy"/><font color="#G">+::v::</font>。每隔<font color="#R">::time::</font>天，有一名村民加入你的部落。</t>
+	</g>
+	<g id="tip">
+		<t id="happy_progress">下一个村民：::p::%</t>
+		<t id="cycle">循环</t>
+		<t id="select_all">全选</t>
+		<t id="sheep_production">羊圈</t>
+		<t id="feast_bonus">宴会奖励</t>
+		<t id="temple_bonus">王者祭坛</t>
+		<t id="food_consumption">消耗</t>
+		<t id="territory_money">市政厅</t>
+		<t id="buildings_upkeep">建筑维护</t>
+		<t id="building_upkeep_year">每年维护建筑</t>
+		<t id="wood_consumption">柴火</t>
+		<t id="population_desc">你的部落当前大小。你有足够房屋容纳<font color="#R">::max::</font>人。</t>
+		<t id="warband_default">你的战团当前大小。建造训练营以提高它。</t>
+		<t id="warband_maxed">建造更多训练营以提高战团大小。</t>
+		<t id="population_lore">人口</t>
+		<t id="trade_in">进口贸易</t>
+		<t id="trade_out">出口贸易</t>
+		<t id="trade_prestige">重大贸易航线</t>
+		<t id="need_thall_upgrade">需要升级市政厅</t>
+		<t id="require_res_limit">需要<font color="::color::"><img src="/r/::id::"/> ::value::</font></t>
+		<t id="percent_explored">::p::%已探索</t>
+		<t id="percent_built">::p::%已建造</t>
+		<t id="open_main_menu">打开主菜单<font color="#T" opacity="0.5">[Esc]</font></t>
+		<t id="game_pause">暂停游戏<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="world_info">切换世界信息<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="minimap_mode">切换小地图显示：<font color="#T" opacity="0.7">[::hotkey::]图标/军队</font></t>
+		<t id="open_chat">输入聊天信息<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="ping_team">通知队伍<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<g id="fame">
+			<t id="current_title">当前头衔：<font color="#R">::title::</font></t>
+			<t id="next_title">下一个头衔：<font color="#R">::title::</font>；需要<img src="/r/Fame"/><font color="#F">::count::</font></t>
+			<t id="territory">领地</t>
+			<t id="feasts">组织宴会</t>
+			<t id="uncolonize">已洗劫的地区</t>
+			<t id="knowledge">已发现的知识</t>
+			<t id="upgrades">已升级的建筑</t>
+			<t id="defeated">击败::name::</t>
+			<t id="faction">击败::name::</t>
+			<t id="friend_with">名叫::name::的朋友</t>
+			<t id="building">::name::</t>
+			<t id="unit">::name::</t>
+			<t id="campaign_request">::name::请求</t>
+			<t id="no_fame_desc">蛇族无法获得 [Fame]。</t>
+			<t id="current_age">当前年龄：<font color="#R">::name::</font></t>
+			<t id="next_age">Signy 将于<font color="#F">::date::</font>到达<font color="#R">::name::</font></t>
+		</g>
+		<t id="fame_score">部落声望</t>
+		<t id="destroy_building">摧毁建筑</t>
+		<t id="cancel_building">取消建造</t>
+		<t id="cancel_order">取消命令<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="cant_repair_under_attack"><font color="#R">受到攻击</font>时不能修理建筑！</t>
+		<t id="calendar_winter"><font color="#R">冬季：</font>当你的军队在你的领地外战斗时，将获得::percent::的力量。食物产量降低，而木材消耗增加。</t>
+		<t id="calendar_summer"><font color="#R">夏季：</font>一定记得要为冬季储备足够的食物。</t>
+		<t id="assigned_units">已分配的部落成员数量</t>
+		<t id="assigned_sheep">已分配 [Sheep] 的数量</t>
+		<t id="available_resources">此地还剩下::name::</t>
+		<t id="default_upgrade">还能再训练[::unit::]，此地的所有[::unit::]将获得::percent:: [::res::]生产奖励。</t>
+		<t id="hire_hero">雇佣[::unit::]</t>
+		<t id="hire_hero_maxed">你只能有一个[::unit::]</t>
+		<t id="hire_hero_maxpop">需要更多房屋以招募该[::unit::]</t>
+		<t id="rally_warchief">激活后，新训练的[::unit::]将自动集结到你的[::name::]。</t>
+		<t id="rally_warchief_campaign">激活后，新训练的[::unit::]，自动集结至[::name::]。</t>
+		<t id="buy_marketplace">花<img src="/r/Money"/><font color="#R">::cost::</font>购买<img src="/r/::r::"/><font color="#R">::count::</font></t>
+		<t id="building_no_slot">此建筑并不占用该地区的一个建筑位置。</t>
+		<t id="building_require">需要::name::</t>
+		<t id="building_req_fame">需要<img src="/r/Fame"/><font color="#F">::count::</font></t>
+		<t id="building_req_tech">需要::name::技术才能解锁</t>
+		<t id="building_req_beach">需要海滩</t>
+		<t id="building_req_deposit">需要石头/铁矿床</t>
+		<t id="building_req_food_tile">需要有天然食物资源的区域。</t>
+		<t id="building_single">你只能建造一个。</t>
+		<t id="scorched_effect">[ScorchedEarth]：-::malusProd::% 产量，蛇族军队和建筑物 +::snakeBonus::% 额外攻击力</t>
+		<t id="can_cast_scorched">在这个区域，你能使用 [ScorchedEarth]</t>
+		<t id="cannot_cast_scorched">Signy 必须位于领地的中心才能使用 [ScorchedEarth]</t>
+		<t id="berserk_cooldown">冷却::p::%</t>
+		<t id="Vedrfolnir_healed">维德佛尔尼尔为帮助过他的部落侦察新区域。</t>
+		<t id="require_tech">你需要学习<img src="/r/Lore"/>::name::。</t>
+		<t id="require_fame">你必须学会<img src="/r/Fame"/>::name::。</t>
+		<t id="greater_jord">战争首领和升级的塔楼获得 +::percent::% 攻击威力</t>
+		<t id="victory_title">::vname:: 胜利</t>
+		<t id="sacrifice_sheep">屠宰一头[Sheep]以获得<img src="/r/Food"/>::food::</t>
+		<t id="repair_building">花<img src="/r/::r::"/>::count::修理</t>
+		<t id="victory_conditions">点击或按下<font color="#R">[::hotkey::]</font>以查看胜利条件。</t>
+		<t id="team_player">同盟部落。</t>
+		<t id="black_market">你可以利用黑市把货物走私到这个部落。</t>
+		<g id="align">
+			<t id="color"><font color="::color::">::name::</font></t>
+			<t id="clan">，<font color="#R">::name::</font>的领袖部落</t>
+			<t id="war">你正在与 ::name:: <font color="#B">交战</font>！</t>
+			<t id="neutral">你与 ::name:: 处于<font color="#R">中立关系</font>。</t>
+			<t id="angry">你与::name::<font color="#B">关系恶劣</font>。</t>
+			<t id="peace">你与::name::<font color="#G">关系良好</font>。</t>
+			<t id="improve_relation">与他交易以增进关系。</t>
+			<t id="at_war_no_trade">在此期间暂停交易。</t>
+			<t id="fame">他目前有<img src="/r/Fame"/><font color="#F">::fame::</font></t>
+		</g>
+		<t id="feast_help">
+			一顿飨宴可获得<font color="#G">+::const::</font>，并且一个月内所有产量将获得<font color="#G">::percent::</font>奖励和[Happy]以及<font color="#F"><img src="/r/Fame"/>+::fame::</font>
+		</t>
+		<t id="feast_help_no_fame">			
+			一顿飨宴可获得 <font color="#G">+::const::</font>，并且一个月内所有产量将获得 <font color="#G">::percent::</font> 奖励和[Happy]。		
+		</t>
+		<t id="helheim_progress">已控制::months::/::max::月</t>
+		<g id="stats">
+			<t id="attack">攻击力</t>
+			<t id="defense">抵抗力</t>
+			<t id="lifePoints">生命</t>
+		</g>
+		<t id="inf_fame_unlocked">- <font color="#F">::name::</font>：<br/>::desc::</t>
+		<t id="inf_fame_locked"><font color="#D"> - ::name::：</font>（要求<img src="/r/Fame"/><font color="#F">::req::</font>）<br/><font color="#D">::desc::</font></t>
+		<t id="inf_fame_locked_nofame"><font color="#D"> - ::name:::</font><br/><font color="#D">::desc::</font></t>
+		<t id="improve_tools">使你可以改进单位工具，提高其能力。</t>
+		<t id="free_tools">你还有一些免费工具改进机会！</t>
+		<t id="free_cost">::count::免费工具</t>
+		<t id="military_select_all">选择战团<font color="#T" opacity="0.5">[::hotkey::]</font></t>
+		<t id="military_togle_bear"><font color="#T" opacity="0.5">[::hotkey::]再次移除[BearMaiden]</font></t>
+		<g id="warnings">
+			<t id="food">我们的部落正在挨饿，需要收集更多食物！</t>
+			<t id="stock">我们的食物准备已达到最大值，需要建造更多筒仓！</t>
+			<t id="wood">我们的部落正在挨冻，需要收集更多木材！</t>
+			<t id="money">我们无法维修建筑，需要更多克朗！</t>
+			<t id="pop">我们的人口无法增长，需要更多房屋！</t>
+			<t id="happy">我们的人口停止增长，需要更高幸福度！</t>
+			<t id="betterhappiness">虽然我们的人民得以幸免......但他们本来肯定会更开心。</t>
+			<t id="goodhappiness">我们的人民其乐融融。但是，切勿沉溺于过往的功勋！</t>
+			<t id="excellenthappiness">我们的人民兴高采烈，对你感恩戴德。请再接再厉！</t>
+			<t id="notconstructing">我们需要带来一名村民以推动建造！</t>
+			<t id="nobodyassigned">我们没有部落成员在此工作。</t>
+			<t id="burning">我们的建筑起火了，需要派一名[Villager]去修理！</t>
+			<t id="nowork">我们中的一些人现在无事可做...</t>
+			<t id="nohome">我们中的一些人现在没有房子！</t>
+			<t id="nothappy">我们不快乐！</t>
+			<t id="nofood">我们正在挨饿，需要收集更多食物！</t>
+			<t id="nowood">我们正在挨冻，需要收集更多食物！</t>
+			<t id="sick">我们中的一些人生病了，需要在他们死以前接受治疗！</t>
+			<t id="tech_available">我们有足够[Lore]来学习一门新知识！</t>
+			<t id="blessing_available">我们可以获得一次新的上帝的祝福！</t>
+			<t id="too_far_malus">我们离自己的领土太远了！ 我方的攻击力降低了 ::inv_percent::</t>
+		</g>
+		<t id="cant_colonize_occupied">我们不能殖民存在防御的地区。</t>
+		<t id="cant_colonize_warring">如果旁边没有一块受你控制的安全区域，我们就无法在此地殖民。</t>
+		<t id="cant_colonize_attacked">你的临近领土受到攻击时，无法在此殖民！</t>
+		<t id="cant_colonize_notallowed">由于这块领地无法开发，因此您不能殖民这块领地。</t>
+		<t id="colonize_money_food">用[Food]或[Money]殖民</t>
+		<t id="upgrade_zone">提高此地可能建筑的数量（仅一次）。</t>
+		<t id="transfer_zone_to">把地盘转让给<font color="::color::">::name::</font></t>
+		<t id="claim_zone_to">向<font color="::color::">::name::</font>要求地盘（仅限友好AI）</t>
+		<t id="cooldown_transfer_zone">等待::months::个月，直到可以下次转让。</t>
+		<t id="multi_tags">另一玩家可以使用<font color="#FFFFFF">标记</font>来寻找你的游戏。</t>
+		<t id="victory_progress">胜利进度</t>
+		<t id="already_one_bear">[BearMaiden] 已经在你的控制之下。</t>
+		<t id="need_in_territory">只能在你的领地上使用该操作。</t>
+		<t id="friend_needed"><font color="#T">::name::</font>必须在你的朋友列表上才能加入游戏！</t>
+		<t id="friend_send_invite">重发邀请。</t>
+		<t id="need_upgrade_scout">要求升级侦察营</t>
+		<t id="subselect_unit">选择部队</t>
+		<t id="subselect_ctrl">Ctrl +</t>
+		<t id="subselect_group">选择相似部队</t>
+		<t id="heal_current">目前医治</t>
+		<t id="heal_current_other">被另一个[::hutId::]治愈</t>
+		<t id="heal_select">医治这个部队</t>
+		<t id="trade_out_recap">您正在以 <img src="/r/Money"/><font color="#G">::money::</font> 购买<img src="/r/::res::"/><font color="#B">::amount::</font>。</t>
+		<t id="trade_in_recap"><font color="::color::">::name::</font> 正在以 <img src="/r/Money"/><font color="#G">::money::</font> 向你购买 <img src="/r/::res::"/><font color="#B">::amount::</font>。</t>
+		<t id="chat_mute">静音选项<br/><font color="#T" opacity="0.5">切换频道和/或玩家消息</font></t>
+	</g>
+	<g id="tip_action">
+		<t id="not_enough_warband">扩大你的[Warband]</t>
+		<t id="cant_pay_warband_cost">花费<img src="/r/Money"/><font color="#B">::cost::</font></t>
+		<t id="building_fully_assigned">该建筑已满</t>
+		<t id="recruit_cost">[::id::]<img src="/r/Money"/><font color="#R">::cost::</font></t>
+		<t id="need_scout">要求[Scout]</t>
+		<t id="ruin_explore">探索</t>
+		<t id="wreck_scavenge">彻底搜查</t>
+		<t id="brokenHouse_visit">访问</t>
+		<t id="already_explored"><font color="#B">已经探索</font></t>
+		<t id="already_scavenged"><font color="#B">已经彻底搜查</font></t>
+		<t id="already_visited"><font color="#B">已访问</font></t>
+		<t id="too_many_buildings_here"><img src="/r/Building"/><font color="#B">::count::/::max::</font>此地的建筑。</t>
+		<t id="repair_cost">修理花费<img src="/r/::r::"/><font color="::color::">::cost::</font></t>
+	</g>
+	<g id="tip_help">
+		<t id="tip"></t>
+	</g>
+	<g id="notify">
+		<t id="test">测试通知</t>
+		<t id="unknown_player">一个未知部落</t>
+		<g id="low">
+			<t id="food">我们的部落正在挨饿！我们需要生产和储备更多[Food]！</t>
+			<t id="wood">我们的部落正在挨冻！我们需要生产和储备更多[Wood]！</t>
+			<t id="happy">我们的部落不快乐！我们需要招募[Innkeeper]来提高[Happy]！</t>
+			<t id="money">我们无法支付<img src="/r/Money"/><font color="#B">建筑维护费用！</font>我们的一个<font color="#G">::name::</font>已被摧毁。修复它，否则会被烧毁！</t>
+		</g>
+		<t id="not_enough_houses">我们的部落无法壮大，因为需要<font color="#B">更多房子</font>！</t>
+		<t id="not_enough_happy">我们的部落无法壮大，因为<font color="#B">不快乐</font>！</t>
+		<t id="route_cancelled">你没有[::res::]：与 <font color="::color::">::name::</font> 的贸易路线已停止</t>
+		<t id="great_route_cancelled">你没有[::res::]：重大贸易航线停止了</t>
+		<t id="zone_explored">我们的[Scout]已探索了一片新区域！</t>
+		<t id="build_finished"><font color="#G">::name::</font>的建造尚未完成。</t>
+		<t id="territory_under_attack">我们的领土正<font color="#B">受到攻击！</font>我们需要保卫自己！</t>
+		<t id="units_under_attack">我们的有些部队正在<font color="#B">遭受攻击！</font>我们需要保卫自己！</t>
+		<t id="zone_lost">我们已丢掉这片地区的控制权，让我们夺回来！</t>
+		<t id="ruin_explored">我们的侦察兵在废墟里发现了古代宝藏。我们获得<img src="/r/Money"/><font color="#G">::gold::</font>和<img src="/r/Lore"/><font color="#G">::lore::</font>。</t>
+		<t id="wreck_scavenged">我们的侦察兵彻底搜查了船骸。我们获得<img src="/r/Wood"/><font color="#G">::wood::</font>和<img src="/r/Money"/><font color="#G">::gold::</font>。</t>
+		<t id="brokenHouse_visited">我们的侦察兵在废弃的房屋内里发现了宝藏。我们获得了<img src="/r/Wood"/><font color="#G">::wood::</font> 和 <img src="/r/Money"/><font color="#G">::gold::</font> 。</t>
+		<t id="fame_player_reached_title"><font color="::color::">::name::</font>已达到声望头衔<font color="#G">::title::</font>！</t>
+		<t id="contact_faction">我们已联系上<font color="::color::">::name::</font>。我们应该怎么处理他们？</t>
+		<t id="contact_player">我们已联系上<font color="::color::">::name::</font>，::clan::部落领袖。</t>
+		<t id="wyvern_defeated">我们打败了双足飞龙。我们获得<img src="/r/Fame"/>::fame::。</t>
+		<t id="wyvern_defeated_no_fame">我们打败了双足飞龙！</t>
+		<t id="wyvern_defeated_by">强大的双足飞龙被<font color="::color::">::name::</font>打败！</t>
+		<t id="beware"><font color="#B">注意：</font></t>
+		<t id="beware_under_attack">你正受到攻击！</t>
+		<t id="beware_ally_under_attack">您的盟友正受到攻击！</t>
+		<t id="food_maxed">我们<font color="#R">无法储备</font>更多<img src="/r/Food"/>食物！建造更多食物筒仓。</t>
+		<t id="faction_defeated"><font color="::color::">::name::</font>被打败了！</t>
+		<t id="faction_conceded"><font color="::color::">::name::</font>认输了！</t>
+		<t id="faction_defeated_by"><font color="::color::">::name::</font>被<font color="::byColor::">::by::</font>打败了！</t>
+		<t id="giants_friends"><font color="::color::">::name::</font>现在是你的朋友！[GiantHero]已加入你的部落，正在市政厅等候！</t>
+		<t id="giants_friends_with"><font color="::color::">::name::</font>已成为<font color="::byColor::">::by::</font>的朋友！他通过这次结盟获得无与伦比的力量！</t>
+		<t id="lost_align">我们的攻击<font color="#B">结束了</font>与<font color="::color::">::name::</font>的关系！</t>
+		<t id="scout_hurt">我们的[Scout]在探索一片新区域时受伤。</t>
+		<t id="scout_die">我们的[Scout]在探索一片新区域时<font color="#R">死亡</font>。</t>
+		<t id="victory_zone_discovered">我们已发现<font color="#G">::name::</font>。我们应该控制它以获得胜利（你获得<img src="/r/Fame"/><font color="#F">::fame::</font>）。</t>
+		<t id="victory_zone_discovered_no_fame">我们已经发现了 <font color="#G">::name::</font>。我们应该控制它来取得胜利。</t>
+		<t id="victory_zone_discovered_by"><font color="::color::">::name::</font>发现了<font color="#G">::bname::</font>！让我们控制它以获得胜利。</t>
+		<t id="victory_zone_discovered_nowin">我们发现了<font color="#G">::name::</font>：它将帮助我们获得胜利（你获得<img src="/r/Fame"/><font color="#F">::fame::</font>）</t>
+		<t id="victory_zone_discovered_nowin_nofame">我们已经发现了 <font color="#G">::name::</font>。</t>
+		<t id="victory_zone_discovered_by_nowin"><font color="::color::">::name::</font>发现了<font color="#G">::bname::</font>！它将帮助我们获得胜利。</t>
+		<t id="waiting_lore">我们有足够[Lore]来获得新知识！</t>
+		<t id="new_year">恭喜！我们的部落把它作为<font color="#G">新年！</font></t>
+		<t id="player_unlocked_blessing"><font color="::color::">::name::</font>获得::blessing::！再有::count::次，他就能取得胜利！</t>
+		<g id="player_blessing_count">
+			<t id="three">三</t>
+			<t id="two">二</t>
+			<t id="one">一</t>
+		</g>
+		<t id="zone_explored_sailors">我们的[Sailor]已探索了一片新区域！</t>
+		<t id="camp_destroyed">我们已摧毁<font color="#R">::bname::</font>，我们获得了<img src="/r/Fame"/><font color="#F">::fame::</font>和<img src="/r/::res::"/><font color="#G">::q::</font></t>
+		<t id="camp_destroyed_nofame">我们已经摧毁了 <font color="#R">::bname::</font>，拿下 <img src="/r/::res::"/><font color="#G">::q::</font>。</t>
+		<t id="yggdrasil_colonize_start"><font color="::color::">::name::</font>已开始殖民世界树，我们得赶快阻止他！</t>
+		<t id="trading_step"><font color="::color::">::name::</font>已生产<img src="/r/Money"/><font color="#B">::amount::</font>！</t>
+		<t id="trading_step_prestige"><font color="::color::">::name::</font>已经达到<img src="/r/Prestige"/><font color="#B">::amount::</font>！</t>
+		<t id="trading_step_prestige_owner">你已满 <img src="/r/Prestige"/><font color="#G">::amount::</font>！新的宝藏即将归属于我们！</t>
+		<t id="altar_built"><font color="::color::">::name::</font>已经建立了一座[Temple]！</t>
+		<t id="lighthouse_built"><font color="::color::">::name::</font>已经建立了一座[Lighthouse]！</t>
+		<t id="forged_part"><font color="::color::">::name::</font> 刚刚完成锻造奥丁剑的<font color="#R">::part::</font>！</t>
+		<t id="fame_step"><font color="::color::">::name::</font>已经达到<img src="/r/Fame"/><font color="#B">::amount::</font>！</t>
+		<t id="age_step">Signy 变得更为强大！</t>
+		<t id="place_control"><font color="::color::">::name::</font>刚刚获得了对::bname::的控制权！</t>
+		<t id="incoming_raid">一艘雇佣兵船出现在我们海岸附近，我们必须做好准备！</t>
+		<t id="incoming_raid_other">一艘雇佣兵船出现在附近。</t>
+		<t id="ally_trade"><font color="::color::">::name::</font>已开始和你交易[::res::]！</t>
+		<t id="ally_trade_off"><font color="::color::">::name::</font>已停止和你交易[::res::]！</t>
+		<t id="ally_started_feast"><font color="::color::">::name::</font>已组织一次宴会。</t>
+		<t id="got_transfer_zone"><font color="::color::">::name::</font>向你转交了一块新地区的控制权。</t>
+		<t id="ally_under_attack">你的盟友<font color="::allyColor::">::allyName::</font>正受到<font color="::color::">::name::</font>攻击，他可能需要你的帮助！</t>
+		<t id="mercenary_loot">你的[Mercenary]抢劫了<img src="/r/::r::"/>::q::</t>
+		<t id="vedrfolnir_healed">[Vedrfolnir]被治愈了！他将帮助我们探索Northgard。我们获得了<img src="/r/Lore"/><font color="#G">::lore::</font>。</t>
+		<t id="vedrfolnir_explored">[Vedrfolnir]已经发现了一个新区域！</t>
+		<t id="vedrfolnir_left">[Vedrfolnir]已经离开了Northgard！</t>
+		<t id="prestige_drakkar">一艘船从重大贸易航线返回。我们获得了 ::res1::、::res2:: 和 ::res3::。</t>
+	</g>
+	<g id="endgame_event">
+		<t id="day">第::value::天</t>
+		<t id="new_player"><font color="::color::">::name::</font>已登上Northgard海岸！</t>
+		<t id="colonize"><font color="::color::">::name::</font>已殖民一个新地区。</t>
+		<t id="uncolonize"><font color="::color::">::name::</font>已失去一个地区。</t>
+		<t id="ruin_explore"><font color="::color::">::name::</font>已探索::bname::。</t>
+		<t id="fametitle"><font color="::color::">::name::</font>已达到声望头衔<font color="#G">::title::</font>！</t>
+		<t id="mapevent">Northgard的新事件：<font color="#B">::name::</font></t>
+		<t id="defeat"><font color="::color::">::name::</font>被打败了！</t>
+		<t id="victory"><font color="::color::">::name::</font>现在是Northgard国王！</t>
+		<t id="attackedByFoes"><font color="::color::">::name::</font>受到攻击</t>
+		<t id="attackedByFaction"><font color="::color::">::name::</font>正在被<font color="::colorBy::">::nameBy::</font>攻击</t>
+		<t id="transferZone"><font color="::color::">::name::</font>已转区至<font color="::colorTo::">::nameTo::</font></t>
+	</g>
+	<g id="title">
+		<t id="campaign">캠페인 모드</t>
+		<t id="multiplayer">멀티 플레이</t>
+		<t id="new_game">새 게임</t>
+		<t id="load_game">불러오기</t>
+		<t id="profile">내 정보</t>
+		<t id="options">설정</t>
+		<t id="game_replay">다시보기</t>
+		<t id="exit">나가기</t>
+		<t id="back">뒤로</t>
+		<t id="accept">게임시작</t>
+		<t id="new_version">패치 노트</t>
+		<t id="soon">곧 공개</t>
+		<t id="available">머라하지 이거</t>
+		<t id="buy">지금 구매</t>
+		<t id="clans_bonus">시작 보너스:</t>
+		<t id="clans_fame">명성 보너스:</t>
+		<t id="clans_bonuses">보너스:</t>
+		<t id="clan_of">::name::의 부족</t>
+		<t id="clan_fame_desc"><font color="#R">::name::：</font>（要求<img src="/r/Fame"/><font color="#F">::fame::</font>）<br/>::desc::<br/></t>
+	</g>
+	<g id="multi_menu">
+		<t id="new_game">创建游戏</t>
+		<t id="join">加入游戏</t>
+		<t id="leaderboard">排行榜</t>
+		<t id="profile">玩家排名</t>
+		<t id="back">返回菜单</t>
+		<t id="bad_leaver">你离开了一个排名游戏。等待 ::time:: 开始。</t>
+		<g id="create_sub">
+			<g id="start_error">
+				<t id="launch_asked">需要创建游戏。等待服务器响应。</t>
+				<t id="bad_game_name">在游戏的名字中发现了不恰当的用词。请更改并重试。</t>
+				<t id="bad_tags">在游戏的标签中发现了不恰当的用词。请修改标签并重试。</t>
+				<t id="elo">从服务器获取你的::elo::信息……</t>
+				<t id="victories">请选择至少一个获胜条件。</t>
+			</g>
+		</g>
+		<g id="join_sub">
+			<t id="game_name">姓名</t>
+			<t id="game_mode">模式</t>
+			<t id="average_elo">平均::elo::：</t>
+		</g>
+		<g id="leaderboard_sub">
+			<t id="top_rank">顶级玩家</t>
+			<t id="current_rank">你的排名</t>
+			<t id="win_rate">赢率</t>
+			<t id="not_ranked">玩排名游戏进入排行榜。</t>
+		</g>
+		<g id="profile_sub">
+			<t id="title">玩家排名</t>
+			<t id="history">比赛历史记录</t>
+			<t id="flavor">包括最近的 ::nb:: 次游戏</t>
+			<t id="clan">::clan::部落</t>
+			<t id="gameMode">决斗|全部免费|2对2|3对3|2对2对2||4对4|2对2对2对2</t>
+		</g>
+	</g>
+	<g id="campaign">
+		<t id="back">返回菜单</t>
+		<t id="chapter">第::x::章</t>
+		<t id="act">行动::x:: </t>
+		<t id="cinematic_play">开始</t>
+		<t id="cinematic_locked">已锁</t>
+		<t id="cinematic_act_ending">行动结束</t>
+		<t id="cinematic_prologue">序言</t>
+		<t id="cinematic_epilogue">后记E</t>
+		<t id="main_objectives">目标</t>
+		<t id="bonus">奖励</t>
+		<t id="bonus_objectives">奖励目标</t>
+		<t id="bonus_hidden">奖励目标将在您第一次完成本章后显示。</t>
+		<t id="select_bannerman">选择一个旗手</t>
+		<t id="change_bannerman">更换旗手</t>
+		<t id="skip">跳过 &gt;</t>
+		<t id="allied_banner">同盟</t>
+		<t id="no_build">此章节中不再进行建造</t>
+		<t id="all_bonuses_unlocked">恭喜！你现在可以在单人和多人模式中使用战役旗手作为作战指挥官！</t>
+	</g>
+	<g id="generation_quotes">
+		<t id="s1">塑造岛屿地形</t>
+		<t id="s2">生成山脉</t>
+		<t id="s3">刻画冰湖</t>
+		<t id="s4">长出森林</t>
+		<t id="s5">孕育危险生物</t>
+		<t id="s6">快好了！</t>
+	</g>
+	<g id="map_loading_quotes">
+		<t id="s1">定位岛屿</t>
+		<t id="s2">前往市政厅</t>
+		<t id="s3">快好了！</t>
+	</g>
+	<g id="client_loading_quotes">
+		<t id="waiting">等待服务器准备就绪...</t>
+		<t id="ready">快好了！</t>
+	</g>
+	<g id="tuto">
+		<t id="build">点击<font color="#G">建造</font>按钮，建造建筑。选择此地任何地点以安放该建筑。</t>
+		<t id="if_house">点击<font color="#G">建造</font>按钮，建造另一座建筑。选择<font color="#R">伐木工小屋</font>以生产[Wood]，或<font color="#R">侦察营</font>以侦查新地区。</t>
+		<t id="click_villager">你的建筑好了！点击选择[Villager]。双击可以选择指定地区做同种工作的<font color="#G">所有单位</font>。</t>
+		<t id="recruit_wood">
+
+
+			选择一个单位并右键单击<font color="#G">伐木工小屋</font>以将自己的[Villager]变成[Woodcutter]。
+			可以右键点击多次，从而多次发出指令。
+		</t>
+		<t id="recruit_scout">
+
+			选择一个单位并右键单击<font color="#G">侦察营</font>以将自己的[Villager]变成[Scout]。
+		</t>
+		<t id="need_scout">需要[Scout]探索Northgard。建造一座<font color="#G">侦察营</font>并将一个[Villager]转变为[Scout]。</t>
+		<t id="need_wood">需要[Woodcutter]生产[Wood]。建造一座<font color="#G">伐木工小屋</font>并将一个[Villager]转变为伐木工。</t>
+		<t id="wait_discover">[Scout]将发现新地区。请等待，直到[Scout]完成探索某个地区。</t>
+		<t id="recruit_warrior">敌人在防御这个地区！建造一座<font color="#G">训练营</font>并将一个[Villager]转变为[Warrior]。</t>
+		<t id="attack">选择[Warrior]并右键点击被敌方占领的地区，以攻击他们！招募多个[Warrior]将提高你获胜的概率，但会降低[Food]/[Wood]产量。</t>
+		<t id="colonize">需要使用[Food]来<font color="#G">殖民</font>新地区，从而扩大领土。点击该区域，并花掉一些[Food]来殖民该区域。</t>
+		<t id="end">你可以在殖民地建造新建筑。一定要储备足够[Food]和[Wood]来度过Northgard的寒冬。</t>
+		<t id="happy">		
+			[Happy]至关重要。不要让它降到0以下。	
+			它会自动为你赢得新村民，当它增加的时候操作得更快。	
+			尽可能保持高数值。	
+		</t>
+	</g>
+	<g id="events">
+		<t id="rats_lost_food">老鼠污染了我们储备的食物，我们损失数量达到<img src="/r/Food"/><font color="#B">::count::</font>！我们应该建造更多食物筒仓！</t>
+		<t id="rats_sickness">老鼠传播疾病。<font color="#B">::count::</font> 个成员 <font color="#B">生病</font>了！</t>
+		<t id="rats_protected">筒仓帮助我们防御老鼠污染。</t>
+		<t id="earthquake">地震<font color="#B">破坏了::count::座建筑</font>。我们得赶快修好它们！</t>
+		<t id="resourceGiven">干得好！你帮助了斯瓦尔恩，给了他::nbRes:: [::res::]。你获得::fame:: [Fame]与一份[Happy]奖励，直至下个任务。</t>
+		<t id="resourceFailed">你未能提供[::res::]，没有帮到斯瓦尔恩！</t>
+	</g>
+	<g id="network">
+		<t id="elo">荣耀点数</t>
+		<t id="elo_shortcut">GP</t>
+		<t id="multi_menu">多人玩家</t>
+		<t id="multi_title">多人游戏</t>
+		<t id="multi_create">创建多人游戏</t>
+		<t id="multi_load">加载多人游戏</t>
+		<t id="multi_info_title">游戏信息</t>
+		<t id="no_game_found">没找到适用游戏。</t>
+		<t id="could_not_join">无法加入游戏。</t>
+		<t id="owner_has_quit">主机已离开。</t>
+		<t id="confirm_kick_player">从大厅中删除::name::吗？</t>
+		<t id="confirm_exit_player">退出大厅吗？</t>
+		<t id="create_game">创建游戏</t>
+		<t id="refresh_list">刷新列表</t>
+		<t id="refreshing">正在刷新列表...</t>
+		<t id="game_name">游戏名称</t>
+		<t id="game_mode">游戏模式</t>
+		<t id="game_modes">决斗|全部免费|2对2组团|3对3组团|2对2对2组团|4对4组团|2对2对2对2组团</t>
+		<t id="game_generation">地图生成</t>
+		<t id="game_generation_types">随机|平衡</t>
+		<t id="modes_all">全部</t>
+		<t id="open_game">打开游戏</t>
+		<t id="join_game">加入游戏</t>
+		<t id="joining_game">正在加入游戏...</t>
+		<t id="invite">邀请</t>
+		<t id="invite_error">糟糕...试图加入游戏时发生错误。</t>
+		<t id="exit">退出</t>
+		<t id="game_visibility">游戏类型</t>
+		<t id="game_visibilities">公开|仅限邀请|排名</t>
+		<t id="game_visibility_info"><font color="#T">::kind::(</font><font color="::color::">::count::/::max::</font><font color="#T">)</font></t>
+		<t id="game_distance">本地|地区性|州际|全球</t>
+		<t id="players">플레이어</t>
+		<t id="options">설정</t>
+		<t id="clan_choice">부족</t>
+		<t id="random_clan">랜덤</t>
+		<t id="player_color">색상</t>
+		<t id="start_game">게임 시작</t>
+		<t id="waiting_for_players">다른 플레이어를 기다리는 중...</t>
+		<t id="waiting_for_teams">团队分配无效</t>
+		<t id="waiting_for_colors">玩家颜色冲突</t>
+		<t id="waiting_for_player">正在等待玩家...</t>
+		<t id="player_ready">준비!</t>
+		<t id="invited_by"><font color="#R">::name::</font>邀请你加入多人游戏，你是否愿意加入？</t>
+		<t id="chat">채팅</t>
+		<t id="chat_message">메시지</t>
+		<t id="chat_send_button">전송</t>
+		<t id="no_steam">멀티플레이를 하기위해서는 Steam로그인이 필요합니다.</t>
+		<t id="team">팀</t>
+		<t id="color">색상</t>
+		<t id="teams">랜덤|팀1|팀2|팀3|팀4</t>
+		<t id="AIlevel">랜덤|쉬움|보통|어려움</t>
+		<t id="connecting">서버와 연결 중...</t>
+		<t id="server_error">打开服务器套接字时出错。</t>
+		<t id="client_error">连接游戏服务器失败。</t>
+		<t id="client_lost">与游戏服务器失去连接。正在重试...</t>
+		<t id="retry_button">重试</t>
+		<t id="host">主机</t>
+		<t id="slot">打开|AI|关闭</t>
+		<t id="chat_channels">普通|团队</t>
+		<t id="chat_team">团队</t>
+		<t id="tab_cycle">按下TAB键以循环通道</t>
+		<t id="rejoin_ranked">你已经有了一个正在进行中的排名游戏。</t>
+		<t id="rejoin_game">重新连接到上次游戏</t>
+		<t id="transfer_ownership">转移游戏所有权...</t>
+		<t id="changing_host">主机已退出，切换主机...</t>
+		<t id="start_counter">::time::秒后开始游戏。</t>
+		<t id="game_launch">开始游戏！</t>
+		<t id="start_game_cancel">停止倒计时</t>
+		<t id="start_game_canceled">游戏启动过程被打断...</t>
+		<t id="lobby_full">已满</t>
+		<t id="version_mismatch">你的游戏版本和主机版本不匹配。</t>
+		<t id="player_join"><font color="::color::">::name::</font>已加入游戏。</t>
+		<t id="player_left"><font color="#B"><font color="::color::">::name::</font>已离开游戏。</font></t>
+		<t id="player_disconnected"><font color="#B"><font color="::color::">::name::</font>已经断开连接。</font></t>
+		<t id="AI_take_control"><font color="#W"><font color="::color::">::name::</font>断开连接用时已有::time::。现由AI暂时控制部落。</font></t>
+		<t id="AI_has_control"><font color="#W">AI已经接管了部落。</font></t>
+		<t id="add_friend">添加好友</t>
+		<t id="waiting_friend_answer">正在等待回答...</t>
+		<t id="friend_invite_time">剩余时间：::v::s.</t>
+		<t id="server_zone">游戏服务器</t>
+		<t id="server_zones_labels">欧洲|对等网络</t>
+		<t id="server_zones">eu|p2p</t>
+		<t id="leagueKind">木材|石头|铁矿|黄金|霜钢</t>
+		<t id="league">::kind::联盟</t>
+		<t id="db_timeout">服务器没有响应。检查一下你的连接，或者稍后再试。</t>
+		<t id="db_invite_timeout">你已被邀请参加一个排名游戏，但无法从服务器检索出你的排名。</t>
+		<t id="rematch">::name::提出了复赛</t>
+		<t id="rematch_yes">复赛于……</t>
+		<t id="rematch_no">投票失败</t>
+		<g id="elo_update">
+			<t id="progress">::newElo:: ::pts::</t>
+			<t id="not_yet">你的排名将在比赛结束时更新。</t>
+			<t id="waiting">等待更新排名</t>
+			<t id="error">服务器没有响应。你的排名无法更新。</t>
+			<t id="league_reached">恭喜你，你达到了一个新的联盟！</t>
+			<t id="league_demoted">你被降级了……</t>
+			<t id="league_reached1">上帝降福于你！</t>
+			<t id="league_reached2">你已经晋升到更高的联盟！</t>
+			<t id="league_demoted1">天神众怒。</t>
+			<t id="league_demoted2">你被降至低级别联盟了。</t>
+		</g>
+	</g>
+</texts>
