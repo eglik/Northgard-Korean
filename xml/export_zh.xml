@@ -672,83 +672,83 @@
 	</sheet>
 	<sheet name="tech">
 		<Lumber>
-			<name>Sharp Axes</name>
-			<desc>Your Woodcutters will produce ::percent:: more Wood.</desc>
+			<name>날카로운 도끼</name>
+			<desc>나무꾼의 생산량이 ::percent:: 만큼 증가합니다.</desc>
 		</Lumber>
 		<Weaponsmith>
-			<name>Weaponsmith</name>
-			<desc>Increases all your military units' attack power by ::percent::.</desc>
+			<name>대장장이</name>
+			<desc>모든 군사유닛의 공격력이 ::percent:: 만큼 증가합니다.</desc>
 		</Weaponsmith>
 		<ImprovedHall>
-			<name>Trading</name>
-			<desc>Gain +::value::[Money] production. Enables Trade Routes with [TradingPost]s and Great Trade Routes with a [Lighthouse].</desc>
+			<name>교역</name>
+			<desc>[Money] 생산량이 +::value:: 증가합니다. [TradingPost] 에 교역소가와 [Lighthouse] 에 위대한 항로가 활성화됩니다.</desc>
 		</ImprovedHall>
 		<Colonize>
-			<name>Colonization</name>
-			<desc>Reduces the amount of [Food] necessary to colonize one area by ::inv_percent::.</desc>
+			<name>개척</name>
+			<desc>개척에 필요한 [Food] 를 ::inv_percent:: 만큼 감소시킵니다.</desc>
 		</Colonize>
 		<Mining>
-			<name>Mining Efficiency</name>
-			<desc>[Miner]s extract ::percent:: more ore from deposits.</desc>
+			<name>효율적인 채광</name>
+			<desc>[Miner] 가 ::percent:: 만큼 더 많은 자원을 채광합니다.</desc>
 		</Mining>
 		<Coats>
-			<name>Fur Coats</name>
-			<desc>Your units no longer have reduced power during winter.</desc>
+			<name>모피코트</name>
+			<desc>모든 유닛이 겨울에 공격력이 감소하지 않습니다.</desc>
 		</Coats>
 		<Defense>
-			<name>Defensive Strategy</name>
-			<desc>Increases your civilians' attack and your Defense Towers' resistance by ::percent::.</desc>
+			<name>수비전략</name>
+			<desc>시민들의 공격력이 증가하고 방어탑의 방어력이 ::percent:: 만큼 증가합니다.</desc>
 		</Defense>
 		<Drakkars>
-			<name>Shipbuilding</name>
-			<desc>Increases [Sailor]s' resource production by ::percent::.</desc>
+			<name>조선업</name>
+			<desc>[Sailor] 의 생산량이 ::percent:: 만큼 증가합니다.</desc>
 		</Drakkars>
 		<Coinage>
-			<name>Coinage</name>
-			<desc>Your [Merchant]s will produce ::percent:: more [Money].</desc>
+			<name>화폐</name>
+			<desc>[Merchant] 들의 [Money] 생산량이 ::percent:: 증가합니다.</desc>
 		</Coinage>
 		<Recruit>
-			<name>Recruitment</name>
-			<desc>Increases population growth speed by ::percent::. +50% during 6 months when one of your unit is killed by an enemy.</desc>
+			<name>신규모집</name>
+			<desc>인구 증가 속도가 :: percent:: 만큼 증가합니다. 유닛이 적에게 살해당했을 경우 +50% 만큼 증가합니다.</desc>
 		</Recruit>
 		<Medecine>
-			<name>Medicine</name>
-			<desc>Increases your [Healer]s' healing speed by ::percent::. Healers will gather food when they are not healing.</desc>
+			<name>의학</name>
+			<desc>[Healer] 의 속도가 ::percent:: 만큼 증가합니다. 치유사가 치유를 하지 않을때는 식량을 채집합니다.</desc>
 		</Medecine>
 		<MilitaryStrategy>
-			<name>Military Strategy</name>
-			<desc>Military units gain +::percent:: attack for each type of friendly military unit in the area.</desc>
+			<name>군사전략</name>
+			<desc>군사 유닛들이 아군 군사 유닛의 종류마다 +::percent:: 의 공격력이 증가합니다.</desc>
 		</MilitaryStrategy>
 		<Security>
-			<name>Feeling Safe</name>
-			<desc>Gain +::value::[Happy] if you have a [Hero01] and +1[Happy] per upgraded military camp.</desc>
+			<name>안도감</name>
+			<desc>[Hero01] 이 있을경우 +::value:: 만큼의 [Happy] 을 얻습니다. 업그레이드된 병영막사당 +1[Happy] 가 추가로 증가합니다.</desc>
 		</Security>
 		<Knowledge>
-			<name>Erudition</name>
-			<desc>Increases [RuneMaster] production by ::percent::. Cost of Carved Stones is halved.</desc>
+			<name>박학다식</name>
+			<desc>[RuneMaster] 의 생산량이 ::percent:: 만큼 증가합니다. 조각상의 비용이 절반이 됩니다.</desc>
 		</Knowledge>
 		<Upgrades>
-			<name>Carpentry Mastery</name>
-			<desc>Reduces your buildings' upgrade costs by ::inv_percent::.</desc>
+			<name>전문적인 목공</name>
+			<desc>건물 업그레이드 비용이 ::inv_percent:: 만큼 감소합니다.</desc>
 		</Upgrades>
 		<HeartStone>
-			<name>Hearthstone</name>
-			<desc>Reduces extra Firewood consumption during winter by ::inv_percent::.</desc>
+			<name>벽난로</name>
+			<desc>겨울에 소비하는 나무 소비량이 ::inv_percent:: 만큼 추가로 감소합니다.</desc>
 		</HeartStone>
 		<SlotGrowth>
 			<name>UNUSED</name>
 		</SlotGrowth>
 		<Heroes>
-			<name>Legendary Heroes</name>
-			<desc>Improves your [Hero01]'s attack and defense by ::percent::.</desc>
+			<name>전설적인 영웅</name>
+			<desc>[Hero01] 의 공격력과 방어력을 ::percent:: 만큼 증가시킵니다.</desc>
 		</Heroes>
 		<MonsterSlayer>
-			<name>Monster Slayer</name>
-			<desc>Improves your military units' attack by ::percent:: against mystical creatures.</desc>
+			<name>신화 도살자</name>
+			<desc>군사 유닛이 신화속 생물들에게 ::percent:: 만큼 추가 공격력을 얻습니다.</desc>
 		</MonsterSlayer>
 		<Negociate>
-			<name>Negotiation</name>
-			<desc>Reduces Marketplace prices by ::inv_percent::.</desc>
+			<name>교섭</name>
+			<desc>시장의 물품 가격이 ::inv_percent:: 만큼 감소합니다.</desc>
 		</Negociate>
 		<SlotWealth>
 			<name>UNUSED</name>
