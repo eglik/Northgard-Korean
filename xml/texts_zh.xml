@@ -127,7 +127,7 @@
 		<t id="spawn_bear">소집</t>
 	</g>
 	<g id="help">
-		<t id="zone_to_explore">이 영역은 아직 탐험하지 않았습니다. <b><img src="/u/Scout"/><font color="#U">척후병</font></b>을 보내십시오.</t>
+		<t id="zone_to_explore">이 영역은 아직 탐험하지 않았습니다. <b><img src="/u/Scout"/><font color="#U">정찰병</font></b>을 보내십시오.</t>
 		<t id="ruins_explored">이 폐허는 이미 탐색됐습니다.</t>
 		<t id="wreck_scavenged">이 난파선은 이미 탐색됐습니다.</t>
 		<t id="brokenHouse_visited">이 부서진 집은 이미 방문했습니다.</t>
@@ -275,7 +275,7 @@
 					<t id="key1">G</t>
 				</g>
 				<g id="t">
-					<t id="title">모든 척후병 선택</t>
+					<t id="title">모든 정찰병 선택</t>
 					<t id="key1">H</t>
 				</g>
 				<g id="u">
