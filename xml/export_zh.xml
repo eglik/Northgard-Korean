@@ -263,14 +263,14 @@
 			<name>Bodyguard</name>
 		</Bodyguard>
 		<Death>
-			<name>Draugr</name>
-			<plural>Draugar</plural>
+			<name>드라우그</name>
+			<plural>드라우가르</plural>
 			<desc>Draugar are half-dead evil creatures that have infested the islands of Northgard.</desc>
 			<flavor>Only the most nefarious and greediest human beings turn into Draugar when they die.</flavor>
 		</Death>
 		<Giant>
-			<name>Jötunn</name>
-			<plural>Jötnar</plural>
+			<name>요툰</name>
+			<plural>요트나르</plural>
 			<desc>Ancient creatures from the Dark Ages, [Giant]s are peaceful until you attack them. If you do, brace yourself!</desc>
 			<flavor>Ymir, the primitive giant, is said to be the father of all giants and dwarves.</flavor>
 		</Giant>
@@ -366,106 +366,106 @@
 	</sheet>
 	<sheet name="building">
 		<House>
-			<name>House</name>
-			<desc>Provides shelter for more clan members.</desc>
-			<upgrade.desc>Can shelter ::value:: additional clan members and improve housing quality.</upgrade.desc>
+			<name>주택</name>
+			<desc>더 많은 부족원들을 수용할 거주지를 제공합니다.</desc>
+			<upgrade.desc>::value:: 명을 추가로 수용하고 주택의 품질이 향상됩니다.</upgrade.desc>
 		</House>
 		<ScoutCamp>
-			<name>Scout Camp</name>
-			<desc>Train your villagers to become [Scout]s who can explore new areas.</desc>
+			<name>정찰병 막사</name>
+			<desc>시민들을 새로운 영토를 탐험할수 있는 [Scout] 으로 훈련합니다.</desc>
 			<flavor>Empty for the greater part of the year.</flavor>
-			<upgrade.desc>Increase all your [Scout]s' scouting speed by ::percent::.</upgrade.desc>
+			<upgrade.desc>[Scout] 의 정찰 속도가 ::percent:: 증가합니다.</upgrade.desc>
 		</ScoutCamp>
 		<WoodLodge>
-			<name>Woodcutter's Lodge</name>
-			<desc>Train your villagers to become [Woodcutter]s who can harvest Wood in this area.</desc>
+			<name>나무꾼의 산장</name>
+			<desc>시민들을 이 영토에서 나무를 캐는 [Woodcutter] 으로 훈련합니다.</desc>
 		</WoodLodge>
 		<HealerHut>
-			<name>Healer's Hut</name>
-			<desc>Train your villagers to become [Healer]s who will heal your wounded or sick clan members in your territory.</desc>
-			<upgrade.desc>Heal your clan members ::percent:: faster.</upgrade.desc>
+			<name>치유사의 오두막</name>
+			<desc>시민들을 내 영토내에서 부상을입거나 아픈 부족원을 치유하는 [Healer] 로 훈련합니다.</desc>
+			<upgrade.desc>치유 속도가 ::percent:: 증가합니다.</upgrade.desc>
 		</HealerHut>
 		<MenderHut>
-			<name>Mender's Hut</name>
+			<name>수리공의 오두막</name>
 			<desc>Train your villagers to become [Mender]s who will heal your wounded clan members in your territory and gather [Lore] when not otherwise busy.</desc>
 			<flavor>Smells faintly of cabbage.</flavor>
 			<upgrade.desc>Heal your clan members ::percent:: faster.</upgrade.desc>
 		</MenderHut>
 		<FishermanHouse>
-			<name>Fisherman's Hut</name>
+			<name>낚시꾼의 오두막</name>
 			<desc>Train your villagers to become [Fisherman]s who will produce [Food] even during winter.</desc>
 		</FishermanHouse>
 		<Fields>
-			<name>Fields</name>
-			<plural>Fields</plural>
+			<name>논밭</name>
+			<plural>논밭</plural>
 			<desc>Train your villagers to become [Farmer]s who will produce [Food] in larger quantities during summer.</desc>
 		</Fields>
 		<HunterLodge>
-			<name>Hunter's Lodge</name>
+			<name>사냥꾼의 산장</name>
 			<desc>Train your villagers to become [Hunter]s who will track and kill deer.</desc>
 		</HunterLodge>
 		<FoodSilo>
-			<name>Food Silo</name>
+			<name>식량 저장고</name>
 			<desc>Improves [Food] produced by specialized workers in this area by ::percent::. Increases your maximum food storage.</desc>
 			<upgrade.desc>Improves [Food] produced in this area by ::percent::.</upgrade.desc>
 		</FoodSilo>
 		<TradingPost>
-			<name>Trading Post</name>
+			<name>교역소</name>
 			<desc>Train your villagers to become [Merchant]s who will earn [Money]s.</desc>
 		</TradingPost>
 		<MarketPlace>
-			<name>Marketplace</name>
+			<name>시장</name>
 			<desc>Train your villagers to become [Merchant]s and spend [Money] to buy various resources.</desc>
 			<flavor>No credit given.</flavor>
 		</MarketPlace>
 		<RavenPort>
-			<name>Harbor</name>
+			<name>항구</name>
 			<desc>Sailors loot [Money] and [Lore] or [Fame] while raiding. You can scout shores and hire [Mercenary]s. Add a [Lighthouse] to exploit Great Trade Routes.</desc>
 		</RavenPort>
 		<Port>
-			<name>Longship Dock</name>
+			<name>부두</name>
 			<desc>Sailors loot [Money] and [Lore] or [Fame] while raiding. Add a [Lighthouse] to exploit Great Trade Routes.</desc>
 			<props.noFameDesc>Sailors loot [Money] and [Lore] while raiding. Add a [Lighthouse] to exploit Great Trade Routes.</props.noFameDesc>
 		</Port>
 		<HallOfPoetry>
-			<name>Hall of Skalds</name>
-			<plural>Halls of Skalds</plural>
+			<name>음유시인의 전당</name>
+			<plural>음유시인의 전당</plural>
 			<desc>Train your villagers to become [Skald]s who will increase your clan's [Fame] and [Happy].</desc>
 		</HallOfPoetry>
 		<Tavern>
-			<name>Brewery</name>
-			<plural>Breweries</plural>
+			<name>양조장</name>
+			<plural>양조장들</plural>
 			<desc>Train your villagers to become [InnKeeper]s who will increase your clan's [Happy].</desc>
 			<flavor>Bring your own cup!</flavor>
 		</Tavern>
 		<Sheepfold>
-			<name>Sheepfold</name>
+			<name>양목장</name>
 			<desc>Allows you to enclose your [Sheep] to produce [Food].</desc>
 			<flavor>Better than slaughtering the poor things, right?</flavor>
 			<upgrade.desc>Allows you to assign one more [Sheep]. They produce ::percent:: more [Food].</upgrade.desc>
 		</Sheepfold>
 		<TrainingCamp>
-			<name>Training Camp</name>
+			<name>훈련 막사</name>
 			<desc>Allows you to recruit military units and increases your [Warband] size.</desc>
 			<upgrade.desc>Gain +::value::[Warband] and increase your [Warrior]s' attack by ::percent_value1::.</upgrade.desc>
 		</TrainingCamp>
 		<SkirmishCenter>
-			<name>Skirmisher Camp</name>
+			<name>척후병 막사</name>
 			<desc>Allows you to recruit [Skirmisher]s. Increases your [Warband] size.</desc>
 			<upgrade.desc>Gain +::value::[Warband] and increase your [Skirmisher]s' attack by ::percent_value1::.</upgrade.desc>
 		</SkirmishCenter>
 		<AxeCenter>
-			<name>Axe Thrower Camp</name>
+			<name>도끼 투척병 막사</name>
 			<desc>Allows you to recruit [AxeWielder]s, powerful ranged units, and increases your [Warband] size.</desc>
 			<upgrade.desc>Gain +::value::[Warband] and increase your [AxeWielder]s' attack by ::percent_value1::.</upgrade.desc>
 		</AxeCenter>
 		<ShieldCenter>
-			<name>Shield Bearer Camp</name>
+			<name>방패병 막사</name>
 			<desc>Allows you to recruit [ShieldBearer]s, which are well protected against ranged units and towers, and increases your [Warband] size.</desc>
 			<upgrade.desc>Gain +::value::[Warband] and increase your [ShieldBearer]s' attack by ::percent_value1::.</upgrade.desc>
 		</ShieldCenter>
 		<WatchTower>
-			<name>Defense Tower</name>
+			<name>방어탑</name>
 			<desc>Protects this area from enemies by shooting at them.</desc>
 			<upgrade.desc>Increases the tower's attack and resistance by ::percent::.</upgrade.desc>
 		</WatchTower>
@@ -474,8 +474,8 @@
 			<desc>Train your villagers to become [Miner]s to extract stone or iron from deposits.</desc>
 		</AllMines>
 		<Mine>
-			<name>Quarry</name>
-			<plural>Quarries</plural>
+			<name>채석장</name>
+			<plural>채석장들</plural>
 			<desc>Train your villagers to become [Miner]s who will quarry [Stone].</desc>
 		</Mine>
 		<IronMine>
@@ -492,32 +492,32 @@
 			<flavor>Quite a bit heavier than a book.</flavor>
 		</CarvedStone>
 		<Totem>
-			<name>Carved Statue</name>
-			<desc>This carving displays your prowess to all Vikings of the land!</desc>
+			<name>동상</name>
+			<desc>이 동상은 다른 바이킹들에게 당신의 위용을 보여줍니다!</desc>
 		</Totem>
 		<Temple>
-			<name>Altar of Kings</name>
-			<plural>Altars of Kings</plural>
+			<name>왕의 제단</name>
+			<plural>왕의 제단</plural>
 			<desc>The Altar of Kings provides +::value::$icon(Food) +::value::$icon(Wood) +::value::$icon(Money) +::value::$icon(Lore) production as well as +50[Fame]</desc>
 			<props.noFameDesc>The Altar of Kings provides +::value::$icon(Food) +::value::$icon(Wood) +::value::$icon(Money) +::value::$icon(Lore) production</props.noFameDesc>
 		</Temple>
 		<Lighthouse>
-			<name>Lighthouse</name>
+			<name>등대</name>
 			<desc>Allows you to create Great Routes. Must be built on a [Port].</desc>
 		</Lighthouse>
 		<RavenLighthouse>
-			<name>Lighthouse</name>
+			<name>등대</name>
 			<desc>Allows you to create Great Routes. Must be built on a [RavenPort].</desc>
 		</RavenLighthouse>
 		<Forge>
-			<name>Forge</name>
+			<name>대장간</name>
 			<desc>Train your villagers to become [Smith]s. Allows you to forge the Sword of Odin.</desc>
 		</Forge>
 		<Drakkar>
-			<name>Drakkar</name>
+			<name>드라카르</name>
 		</Drakkar>
 		<TownHall>
-			<name>Town Hall</name>
+			<name>타운홀</name>
 			<desc>Spawns new [Villager]s when you have enough [Happy].</desc>
 			<upgrade.desc>Allows you to upgrade other buildings. Increases maximum [Population] by ::value:: and population growth by ::percent1::.</upgrade.desc>
 		</TownHall>
@@ -711,11 +711,11 @@
 	<sheet name="tech">
 		<Lumber>
 			<name>날카로운 도끼</name>
-			<desc>나무꾼의 생산량이 ::percent:: 만큼 증가합니다.</desc>
+			<desc>나무꾼의 생산량이 ::percent:: 증가합니다.</desc>
 		</Lumber>
 		<Weaponsmith>
 			<name>대장장이</name>
-			<desc>모든 군사유닛의 공격력이 ::percent:: 만큼 증가합니다.</desc>
+			<desc>모든 군사유닛의 공격력이 ::percent:: 증가합니다.</desc>
 		</Weaponsmith>
 		<ImprovedHall>
 			<name>교역</name>
@@ -723,11 +723,11 @@
 		</ImprovedHall>
 		<Colonize>
 			<name>개척</name>
-			<desc>개척에 필요한 [Food] 를 ::inv_percent:: 만큼 감소시킵니다.</desc>
+			<desc>개척에 필요한 [Food] 를 ::inv_percent:: 감소시킵니다.</desc>
 		</Colonize>
 		<Mining>
 			<name>효율적인 채광</name>
-			<desc>[Miner] 가 ::percent:: 만큼 더 많은 자원을 채광합니다.</desc>
+			<desc>[Miner] 가 ::percent:: 더 많은 자원을 채광합니다.</desc>
 		</Mining>
 		<Coats>
 			<name>모피코트</name>
@@ -735,11 +735,11 @@
 		</Coats>
 		<Defense>
 			<name>수비전략</name>
-			<desc>시민들의 공격력이 증가하고 방어탑의 방어력이 ::percent:: 만큼 증가합니다.</desc>
+			<desc>시민들의 공격력이 증가하고 방어탑의 방어력이 ::percent:: 증가합니다.</desc>
 		</Defense>
 		<Drakkars>
 			<name>조선업</name>
-			<desc>[Sailor] 의 생산량이 ::percent:: 만큼 증가합니다.</desc>
+			<desc>[Sailor] 의 생산량이 ::percent:: 증가합니다.</desc>
 		</Drakkars>
 		<Coinage>
 			<name>화폐</name>
@@ -751,7 +751,7 @@
 		</Recruit>
 		<Medecine>
 			<name>의학</name>
-			<desc>[Healer] 의 속도가 ::percent:: 만큼 증가합니다. 치유사가 치유를 하지 않을때는 식량을 채집합니다.</desc>
+			<desc>[Healer] 의 속도가 ::percent:: 증가합니다. 치유사가 치유를 하지 않을때는 식량을 채집합니다.</desc>
 		</Medecine>
 		<MilitaryStrategy>
 			<name>군사전략</name>
@@ -759,58 +759,58 @@
 		</MilitaryStrategy>
 		<Security>
 			<name>안도감</name>
-			<desc>Gain +::value::[Happy] if you have a [Hero01] and +::value1::[Happy] per upgraded military camp.</desc>
-			<props.firstNameDesc>Gain +::value::[Happy] if you have [Hero01] and +::value1::[Happy] per upgraded military camp.</props.firstNameDesc>
+			<desc>[Hero01] 가 있을때 +::value::[Happy] 를 얻고 업그레이드된 병영 막사당 +::value1::[Happy] 를 추가로 얻습니다.</desc>
+			<props.firstNameDesc>[Hero01] 가 있을때 +::value::[Happy]를 얻고 업그레이드된 병영 막사당 +::value1::[Happy] 를 추가로 얻습니다.</props.firstNameDesc>
 		</Security>
 		<Knowledge>
 			<name>박학다식</name>
-			<desc>[RuneMaster] 의 생산량이 ::percent:: 만큼 증가합니다. 조각상의 비용이 절반이 됩니다.</desc>
+			<desc>[RuneMaster] 의 생산량이 ::percent:: 증가합니다. 조각상의 비용이 절반이 됩니다.</desc>
 		</Knowledge>
 		<Upgrades>
-			<name>전문적인 목공</name>
-			<desc>건물 업그레이드 비용이 ::inv_percent:: 만큼 감소합니다.</desc>
+			<name>목공명인</name>
+			<desc>건물 업그레이드 비용이 ::inv_percent:: 감소합니다.</desc>
 		</Upgrades>
 		<HeartStone>
 			<name>벽난로</name>
-			<desc>겨울에 소비하는 나무 소비량이 ::inv_percent:: 만큼 추가로 감소합니다.</desc>
+			<desc>겨울에 소비하는 나무 소비량이 ::inv_percent:: 추가로 감소합니다.</desc>
 		</HeartStone>
 		<SlotGrowth>
 			<name>UNUSED</name>
 		</SlotGrowth>
 		<Heroes>
 			<name>전설적인 영웅</name>
-			<desc>[Hero01] 의 공격력과 방어력을 ::percent:: 만큼 증가시킵니다.</desc>
+			<desc>[Hero01] 의 공격력과 방어력을 ::percent:: 증가시킵니다.</desc>
 		</Heroes>
 		<MonsterSlayer>
 			<name>신화 도살자</name>
-			<desc>군사 유닛이 신화속 생물들에게 ::percent:: 만큼 추가 공격력을 얻습니다.</desc>
+			<desc>군사 유닛이 신화속 생물들에게 ::percent: 추가 공격력을 얻습니다.</desc>
 		</MonsterSlayer>
 		<Negociate>
 			<name>교섭</name>
-			<desc>시장의 물품 가격이 ::inv_percent:: 만큼 감소합니다.</desc>
+			<desc>시장의 물품 가격이 ::inv_percent:: 감소합니다.</desc>
 		</Negociate>
 		<SlotWealth>
 			<name>UNUSED</name>
 		</SlotWealth>
 		<Ascetic>
-			<name>Field Rations</name>
-			<desc>Reduces your military units' [Food] consumption by ::inv_percent::.</desc>
+			<name>전투식량</name>
+			<desc>군사 유닛의 [Food] 소비량이 ::inv_percent:: 감소합니다.</desc>
 		</Ascetic>
 		<Pillage>
-			<name>Spoils of War</name>
-			<desc>Gain some [Money] for each enemy unit killed.</desc>
+			<name>전리품</name>
+			<desc>적을 죽일경우 약간의 [Money] 를 얻습니다.</desc>
 		</Pillage>
 		<Plunder>
-			<name>Plunder</name>
-			<desc>When you decolonize an area, your units there gain +::percent:: health.</desc>
+			<name>약탈</name>
+			<desc>영토를 편입했을때, 유닛들이 +::percent:: 를 회복합니다.</desc>
 		</Plunder>
 		<Conqueror>
-			<name>Conqueror</name>
-			<desc>Increases your military power against Defense Towers by ::percent::, and makes decolonization twice as fast.</desc>
+			<name>정복자</name>
+			<desc>방어탑에 입히는 피해가 ::percent:: 증가하고, 영토의 편입속도가 두배 더 빨라집니다.</desc>
 		</Conqueror>
 		<Threats>
-			<name>Veiled Threats</name>
-			<desc>Improves your Trade Routes' [Money] income by ::percent:: if you have a [Hero01]. Relations with other clans don't affect Trade Routes.</desc>
+			<name>보이지않는 위협</name>
+			<desc>[Hero01] 를 가지고 있을때 교역로 수입이 ::percent:: 증가합니다. 부족과의 관계가 교역로에 영향을 미치지 않습니다.</desc>
 		</Threats>
 		<MoreAssign>
 			<name>Industrious</name>
@@ -1025,20 +1025,20 @@
 			<desc>+1[Money] for each ::value:: clan member.</desc>
 		</NatureGift>
 		<FreyaBlessing>
-			<name>Freya's Blessing</name>
+			<name>프레야의 축복</name>
 			<desc>Reduces loss of [Food] production during winter by ::inv_percent0:: and [Wood] consumption by ::inv_percent1::.</desc>
 		</FreyaBlessing>
 		<ThorBlessing>
-			<name>Baldr's Blessing</name>
-			<desc>You gain ::value::[Happy].</desc>
+			<name>발디르의 축복</name>
+			<desc>::value::[Happy] 가 증가합니다.</desc>
 		</ThorBlessing>
 		<LokiBlessing>
-			<name>Jörd's Blessing</name>
-			<desc>You gain ::value0:: [Stone] and ::value1:: [Iron].</desc>
+			<name>요르드의 축복</name>
+			<desc>::value0:: [Stone] 와 ::value1:: [Iron] 을 얻습니다.</desc>
 		</LokiBlessing>
 		<FinalBlessing>
-			<name>Ancestral Knowledge</name>
-			<desc>Required to achieve a Wisdom victory.</desc>
+			<name>선조의 지식</name>
+			<desc>지식승리에 필요한 업적입니다.</desc>
 		</FinalBlessing>
 	</sheet>
 	<sheet name="clan">
@@ -1046,10 +1046,10 @@
 			<name>늑대</name>
 			<totem>펜릴</totem>
 			<title>늑대의 부족</title>
-			<desc>Aggressive, protective of their freedom, and more than a little reckless. They are well prepared to face the dangers of Northgard and use their combined might and mobility to leave little chance to all but the most resilient.</desc>
+			<desc>공격적이며 자유를 수호하며, 약간 난폭한자들입니다. They are well prepared to face the dangers of Northgard and use their combined might and mobility to leave little chance to all but the most resilient.</desc>
 			<bonuses>
 				<0>
-					<desc>Killing [Wolf]s and [Bear]s provides [Meat].</desc>
+					<desc>[Wolf] 나 and [Bear] 을 죽일경우 [Meat] 를 제공합니다.</desc>
 				</0>
 				<1>
 					<desc>Your military units consume ::inv_percent:: less Food and provide [Happy].</desc>
@@ -1331,10 +1331,10 @@
 			<desc>We have safely escaped to a remote region. We must now reach the shores of Northgard.</desc>
 			<objectives>
 				<0 id="mShore">
-					<desc>Reach the shore to the north.</desc>
+					<desc>북쪽의 육지에 도착하십시오.</desc>
 				</0>
 				<1 id="mPort">
-					<desc>Build a [Port].</desc>
+					<desc>[Port] 를 지으십시오.</desc>
 				</1>
 				<2 id="bFood">
 					<desc>Acquire a minimum of ::value:: [Food].</desc>
@@ -1348,24 +1348,24 @@
 			</objectives>
 			<cinematic>
 				<0>
-					<text>I had no strength left when I encountered a group of runaways of the Stag Clan led by a proud young man named Brand.</text>
+					<text>긍지높은 브랜드와 수사슴 부족의 도망자들을 마주쳤을때 나는 죽기 직전이였다.</text>
 				</0>
 				<1>
-					<text>Hagen's men had set his town aflame and he had nothing left, not even his father, the clan's Jarl, who had died at the hands of the fiend just like mine.</text>
+					<text>하겐의 침략자들은 타워를 불태우고 아무것도 남기지 않았으며 영주와 나의 아버지는 그 악마들에게 죽었다.</text>
 				</1>
 				<2>
-					<text>Our common enemy had sailed for Northgard, of which he now had a map. All I could think about was finding him to avenge my father and retrieve the Regal Horn.</text>
+					<text>그들은 지도를 들고 노스가드로 향하였다. 나의 일념은 그를 찾아 아버지의 원수를 갚고 제왕의 뿔피리를 되찾으리라.</text>
 				</2>
 			</cinematic>
 			<texts>
 				<0 id="start1" who="Brand">
-					<text>Glad to see you back on your feet, my lord. I'm surprised at how fast you recovered.</text>
+					<text>건강한 모습을 보니 기쁩니다 군주님. 회복이 정말 놀랍도록 빠르더군요.</text>
 				</0>
 				<1 id="start2" who="Rig">
-					<text>I suppose rage is an excellent healer. Still, we've wasted enough time already. We must go after Hagen as soon as possible.</text>
+					<text>내 생각엔 분노가 훌륭한 치유사인것같군. 그건 그렇고, 우린 이미 많은 시간을 낭비했네. 우리는 당장 하겐을 추격해야만하네.</text>
 				</1>
 				<2 id="start3" who="Brand">
-					<text>Indeed, time is of the essence. Our camp is far from the enemy, but we are marooned in an unknown province on the outskirts of your kingdom.</text>
+					<text>Our camp is far from the enemy, but we are marooned in an unknown province on the outskirts of your kingdom.</text>
 				</2>
 				<3 id="start4" who="Rig">
 					<text>I shall prove myself worthy of their trust. However impatient I am to get even with that scum, my priority is to ensure their survival.</text>

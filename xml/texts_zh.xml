@@ -118,7 +118,7 @@
 		<t id="feasting">축제중...</t>
 		<t id="retreat"><img src="/i/Retreat"/> 후퇴</t>
 		<t id="manage_port"><img src="/r/Sailors"/> 항구관리</t>
-		<t id="transfer_zone"><img src="/i/TransferZone"/> 이송지역</t>
+		<t id="transfer_zone"><img src="/i/TransferZone"/> 소유권이전</t>
 		<t id="claim_zone"><img src="/i/ClaimZone"/> 요청지역</t>
 		<t id="defense_on">방어</t>
 		<t id="defense_off">자동</t>
@@ -541,10 +541,10 @@
 		<t id="trade_bonus">You are currently trading [::res::] with <font color="::color::">::name::</font><br/></t>
 		<g id="choose_tool">
 			<t id="title">향상시킬 도구를 선택하세요</t>
-			<t id="tip">[::id::]s produce ::percent:: more [::res::]. 나무꾼임</t>
-			<t id="tip_miner">Increase extracting speed by ::percent::.</t>
-			<t id="tip_villager">Increases [Villager]s' build and repair speed by ::percent::.</t>
-			<t id="tip_mender">Increases [Mender]s' healing speed by ::percent:: and produce ::percent:: more [Lore].</t>
+			<t id="tip">[::id::] 의 생산량이 ::percent:: 증가하고 [::res::].</t>
+			<t id="tip_miner">채광속도가 ::percent:: 증가합니다.</t>
+			<t id="tip_villager">[Villager] 의 건설속도와 수리속도가 ::percent:: 증가합니다.</t>
+			<t id="tip_mender">[Mender] 의 회복속도가 ::percent:: 증가하고 [Lore] 의 생산량이 ::percent:: 증가합니다.</t>
 			<t id="tip_skald">[::id::]s produce ::percent:: more [Fame] and [Happy], and ::percent:: more [Money] with [GreatDeeds].</t>
 
 			<t id="tip_healerWithMedecine">Increases [Healer]s' healing speed by ::percent::. They also produce ::percent:: more [Food] with [Medecine].</t>
@@ -582,15 +582,15 @@
 			<t id="raid_desc">Choose an additional resource for your [Sailor]s to look for:</t>
 			<t id="cant_raid_nosailor">You need to assign [Sailor]s to launch a raid.</t>
 
-			<t id="explore">Explore</t>
-			<t id="explore_tip">Your [Sailor]s will explore a new coastal area while raiding.</t>
-			<t id="explore_progress">Exploring (::p::%)</t>
-			<t id="cant_explore_nosailor">You need to have active [Sailor]s to explore.</t>
+			<t id="explore">탐험</t>
+			<t id="explore_tip">[Sailor]들이 약탈하는동안 새로운 해안을 탐험합니다.</t>
+			<t id="explore_progress">탐험도 (::p::%)</t>
+			<t id="cant_explore_nosailor">탐험을 하려면 활성화된 [Sailor] 이 필요합니다.</t>
 			<t id="cant_explore_noarea">There is no area left for your [Sailor]s to explore.</t>
 
-			<t id="title_raven_port">Mercenaries</t>
+			<t id="title_raven_port">용병</t>
 			<t id="mercenary_desc">Mercenaries will attack a selected coastal area and stay there if they emerge victorious.</t>
-			<t id="mercenary_deploy">Deploy Mercenaries</t>
+			<t id="mercenary_deploy">용병 투입</t>
 			<t id="mercenary_deploy_help">Choose a coastal area in which to deploy [Mercenary]s.</t>
 			<t id="mercenary_cooldown">Recruiting (::p::%)</t>
 			<t id="mercenary_cant_deploy">You have not discovered a coastal area for deployment.</t>
