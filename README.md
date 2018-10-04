@@ -7,3 +7,4 @@
 
 ## Update Log
 - [0.0.1](./Updates/Logs/0.0.1/Log.md)
+- [0.0.2](./Updates/Logs/0.0.2/Log.md)
