@@ -407,17 +407,17 @@
 			<g id="military_paths">
 			<t id="title">Military Paths</t>
 			<g id="categories">
-				<t id="c_1">Tactician</t>
-				<t id="c_2">Guardian</t>
-				<t id="c_3">Conqueror</t>
+				<t id="c_1">책략가</t>
+				<t id="c_2">수호자</t>
+				<t id="c_3">정복자</t>
 			</g>
-			<t id="choose_path_title">Select a military path</t>
-			<t id="choose_path_button">Select</t>
-			<t id="confirm_choose">Are you sure you want to choose the ::category:: path?</t>
+			<t id="choose_path_title">군사 계획을 정하십시오</t>
+			<t id="choose_path_button">선택</t>
+			<t id="confirm_choose">::category:: 로 선택하시겠습니까?</t>
 			<t id="level">Level ::x::</t>
 
-			<t id="ability_unlocked">New Ability Unlocked</t>
-			<t id="notify_unlocked"><font color="::color::">::name::</font> has unlocked a new military ability.<br/><font color="#A">::ability::</font></t>
+			<t id="ability_unlocked">신규 능력 해방</t>
+			<t id="notify_unlocked"><font color="::color::">::name::</font> 이 신규 군사 능력을 해방했습니다. <br/><font color="#A">::ability::</font></t>
 		</g>
 	</g>
 

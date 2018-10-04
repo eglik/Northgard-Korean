@@ -1289,40 +1289,40 @@
 	</sheet>
 	<sheet name="campaign">
 		<Betrayal>
-			<name>Tragedy</name>
+			<name>비극</name>
 			<cinematic>
 				<0>
-					<text>I am Rig, son of the High King Hargurorf, and this is my saga.</text>
+					<text>나의 이름은 리그, 제왕 하구오르프의 아들이며, 이것은 나의 모험담이다.</text>
 				</0>
 				<1>
-					<text>It all began... one fateful day...</text>
+					<text>이것은 모두 지옥같은 그날부터 시작되었다...</text>
 				</1>
 				<2>
-					<text>My father had gathered all his Jarls to make an announcement of the utmost importance.</text>
+					<text>나의 아버지는 모든 영주들을 모아 중요한 소식을 발표했다.</text>
 				</2>
 				<3>
-					<text>We were to embark for the wondrous lands of Northgard; riches, conquest and glory awaited us on this mysterious new continent.</text>
+					<text>우리는 기이한 땅 노스가드로 원정하려했다. 재물과 영광 그리고 정복할 땅이 기이한 새로운 대륙에서 우리를 기다리고 있었다.</text>
 				</3>
 				<4>
-					<text>But the Norns had other plans for us...</text>
+					<text>그러나 노른은 우리와 다른 계획을 세우고 있었다...</text>
 				</4>
 				<5>
-					<text>Dozens of armed men suddenly poured into the Hall and put an abrupt end to our ambitions... and to our lives.</text>
+					<text>갑자기 수많은 무장한자들이 홀에 들이닥쳐 야망에 대한 토론에 종지부를 찍었다... 우리의 목숨도.</text>
 				</5>
 				<6>
-					<text>They were mercenaries led by a man named Hagen, from the Clan of the Raven.</text>
+					<text>그들은 까마귀 부족의 하겐이라는 남자가 이끄는 용병단이었다.</text>
 				</6>
 				<7>
-					<text>In a matter of minutes, we were all slaughtered like sheep.</text>
+					<text>몇분도 되지않아, 우리는 양처럼 도살당했다.</text>
 				</7>
 				<8>
-					<text>All… but me. Barely conscious and vastly outnumbered, I had no way to fight back, so I feigned death.</text>
+					<text>나를 제외한 모두가... 수적으로 너무 열세였으며 의식을 가까스로 붙잡았다. 나는 더 이상 싸울 수 없었고, 죽음을 직감했다.</text>
 				</8>
 				<9>
-					<text>I seethed as he stole the map of Northgard and ripped the Regal Horn from my father's throne, a family heirloom and the very symbol of our royalty.</text>
+					<text>하겐이 노스가드의 지도와 아버지의 왕좌에서 가보와 왕족의 상징인 제왕의 뿔피리를 훔쳐갔으며, 나는 분노로 끓어올랐다.</text>
 				</9>
 				<10>
-					<text>I had to avenge my father... and reclaim my kinghood!</text>
+					<text>나의 아버지의 원수를 갚고... 왕국을 다시 재건하리라!</text>
 				</10>
 			</cinematic>
 		</Betrayal>
@@ -4014,19 +4014,19 @@
 			<name>Wild Lands</name>
 		</WildLands>
 		<Taiga>
-			<name>Taiga</name>
+			<name>침엽수림</name>
 		</Taiga>
 		<Foothills>
-			<name>Foothills</name>
+			<name>고원</name>
 		</Foothills>
 		<Steppe>
-			<name>Steppe</name>
+			<name>초원</name>
 		</Steppe>
 		<Autumn>
-			<name>Autumn</name>
+			<name>가을</name>
 		</Autumn>
 		<Toundra>
-			<name>Tundra</name>
+			<name>툰드라</name>
 		</Toundra>
 		<Ragnarok>
 			<name>Ragnarok</name>
@@ -4037,76 +4037,76 @@
 	</sheet>
 	<sheet name="ability">
 		<Dominion>
-			<name>Dominion</name>
+			<name>지배</name>
 			<desc>Colonize cleared area for free.</desc>
 		</Dominion>
 		<ScorchedEarth>
-			<name>Scorched Earth</name>
+			<name>초토화</name>
 			<desc>Burn any zone during ::value0:: months.&lt;br/&gt;Burned zone : -::percent_value1:: production, snakes units and buildings +::percent_value2:: attack.</desc>
 		</ScorchedEarth>
 		<Warcry>
-			<name>Warcry</name>
-			<desc>Enemy units (non neutral) are feared for ::value0:: seconds.</desc>
+			<name>전투의 함성</name>
+			<desc>근처의 적 유닛(중립제외)들이 ::value0:: 초 동안 공포 상태에 빠집니다.</desc>
 		</Warcry>
 		<CallToArms>
-			<name>Call To Arms</name>
-			<desc>Converts all civilians in the area into [Militia]. They can't go outside of your territory.</desc>
+			<name>동원령</name>
+			<desc>모든 시민들을 [Militia] 로 훈련시킵니다. [Militia]는 영토 밖으로 나갈 수 없습니다.</desc>
 		</CallToArms>
 		<Bodyguard>
-			<name>Bodyguard</name>
+			<name>경호원</name>
 			<desc>A bodyguard is attached to your warchief. The Warchief gains +::percent0:: attack power and ::percent_value1:: damage reduction.</desc>
 		</Bodyguard>
 		<WarEffort>
-			<name>War Effort</name>
+			<name>전쟁 물자</name>
 			<desc>You can choose a free military Lore.</desc>
 		</WarEffort>
 		<WarriorCharge>
-			<name>Charge</name>
+			<name>돌진</name>
 			<desc>Increases run speed when the engaged target is close enough.</desc>
 		</WarriorCharge>
 		<SkirmisherPoison>
-			<name>Poison</name>
+			<name>독약</name>
 			<desc>Decrease target attack power and move speed by ::inv_percent0:: during ::value1::sec.</desc>
 		</SkirmisherPoison>
 		<GolemBurn>
-			<name>Magma Strike</name>
+			<name>용암 충격</name>
 			<desc>Target suffers ::value0:: dmg/sec for ::value1::sec.</desc>
 		</GolemBurn>
 		<LeatherArmor>
-			<name>Reinforced Armor</name>
-			<desc>Military units have ::percent_value:: chance of negating incoming attacks.</desc>
+			<name>방어구 보강</name>
+			<desc>군사유닛이 ::percent_value:: 확률로 데미지를 입지 않습니다.</desc>
 		</LeatherArmor>
 		<SuppressingFireTower>
-			<name>Suppressing Fire</name>
-			<desc>You gain a free [WatchTower] upgrade each year (does not stack).</desc>
+			<name>제압 사격</name>
+			<desc>매 년마다 [WatchTower] 무료 업그레이드를 1회 획득합니다. (중첩되지않음).</desc>
 		</SuppressingFireTower>
 		<SuppressingFireMilitary>
-			<name>Suppressing Fire</name>
-			<desc>Units within an area that contains an allied [WatchTower] gain +::percent_value:: defense.</desc>
+			<name>제압 사격</name>
+			<desc>자신이나 아군의 [WatchTower] 이 건설된 영토의 유닛은 저항력을 +::percent_value:: 얻습니다.</desc>
 		</SuppressingFireMilitary>
 		<Garrison>
-			<name>Garrison</name>
-			<desc>Each [WatchTower] adds +::value0:: to your maximum warband (+::value1:: if upgraded).&lt;br/&gt;Each kill on allied territory gives +::percent_value2:: [MilitaryXP].</desc>
+			<name>요새</name>
+			<desc>[WatchTower] 마다 군사 최대치가 +::value0:: (업그레이드 되었다면+::value1::) 증가합니다.&lt;br/&gt;자신이나 아군의 영토에서 적을 죽일경우 [MilitaryXP] 가 +::percent_value2:: 증가합니다.</desc>
 		</Garrison>
 		<BloodBath>
-			<name>Blood Bath</name>
-			<desc>Each time one of your units dies in enemy territory, friendly units in the area gain +::percent_value0:: attack and +::percent_value1:: defense for ::value2:: month. The bonus is lost when units exit the area.</desc>
+			<name>대학살</name>
+			<desc>적의 영토에서 자신의 유닛이 죽을때마다 ::value2::달 동안 같은 영토내에 있는 모든 유닛의 공격력이 +::percent_value0::, 방어력이 +::percent_value1:: 증가합니다. 해당 효과는 유닛이 영토밖으로 나갈경우 사라집니다.</desc>
 		</BloodBath>
 		<VeteranWarAxeThrower>
-			<name>Veteran Fighters</name>
-			<desc>[AxeWielder]s have +::percent_value:: attack range.</desc>
+			<name>노련한 군인</name>
+			<desc>[AxeWielder] 의 사거리가 +::percent_value:: 증가합니다.</desc>
 		</VeteranWarAxeThrower>
 		<VeteranWarWarrior>
-			<name>Veteran Fighters</name>
-			<desc>[Warrior]s have +::percent:: health.</desc>
+			<name>노련한 군인</name>
+			<desc>[Warrior] 의 체력이 +::percent:: 증가합니다.</desc>
 		</VeteranWarWarrior>
 		<VeteranWarShieldBearer>
-			<name>Veteran Fighters</name>
-			<desc>[ShieldBearer]s reduce projectile damage by +::percent_value::</desc>
+			<name>노련한 군인</name>
+			<desc>[ShieldBearer] 의 투사체 데미지 감소가 +::percent_value:: 증가합니다.</desc>
 		</VeteranWarShieldBearer>
 		<VeteranWarSkirmisher>
-			<name>Veteran Fighters</name>
-			<desc>[Skirmisher]s damage to Watch Towers cannot be repaired.</desc>
+			<name>노련한 군인</name>
+			<desc>[Skirmisher] 이 [WatchTower]에 입힌 피해를 수리할 수 없습니다.</desc>
 		</VeteranWarSkirmisher>
 	</sheet>
 	<sheet name="militaryPath">
