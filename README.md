@@ -3,7 +3,7 @@
 한글패치 가이드가 아직 미작성됬습니다.<br>
 컨트리뷰터가 늘면 여러명이서 작업할 환경을 구축할 예정입니다.<br>
 
-![Image](./Image.png)
+![Image](./ragnarok.png)
 
 ## Update Log
 - [0.0.1](./Updates/Logs/0.0.1/Log.md)
