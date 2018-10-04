@@ -614,17 +614,17 @@
 			<name>Myrkalfar Spawner</name>
 		</MyrkalfarSpawner>
 		<KoboldHouse>
-			<name>Kobold Camp</name>
+			<name>코볼트 막사</name>
 			<desc>[Kobold]s will spawn here and spread to nearby territories.</desc>
 		</KoboldHouse>
 		<KoboldFirecamp>
-			<name>Kobold Campfire</name>
+			<name>코볼트 모닥불</name>
 		</KoboldFirecamp>
 		<KoboldSpawner>
-			<name>Kobold Spawner</name>
+			<name>코볼트 생성기</name>
 		</KoboldSpawner>
 		<DraugrPortal>
-			<name>Draugr Portal</name>
+			<name>드라우그 포탈</name>
 			<desc>[Death]s will soon come pouring through this portal. We must prepare!</desc>
 		</DraugrPortal>
 		<Vegvisir>
@@ -632,9 +632,9 @@
 			<plural>Vegvisir</plural>
 		</Vegvisir>
 		<ThorWrath>
-			<name>Thor's Wrath</name>
-			<desc>An ancient place of power. Gives +5% attack bonus to military units.</desc>
-			<flavor>STOP! Hammer time!</flavor>
+			<name>토르의 분노</name>
+			<desc>고대의 힘의 장소. 군사 유닛에게 +5% 공격력을 부여합니다.</desc>
+			<flavor>그만! 망치 나가신다!</flavor>
 		</ThorWrath>
 		<Geyser>
 			<name>Geyser</name>
@@ -680,32 +680,32 @@
 			<plural>Vedrfolnir Crashes</plural>
 		</VedrfolnirCrash>
 		<Yggdrasil>
-			<name>Yggdrasil</name>
-			<plural>Yggdrasil</plural>
+			<name>이그드라실</name>
+			<plural>이그드라실</plural>
 			<desc>The world tree is threatened by evil forces.</desc>
 			<flavor>Definitely not the Mana Tree.</flavor>
 		</Yggdrasil>
 		<WyvernDen>
-			<name>Wyvern's Den</name>
+			<name>와이번의 둥지</name>
 		</WyvernDen>
 		<BigSword>
-			<name>Relic of the Gods</name>
-			<plural>Relics of the Gods</plural>
-			<desc>Train your villagers to become [RuneMaster]s. All Loremasters in this area will produce ::percent:: more [Lore].</desc>
+			<name>신들의 유물</name>
+			<plural>신들의 유물들</plural>
+			<desc>시민을 [RuneMaster] 로 훈련하세요. 이 영역의 모든 전승지기가 [Lore] 생산량이 ::percent:: 증가합니다.</desc>
 		</BigSword>
 		<Helheim>
-			<name>Gates of Helheim</name>
-			<plural>Gates of Helheim</plural>
+			<name>헬하임의 관문</name>
+			<plural>헬하임의 관문</plural>
 			<desc>This portal connects Northgard to Helheim, the realm of the dead. Corrupted [Valkyrie]s will spawn here until someone is brave enough to confront them.</desc>
 		</Helheim>
 		<MagmaFlow>
-			<name>Magma Flow</name>
-			<desc>The magma in this area can be used to craft very powerful weapons.</desc>
+			<name>용암지대</name>
+			<desc>이 영역의 용암은 강력한 무기를 만드는데에 쓸 수 있습니다.</desc>
 		</MagmaFlow>
 		<Volcano>
-			<name>Volcano</name>
-			<plural>Volcanoes</plural>
-			<desc>A dangerous active volcano. Watch out for flying [Meteor]s!</desc>
+			<name>화산</name>
+			<plural>화산들</plural>
+			<desc>위험한 활화산. [Metor] 를 조심하세요!</desc>
 		</Volcano>
 	</sheet>
 	<sheet name="tech">
@@ -747,7 +747,7 @@
 		</Coinage>
 		<Recruit>
 			<name>신규모집</name>
-			<desc>Permanently increases population growth speed by ::percent0::. This raises to ::percent1:: during ::value2:: months if any unit from your clan is killed by an enemy clan.</desc>
+			<desc>인구 성장속도가 ::percent0:: 증가합니다. 만약 당신의 유닛이 다른 클랜원에게 죽었을경우 ::value2:: 달 동안 상승치가 ::percent1:: 가 됩니다.</desc>
 		</Recruit>
 		<Medecine>
 			<name>의학</name>
@@ -813,24 +813,24 @@
 			<desc>[Hero01] 를 가지고 있을때 교역로 수입이 ::percent:: 증가합니다. 부족과의 관계가 교역로에 영향을 미치지 않습니다.</desc>
 		</Threats>
 		<MoreAssign>
-			<name>Industrious</name>
-			<desc>Food-producing buildings can be assigned an additional villager if they are upgraded.</desc>
+			<name>근면함</name>
+			<desc>식량 생산 건물을 업그레이드 할 경우 시민 한명을 더 할당할 수 있습니다.</desc>
 		</MoreAssign>
 		<HomeCook>
-			<name>Cooking Mastery</name>
-			<desc>Reduces consumption of [Food] by ::inv_percent::.</desc>
+			<name>요리명인</name>
+			<desc>[Food] 소비량이 ::inv_percent:: 감소합니다.</desc>
 		</HomeCook>
 		<MoreBuildings>
-			<name>Amenities</name>
-			<desc>Costs ::inv_percent:: less to add a building slot to an area.</desc>
+			<name>편의시설</name>
+			<desc>지역개발의 비용이 ::inv_percent:: 감소합니다.</desc>
 		</MoreBuildings>
 		<Barricades>
-			<name>Barricades</name>
-			<desc>Increases your civilians' resistance by ::percent:: per building in the area.</desc>
+			<name>방책</name>
+			<desc>시민의 저항력이 영토의 건물마다 ::percent:: 증가합니다.</desc>
 		</Barricades>
 		<FoodTrade>
-			<name>Food Trade</name>
-			<desc>Trading food increases your Trade Routes' [Money] income by ::percent::.</desc>
+			<name>식품무역</name>
+			<desc>교역로에서 [Food] 거래의 [Money] 수입이 ::percent:: 증가합니다.</desc>
 		</FoodTrade>
 		<BetterSilo>
 			<name>Eradication</name>
@@ -853,24 +853,24 @@
 			<desc>Increases each gain of [Fame] by ::percent::.</desc>
 		</GloryClan>
 		<Rangers>
-			<name>Rangers</name>
-			<desc>Increases scouting and exploration speed by ::percent::. Your Scouts no longer consume [Food] and cannot be hurt while exploring.</desc>
+			<name>유격수</name>
+			<desc>정찰병의 탐험 속도가 ::percent:: 증가합니다. 정찰병이 더이상 [Food] 를 소모하지 않으며 탐험도중 다치지 않습니다.</desc>
 		</Rangers>
 		<GreatRoutes>
-			<name>Improved Trade Routes</name>
-			<desc>Increases your Trade Routes' [Money] income and marketplace supply by ::percent::.</desc>
+			<name>교역로 개선</name>
+			<desc>교역로의 [Money] 수입과 시장의 보급속도가 ::percent:: 증가합니다.</desc>
 		</GreatRoutes>
 		<MilitaryFunds>
-			<name>Gear Upgrade</name>
-			<desc>Increases your military units' attack power depending on your [Money] in stock (currently ::nb::% - 25% max).</desc>
+			<name>장비 향상</name>
+			<desc>군사유닛의 공격력이 가진 [Money] 에 비례하여 증가합니다. (현재 ::nb::% - 25% max).</desc>
 		</MilitaryFunds>
 		<GreatExplorers>
-			<name>Journeymen</name>
-			<desc>Increases your [Happy] based on the areas you have explored.</desc>
+			<name>여행자</name>
+			<desc>탐험한 지역에 비례하여 [Happy] 가 증가합니다.</desc>
 		</GreatExplorers>
 		<Wealth>
-			<name>Exotic Goods</name>
-			<desc>Gain +::value::[Happy] per Harbor, +::value1::[Happy] if upgraded.</desc>
+			<name>수입품</name>
+			<desc>항구마다 +::value::[Happy] 가 증가합니다. 업그레이드 되었다면 +::value1::[Happy] 가 증가합니다.</desc>
 		</Wealth>
 		<Hibernate>
 			<name>Hibernation</name>
@@ -4008,10 +4008,10 @@
 	</sheet>
 	<sheet name="biome">
 		<Meadow>
-			<name>Meadow</name>
+			<name>목초지</name>
 		</Meadow>
 		<WildLands>
-			<name>Wild Lands</name>
+			<name>야생의땅</name>
 		</WildLands>
 		<Taiga>
 			<name>침엽수림</name>
@@ -4029,10 +4029,10 @@
 			<name>툰드라</name>
 		</Toundra>
 		<Ragnarok>
-			<name>Ragnarok</name>
+			<name>라그나로크</name>
 		</Ragnarok>
 		<Frosted>
-			<name>Frosted</name>
+			<name>서리</name>
 		</Frosted>
 	</sheet>
 	<sheet name="ability">
