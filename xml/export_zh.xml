@@ -2,7 +2,7 @@
 	<sheet name="resource">
 		<Food>
 			<name>식량</name>
-			<desc>[Food] 은 당신의 부족원들에게 필요한 식량입니다. 겨울이 되기전 비축하세요. Avoid starvation at all costs(전원이 굶어죽는것을 피하세요).</desc>
+			<desc>[Food] 은 당신의 부족원들에게 필요한 식량입니다. 겨울이 되기전 비축하세요. 전원이 굶어죽는것을 피하세요.</desc>
 		</Food>
 		<Wood>
 			<name>목재</name>
@@ -120,7 +120,7 @@
 			<desc>A good Brewer provides a steady supply of ale and improves your clan's [Happy].</desc>
 		</InnKeeper>
 		<Skald>
-			<name>Skald</name>
+			<name>음유시인</name>
 			<desc>Skalds' tales of your clan's deeds will increase your [Fame] and [Happy].</desc>
 			<flavor>"Skald" literally means "poet." Skaldic poetry is one of the two main forms of Old Norse poetry, the other being Eddic poetry.</flavor>
 		</Skald>
@@ -130,7 +130,7 @@
 			<flavor>What's yours is mine!</flavor>
 		</Miner>
 		<Scout>
-			<name>Scout</name>
+			<name>정찰병</name>
 			<desc>Scouts explore new areas, allowing you to expand your territory. They can also explore Ruins and Shipwrecks.</desc>
 		</Scout>
 		<Healer>
@@ -139,54 +139,54 @@
 			<flavor>Wolol...oh, sorry, wrong line.</flavor>
 		</Healer>
 		<Mender>
-			<name>Mender</name>
+			<name>수리공</name>
 			<desc>Menders heal wounded Vikings within your territory and gather [Lore] when not otherwise busy.</desc>
 		</Mender>
 		<Smith>
-			<name>Smith</name>
-			<desc>Only an experienced Smith can forge the legendary Sword of Odin.</desc>
+			<name>대장장이</name>
+			<desc>숙련된 대장장이만이 전설의 오딘의 검을 제작할수 있습니다.</desc>
 		</Smith>
 		<Warrior>
-			<name>Warrior</name>
+			<name>전사</name>
 			<desc>Warriors are the most common [Warband] units. They are good fighters with an advantage against Shield Bearers.</desc>
-			<flavor>Fun fact: Viking warriors did not wear horned helmets. This depiction originates from the 1876 rendition of Wagner's Der Ring des Nibelungen.</flavor>
+			<flavor>재밌는 사실: 바이킹은 사실 뿔헬멧을 착용하지 않았습니다. 기원은 1876년 오페라 '니벨룽의 반지' 에서부터 서술하기 시작했습니다.</flavor>
 		</Warrior>
 		<ShieldBearer>
-			<name>Shield Bearer</name>
+			<name>방패병</name>
 			<desc>Shield Bearers are a strong defensive unit that take ::inv_percent:: less damage from projectiles.</desc>
 			<flavor>SHIELD WALL!</flavor>
 		</ShieldBearer>
 		<AxeWielder>
-			<name>Axe Thrower</name>
+			<name>도끼 투척병</name>
 			<desc>Axe Throwers are ranged units that are more powerful than the average warrior but a bit more fragile.</desc>
 		</AxeWielder>
 		<Skirmisher>
-			<name>Skirmisher</name>
+			<name>척후병</name>
 			<desc>Skirmishers are lightweight military units that trade offense and protection for mobility and stealth.</desc>
 			<flavor>When you see them, it's probably too late.</flavor>
 		</Skirmisher>
 		<Hero01>
-			<name>Warchief</name>
+			<name>대족장</name>
 			<desc>Warchiefs are experienced units that bring their strength and leadership to bear in combat.</desc>
 		</Hero01>
 		<Hero02>
-			<name>Warchief</name>
+			<name>대족장</name>
 			<desc>Warchiefs are experienced units that bring their strength and leadership to bear in combat.</desc>
 		</Hero02>
 		<Hero03>
-			<name>Warchief</name>
+			<name>대족장</name>
 			<desc>Warchiefs are experienced units that bring their strength and leadership to bear in combat.</desc>
 		</Hero03>
 		<Hero04>
-			<name>Warchief</name>
+			<name>대족장</name>
 			<desc>Warchiefs are experienced units that bring their strength and leadership to bear in combat.</desc>
 		</Hero04>
 		<Berserker>
-			<name>Berserker</name>
+			<name>광전사</name>
 			<desc>A powerful and reckless warrior, feared by all enemies of the Wolf Clan.</desc>
 		</Berserker>
 		<Maiden>
-			<name>Shield Maiden</name>
+			<name>방패 여전사</name>
 			<desc>Stalwart defender of her people, she is the reason the Bear Clan will never falter.</desc>
 		</Maiden>
 		<WarchiefSnake>
@@ -199,9 +199,9 @@
 			<desc>Bláinn is a legendary [Giant] who decided to befriend humans and lend them his unrivaled strength.</desc>
 		</GiantHero>
 		<Mercenary>
-			<name>Mercenary</name>
-			<plural>Mercenaries</plural>
-			<desc>Hired for [Money], Mercenaries are not always reliable, but they'll wreak havoc on any territory they attack.</desc>
+			<name>용병</name>
+			<plural>용병들</plural>
+			<desc>[Money] 로 고용된 자들, 용병은 항상 믿을수 있는 존재가 아닙니다. 하지만 그들이 공격한곳은 큰 혼란과 피해를 입을것입니다.</desc>
 			<flavor>Nothing personal.</flavor>
 		</Mercenary>
 		<Berserker03>
@@ -229,8 +229,8 @@
 			<flavor>Is all this savagery indispensable?</flavor>
 		</Hero06>
 		<Hero07>
-			<name>Brand</name>
-			<plural>Brand</plural>
+			<name>브랜드</name>
+			<plural>브랜드</plural>
 			<desc>Proud and noble at heart, Brand, bannerman of the Stag Clan, is a loyal man who lives and fights with honor.</desc>
 			<flavor>May our victories be sung for centuries!</flavor>
 		</Hero07>
@@ -241,14 +241,14 @@
 			<flavor>I can... FEEL your presence. Yes... YOURS.</flavor>
 		</Hero08>
 		<Hero05>
-			<name>Hagen</name>
-			<plural>Hagen</plural>
+			<name>하겐</name>
+			<plural>하겐</plural>
 			<desc>The shady leader of the Raven Clan and murderer of your father. Although fierce and merciless, he tends to act cowardly when things turn sour.</desc>
 			<flavor>Fight for me and ye'll be rich!</flavor>
 		</Hero05>
 		<Hero09>
-			<name>Rig</name>
-			<plural>Rig</plural>
+			<name>리그</name>
+			<plural>리그</plural>
 		</Hero09>
 		<Berserker02>
 			<name>Hvedrung</name>
@@ -257,10 +257,10 @@
 			<flavor>I shall be "the villain" if it makes things more comprehensible for your feeble mind. And yes: I know you are reading this.</flavor>
 		</Berserker02>
 		<Militia>
-			<name>Militia</name>
+			<name>민병대</name>
 		</Militia>
 		<Bodyguard>
-			<name>Bodyguard</name>
+			<name>경호원</name>
 		</Bodyguard>
 		<Death>
 			<name>드라우그</name>
@@ -275,8 +275,8 @@
 			<flavor>Ymir, the primitive giant, is said to be the father of all giants and dwarves.</flavor>
 		</Giant>
 		<UndeadGiant>
-			<name>Draugr Jötunn</name>
-			<plural>Draugr Jötnar</plural>
+			<name>드라우그 요툰</name>
+			<plural>드라우그 요트나르</plural>
 			<desc>Jötnar aren't immune to becoming Draugar.</desc>
 			<flavor>Your undead problems are now available in extra-large.</flavor>
 		</UndeadGiant>
@@ -291,33 +291,33 @@
 			<desc>The [Myrkalfar]s are an agressive and cunning native faction. Never trust them and watch their moves carefully.</desc>
 		</Myrkalfar>
 		<Kobold>
-			<name>Kobold</name>
-			<desc>[Kobold]s can be a great trade partner, but also an annoyance when they take valuable land.</desc>
+			<name>코볼트</name>
+			<desc>[Kobold] 는 훌륭한 거래 파트너가 될 수 있습니다. 그러나 소중한 영토를 가지고있다면 짜증나기도 합니다.</desc>
 		</Kobold>
 		<Wolf>
-			<name>Wolf</name>
-			<plural>Wolves</plural>
-			<desc>Vicious giant wolves roam the lands of Northgard. They will not hesitate to attack humans.</desc>
-			<flavor>Never corner a hungry wolf.</flavor>
+			<name>늑대</name>
+			<plural>늑대들</plural>
+			<desc>잔인하고 거대한 늑대들은 노스가드를 방랑하고있습니다. 그들은 사람을 공격하는데에 주저하지않습니다.</desc>
+			<flavor>굶주린 늑대를 절대 몰아넣지 마시오.</flavor>
 		</Wolf>
 		<Bear>
-			<name>Brown Bear</name>
-			<desc>Solitary creatures that fiercely defend their territory. They'll prove challenging to even the most seasoned warriors.</desc>
+			<name>갈색곰</name>
+			<desc>홀로 자신의 영억을 지키는 갈색곰 입니다. They'll prove challenging to even the most seasoned warriors.</desc>
 		</Bear>
 		<WhiteBear>
-			<name>Bear</name>
+			<name>곰</name>
 		</WhiteBear>
 		<BearMaiden>
-			<name>Kaija, the Armored Bear</name>
-			<desc>Kaija is a powerful defensive unit that cannot enter enemy territory.</desc>
+			<name>갑옷곰 카이자</name>
+			<desc>카이자는 적 영토로 들어가지 못하는 강력한 방어 유닛입니다.</desc>
 		</BearMaiden>
 		<Wyvern>
-			<name>Wyvern</name>
+			<name>와이번</name>
 			<desc>The most fearsome of the ancient creatures roaming the lands of Northgard.</desc>
 			<flavor>[indistinct shrieking]</flavor>
 		</Wyvern>
 		<Valkyrie>
-			<name>Valkyrie</name>
+			<name>발키리</name>
 			<desc>Originally champions of the gods, some Valkyries have been corrupted by the powers of Helheim.</desc>
 			<flavor>"Valkyrie" means "chooser of the slain," as they decide which fallen warriors will join Odin in Valhöll.</flavor>
 		</Valkyrie>
@@ -333,13 +333,13 @@
 			<flavor>Said to be the spawn of Jörmungandr, imbued with Niflheim's fumes.</flavor>
 		</IceWorm>
 		<Golem>
-			<name>Rock Golem</name>
-			<desc>[Golem]s are powerful creatures that can burn their foes with molten lava.</desc>
+			<name>바위 골렘</name>
+			<desc>[Golem] 은 적들을 용암으로 불태울 수 있는 강력한 생물체입니다.</desc>
 			<flavor>[loud crackling]</flavor>
 		</Golem>
 		<Sheep>
-			<name>Sheep</name>
-			<plural>Sheep</plural>
+			<name>양조자</name>
+			<plural>양조자</plural>
 			<desc>Having at least one Sheep in an area reduces the need for Firewood by ::percent:: during winter for this area.</desc>
 			<flavor>Clicking this Sheep repeatedly is guaranteed to be 100% safe.</flavor>
 		</Sheep>
@@ -349,15 +349,15 @@
 			<flavor>Vedrfolnir is a hawk usually sitting between the eyes of the giant eagle perched atop Yggdrasil.</flavor>
 		</Vedrfolnir>
 		<Deer>
-			<name>Deer</name>
-			<plural>Deer</plural>
+			<name>사슴</name>
+			<plural>사슴</plural>
 		</Deer>
 		<Fish>
-			<name>Fish</name>
-			<plural>Fish</plural>
+			<name>물고기</name>
+			<plural>물고기</plural>
 		</Fish>
 		<Drakkar>
-			<name>Drakkar</name>
+			<name>드라카르</name>
 		</Drakkar>
 		<Group>
 			<name>Group</name>

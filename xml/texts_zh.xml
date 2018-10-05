@@ -1,7 +1,7 @@
 <texts>
 	<t id="ia_names">아르비드|아스게르|아우둔|발터|발드|요른|브랜트|카누테|콜비|코레이|아이나르|아이릭|에링|피스케|플로키|프레이|가쓰|구나르|할슈타인|학세|호저|이바르|예리크|켈트|크누트|라몬트|라이프|올라프|오르센|슈타인|스벤|토르센|토발즈|비다르|힌다오르프|브린힐트|프레이디스|군힐드|란바이흐|시브|토룬|비디스|하랄드|매그너스|울프</t>
-	<t id="men_names">디아프|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
-	<t id="women_names">Asa|Ormhild|Jodis|Gyrid|Gaeielaug|Jolfrid|Flokser|Ranveig|Ljufu|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Signy|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
+	<t id="men_names">디아프|길스|토르비드|레프|흐라이다르|로드마르|야른|야른세기드|발리|아론|아스가우트|아그람|발란디르|세바디안|오린|브리호크|브로디|가르디|인기마르|에그릭|토르락|알|브라기|프로디|플로키|오르드르|토르손|슬로티|그누피|수이트|바리|오타르|이아룽|이아룬트|칼리프|트로스트|인기|에르프|사시|발가트|흐라이타르|할문트|알프가이르|솔르피|시그파드|구드바이어|반딜|스나요른|토레드|아스락|알니|케틸|인게마르|엔길|요마르|아눈드|티드리크|가이터리크|하프|브레타코른|바이니르|슈타인호프|비야코|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
+	<t id="women_names">아사|오름힐트|요디스|가이리드|Gaeielaug|욜트프리드|프로세르|Ranveig|리유푸|Thorve|Torgärd|Jarngerd|Hungerd|Ginnlaug|Freydis|Arnkalta|Gudney|Asny|Salbjorg|Gudfrid|Tofa|Frida|Hallberta|Yri|Asa|Thora|Bothild|Melkorka|Aestrid|Siv|Liv|Borgild|Dotta|Skulk|Hallbera|Gunnvar|Meid|Hilde|Freygerd|Gerrid|Odindis|Oddbjord|Ragneid|Signy|Estrid|Hrefna|Malkorka|Saeunn|Ashild|Grelod|Turid|Gudny|Svala|Sala|Ragnhild|Thras|Thrasla|Inga|Vigdis|Kadlin|Luda|Luta|Lusa|Lura|Geirny|Isgerd|Inga|Tonna|Ingunn|Brynhild|Svanhild|Vigdis|Herkja|Gyrd|Gyrid|Geirny|Shaton|Gro|Olof|Ingegärd|Hervar|Hervor|Frifgerd|Fridgard|Fridal|Fridoh|Toffa|Freide|Frideburg|Osk|Oskmaer|Oski|Oska|Oskku|Malthilda|Matild|Herkja|Drifa|Asfrida|Inggrid|Ingridd|Asfny|Steinnun|Steinunn|Ingeltore|Abi|Abbi|Abbnis|Abisth|Holmfrid|Yri|Jofrid|Nodbiorg|Nibdjorg|Gudny|Gubny</t>
 
 	<t id="soon">곧 공개...</t>
 	<t id="flavor_quote">- "::text::"</t>
@@ -358,7 +358,7 @@
 		<t id="new_game">새 게임 만들기</t>
 		<t id="game_settings">게임 설정</t>
 		<t id="clan_name">플레이어 이름</t>
-		<t id="clan_color">부족 색깔 선택</t>
+		<t id="clan_color">부족 색상 선택</t>
 		<t id="game_difficulty">날씨 난이도</t>
 		<t id="difficulty_label">난이도</t>
 		<t id="game_mapsize">맵 크기</t>
@@ -405,7 +405,7 @@
 			<t id="advanced_options">고급설정</t>
 		</g>
 			<g id="military_paths">
-			<t id="title">Military Paths</t>
+			<t id="title">군사계획</t>
 			<g id="categories">
 				<t id="c_1">책략가</t>
 				<t id="c_2">수호자</t>
@@ -807,28 +807,28 @@
 		<t id="free_tower_upgrade">You have free tower upgrades available!</t>
 
 		<g id="warnings">
-			<t id="food">Our clan is starving! We need to gather more Food!</t>
-			<t id="stock">Our Food reserves are maxed out! We need to build more Silos!</t>
-			<t id="wood">Our clan is freezing! We need to gather more Wood!</t>
-			<t id="money">We can't maintain our buildings! We need more Kröwns!</t>
-			<t id="pop">Our population cannot grow! We need more houses!</t>
-			<t id="happy">Our population isn't growing! We need more happiness!</t>
-			<t id="betterhappiness">Our people are surviving... but they could definitely be happier.</t>
-			<t id="goodhappiness">Our people are decently happy. Don't rest on your laurels, though!</t>
+			<t id="food">부족이 굶고있습니다! 식량을 수집해야 합니다!</t>
+			<t id="stock">식량 보관고가 꽉 찼습니다! 식량 저장고를 더 지어야합니다!</t>
+			<t id="wood">부족이 추위에 떨고있습니다! 목재를 수집해야 합니다!</t>
+			<t id="money">건물을 유지할 수 없습니다! 크로나가 더 필요합니다</t>
+			<t id="pop">인구가 더이상 늘어날 수 없습니다! 집을 더 지어야합니다!</t>
+			<t id="happy">인구가 더이상 늘어날 수 없습니다! 우리는 행복해야합니다!</t>
+			<t id="betterhappiness">우리는 살아남고 있습니다... 하지만 확실한것은 더 행복해야합니다.</t>
+			<t id="goodhappiness">우리는 약간 행복합니다. 안심하긴 이릅니다!</t>
 			<t id="excellenthappiness">Our people are overjoyed and grateful to you. Keep it up!</t>
 			<t id="notconstructing">We need to bring a villager here to advance the construction!</t>
-			<t id="nobodyassigned">We don't have any clan member working here.</t>
-			<t id="burning">Our building is damaged! We need to send a [Villager] to repair it!</t>
+			<t id="nobodyassigned">여기서 일하는 부족원이 없습니다.</t>
+			<t id="burning">건물이 손상됬습니다! [Villager] 을 보내 수리하세요!</t>
 			<t id="nowork">Some of us don't have anything to do for now...</t>
 			<t id="nohome">Some of us don't have a house!</t>
-			<t id="nothappy">We are not happy!</t>
-			<t id="nofood">We're starving! We need to gather more Food!</t>
-			<t id="nowood">We're freezing! We need to gather more Wood!</t>
-			<t id="sick">Some of us are sick! We need to heal them before they die!</t>
+			<t id="nothappy">행복하지 않습니다!</t>
+			<t id="nofood">부족이 굶고있습니다! 식량을 수집해야 합니다!</t>
+			<t id="nowood">부족이 추위에 떨고있습니다! 목재를 수집해야 합니다!</t>
+			<t id="sick">우리중 환자가 있습니다! 죽기전에 치료해야 합니다!</t>
 			<t id="tech_available">We have enough [Lore] to acquire Knowledge!</t>
 			<t id="blessing_available">We can obtain a new blessing from the gods!</t>
 			<t id="too_far_malus">We are too far from our territory! Our attack power is reduced by ::inv_percent::.</t>
-			<t id="military_path_available">Choose a Military Path</t>
+			<t id="military_path_available">군사계획을 정하십시오</t>
 		</g>
 		<t id="cant_colonize_occupied">You can't colonize an area that is defended.</t>
 		<t id="cant_colonize_warring">You can't colonize when you don't have a safe area you control next to it.</t>
@@ -843,7 +843,7 @@
 
 		<t id="multi_tags"><font color="#FFFFFF">Tags</font> can be used by other players to look for your game.</t>
 
-		<t id="victory_progress">Victory Progress</t>
+		<t id="victory_progress">승리 진행도</t>
 		<t id="already_one_bear">[BearMaiden] is already under your control.</t>
 		<t id="need_in_territory">You can only use this action inside your territory.</t>
 
@@ -852,7 +852,7 @@
 
 		<t id="need_upgrade_scout">Requires an upgraded Scout Camp</t>
 
-		<t id="subselect_unit">Select Unit</t>
+		<t id="subselect_unit">유닛 선택</t>
 		<t id="subselect_ctrl">Ctrl +</t>
 		<t id="subselect_group">Select Similar Units</t>
 
@@ -1037,8 +1037,8 @@
 		<t id="clan_fame_desc"><font color="#R">::name:::</font> (requires <img src="/r/Fame"/><font color="#F">::fame::</font>)<br/>::desc::<br/></t>
 
 		<g id="new_ragnarok">
-			<t id="title">Ragnarok Update</t>
-			<t id="desc">The Ragnarok Update features a brand new map, unique events, new tiles, neutral factions and monsters!<br/>The update also includes a brand new Military Experience system, allowing you to unlock unique skills for your warchief and your clan!</t>
+			<t id="title">라그나로크 업데이트</t>
+			<t id="desc">라그나로크에서는 새로운 맵, 독특한 이벤트와, 새로운 타일, 중립 세력과 몬스터가 추가됬습니다!<br/>새로운 군사 경험치 시스템과 대족장의 고유한 스킬을 얻을수 있는 기능이 포함되어있습니다.</t>
 		</g>
 	</g>
 	<g id="multi_menu">
@@ -1060,42 +1060,42 @@
 		</g>
 
 		<g id="join_sub">
-			<t id="game_name">NAME</t>
-			<t id="game_mode">MODE</t>
-			<t id="average_elo">Average ::elo:::</t>
+			<t id="game_name">제목</t>
+			<t id="game_mode">모드</t>
+			<t id="average_elo">평균 ::elo:::</t>
 		</g>
 
 		<g id="leaderboard_sub">
 			<t id="top_rank">Top Ranked Players</t>
-			<t id="current_rank">Your Rank</t>
-			<t id="win_rate">Win rate</t>
-			<t id="not_ranked">Play a ranked game to be in the leaderboard</t>
+			<t id="current_rank">내 랭크</t>
+			<t id="win_rate">승률</t>
+			<t id="not_ranked">랭크 게임을 플레이하고 리더보드에 진입하세요</t>
 		</g>
 
 		<g id="profile_sub">
 			<t id="title">Player Ranking</t>
 			<t id="match_played">Matches played: ::nb::</t>
-			<t id="win_rate">Win rate: ::nb::%</t>
-			<t id="history">Match History</t>
+			<t id="win_rate">승률: ::nb::%</t>
+			<t id="history">경기 전적</t>
 			<t id="flavor">Covering the last ::nb:: games</t>
-			<t id="clan">::clan:: Clan</t>
-			<t id="gameMode">Duel|Free For All|2V2|3V3|2V2V2|4V4|2V2V2V2</t>
+			<t id="clan">::clan:: 부족</t>
+			<t id="gameMode">결투|개인전|2V2|3V3|2V2V2|4V4|2V2V2V2</t>
 
-			<t id="new_season_title">Welcome to the ::name:: Season!</t>
+			<t id="new_season_title">::name:: 시즌입니다!</t>
 			<t id="new_season_desc">Season ::name:: is now over. Fight for your spot on the leaderboards now! ::gloryPoints:: have been reset. The new season is now open until the next major update.</t>
-			<t id="current_season">Season ::nb::: ::name::</t>
-			<t id="prev_season">Previous Seasons</t>
-			<t id="next_season">Next Seasons</t>
+			<t id="current_season">시즌 ::nb::: ::name::</t>
+			<t id="prev_season">이전 시즌</t>
+			<t id="next_season">다음 시즌</t>
 			<t id="rank">Rank ::nb::</t>
 		</g>
 	</g><g id="campaign">
-		<t id="back">Back to Menu</t>
-		<t id="chapter">CHAPTER ::x::</t>
-		<t id="act">Act ::x::</t>
-		<t id="cinematic_play">PLAY</t>
-		<t id="cinematic_locked">LOCKED</t>
+		<t id="back">메뉴로 돌아가기</t>
+		<t id="chapter">::x::막</t>
+		<t id="act">::x::장</t>
+		<t id="cinematic_play">재생</t>
+		<t id="cinematic_locked">잠김</t>
 		<t id="cinematic_act_ending">ACT ENDING</t>
-		<t id="cinematic_prologue">PROLOGUE</t>
+		<t id="cinematic_prologue">서막</t>
 		<t id="cinematic_epilogue">EPILOGUE</t>
 		<t id="main_objectives">Objectives</t>
 		<t id="bonus">Bonus</t>
@@ -1103,19 +1103,19 @@
 		<t id="bonus_hidden">Bonus objectives will be revealed once you complete the chapter for the first time.</t>
 		<t id="select_bannerman">Select a Bannerman</t>
 		<t id="change_bannerman">Change Bannerman</t>
-		<t id="skip">Skip ></t>
+		<t id="skip">건너뛰기 ></t>
 		<t id="allied_banner">Ally</t>
 		<t id="no_build">Building unavailable in this chapter</t>
 		<t id="all_bonuses_unlocked">Congratulations! You can now use story mode Heroes as Warchiefs in single-player and multiplayer modes!</t>
 	</g>
 
 	<g id="generation_quotes">
-		<t id="s1">Sculpting island terrain...</t>
-		<t id="s2">Generating mountains...</t>
-		<t id="s3">Carving icy lakes...</t>
-		<t id="s4">Growing forests...</t>
-		<t id="s5">Spawning unfriendly creatures...</t>
-		<t id="s6">Almost ready!</t>
+		<t id="s1">섬으로 쪼개는중...</t>
+		<t id="s2">산을 만드는중...</t>
+		<t id="s3">얼음 호수 깨는중...</t>
+		<t id="s4">나무 심는중...</t>
+		<t id="s5">해로운 생물 생성중...</t>
+		<t id="s6">거의 다 됐습니다!</t>
 	</g>
 
 	<g id="map_loading_quotes">
@@ -1200,11 +1200,11 @@
 	<g id="network">
 		<t id="elo">Glory Points</t>
 		<t id="elo_shortcut">GP</t>
-		<t id="multi_menu">Multiplayer</t>
-		<t id="multi_title">Multiplayer Game</t>
-		<t id="multi_create">Create Multiplayer Game</t>
+		<t id="multi_menu">멀티플레이</t>
+		<t id="multi_title">멀티 플레이 게임</t>
+		<t id="multi_create">멀티 게임 만들기</t>
 		<t id="multi_load">Load Multiplayer Game</t>
-		<t id="multi_info_title">GAME INFO</t>
+		<t id="multi_info_title">게임 정보</t>
 		<t id="no_game_found">No available game was found.</t>
 		<t id="could_not_join">Could not join the game.</t>
 		<t id="owner_has_quit">Host has left.</t>
@@ -1215,40 +1215,40 @@
 		<t id="refreshing">Refreshing List...</t>
 		<t id="game_name">Game Name</t>
 		<t id="game_mode">Players</t>
-		<t id="game_modes">Duel|Free For All|Team 2v2|Team 3v3|Team 2v2v2|Team 4v4|Team 2v2v2v2</t>
-		<t id="game_generation">Map Generation</t>
-		<t id="game_generation_types">Random|Balanced</t>
-		<t id="modes_all">All</t>
+		<t id="game_modes">결투|개인전|2v2 팀전|3v3 팀전|2v2v2 팀전|4v4 팀전|2v2v2v2 팀전</t>
+		<t id="game_generation">맵 생성</t>
+		<t id="game_generation_types">랜덤|균형</t>
+		<t id="modes_all">전체</t>
 		<t id="open_game">Open Game</t>
-		<t id="join_game">Join Game</t>
-		<t id="joining_game">Joining Game...</t>
-		<t id="invite">Invite</t>
+		<t id="join_game">게임참가</t>
+		<t id="joining_game">참가하는중...</t>
+		<t id="invite">초대</t>
 		<t id="invite_error">Oops... an error has occured while trying to join the game.</t>
-		<t id="exit">Exit</t>
-		<t id="game_visibility">Game Type</t>
-		<t id="game_visibilities">Public|Invite Only|Ranked</t>
+		<t id="exit">나가기</t>
+		<t id="game_visibility">게임종류</t>
+		<t id="game_visibilities">공개|초대만|랭크</t>
 		<t id="game_visibility_info"><font color="#T">::kind::(</font><font color="::color::">::count::/::max::</font><font color="#T">)</font></t>
 		<t id="game_distance">Local|Regional|Continental|WorldWide</t>
 		<t id="players">Players</t>
-		<t id="options">Options</t>
-		<t id="clan_choice">Clan</t>
-		<t id="random_clan">Random</t>
-		<t id="player_color">Color</t>
-		<t id="start_game">Start Game</t>
+		<t id="options">설정</t>
+		<t id="clan_choice">부족</t>
+		<t id="random_clan">랜덤</t>
+		<t id="player_color">색상</t>
+		<t id="start_game">게임시작</t>
 		<t id="waiting_for_players">Waiting for players...</t>
 		<t id="waiting_for_teams">Invalid team distribution</t>
 		<t id="waiting_for_colors">Player color conflict</t>
 		<t id="waiting_for_player">Waiting for player...</t>
-		<t id="player_ready">READY!</t>
-		<t id="invited_by"><font color="#R">::name::</font> has invited you to a multiplayer game. Do you wish to join?</t>
-		<t id="chat">Chat</t>
-		<t id="chat_message">Message</t>
-		<t id="chat_send_button">Send</t>
+		<t id="player_ready">준비!</t>
+		<t id="invited_by"><font color="#R">::name::</font> 가 멀티플레이 게임에 초대하였습니다. 참가하시겠습니까?</t>
+		<t id="chat">채팅</t>
+		<t id="chat_message">메시지</t>
+		<t id="chat_send_button">보내기</t>
 		<t id="no_steam">You need to log in through Steam to access multiplayer. If Steam is already connected, please restart it.</t>
-		<t id="team">Team</t>
-		<t id="color">Color</t>
-		<t id="teams">Random|Team 1|Team 2|Team 3|Team 4</t>
-		<t id="AIlevel">Random|Easy|Medium|Hard</t>
+		<t id="team">팀</t>
+		<t id="color">색상</t>
+		<t id="teams">랜덤|Team 1|Team 2|Team 3|Team 4</t>
+		<t id="AIlevel">랜덤|쉬움|보통|어려움</t>
 		<t id="connecting">Connecting to server...</t>
 		<t id="server_error">An error occurred while opening the server socket.</t>
 		<t id="client_error">Failed to connect to game server.</t>
@@ -1277,16 +1277,16 @@
 		<t id="add_friend">Add a Friend</t>
 		<t id="waiting_friend_answer">Waiting for answer...</t>
 		<t id="friend_invite_time">Time remaining: ::v::s.</t>
-		<t id="server_zone">Game Server</t>
-		<t id="server_zones_labels">Europe|North America|Peer-to-Peer</t>
+		<t id="server_zone">게임서버</t>
+		<t id="server_zones_labels">유럽|북아메리카|Peer-to-Peer</t>
 		<t id="server_zones">eu|na|p2p</t>
-		<t id="leagueKind">Wood|Stone|Iron|Gold|Rimesteel</t>
-		<t id="league">::kind:: League</t>
+		<t id="leagueKind">나무|돌|강철|금|Rimesteel</t>
+		<t id="league">::kind:: 리그</t>
 		<t id="db_timeout">The server is not responding. Check your connexion or try again later.</t>
 		<t id="db_invite_timeout">You've been invited to a Ranked game but your ranking couldn't be retrieved from the server.</t>
 		<t id="rematch">::name:: has proposed a rematch</t>
 		<t id="rematch_yes">Rematch in...</t>
-		<t id="rematch_no">Vote failed</t>
+		<t id="rematch_no">투표 부가결</t>
 		<g id="elo_update">
 			<t id="progress">::newElo:: ::pts::</t>
 			<t id="not_yet">Your ranking will be updated at the end of the game.</t>
