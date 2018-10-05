@@ -90,15 +90,15 @@
 		</Woodcutter>
 		<Farmer>
 			<name>농부</name>
-			<desc>Experienced in growing crops, Farmers produce [Food] in larger quantities during summer.</desc>
+			<desc>농작물을 기르는데에 전문가입니다. 농부는 여름동안 더 많은 [Food] 을 생산합니다.</desc>
 		</Farmer>
 		<Hunter>
 			<name>사냥꾼</name>
-			<desc>Skilled Hunters will track and kill deer to provide [Meat] for your clan.</desc>
+			<desc>노련한 사냥꾼들은 사슴을 추적하고 사냥하여 [Meat] 를 제공합니다.</desc>
 		</Hunter>
 		<Fisherman>
 			<name>어부</name>
-			<plural>Fishermen</plural>
+			<plural>어부</plural>
 			<desc>Fishermen provide fresh [Fish] for your clan. Their production is not affected by winter.</desc>
 		</Fisherman>
 		<Merchant>
@@ -112,11 +112,11 @@
 		</Sailor>
 		<RuneMaster>
 			<name>전승지기</name>
-			<desc>Masters of ancient [Lore], they can study runestones, increasing your Knowledge.</desc>
+			<desc>고대의 [Lore] 의 전문가입니다. they can study runestones, increasing your Knowledge.</desc>
 			<flavor>Basically a Viking nerd.</flavor>
 		</RuneMaster>
 		<InnKeeper>
-			<name>Brewer</name>
+			<name>양조자</name>
 			<desc>A good Brewer provides a steady supply of ale and improves your clan's [Happy].</desc>
 		</InnKeeper>
 		<Skald>
@@ -131,12 +131,12 @@
 		</Miner>
 		<Scout>
 			<name>정찰병</name>
-			<desc>Scouts explore new areas, allowing you to expand your territory. They can also explore Ruins and Shipwrecks.</desc>
+			<desc>정찰병들은 새로운 영역을 탐험하여 영토를 늘릴수 있도록 해줍니다. 유적과 난파선을 조사할 수 있습니다.</desc>
 		</Scout>
 		<Healer>
 			<name>치유사</name>
 			<desc>Healers gather medicinal herbs that your wounded will use to heal themselves. The wounded must be within your territory to heal.</desc>
-			<flavor>Wolol...oh, sorry, wrong line.</flavor>
+			<flavor>워워...오, 미안, 실수했네.</flavor>
 		</Healer>
 		<Mender>
 			<name>수리공</name>
@@ -148,13 +148,13 @@
 		</Smith>
 		<Warrior>
 			<name>전사</name>
-			<desc>Warriors are the most common [Warband] units. They are good fighters with an advantage against Shield Bearers.</desc>
+			<desc>전사들은 가장 기본적인 [Warband] 유닛입니다. They are good fighters with an advantage against Shield Bearers.</desc>
 			<flavor>재밌는 사실: 바이킹은 사실 뿔헬멧을 착용하지 않았습니다. 기원은 1876년 오페라 '니벨룽의 반지' 에서부터 서술하기 시작했습니다.</flavor>
 		</Warrior>
 		<ShieldBearer>
 			<name>방패병</name>
 			<desc>Shield Bearers are a strong defensive unit that take ::inv_percent:: less damage from projectiles.</desc>
-			<flavor>SHIELD WALL!</flavor>
+			<flavor>방패 벽이다!</flavor>
 		</ShieldBearer>
 		<AxeWielder>
 			<name>도끼 투척병</name>
@@ -163,7 +163,7 @@
 		<Skirmisher>
 			<name>척후병</name>
 			<desc>Skirmishers are lightweight military units that trade offense and protection for mobility and stealth.</desc>
-			<flavor>When you see them, it's probably too late.</flavor>
+			<flavor>너가 우리를 보았다면 이미 너무 늦은것이다.</flavor>
 		</Skirmisher>
 		<Hero01>
 			<name>대족장</name>
@@ -338,8 +338,8 @@
 			<flavor>[loud crackling]</flavor>
 		</Golem>
 		<Sheep>
-			<name>양조자</name>
-			<plural>양조자</plural>
+			<name>양</name>
+			<plural>양</plural>
 			<desc>Having at least one Sheep in an area reduces the need for Firewood by ::percent:: during winter for this area.</desc>
 			<flavor>Clicking this Sheep repeatedly is guaranteed to be 100% safe.</flavor>
 		</Sheep>
@@ -783,7 +783,7 @@
 		</Heroes>
 		<MonsterSlayer>
 			<name>신화 도살자</name>
-			<desc>군사 유닛이 신화속 생물들에게 ::percent: 추가 공격력을 얻습니다.</desc>
+			<desc>군사 유닛이 신화속 생물들에게 ::percent:: 추가 공격력을 얻습니다.</desc>
 		</MonsterSlayer>
 		<Negociate>
 			<name>교섭</name>
@@ -849,8 +849,8 @@
 			<desc>Skalds will produce +::value::[Money] (+::value1:: if their building is upgraded).</desc>
 		</GreatDeeds>
 		<GloryClan>
-			<name>Glory of the Clan</name>
-			<desc>Increases each gain of [Fame] by ::percent::.</desc>
+			<name>부족의 영광</name>
+			<desc>[Fame] 의 획득량이 ::percent:: 증가합니다.</desc>
 		</GloryClan>
 		<Rangers>
 			<name>유격수</name>
@@ -873,59 +873,59 @@
 			<desc>항구마다 +::value::[Happy] 가 증가합니다. 업그레이드 되었다면 +::value1::[Happy] 가 증가합니다.</desc>
 		</Wealth>
 		<Hibernate>
-			<name>Hibernation</name>
-			<desc>Your non-sick clan members will heal during winter when in your territory.</desc>
+			<name>동면</name>
+			<desc>겨울동안 영토내에 질병에 걸리지 않은 부족원들이 체력이 회복됩니다.</desc>
 		</Hibernate>
 		<LandProtect>
-			<name>Protector of the Land</name>
-			<desc>Gain +::value::[Happy] per area with at least one military camp.</desc>
+			<name>대지의 수호자</name>
+			<desc>병영 막사가 있는 영역당 +::value::[Happy] 를 얻습니다.</desc>
 		</LandProtect>
 		<ShieldMaster>
-			<name>Shield Mastery</name>
-			<desc>[ShieldBearer]s cost less [Money], and their resistance is increased by ::percent::. [ShieldCenter] have no upkeep cost.</desc>
+			<name>방패 숙달자</name>
+			<desc>[ShieldBearer] 의 훈련 [Money] 가 감소하며, [ShieldBearer] 의 저항력이 ::percent:: 증가합니다. [ShieldCenter] have no upkeep cost.</desc>
 		</ShieldMaster>
 		<Harpoons>
-			<name>Harpoons</name>
-			<desc>Fisherman's Huts can have one more [Fisherman], and their production is increased by ::percent::.</desc>
+			<name>작살</name>
+			<desc>낚시꾼의 오두막이 [Fisherman] 을 한명 더 수용할 수 있으며 생산량이 ::percent:: 증가합니다.</desc>
 		</Harpoons>
 		<WinterFestival>
-			<name>Winter Festival</name>
-			<desc>During winter, [Food] production loss is reduced by ::inv_percent:: and [Happy] is increased by ::value1::.</desc>
+			<name>겨울축제</name>
+			<desc>겨울동안 [Food] 생산량 감소량이 ::inv_percent:: 감소하고 [Happy] 가 ::value1:: 증가합니다.</desc>
 		</WinterFestival>
 		<Bartering>
-			<name>Bartering</name>
-			<desc>+1[Money] for each ::value:: clan member. Enables Trade Routes with neutral factions from [TradingPost]s. Also enables Great Trade Routes with a [Lighthouse].</desc>
+			<name>물물교환</name>
+			<desc>부족원 ::value:: 명 마다 +1[Money] 를 생산합니다. [Lighthouse] 의 위대한 항로와 [TradingPost] 에서 중립 세력과의 교역로가 활성화됩니다.</desc>
 		</Bartering>
 		<LayLayLand>
-			<name>Lay of the Land</name>
-			<desc>Reduces environment hostility by ::inv_percent::.</desc>
+			<name>대지의 시</name>
+			<desc>주변 환경 적대심을 ::inv_percent:: 감소시킵니다.</desc>
 		</LayLayLand>
 		<SimpleLiving>
-			<name>Simple Living</name>
-			<desc>Construction costs -::percent:: Wood to build.</desc>
+			<name>간편한 삶</name>
+			<desc>건설에 필요한 [Wood] 의 소비량이 -::percent:: 감소합니다.</desc>
 		</SimpleLiving>
 		<Herbalism>
-			<name>Herbalism</name>
+			<name>약초활용</name>
 			<desc>Each active [Mender] provides +::percent:: production in [MenderHut] territory.</desc>
 		</Herbalism>
 		<Handiwork>
-			<name>Handiwork</name>
-			<desc>Non-upgraded buildings receive +::percent:: production.</desc>
+			<name>세공</name>
+			<desc>업그레이드 되지않은 건물의 생산량이 +::percent:: 증가합니다.</desc>
 		</Handiwork>
 		<Legacy>
-			<name>Legacy</name>
-			<desc>[Temple] production is doubled.</desc>
+			<name>전통</name>
+			<desc>[Temple] 의 생산량이 두배가 됩니다.</desc>
 		</Legacy>
 		<Osmosis>
-			<name>Osmosis</name>
-			<desc>Tiles with [Grove]s, [MarshBuilding]s or [Shoal]s provide ::value::[Happy].</desc>
+			<name>삼투</name>
+			<desc>[Grove], [MarshBuilding] 또는 [Shoal] 타일이 ::value::[Happy] 를 지급합니다.</desc>
 		</Osmosis>
 		<BlackMarket>
-			<name>Black Market</name>
+			<name>암시장</name>
 			<desc>[Merchant]s produce +::percent1:: more [Money].&lt;br/&gt;You gain +::percent::[Money] when trading with enemy clan, deteriorating diplomatic relations. You can trade even when at war. Enemy clans get no resource from black market trading.</desc>
 		</BlackMarket>
 		<StolenLore>
-			<name>Stolen Lore</name>
+			<name>전승강탈</name>
 			<desc>Steals Lore from other clans.</desc>
 		</StolenLore>
 		<Guerilla>
@@ -4038,7 +4038,7 @@
 	<sheet name="ability">
 		<Dominion>
 			<name>지배</name>
-			<desc>Colonize cleared area for free.</desc>
+			<desc>정리된 영토를 무료로 지배합니다.</desc>
 		</Dominion>
 		<ScorchedEarth>
 			<name>초토화</name>
@@ -4054,15 +4054,15 @@
 		</CallToArms>
 		<Bodyguard>
 			<name>경호원</name>
-			<desc>A bodyguard is attached to your warchief. The Warchief gains +::percent0:: attack power and ::percent_value1:: damage reduction.</desc>
+			<desc>대족장에게 경호원을 붙여줍니다. 대족장의 공격력이 +::percent0:: 데미지 감소율을 ::percent_value1:: 얻습니다.</desc>
 		</Bodyguard>
 		<WarEffort>
 			<name>전쟁 물자</name>
-			<desc>You can choose a free military Lore.</desc>
+			<desc>군사 전승을 무료로 하나 선택할수 있습니다.</desc>
 		</WarEffort>
 		<WarriorCharge>
 			<name>돌진</name>
-			<desc>Increases run speed when the engaged target is close enough.</desc>
+			<desc>대상에게 가까워질때까지 빠른속도로 달려갑니다.</desc>
 		</WarriorCharge>
 		<SkirmisherPoison>
 			<name>독약</name>

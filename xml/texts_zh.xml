@@ -111,7 +111,7 @@
 		<t id="colonize">점령하기 <img src="/r/::r::"/><font color="::color::">::cost::</font>殖民</t>
 		<t id="cantColonize">점령 불가능</t>
 		<t id="cancel_colonize">점령 취소</t>
-		<t id="improve_tools"><img src="/r/Iron"/> 장비강화</t>
+		<t id="improve_tools"><img src="/r/Iron"/> 도구향상</t>
 		<t id="forge_start"><img src="/r/Forge"/> 대장간</t>
 		<t id="sacrifice_sheep">도축</t>
 		<t id="organize_feast">축제열기</t>
@@ -131,20 +131,20 @@
 		<t id="ruins_explored">이 폐허는 이미 탐색됐습니다.</t>
 		<t id="wreck_scavenged">이 난파선은 이미 탐색됐습니다.</t>
 		<t id="brokenHouse_visited">이 부서진 집은 이미 방문했습니다.</t>
-		<t id="win_res_faction">Eradicate this faction to gain ::resList::.</t>
-		<t id="win_res">Colonize this area to gain ::resList::.</t>
-		<t id="kill_fame">Kill the Wyvern and gain ::resList::.</t>
+		<t id="win_res_faction">멸망 시킬 경우 아래의 자원을 획득합니다 ::resList::.</t>
+		<t id="win_res">영토를 점령할 경우 아래의 자원을 획득합니다 ::resList::.</t>
+		<t id="kill_fame">와이번을 죽일경우 아래의 자원을 획득합니다 ::resList::.</t>
 		<t id="forge_desc">Forge the ::part:: of the Sword of Odin for <img src="/r/::res::"/><font color="::color::">::count::</font>.</t>
-		<t id="forge_count">::nb:: done</t>
+		<t id="forge_count">::nb:: 완성</t>
 		<g id="sword_parts">
-			<t id="hilt">Hilt</t>
-			<t id="guard">Guard</t>
-			<t id="blade">Blade</t>
+			<t id="hilt">자루</t>
+			<t id="guard">코등이</t>
+			<t id="blade">칼날</t>
 		</g>
-		<t id="forge_progress">Forging ::part:: (::p::%)</t>
-		<t id="giants_progress">Relationship with giants (::p::%)</t>
-		<t id="myrk_progress">Relationship with myrkálfar (::p::%)</t>
-		<t id="vedrfolnir_progress">Vedrfolnir leaving (::p::%)</t>
+		<t id="forge_progress">::part:: 제작중 (::p::%)</t>
+		<t id="giants_progress">거인과의 교류 (::p::%)</t>
+		<t id="myrk_progress">미르칼파와의 교류 (::p::%)</t>
+		<t id="vedrfolnir_progress">베드르폴니르 떠나는중 (::p::%)</t>
 		<g id="victories">
 			<t id="yggdrasil">Colonize the area to become protector of Northgard and achieve victory!</t>
 			<t id="helheim">Colonize the Gates of Helheim and keep it under your control to achieve victory!</t>
@@ -424,12 +424,12 @@
 	<g id="abilities">
 		<g id="no_use_reason">
 			<t id="cant_colonize_zone">This area can't be colonized at this time.</t>
-			<t id="no_tower">No allied defense tower in this area.</t>
+			<t id="no_tower">이 영역에 아군 방어탑이 없습니다.</t>
 			<t id="no_producing_building">Need a [Food], [Wood] or [Money] building.</t>
 			<t id="no_building">There is no building in this area.</t>
-			<t id="no_civilians">There are no civilians in this area.</t>
-			<t id="not_enemy_area">Enemy area required.</t>
-			<t id="no_military_camp">You don't own a Military camp in this area.</t>
+			<t id="no_civilians">이 영역에 시민이 없습니다.</t>
+			<t id="not_enemy_area">적 영토가 필요합니다.</t>
+			<t id="no_military_camp">병영 막사가 이 영역에 없습니다.</t>
 			<t id="currently_used">Already in use.</t>
 		</g>
 	</g>
@@ -485,7 +485,7 @@
 		<t id="defeat">타운홀이 <font color="#B">파괴</font> 되었습니다. 당신의 부족은 패배하였습니다...</t>
 
 		<t id="game_paused">게임 중지</t>
-		<t id="confirm_overwrite">Overwrite existing file ::name::?</t>
+		<t id="confirm_overwrite">::name:: 파일을 덮어쓰시겠습니까?</t>
 		<t id="resume_game_wait">게임 재개 요청까지 ::time:: 초.</t>
 		<t id="pause_remaining">게임 중지가 ::count:: 회 남았습니다.</t>
 		<t id="resume_time">게임이 ::time:: 초 후에 재개됩니다.</t>
@@ -541,7 +541,7 @@
 		<t id="trade_bonus">You are currently trading [::res::] with <font color="::color::">::name::</font><br/></t>
 		<g id="choose_tool">
 			<t id="title">향상시킬 도구를 선택하세요</t>
-			<t id="tip">[::id::] 의 생산량이 ::percent:: 증가하고 [::res::].</t>
+			<t id="tip">[::id::] 의 [::res::] 생산량이 ::percent:: 증가합니다.</t>
 			<t id="tip_miner">채광속도가 ::percent:: 증가합니다.</t>
 			<t id="tip_villager">[Villager] 의 건설속도와 수리속도가 ::percent:: 증가합니다.</t>
 			<t id="tip_mender">[Mender] 의 회복속도가 ::percent:: 증가하고 [Lore] 의 생산량이 ::percent:: 증가합니다.</t>
@@ -561,9 +561,9 @@
 			<t id="no_tool">[::id::]s can't be improved.</t>
 			<t id="no_tool_ally">You can't improve ally units.</t>
 		</g>
-		<t id="scout_req_camp">Your [Scout] needs a Scouting Camp to explore new areas.</t>
-		<t id="hero_cooldown">Waiting for ::name:: (::p::%)</t>
-		<t id="waiting_drakkar">Waiting for your Longship to return...</t>
+		<t id="scout_req_camp">[Scout] 이 새로운 영역을 정찰하기 위해서는 정찰병 막사가 필요합니다.</t>
+		<t id="hero_cooldown">::name:: 대기중 (::p::%)</t>
+		<t id="waiting_drakkar">바이킹선의 귀환을 기다리는중...</t>
 
 		<t id="new_title">New title:</t>
 		<t id="new_age">::age:::</t>
@@ -579,8 +579,8 @@
 		<g id="manage_harbor">
 
 			<t id="title_raid">약탈</t>
-			<t id="raid_desc">Choose an additional resource for your [Sailor]s to look for:</t>
-			<t id="cant_raid_nosailor">You need to assign [Sailor]s to launch a raid.</t>
+			<t id="raid_desc">[Sailor] 이 추가로 약탈할 자원을 선택하세요:</t>
+			<t id="cant_raid_nosailor">약탈을 하기 위해서는 [Sailor] 을 배치해야합니다.</t>
 
 			<t id="explore">탐험</t>
 			<t id="explore_tip">[Sailor]들이 약탈하는동안 새로운 해안을 탐험합니다.</t>
@@ -589,21 +589,21 @@
 			<t id="cant_explore_noarea">There is no area left for your [Sailor]s to explore.</t>
 
 			<t id="title_raven_port">용병</t>
-			<t id="mercenary_desc">Mercenaries will attack a selected coastal area and stay there if they emerge victorious.</t>
+			<t id="mercenary_desc">용병들은 선택한 해안에 침공하여 승리를 거둘경우 계속 머물러있습니다.</t>
 			<t id="mercenary_deploy">용병 투입</t>
-			<t id="mercenary_deploy_help">Choose a coastal area in which to deploy [Mercenary]s.</t>
-			<t id="mercenary_cooldown">Recruiting (::p::%)</t>
-			<t id="mercenary_cant_deploy">You have not discovered a coastal area for deployment.</t>
+			<t id="mercenary_deploy_help">[Mercenary] 을 투입할 해안 선택.</t>
+			<t id="mercenary_cooldown">고용중 (::p::%)</t>
+			<t id="mercenary_cant_deploy">배치할 해안을 아직 발견하지 못했습니다.</t>
 
-			<t id="title_great_routes">Great Trade Routes</t>
+			<t id="title_great_routes">위대한 항로</t>
 			<t id="great_route_desc">Earn [Prestige] with Great Trade Routes and work toward a Trade victory.</t>
-			<t id="start_route">Start Great Trade Route</t>
-			<t id="stop_route">Stop Route</t>
+			<t id="start_route">위대한 항로 개척시작</t>
+			<t id="stop_route">교역중지</t>
 			<t id="no_money">You don't have enough [Money]s to create a Great Trade Route.</t>
 			<t id="noLighthouse">Build a Lighthouse on this ::portKind:: to unlock Great Trade Routes.</t>
 			<t id="uniqueLighthouse">One of your ports already has a Lighthouse.</t>
 
-			<t id="loot_zone">Loot <img src="/r/::r::"/>::q::</t>
+			<t id="loot_zone"><img src="/r/::r::"/>::q:: 획득</t>
 		</g>
 	</g>
 	<g id="fame">
