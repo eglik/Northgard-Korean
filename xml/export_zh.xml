@@ -97,9 +97,9 @@
 			<desc>노련한 사냥꾼들은 사슴을 추적하고 사냥하여 [Meat] 를 제공합니다.</desc>
 		</Hunter>
 		<Fisherman>
-			<name>어부</name>
-			<plural>어부</plural>
-			<desc>Fishermen provide fresh [Fish] for your clan. Their production is not affected by winter.</desc>
+			<name>낚시꾼</name>
+			<plural>낚시꾼</plural>
+			<desc>낚시꾼은 [Fish] 를 부족에 제공합니다. 생산량이 겨울에 영향을 받지 않습니다.</desc>
 		</Fisherman>
 		<Merchant>
 			<name>상인</name>
@@ -117,7 +117,7 @@
 		</RuneMaster>
 		<InnKeeper>
 			<name>양조자</name>
-			<desc>A good Brewer provides a steady supply of ale and improves your clan's [Happy].</desc>
+			<desc>좋은 양조자는 꾸준히 맥주를 제공하며 부족의 [Happy] 를 올려줍니다.</desc>
 		</InnKeeper>
 		<Skald>
 			<name>음유시인</name>
@@ -149,7 +149,7 @@
 		<Warrior>
 			<name>전사</name>
 			<desc>전사들은 가장 기본적인 [Warband] 유닛입니다. They are good fighters with an advantage against Shield Bearers.</desc>
-			<flavor>재밌는 사실: 바이킹은 사실 뿔헬멧을 착용하지 않았습니다. 기원은 1876년 오페라 '니벨룽의 반지' 에서부터 서술하기 시작했습니다.</flavor>
+			<flavor>재밌는 사실: 바이킹은 사실 뿔헬멧을 착용하지 않았습니다. 뿔헬멧의 기원은 1876년 오페라 '니벨룽의 반지' 에서부터 서술하기 시작했습니다.</flavor>
 		</Warrior>
 		<ShieldBearer>
 			<name>방패병</name>
@@ -190,12 +190,12 @@
 			<desc>Stalwart defender of her people, she is the reason the Bear Clan will never falter.</desc>
 		</Maiden>
 		<WarchiefSnake>
-			<name>Signy</name>
+			<name>시그니</name>
 			<desc>A shadowy leader with no regard for morals, Signy will stop at nothing to make a mark on Northgard.</desc>
 			<flavor>The Snake will soon sink its fangs in Northgard!</flavor>
 		</WarchiefSnake>
 		<GiantHero>
-			<name>Bláinn</name>
+			<name>브레인</name>
 			<desc>Bláinn is a legendary [Giant] who decided to befriend humans and lend them his unrivaled strength.</desc>
 		</GiantHero>
 		<Mercenary>
@@ -205,8 +205,8 @@
 			<flavor>Nothing personal.</flavor>
 		</Mercenary>
 		<Berserker03>
-			<name>Egil</name>
-			<plural>Egil</plural>
+			<name>에길</name>
+			<plural>에길</plural>
 			<desc>A ruthless and impetuous young berserker, Egil, bannerman of the Wolf Clan, is in it mostly for the mayhem.</desc>
 			<flavor>Plunder time, boys!</flavor>
 		</Berserker03>
@@ -217,8 +217,8 @@
 			<flavor>Come at me, ye cowards!</flavor>
 		</Maiden02>
 		<Maiden03>
-			<name>Liv</name>
-			<plural>Liv</plural>
+			<name>리브</name>
+			<plural>리브</plural>
 			<desc>Ambitious and pragmatic, Liv, the cunning bannermaiden of the Raven Clan, likes to control every parameter of a situation and hates wasting time or Kröwns on futile pursuits.</desc>
 			<flavor>The end always justifies the means.</flavor>
 		</Maiden03>
@@ -554,9 +554,9 @@
 			<desc>[Death]s will rise from this place until you take control of it.</desc>
 		</DeathCamp>
 		<Ruins>
-			<name>Ruins</name>
-			<plural>Ruins</plural>
-			<desc>Treasure is waiting to be found here, but only [Scout]s will have the courage to venture there. Colonize first to explore.</desc>
+			<name>유적</name>
+			<plural>유적</plural>
+			<desc>보물이 찾아주기를 기다리고있습니다. 하지만 오직 용기있는 [Scout] 만이 이곳을 조사할수있습니다. 우선 점령한뒤 조사하세요.</desc>
 		</Ruins>
 		<IronDeposit>
 			<name>Iron Deposit</name>
@@ -572,46 +572,46 @@
 			<desc>[Wolf]s will spawn in this area until you claim it.</desc>
 		</WolvesCave>
 		<Shoal>
-			<name>Fish</name>
-			<plural>Fish</plural>
+			<name>물고기</name>
+			<plural>물고기</plural>
 		</Shoal>
 		<Lake>
-			<name>Lake</name>
-			<desc>A great fishing spot.</desc>
+			<name>호수</name>
+			<desc>낚시하기 좋은 명당.</desc>
 		</Lake>
 		<Grove>
-			<name>Forest</name>
-			<desc>Improves [Wood] production in this area by ::percent::.</desc>
+			<name>숲</name>
+			<desc>이 영역에서는 [Wood] 의 생산량이 ::percent:: 증가합니다.</desc>
 			<flavor>At Yule, Vikings would traditionally decorate large evergreen trees with carvings, gifts and food, urging spring to return faster.</flavor>
 		</Grove>
 		<DeerSpawner>
-			<name>Deer</name>
-			<desc>This area is full of deer, making it a great place to hunt.</desc>
+			<name>사슴</name>
+			<desc>이 영역은 사슴이 아주 많습니다. 사냥하기 좋은 장소입니다.</desc>
 		</DeerSpawner>
 		<MarshBuilding>
-			<name>Swamp</name>
-			<desc>Unstable ground makes it harder to build in this area.</desc>
+			<name>늪</name>
+			<desc>뭔가를 건설하기엔 힘든 울퉁불퉁한 땅입니다.</desc>
 		</MarshBuilding>
 		<BrokenShores>
-			<name>Shipwreck</name>
-			<desc>Colonize and use your [Scout]s to explore this wreck, where you will find [Money] and [Wood].</desc>
+			<name>난파선</name>
+			<desc>점령한뒤 [Scout] 을 보내 이 난파선을 조사하세요. [Money] 와 [Wood] 를 얻을 수 있습니다.</desc>
 		</BrokenShores>
 		<GiantCamp>
-			<name>Jötunn Camp</name>
+			<name>요툰의 막사</name>
 			<desc>[Giant]s are usually peaceful... Trade enough [Food] with them and they might join you.</desc>
 		</GiantCamp>
 		<GiantSpawner>
-			<name>Giant Spawner</name>
+			<name>거인 생성기</name>
 		</GiantSpawner>
 		<MyrkalfarHouse>
-			<name>Myrkálfar Camp</name>
-			<desc>The dwelling of the [Myrkalfar]s is also their base of operation. Destroying it might be the only way to stop them.</desc>
+			<name>미르칼파 캠프</name>
+			<desc>The dwelling of the [Myrkalfar]s is also their base of operation. 그들을 멈출 방법은 아마 멸망뿐일것입니다.</desc>
 		</MyrkalfarHouse>
 		<MyrkalfarFirecamp>
-			<name>Myrkalfar Campfire</name>
+			<name>미르칼파 모닥불</name>
 		</MyrkalfarFirecamp>
 		<MyrkalfarSpawner>
-			<name>Myrkalfar Spawner</name>
+			<name>미르칼파 생성기</name>
 		</MyrkalfarSpawner>
 		<KoboldHouse>
 			<name>코볼트 막사</name>
@@ -637,19 +637,19 @@
 			<flavor>그만! 망치 나가신다!</flavor>
 		</ThorWrath>
 		<Geyser>
-			<name>Geyser</name>
-			<desc>A warm and pleasant area. Gives +1[Happy] and -10% [Wood] consumption in winter if controlled.</desc>
+			<name>간혈천</name>
+			<desc>쾌적하고 따뜻한 영역입니다. 이곳을 제어하고 있을때 +1[Happy] 와 -10% [Wood] 소비량을 제공합니다.</desc>
 		</Geyser>
 		<AncientGraveyard>
-			<name>Ancient Graveyard</name>
+			<name>고대의 묘지</name>
 			<desc>You can send [RuneMaster]s to study these burial grounds, and maybe find unexpected allies.</desc>
 			<flavor>To a trained eye, it is obvious that Seidr, an ancient form of sorcery Freyia taught the Æsir, was practiced here.</flavor>
 		</AncientGraveyard>
 		<IceWall>
-			<name>Ice Wall</name>
+			<name>얼음벽</name>
 		</IceWall>
 		<BrokenHouse>
-			<name>Damaged House</name>
+			<name>부셔진 집</name>
 			<desc>Colonize and use your [Scout]s to explore this house, where you will find [Money] and [Wood].</desc>
 		</BrokenHouse>
 		<AsgardRunestone>
@@ -671,9 +671,9 @@
 			<name>Ice Worm Den</name>
 		</IceWormDen>
 		<Meteor>
-			<name>Molten Rock</name>
-			<plural>Molten Rocks</plural>
-			<desc>An unnatural glow surrounds this rock. Mine it quickly or face the magic within!</desc>
+			<name>녹은 바위</name>
+			<plural>녹은 바위</plural>
+			<desc>부자연스러운 빛이 바위주위에 흘러나오고 있습니다. 빠르게 채굴하거나 마법을 마주하세요!</desc>
 		</Meteor>
 		<VedrfolnirCrash>
 			<name>Vedrfolnir Crash</name>
@@ -682,8 +682,8 @@
 		<Yggdrasil>
 			<name>이그드라실</name>
 			<plural>이그드라실</plural>
-			<desc>The world tree is threatened by evil forces.</desc>
-			<flavor>Definitely not the Mana Tree.</flavor>
+			<desc>사악한 힘에 세계수는 멸종할 위기에 처했습니다.</desc>
+			<flavor>마나 나무는 아니군.</flavor>
 		</Yggdrasil>
 		<WyvernDen>
 			<name>와이번의 둥지</name>
@@ -1045,107 +1045,107 @@
 		<Wolf>
 			<name>늑대</name>
 			<totem>펜릴</totem>
-			<title>늑대의 부족</title>
-			<desc>공격적이며 자유를 수호하며, 약간 난폭한자들입니다. They are well prepared to face the dangers of Northgard and use their combined might and mobility to leave little chance to all but the most resilient.</desc>
+			<title>늑대 신앙의 부족</title>
+			<desc>공격적이며 자유를 수호하며, 약간 난폭한자들입니다. 그들은 노스가드의 위험함에 익숙하고 그들의 남다른 힘과 기동력으로 다른 모든 이들에게 저항할 기회조차 주지 않습니다.</desc>
 			<bonuses>
 				<0>
 					<desc>[Wolf] 나 and [Bear] 을 죽일경우 [Meat] 를 제공합니다.</desc>
 				</0>
 				<1>
-					<desc>Your military units consume ::inv_percent:: less Food and provide [Happy].</desc>
+					<desc>군사 유닛의 [Food] 소비량이 ::inv_percent:: 감소하며 [Happy] 를 제공합니다.</desc>
 				</1>
 			</bonuses>
 		</Wolf>
 		<Stag>
 			<name>수사슴</name>
 			<totem>에이크쉬니르</totem>
-			<title>수사슴의 부족</title>
-			<desc>Proud of their legacy of astonishing achievements, they are renowned as much for their honorable and regal manner as for their harsh justice and unyielding strength. Valuing wealth and fame, they are highly ambitious expansionists.</desc>
+			<title>수사슴 신앙의 부족</title>
+			<desc>그들의 놀라운 업적의 유물을 자랑으로 여기며 그들의 냉철한 정의로움과 강인함을 마찬가지로 고결하고 장엄한 예의로 유명합니다. 부와 명예를 존중하며, 매우 야심찬 제국주의자들입니다.</desc>
 			<bonuses>
 				<0>
 					<desc>추가 자원 + ::value::[Food] [Wood] [Money] 를 가지고 시작합니다.</desc>
 				</0>
 				<1>
-					<desc>The Hall of [Skald]s replaces the Brewery and produces additional [Fame].</desc>
+					<desc>양조장이 [Skald]의 전당으로 대체되며 [Fame] 를 추가로 생산합니다.</desc>
 				</1>
 			</bonuses>
 		</Stag>
 		<Goat>
 			<name>산양</name>
 			<totem>헤이드룬</totem>
-			<title>산양의 부족</title>
-			<desc>When it comes to surviving in dangerous conditions and building sturdy settlements, the Goat Clan has no rival. They will endure and survive no matter what.</desc>
+			<title>산양 신앙의 부족</title>
+			<desc>위험한 환경에서 살아남고 견고한 기반을 짓는데에 있어서 산양 부족은 그에 견줄만한 상대가 없습니다. 그들은 어떤 환경에서든 살아남고 버틸 것입니다.</desc>
 			<bonuses>
 				<0>
-					<desc>Starts with one [Sheep] and can build the [Sheepfold].</desc>
+					<desc>[Sheep] 한마리를 가지고 시작하며 [Sheepfold] 을 건설할 수 있습니다.</desc>
 				</0>
 				<1>
-					<desc>Increases the production bonus of your feasts to ::percent::.</desc>
+					<desc>축제동안 ::percent:: 생산량이 증가합니다.</desc>
 				</1>
 			</bonuses>
 		</Goat>
 		<Raven>
 			<name>까마귀</name>
 			<totem>후긴과 무닌</totem>
-			<title>까마귀의 부족</title>
-			<desc>Great explorers and merchants, their mighty fleet allowed them to be the first to land on Northgard. They are strong trade partners if you don’t mind their constant scheming. Brash and swift, they will often be found roaming where you least expect them.</desc>
+			<title>까마귀 신앙의 부족</title>
+			<desc>위대한 탐험가이자 상인이며 강력한 함대를 가진 그들은 노스가드에 가장 먼저 발을 내딛었습니다. 당신이 그들의 모략을 신경쓰지 않는다면 그들은 강력한 교역 파트너입니다. 그들은 자신만만하고 재빠르게 그 누구도 예상치 못한 곳을 배회하고 있을 겁니다.</desc>
 			<bonuses>
 				<0>
-					<desc>Can colonize with [Money] instead of [Food].</desc>
+					<desc>[Food] 대신 [Money] 로 점령할 수 있습니다.</desc>
 				</0>
 				<1>
-					<desc>Can build the [RavenPort] to explore coastal areas and later send [Mercenary]s to attack.</desc>
+					<desc>해안을 탐험하거나 나중에 [Mercenary] 을 고용할 수 있는 [RavenPort] 를 건설할 수 있습니다.</desc>
 				</1>
 			</bonuses>
 		</Raven>
 		<Bear>
 			<name>곰</name>
 			<totem>비야키</totem>
-			<title>곰의 부족</title>
-			<desc>Stalwart protectors of the land, the Bjarki clan claims the most resilient warriors. Hailing from the northern reaches of the realm, they are also very well equipped to survive the harsh winters of Northgard.</desc>
+			<title>곰 신앙의 부족</title>
+			<desc>이 땅의 건장한 보호자들인 곰 부족은 가장 탄탄한 전사들로 일컬어집니다. 묘사되어지기로는, 그들은 노스가드의 혹독한 겨울을 버텨내기 위한 만반의 준비가 되어있다고 합니다.</desc>
 			<bonuses>
 				<0>
-					<desc>Food and Firewood penalties in winter are reduced by ::inv_percent::.</desc>
+					<desc>겨울 [Food] 와 [Wood] 의 패널티가 ::inv_percent:: 감소합니다.</desc>
 				</0>
 				<1>
-					<desc>You can summon [BearMaiden] to your training camp.</desc>
+					<desc>훈련 막사에서 [BearMaiden] 를 훈련할 수 있습니다.</desc>
 				</1>
 				<2>
-					<desc>Instead of having reduced power, your military units gain ::percent:: resistance bonus during the winter.</desc>
+					<desc>겨울동안 공격력이 감소하는대신, 군사 유닛들이 ::percent:: 저항력 보너스를 받습니다.</desc>
 				</2>
 			</bonuses>
 		</Bear>
 		<Boar>
 			<name>멧돼지</name>
 			<totem>슬리드룩타니</totem>
-			<title>멧돼지의 부족</title>
-			<desc>A reclusive bunch forgotten by the other clans and recently rediscovered, the Boar Clan is both mystical and untamed. Their understanding of the world is unmatched, as are their boorish and primitive ways.</desc>
+			<title>멧돼지 신앙의 부족</title>
+			<desc>다른 부족들에게 잊혀진 무리이지만 최근에 재발견된 멧돼지 부족은 신비스러우면서도 야성이 넘칩니다. 거칠면서 원시적인 그들의 방식처럼 그들의 이 세계를 살아가는 방식은 타의 추종을 불허합니다.</desc>
 			<bonuses>
 				<0>
-					<desc>The [Mender]'s Hut replaces the Healer's Hut. Menders produce +::value::[Lore] while not healing.</desc>
+					<desc>치유사의 오두막이 [Mender]의 오두막 으로 대체됩니다. [Mender] 은 치유하지 않을때 +::value::[Lore] 을 생산합니다.</desc>
 				</0>
 				<1>
-					<desc>Each additional territory gives ::value:: max population.</desc>
+					<desc>영토마다 ::value:: 의 최대 인구수를 제공합니다.</desc>
 				</1>
 				<2>
-					<desc>No penalties to [Happy] for non-upgraded houses.</desc>
+					<desc>집을 업그레이드 하지않아도 [Happy] 감소가 없습니다.</desc>
 				</2>
 			</bonuses>
 		</Boar>
 		<Snake>
 			<name>뱀</name>
 			<totem>스바프니르</totem>
-			<title>뱀의 부족</title>
-			<desc>Cunning and deceitful, the Snake has little regard for fame or honour. Members of the clan prefer working in the shadows and using guerilla tactics rather than open warfare.</desc>
+			<title>뱀 신앙의 부족</title>
+			<desc>교활하고 속을 알 수 없는 뱀 부족은 명성과 명예를 신경쓰지 않습니다. 이 부족은 보이지 않는 곳에서 일처리하기를 더 선호하며 전면승부보다는 게릴라 전투를 선호합니다.</desc>
 			<bonuses>
 				<0>
-					<desc>You start with your warchief, the young Signy.</desc>
+					<desc>어린 시그니 대족장을 가지고 시작합니다.</desc>
 				</0>
 				<1>
-					<desc>Iron is not needed to summon Signy.</desc>
+					<desc>시그니를 고용하는데에 철이 필요하지않습니다.</desc>
 				</1>
 				<2>
-					<desc>The clan doesn't have access to Fame. Signy grows up, getting stronger and unlocking new abilities instead.</desc>
+					<desc>이 부족은 명예가 오르지 않습니다. 대신 시그니가 성장하며 더욱 강해지고 새로운 능력을 얻습니다.</desc>
 				</2>
 			</bonuses>
 		</Snake>
@@ -1202,9 +1202,9 @@
 	</sheet>
 	<sheet name="event">
 		<Blizzard>
-			<name>Blizzard</name>
-			<announce>The weather is cold this year. We'll have a &lt;b&gt;Blizzard&lt;/b&gt; this winter, so we need to store a large amount of [Food] and [Wood]!</announce>
-			<desc>Reduces all production by ::inv_percent:: and doubles Firewood consumption.</desc>
+			<name>한파</name>
+			<announce>이번년은 평상시보다 더욱 춥습니다. 우리는 이번 겨울에 &lt;b&gt;한파&lt;/b&gt; 를 겪을것입니다. 많은 [Food] 과 [Wood] 를 비축해야합니다!</announce>
+			<desc>모든 생산량이 ::inv_percent:: 감소하며 장작의 소비량이 두배 증가합니다.</desc>
 		</Blizzard>
 		<Rats>
 			<name>Rat Infestation</name>
@@ -1212,32 +1212,32 @@
 			<desc>Rats will devour ::percent_value:: of any [Food] not stored in Silos and bring disease. Your Silos currently protect ::silo::.</desc>
 		</Rats>
 		<Earthquake>
-			<name>Earthquake</name>
+			<name>지진</name>
 			<announce>Tremors have been reported. A big earthquake would seriously damage our buildings unless we store [Wood] to repair them.</announce>
 			<desc>The earthquake will damage some of your buildings.</desc>
 		</Earthquake>
 		<DraugrAttack>
-			<name>Draugar Invasion</name>
+			<name>드라우가 침공</name>
 			<announce>Portals leading to Helheim have opened. We need to take defensive action before the [Death]s arrive!</announce>
 			<desc>[Death]s will soon spawn from the portals.</desc>
 		</DraugrAttack>
 		<FallenSailors>
-			<name>Fallen Sailors</name>
-			<announce>Ahoy! Fallen Sailors are approaching your coasts!</announce>
+			<name>타락한 선원들</name>
+			<announce>이봐! 타락한 선원들이 해안근처로 다가오고있어!</announce>
 			<desc>These [SpecterWarrior]s used to fight for our side...</desc>
 		</FallenSailors>
 		<BloodMoon>
-			<name>Blood Moon</name>
-			<announce>The &lt;b&gt;Blood Moon&lt;/b&gt; is coming! Prepare for a fight!</announce>
-			<desc>All units gain +::percent_value:: Attack outside of their territory for the duration of the Blood Moon.</desc>
+			<name>적월</name>
+			<announce>&lt;b&gt;적월&lt;/b&gt; 이 다가옵니다! 전쟁을 준비하세요!</announce>
+			<desc>적월동안에는 모든 유닛이 자신의 영토 밖에서 +::percent_value:: 공격력을 얻습니다.</desc>
 		</BloodMoon>
 		<Eruption>
-			<name>Volcanic Eruption</name>
+			<name>화산 분출</name>
 			<announce>Loud rumbles come out of the volcano! Prepare yourselves!</announce>
 			<desc>[Meteor] will soon fall on Northgard. They are a good source of stone, as well as a hidden threat.</desc>
 		</Eruption>
 		<GolemAwake>
-			<name>[Golem]s Awakening</name>
+			<name>[Golem] 각성</name>
 			<announce>[Meteor] fell from the sky! </announce>
 			<desc>Mine the stone quickly, or face a raging foe!</desc>
 		</GolemAwake>
@@ -1247,7 +1247,7 @@
 			<desc>Farms and Hunter's camps can't produce food. Your units can lose HP if in an area with no lake or sea shore.</desc>
 		</Canicule>
 		<Unfreeze>
-			<name>Spring</name>
+			<name>봄</name>
 			<announce>The undead army will unfreeze and attack you at the beginning of the 5th summer. We must prepare to survive!</announce>
 			<desc>The undead army will unfreeze and attack you at the beginning of the 5th summer. We must prepare to survive!</desc>
 		</Unfreeze>
@@ -1328,7 +1328,7 @@
 		</Betrayal>
 		<Journey>
 			<name>탈출</name>
-			<desc>We have safely escaped to a remote region. We must now reach the shores of Northgard.</desc>
+			<desc>우리는 안전하게 외딴 지역까지 도망쳤습니다. 우리는 노스가드 해안에 도달해야합니다.</desc>
 			<objectives>
 				<0 id="mShore">
 					<desc>북쪽의 육지에 도착하십시오.</desc>
@@ -1337,13 +1337,13 @@
 					<desc>[Port] 를 지으십시오.</desc>
 				</1>
 				<2 id="bFood">
-					<desc>Acquire a minimum of ::value:: [Food].</desc>
+					<desc>::value:: [Food] 을 최소 ::value:: 보유하세요.</desc>
 				</2>
 				<3 id="bRuin">
-					<desc>Explore all the abandoned houses.</desc>
+					<desc>모든 버려진 집을 조사하세요.</desc>
 				</3>
 				<4 id="bYear">
-					<desc>Build the [Port] before Year ::value::.</desc>
+					<desc>::value:: 년 안에 [Port] 를 건설하세요.</desc>
 				</4>
 			</objectives>
 			<cinematic>
@@ -1365,7 +1365,7 @@
 					<text>내 생각엔 분노가 훌륭한 치유사인것같군. 그건 그렇고, 우린 이미 많은 시간을 낭비했네. 우리는 당장 하겐을 추격해야만하네.</text>
 				</1>
 				<2 id="start3" who="Brand">
-					<text>Our camp is far from the enemy, but we are marooned in an unknown province on the outskirts of your kingdom.</text>
+					<text>우리의 막사는 적으로부터 멀리 떨어져있습니다, 하지만 우리는 왕국의 변두리에 있는 알수없는 고립된 지방에 있습니다.</text>
 				</2>
 				<3 id="start4" who="Rig">
 					<text>I shall prove myself worthy of their trust. However impatient I am to get even with that scum, my priority is to ensure their survival.</text>
@@ -1392,7 +1392,7 @@
 					<text>Our military troops will also be weakened by the cold. It might not be the best time to fight.</text>
 				</10>
 				<11 id="house1" who="Brand">
-					<text>My lord, reconnaissance of the area has revealed an abandoned cottage.</text>
+					<text>군주님, reconnaissance of the area has revealed an abandoned cottage.</text>
 				</11>
 				<12 id="house2" who="Rig">
 					<text>Perhaps we should order a scout to search it. They might be able to salvage some resources.</text>
