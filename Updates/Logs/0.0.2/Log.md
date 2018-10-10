@@ -3,6 +3,7 @@
 - 펜릴 전승 번역완료
 - 캠페인 1-1 번역중
 - 일부 건물 및 기타 수정완료
+- 좌상단 안내메시지 번역
 
 ![image](https://github.com/eglik/Northgard-Korean/blob/master/Updates/Images/0.0.2/10.png)
 ![image](https://github.com/eglik/Northgard-Korean/blob/master/Updates/Images/0.0.2/11.png)
