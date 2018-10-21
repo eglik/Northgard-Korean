@@ -426,7 +426,7 @@
 			<t id="cant_colonize_zone">This area can't be colonized at this time.</t>
 			<t id="no_tower">이 영역에 아군 방어탑이 없습니다.</t>
 			<t id="no_producing_building">Need a [Food], [Wood] or [Money] building.</t>
-			<t id="no_building">There is no building in this area.</t>
+			<t id="no_building">이 영역에 건물이 없습니다.</t>
 			<t id="no_civilians">이 영역에 시민이 없습니다.</t>
 			<t id="not_enemy_area">적 영토가 필요합니다.</t>
 			<t id="no_military_camp">병영 막사가 이 영역에 없습니다.</t>
