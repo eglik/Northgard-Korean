@@ -435,7 +435,7 @@
 	</g>
 	<g id="specialCampaign">
 		<g id="ui">
-			<t id="play_intro">Play Intro</t>
+			<t id="play_intro">인트로 재생</t>
 		</g>
 		<t id="foothold_goat">Halvard and the Heidrun Clan have met their end.</t>
 		<t id="skirmish_renfort">The mercenary search party will arrive in ::value:: months.</t>
@@ -495,7 +495,7 @@
 
 		<t id="confirm_quit_desktop">바탕화면으로 나가시겠습니까?</t>
 
-		<t id="confirm_exit">Quit game without saving your progress?</t>
+		<t id="confirm_exit">진행 사항을 저장하지않고 나가시겠습니까?</t>
 		<t id="confirm_exit_game">정말 퇴장하시겠습니까?</t>
 		<t id="confirm_concede">정말 항복하시겠습니까?</t>
 		<t id="confirm_exit_multi">Quitting the game now will end the session and disconnect all players!</t>
