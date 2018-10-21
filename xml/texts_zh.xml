@@ -534,7 +534,7 @@
 			<t id="cancelPrestige">Cancel Great Trade Route</t>
 		</g>
 		<t id="colonize_progress">Colonization (::v::%)</t>
-		<t id="uncolonize_progress">Losing control (::v::%)</t>
+		<t id="uncolonize_progress">제어권 상실 (::v::%)</t>
 
 		<t id="mine_depleted">This mine is depleted. You can destroy it.</t>
 
