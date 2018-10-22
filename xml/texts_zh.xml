@@ -948,18 +948,18 @@
 		<t id="volcan_discovered_no_fame">We have discovered an active <font color="#G">::name::</font>!</t>
 		<t id="volcan_discovered_by"><font color="::color::">::name::</font> has discovered an active <font color="#G">::bname::</font>!</t>
 
-		<t id="waiting_lore">We have enough [Lore] to acquire new Knowledge.</t>
+		<t id="waiting_lore">새로운 지식을 얻기위해 필요한 [Lore] 이 충분합니다.</t>
 
-		<t id="new_year">Congratulations! Our clan has made it to a <font color="#G">new year!</font></t>
+		<t id="new_year">축하드립니다! 우리 부족이 <font color="#G">새해</font>를 맞이했습니다.</t>
 
 		<t id="player_unlocked_blessing"><font color="::color::">::name::</font> has obtained ::blessing::! ::count:: more and they will achieve victory!</t>
 		<g id="player_blessing_count">
-			<t id="three">Three</t>
-			<t id="two">Two</t>
-			<t id="one">One</t>
+			<t id="three">셋</t>
+			<t id="two">둘</t>
+			<t id="one">하나</t>
 		</g>
 
-		<t id="zone_explored_sailors">Our [Sailor]s have explored a new area!</t>
+		<t id="zone_explored_sailors">우리의 [Sailor] 이 새로운 영역을 탐험했습니다!</t>
 
 		<t id="camp_destroyed">We have destroyed a <font color="#R">::bname::</font> and gained ::resList::.</t>
 		<t id="bonus_colonize">We have colonized ::bname:: and gained ::resList::.</t>
