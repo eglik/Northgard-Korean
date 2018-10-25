@@ -1,4 +1,4 @@
-<cdb>
+﻿<cdb>
 	<sheet name="resource">
 		<Food>
 			<name>식량</name>
@@ -17,7 +17,7 @@
 		</Building>
 		<Happy>
 			<name>행복도</name>
-			<desc>[Happy] 는 타운홀에 새로운 시민을 will attract new villagers to your Town Hall. Improve your people's Happiness to accelerate this process.</desc>
+			<desc>[Happy] 는 타운홀에 새로운 시민을 불러오기위해 필요합니다. 시민들의 행복도를 향상시키면 시간이 단축됩니다.</desc>
 		</Happy>
 		<Population>
 			<name>인구</name>
