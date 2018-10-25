@@ -58,11 +58,11 @@
 			<name>식량</name>
 		</SheepFood>
 		<Stone>
-			<name>Stone</name>
+			<name>석재</name>
 			<desc>[Stone] can be spent to upgrade your clan buildings.</desc>
 		</Stone>
 		<Iron>
-			<name>Iron</name>
+			<name>철</name>
 			<desc>[Iron] is used to forge powerful weapons and craft better tools.</desc>
 		</Iron>
 		<Prestige>
