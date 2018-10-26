@@ -126,7 +126,7 @@
 		</Skald>
 		<Miner>
 			<name>광부</name>
-			<desc>Miners extract [Stone] and [Iron] from the area until the deposits are depleted.</desc>
+			<desc>광부들은 영토내의 자원이 고갈될때까지 [Stone] 와 [Iron] 을 캡니다.</desc>
 			<flavor>What's yours is mine!</flavor>
 		</Miner>
 		<Scout>
