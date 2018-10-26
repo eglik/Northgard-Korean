@@ -140,7 +140,7 @@
 		</Healer>
 		<Mender>
 			<name>수리공</name>
-			<desc>Menders heal wounded Vikings within your territory and gather [Lore] when not otherwise busy.</desc>
+			<desc>수리공은 영토내의 부상당한 바이킹들을 치유하고 바쁘지않을때는 [Lore] 을 수집합니다.</desc>
 		</Mender>
 		<Smith>
 			<name>대장장이</name>
