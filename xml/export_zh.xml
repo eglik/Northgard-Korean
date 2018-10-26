@@ -135,7 +135,7 @@
 		</Scout>
 		<Healer>
 			<name>치유사</name>
-			<desc>Healers gather medicinal herbs that your wounded will use to heal themselves. The wounded must be within your territory to heal.</desc>
+			<desc>치유사들은 약효가있는 약초들을 모아 부상자들을 치료합니다. 부상자들은 반드시 영토내에 있어야 치유합니다.</desc>
 			<flavor>워워...오, 미안, 실수했네.</flavor>
 		</Healer>
 		<Mender>
