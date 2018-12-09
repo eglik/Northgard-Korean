@@ -25,6 +25,9 @@
 		<Warband>
 			<name>Warband</name>
 		</Warband>
+		<SlavePop>
+			<name>Slave</name>
+		</SlavePop>
 		<Lore>
 			<name>Lore</name>
 			<desc>[Lore] discovered in Northgard will allow you to improve your clan's Knowledge.</desc>
@@ -57,6 +60,9 @@
 		<SheepFood>
 			<name>Food</name>
 		</SheepFood>
+		<Blood>
+			<name>Dragon Essence</name>
+		</Blood>
 		<Stone>
 			<name>Stone</name>
 			<desc>[Stone] can be spent to upgrade your clan buildings.</desc>
@@ -146,6 +152,11 @@
 			<name>Smith</name>
 			<desc>Only an experienced Smith can forge the legendary Sword of Odin.</desc>
 		</Smith>
+		<Slave>
+			<name>Slave</name>
+			<desc>[Slave]s do not count towards your population and do not require housing.&lt;br/&gt;They also consume less [Food] and [Wood] and are less efficient when gathering resources.&lt;br/&gt;You can buy more [Slave]s from your [Port].</desc>
+			<flavor>Tough times...</flavor>
+		</Slave>
 		<Warrior>
 			<name>Warrior</name>
 			<desc>Warriors are the most common [Warband] units. They are good fighters with an advantage against Shield Bearers.</desc>
@@ -153,7 +164,7 @@
 		</Warrior>
 		<ShieldBearer>
 			<name>Shield Bearer</name>
-			<desc>Shield Bearers are a strong defensive unit that take ::inv_percent:: less damage from projectiles.</desc>
+			<desc>Shield Bearers are a strong defensive unit that takes ::inv_percent:: less damage from projectiles.</desc>
 			<flavor>SHIELD WALL!</flavor>
 		</ShieldBearer>
 		<AxeWielder>
@@ -165,6 +176,10 @@
 			<desc>Skirmishers are lightweight military units that trade offense and protection for mobility and stealth.</desc>
 			<flavor>When you see them, it's probably too late.</flavor>
 		</Skirmisher>
+		<Dragonmen>
+			<name>Dragonkin</name>
+			<desc>Created through ancient sacrificial rites, the [Dragonmen]s will fight ferociously for all eternity.</desc>
+		</Dragonmen>
 		<Hero01>
 			<name>Warchief</name>
 			<desc>Warchiefs are experienced units that bring their strength and leadership to bear in combat.</desc>
@@ -194,6 +209,10 @@
 			<desc>A shadowy leader with no regard for morals, Signy will stop at nothing to make a mark on Northgard.</desc>
 			<flavor>The Snake will soon sink its fangs in Northgard!</flavor>
 		</WarchiefSnake>
+		<WarchiefDragon>
+			<name>Warchief </name>
+			<desc>Warchiefs are experienced units that bring their strength and leadership to bear in combat.</desc>
+		</WarchiefDragon>
 		<GiantHero>
 			<name>Bláinn</name>
 			<desc>Bláinn is a legendary [Giant] who decided to befriend humans and lend them his unrivaled strength.</desc>
@@ -309,7 +328,7 @@
 		</WhiteBear>
 		<BearMaiden>
 			<name>Kaija, the Armored Bear</name>
-			<desc>Kaija is a powerful defensive unit that cannot enter enemy territory.</desc>
+			<desc>Kaija is a powerful defensive unit that cannot enter enemy territory, unless you have unlocked [BearAwake].</desc>
 		</BearMaiden>
 		<Wyvern>
 			<name>Wyvern</name>
@@ -374,7 +393,7 @@
 			<name>Scout Camp</name>
 			<desc>Train your villagers to become [Scout]s who can explore new areas.</desc>
 			<flavor>Empty for the greater part of the year.</flavor>
-			<upgrade.desc>Increase all your [Scout]s' scouting speed by ::percent::.</upgrade.desc>
+			<upgrade.desc>Increase all your [Scout]s' scouting speed by ::percent::. They also can go to enemy territories.</upgrade.desc>
 		</ScoutCamp>
 		<WoodLodge>
 			<name>Woodcutter's Lodge</name>
@@ -446,29 +465,38 @@
 		</Sheepfold>
 		<TrainingCamp>
 			<name>Training Camp</name>
-			<desc>Allows you to recruit military units and increases your [Warband] size.</desc>
+			<desc>Allows you to recruit military units and increases your [Warband] size by 2.</desc>
 			<upgrade.desc>Gain +::value::[Warband] and increase your [Warrior]s' attack by ::percent_value1::.</upgrade.desc>
 		</TrainingCamp>
 		<SkirmishCenter>
 			<name>Skirmisher Camp</name>
-			<desc>Allows you to recruit [Skirmisher]s. Increases your [Warband] size.</desc>
+			<desc>Allows you to recruit [Skirmisher]s and increases your [Warband] size by 2.</desc>
 			<upgrade.desc>Gain +::value::[Warband] and increase your [Skirmisher]s' attack by ::percent_value1::.</upgrade.desc>
 		</SkirmishCenter>
 		<AxeCenter>
 			<name>Axe Thrower Camp</name>
-			<desc>Allows you to recruit [AxeWielder]s, powerful ranged units, and increases your [Warband] size.</desc>
+			<desc>Allows you to recruit [AxeWielder]s, powerful ranged units, and increases your [Warband] size by 2.</desc>
 			<upgrade.desc>Gain +::value::[Warband] and increase your [AxeWielder]s' attack by ::percent_value1::.</upgrade.desc>
 		</AxeCenter>
 		<ShieldCenter>
 			<name>Shield Bearer Camp</name>
-			<desc>Allows you to recruit [ShieldBearer]s, which are well protected against ranged units and towers, and increases your [Warband] size.</desc>
+			<desc>Allows you to recruit [ShieldBearer]s, which are well protected against ranged units and towers, and increases your [Warband] size by 2.</desc>
 			<upgrade.desc>Gain +::value::[Warband] and increase your [ShieldBearer]s' attack by ::percent_value1::.</upgrade.desc>
 		</ShieldCenter>
+		<DragonmenCamp>
+			<name>Dragonkin Altar</name>
+			<desc>Transforms your villagers into [Dragonmen]s by following forgotten rituals and increases your [Warband]s size by 1.</desc>
+			<upgrade.desc>Gain +::value::[Warband] and increase your [Dragonmen]s' attack by ::percent_value1::.</upgrade.desc>
+		</DragonmenCamp>
 		<WatchTower>
 			<name>Defense Tower</name>
 			<desc>Protects this area from enemies by shooting at them.</desc>
 			<upgrade.desc>Increases the tower's attack and resistance by ::percent::.</upgrade.desc>
 		</WatchTower>
+		<SacrificialPyre>
+			<name>Sacrificial Pyre</name>
+			<desc>Sacrifice your slaves or Vikings to gain [Blood].</desc>
+		</SacrificialPyre>
 		<AllMines>
 			<name>Mine</name>
 			<desc>Train your villagers to become [Miner]s to extract stone or iron from deposits.</desc>
@@ -938,8 +966,28 @@
 		</Rapacious>
 		<UnderPressure>
 			<name>Under Pressure</name>
-			<desc>You gain +::value::[Happy] and +::value2::[Food] for each enemy clan having any of your military units stationed next to or within their borders.&lt;br/&gt;Increases the [Skirmisher]s' attack power by ::percent1::. They are no longer affected by the attack penalty from their distance to Town Hall.</desc>
+			<desc>You gain +::value::[Happy] and +::value2::[Food] for each enemy clan having any of your military units stationed next to or within their borders.&lt;br/&gt;Increases the [Skirmisher]s' attack power by ::percent1::. They are less affected by the attack penalty from their distance to Town Hall.</desc>
 		</UnderPressure>
+		<Trainee>
+			<name>Hard Labor</name>
+			<desc>[Slave]s can be conscripted to production buildings to increase their output (maximum of 1 per building).</desc>
+		</Trainee>
+		<CrunchTime>
+			<name>Blood, Sweat &amp; Tears</name>
+			<desc>You can assign ::value:: extra [Slave]s to production buildings.</desc>
+		</CrunchTime>
+		<Capture>
+			<name>Capture</name>
+			<desc>Gives a chance to enslave wounded enemy civilians or neutral faction units.&lt;br/&gt;Enslaved [Myrkalfar]s count as 3 [Slave]s, [Giant]s count as 5 [Slave]s.</desc>
+		</Capture>
+		<SlaveMaster>
+			<name>Slave Trade</name>
+			<desc>[Slave]s are cheaper by ::inv_percent::, and minimum price is also reduced by ::inv_percent::.</desc>
+		</SlaveMaster>
+		<Frenzy>
+			<name>Draconic Frenzy</name>
+			<desc>+::percent:: Attack Power for a [Dragonmen] with no other ally units in their zone.</desc>
+		</Frenzy>
 		<GotBerserk>
 			<name>Dominion</name>
 			<desc>Your [Berserker] can colonize cleared areas for free.</desc>
@@ -978,7 +1026,7 @@
 		</KindredSpirit>
 		<BearAwake>
 			<name>The Bear Awakens</name>
-			<desc>You gain +::value::[Fame] per enemy unit killed in an area with the [Maiden]. Your military units gain +::percent_value1:: power per ::value2::[Fame].</desc>
+			<desc>You gain +::value::[Fame] per enemy unit killed in an area with the [Maiden]. Your military units gain +::percent_value1:: power per ::value2::[Fame]. [BearMaiden] can now go in enemy territory.</desc>
 		</BearAwake>
 		<OldKnowledge>
 			<name>Heritage</name>
@@ -997,6 +1045,14 @@
 			<desc>[WarchiefSnake] can use [ScorchedEarth] to burn any area during ::value0:: months (::value3:: month cooldown).&lt;br/&gt;Burned zone : -::percent_value1:: production, snakes units and buildings +::percent_value2:: attack.&lt;br/&gt;[WarchiefSnake] moves faster and can go through tiles with foes without engaging combat.</desc>
 			<props.fameName>Tears of The Earth</props.fameName>
 		</ScorchedEarth>
+		<EmpireGrowth>
+			<name>Reluctant Workforce</name>
+			<desc>Receive 5 [Slave]s. Your [Blood] gauge is extended, and bonuses are increased.</desc>
+		</EmpireGrowth>
+		<Jealous>
+			<name>Tenacious Grudge</name>
+			<desc>+::percent_value:: attack power against an opponent for each victory condition in which they are ahead of you (Commerce, Lore and Fame). Your [Blood] gauge is complete, and bonuses are increased.</desc>
+		</Jealous>
 		<UnlockHall>
 			<name>DEPRECATED</name>
 		</UnlockHall>
@@ -1149,6 +1205,26 @@
 				</2>
 			</bonuses>
 		</Snake>
+		<Dragon>
+			<name>Dragon</name>
+			<totem>Nidhogg</totem>
+			<title>The Clan of the Dragon</title>
+			<desc>The most outlandish of all clans, the Dragons follow ancient customs and embrace freakish traditions. They use sacrifice and slavery to further their goals, often earning the other clans' distrust.</desc>
+			<bonuses>
+				<0>
+					<desc>Your civilians can go into neutral territory.</desc>
+				</0>
+				<1>
+					<desc>No Happiness or production penalty for being wounded.</desc>
+				</1>
+				<2>
+					<desc>You start with a [SacrificialPyre]. You can build a [DragonmenCamp] instead of other military camps.</desc>
+				</2>
+				<3>
+					<desc>Start with 2 [Slave]s and only 3 [Villager]s. You can buy slaves from your [Port]s.</desc>
+				</3>
+			</bonuses>
+		</Dragon>
 	</sheet>
 	<sheet name="icon">
 		<Wounded>
@@ -1172,9 +1248,6 @@
 		<Sick>
 			<desc>Sick clan members.</desc>
 		</Sick>
-		<Dehydrated>
-			<desc>Dehydrated clan members</desc>
-		</Dehydrated>
 		<WinterMalus>
 			<desc>Your military units have ::inv_percent:: reduced power during winter outside your territory and 10% inside your territory.</desc>
 		</WinterMalus>
@@ -1199,6 +1272,90 @@
 		<CanTradePrestige>
 			<desc>Available Great Route.</desc>
 		</CanTradePrestige>
+		<BuildMenu loc="false">
+			<desc>Build Menu</desc>
+		</BuildMenu>
+		<BuildStandard loc="false">
+			<desc>Common Buildings</desc>
+		</BuildStandard>
+		<BuildMilitary loc="false">
+			<desc>Military Buildings</desc>
+		</BuildMilitary>
+		<BuildAdvanced loc="false">
+			<desc>Advanced Buildings</desc>
+		</BuildAdvanced>
+		<ActionRepair loc="false">
+			<desc>Repair Building</desc>
+		</ActionRepair>
+		<ActionUpgrade loc="false">
+			<desc>Upgrade Building</desc>
+		</ActionUpgrade>
+		<ActionDestroy loc="false">
+			<desc>Destroy Building</desc>
+		</ActionDestroy>
+		<ActionAssign loc="false">
+			<desc>Assign [Villager]</desc>
+		</ActionAssign>
+		<ActionUnassign loc="false">
+			<desc>Unassign</desc>
+		</ActionUnassign>
+		<ActionAssignUnassign loc="false">
+			<desc>Building Assign/Unassign</desc>
+		</ActionAssignUnassign>
+		<ActionSpecial loc="false">
+			<desc>Special Actions</desc>
+		</ActionSpecial>
+		<SheepSacrifice loc="false">
+			<desc>Sheep Sacrifice</desc>
+		</SheepSacrifice>
+		<BuyHero loc="false">
+			<desc>Hire Hero</desc>
+		</BuyHero>
+		<MarketPlace loc="false">
+			<desc>Market Place</desc>
+		</MarketPlace>
+		<HealerHut loc="false">
+			<desc>Healer Hut</desc>
+		</HealerHut>
+		<PortMercenary loc="false">
+			<desc>Deploy Mercenaries</desc>
+		</PortMercenary>
+		<Forge loc="false">
+			<desc>Forge</desc>
+		</Forge>
+		<UIVictory loc="false">
+			<desc>Victory Conditions</desc>
+		</UIVictory>
+		<UIMilitaryPath loc="false">
+			<desc>Military Paths</desc>
+		</UIMilitaryPath>
+		<UIMilitaryGroup loc="false">
+			<desc>Military Group Assign</desc>
+		</UIMilitaryGroup>
+		<UIToolUpgrade loc="false">
+			<desc>Tools Upgrade</desc>
+		</UIToolUpgrade>
+		<UIUnitStatus loc="false">
+			<desc>Units Status</desc>
+		</UIUnitStatus>
+		<UIResourcesInfos loc="false">
+			<desc>Resources Infos</desc>
+		</UIResourcesInfos>
+		<UILoreTree loc="false">
+			<desc>Lore Tree</desc>
+		</UILoreTree>
+		<UICampaign loc="false">
+			<desc>(Campaign)</desc>
+		</UICampaign>
+		<UIPortRaid loc="false">
+			<desc>Manage Raids</desc>
+		</UIPortRaid>
+		<UIPortGreatRoutes loc="false">
+			<desc>Open Great Trade Routes</desc>
+		</UIPortGreatRoutes>
+		<UITradingPost loc="false">
+			<desc>Open Trade Routes</desc>
+		</UITradingPost>
 	</sheet>
 	<sheet name="event">
 		<Blizzard>
@@ -4028,6 +4185,9 @@
 		<Toundra>
 			<name>Tundra</name>
 		</Toundra>
+		<Christmas>
+			<name>Permafrost</name>
+		</Christmas>
 		<Ragnarok>
 			<name>Ragnarok</name>
 		</Ragnarok>
@@ -4046,7 +4206,7 @@
 		</ScorchedEarth>
 		<Warcry>
 			<name>Warcry</name>
-			<desc>Enemy units (non neutral) are feared for ::value0:: seconds.</desc>
+			<desc>Your Warchief can fear (non neutral) enemy units for ::value0:: seconds.</desc>
 		</Warcry>
 		<CallToArms>
 			<name>Call To Arms</name>
@@ -4068,6 +4228,10 @@
 			<name>Poison</name>
 			<desc>Decrease target attack power and move speed by ::inv_percent0:: during ::value1::sec.</desc>
 		</SkirmisherPoison>
+		<SwirlAttack>
+			<name>Whirlwind</name>
+			<desc>[Dragonmen]s frequently execute a mighty swirling strike that damages all surrounding enemies.</desc>
+		</SwirlAttack>
 		<GolemBurn>
 			<name>Magma Strike</name>
 			<desc>Target suffers ::value0:: dmg/sec for ::value1::sec.</desc>
@@ -4108,7 +4272,41 @@
 			<name>Veteran Fighters</name>
 			<desc>[Skirmisher]s damage to Watch Towers cannot be repaired.</desc>
 		</VeteranWarSkirmisher>
-	</sheet>
-	<sheet name="militaryPath">
+		<VeteranWarDragonmen>
+			<name>Veteran Fighters</name>
+			<desc>[Dragonmen]s increase the decolonization speed by ::percent_value:: each.</desc>
+		</VeteranWarDragonmen>
+		<SacrificeAtk>
+			<name>Magni's Influence</name>
+			<desc>+::percent_value:: attack power for non slaves units.</desc>
+		</SacrificeAtk>
+		<SacrificeRegen>
+			<name>Idunn's Influence</name>
+			<desc>[Dragonmen]s regenerate health during this blessing.</desc>
+		</SacrificeRegen>
+		<SacrificeHappy>
+			<name>Nanna's Influence</name>
+			<desc>+::value:: [Happy]</desc>
+		</SacrificeHappy>
+		<SacrificeFood>
+			<name>Andhrímnir's Influence</name>
+			<desc>+::value:: to [Food] production</desc>
+		</SacrificeFood>
+		<SacrificeWood>
+			<name>Niorun's Influence</name>
+			<desc>+::value:: to [Wood] production</desc>
+		</SacrificeWood>
+		<SacrificeMoney>
+			<name>Njörd's Influence</name>
+			<desc>+::value:: to [Money] production</desc>
+		</SacrificeMoney>
+		<SacrificeLore>
+			<name>Mímir's Influence</name>
+			<desc>+::value:: to [Lore] production</desc>
+		</SacrificeLore>
+		<SacrificeFame>
+			<name>Hönir's Influence</name>
+			<desc>+::value:: per month to [Fame] production</desc>
+		</SacrificeFame>
 	</sheet>
 </cdb>

@@ -10,31 +10,20 @@
 	<t id="unknown_clan">Unknown</t>
 	<t id="random">Random</t>
 
-	<g id="months">
-		<t id="s1">January</t>
-		<t id="s2">February</t>
-		<t id="s3">March</t>
-		<t id="s4">April</t>
-		<t id="s5">May</t>
-		<t id="s6">June</t>
-		<t id="s7">July</t>
-		<t id="s8">August</t>
-		<t id="s9">September</t>
-		<t id="s10">October</t>
-		<t id="s11">November</t>
-		<t id="s12">December</t>
-	</g>
+	<t id="months">January|February|March|April|May|June|July|August|September|October|November|December</t>
 
 	<t id="date">::year:: AD - ::month::</t>
 	<t id="dateCampaign">Year ::year:: - ::month::</t>
 
-	<t id="res"><img src="/r/::res::"/><font color="#G">::qty::</font></t>
-	<t id="res_fame"><img src="/r/Fame"/><font color="#F">::qty::</font></t>
+	<t id="res" 	 loc="false"><img src="/r/::res::"/><font color="#G">::qty::</font></t>
+	<t id="res_bad"  loc="false"><img src="/r/::res::"/><font color="#B">::qty::</font></t>
+	<t id="res_fame" loc="false"><img src="/r/Fame"/><font color="#F">::qty::</font></t>
 	<t id="res_list_separator">, </t>
 
 	<g id="titles">
 		<t id="population">Population</t>
 		<t id="civilians">Civilians</t>
+		<t id="slaves">Thralls</t>
 		<t id="warband">Warband</t>
 		<t id="allies">Allies</t>
 		<t id="buildings">Buildings</t>
@@ -144,7 +133,7 @@
 	</g>
 
 	<g id="help">
-		<t id="zone_to_explore">This area has not been explored yet. Send your <b><img src="/u/Scout"/><font color="#U">Scouts</font></b> in first.</t>
+		<t id="zone_to_explore">This area has not been explored yet. Send a [Scout] in first.</t>
 		<t id="ruins_explored">These Ruins have already been explored.</t>
 		<t id="wreck_scavenged">This Shipwreck has already been scavenged.</t>
 		<t id="brokenHouse_visited">This Damaged House has already been visited.</t>
@@ -154,9 +143,9 @@
 		<t id="forge_desc">Forge the ::part:: of the Sword of Odin for <img src="/r/::res::"/><font color="::color::">::count::</font>.</t>
 		<t id="forge_count">::nb:: done</t>
 		<g id="sword_parts">
-			<t id="hilt">Hilt</t>
-			<t id="guard">Guard</t>
-			<t id="blade">Blade</t>
+			<t>Hilt</t>
+			<t>Guard</t>
+			<t>Blade</t>
 		</g>
 		<t id="forge_progress">Forging ::part:: (::p::%)</t>
 		<t id="giants_progress">Relationship with giants (::p::%)</t>
@@ -193,7 +182,16 @@
 		<g id="profile">
 			<t id="title">Player Profile</t>
 			<t id="overall">Overall Progress</t>
-			<t id="rank_titles">Villager|Warrior|Warchief|Thane|Jarl|King|High King|Norse God</t>
+			<g id="rank_titles">
+				<t>Villager</t>
+				<t>Warrior</t>
+				<t>Warchief</t>
+				<t>Thane</t>
+				<t>Jarl</t>
+				<t>King</t>
+				<t>High King</t>
+				<t>Norse God</t>
+			</g>
 			<t id="games_won">Games won: ::value::</t>
 			<t id="next_rank">Next rank: ::value::</t>
 			<t id="clan">Clan Progress</t>
@@ -390,8 +388,8 @@
 		<t id="game_maptype">Map Type</t>
 		<t id="game_major_mode">Game Mode</t>
 		<g id="game_major_modes">
-			<t id="m1">Northgard</t>
-			<t id="m2">Ragnarok</t>
+			<t id="northgard">Northgard</t>
+			<t id="ragnarok">Ragnarok</t>
 		</g>
 		<t id="ia_count">AI Players</t>
 		<t id="clan_choose">OK</t>
@@ -410,23 +408,28 @@
 		<t id="disable_tips">Disable Tips</t>
 
 		<g id="difficulty">
-			<t id="easy">Low</t>
-			<t id="normal">Medium</t>
-			<t id="hard">High</t>
+			<t>Low</t>
+			<t>Medium</t>
+			<t>High</t>
+		</g>
+
+		<g id="difficulty_ragnarok">
+			<t>Medium</t>
+			<t>High</t>
+			<t>Extreme</t>
 		</g>
 
 		<g id="campaign_difficulty">
-			<t id="easy">Normal</t>
-			<t id="normal">Hard</t>
-			<t id="hard">Extreme</t>
+			<t>Normal</t>
+			<t>Hard</t>
+			<t>Extreme</t>
 		</g>
 
-
 		<g id="map_size">
-			<t id="small">Small</t>
-			<t id="medium">Medium</t>
-			<t id="large">Large</t>
-			<t id="big">Huge</t>
+			<t>Small</t>
+			<t>Medium</t>
+			<t>Large</t>
+			<t>Huge</t>
 		</g>
 
 		<g id="newgame">
@@ -438,9 +441,9 @@
 		<g id="military_paths">
 			<t id="title">Military Paths</t>
 			<g id="categories">
-				<t id="c_1">Tactician</t>
-				<t id="c_2">Guardian</t>
-				<t id="c_3">Conqueror</t>
+				<t>Tactician</t>
+				<t>Guardian</t>
+				<t>Conqueror</t>
 			</g>
 			<t id="choose_path_title">Select a military path</t>
 			<t id="choose_path_button">Select</t>
@@ -460,8 +463,10 @@
 			<t id="no_building">There is no building in this area.</t>
 			<t id="no_civilians">There are no civilians in this area.</t>
 			<t id="not_enemy_area">Enemy area required.</t>
-			<t id="no_military_camp">You don't own a Military camp in this area.</t>
+			<t id="no_military_camp">There is no Military Camp in this area.</t>
 			<t id="currently_used">Already in use.</t>
+			<t id="fighting">Can't be used while fighting.</t>
+			<t id="warcry_zone_cooldown">[Warcry] has been used by someone in your team less than a month ago.</t>
 		</g>
 	</g>
 
@@ -472,8 +477,8 @@
 
 		<t id="foothold_goat">Halvard and the Heidrun Clan have met their end.</t>
 		<t id="skirmish_renfort">The mercenary search party will arrive in ::value:: months.</t>
-		<t id="giants_giantAttack">The Jötnar are attacking us.</t>
-		<t id="bifrost_bifrostEvent">Hvedrung will soon blow the Gjallarhorn. We should brace ourselves!</t>
+		<t id="giants_giantAttack">The [Giant]s are attacking you.</t>
+		<t id="bifrost_bifrostEvent">Hvedrung will soon blow the Gjallarhorn. You should brace yourself!</t>
 		<t id="footholdSwampDesc">This area is uninhabitable due to toxic fumes, sullied water and disease-bearing insects.</t>
 		<t id="footholdSwampName">Noxious Swamp</t>
 		<t id="giantSwordName">Ancient Jötunn Relic</t>
@@ -493,10 +498,11 @@
 		<t id="wurmSlayerSmith">Only a Smith of the Bear Clan can forge the famed Wurmslayer.</t>
 		<t id="forgeWurm_desc">Forge the Wurmslayer for <img src="/r/::res::"/><font color="::color::">::count::</font>.</t>
 		<t id="forgeWurmTip">Train your villagers to become [Smith]s and forge the Wurmslayer.</t>
-		<t id="wurmHilt">Wurmslayer</t>
-		<t id="wurmGuard">Grip</t>
-		<t id="wurmBlade">Blade</t>
-
+		<g id="swordPartCampaign">
+			<t>Wurmslayer</t>
+			<t>Grip</t>
+			<t>Blade</t>
+		</g>
 		<t id="bannerRecovering">[::unit::] is gravely wounded and will return to fight the Hrímgandr after recovering.</t>
 	</g>
 
@@ -534,7 +540,7 @@
 		<t id="confirm_exit">Quit game without saving your progress?</t>
 		<t id="confirm_exit_game">Are you sure you want to quit?</t>
 		<t id="confirm_concede">Are you sure you want to concede the game?</t>
-		<t id="confirm_exit_multi">Quitting the game now will end the session and disconnect all players!</t>
+		<t id="confirm_exit_multi">Leaving the game now will end the session and disconnect all players!</t>
 		<t id="confirm_save_delete">Delete file ::name::?</t>
 		<t id="save_format">::name::</t>
 		<t id="user_format">::user::</t>
@@ -551,8 +557,8 @@
 		<t id="close">Close</t>
 
 		<g id="meteo">
-			<t id="summer">We should prepare for winter.</t>
-			<t id="winter">Our Food production is reduced.</t>
+			<t id="summer">You should prepare for winter.</t>
+			<t id="winter">Your Food production is reduced.</t>
 		</g>
 
 		<g id="trade">
@@ -595,6 +601,7 @@
 			<t id="tip_axethrower">Increases [::id::]s' attack range and power by ::percent::.</t>
 			<t id="tip_shieldbearer">Doubles [::id::]s' protection against ranged attacks and increases resistance by ::percent::.</t>
 			<t id="tip_skirmisher">[::id::]s gain the [SkirmisherPoison] ability and ::percent:: attack.</t>
+			<t id="tip_upgradeAtk">[::id::]s gain ::percent:: attack power and [SwirlAttack].</t>
 
 			<t id="upgraded"><font color="#G">Already improved</font></t>
 			<t id="no_unit"><font color="#B">Building required</font></t>
@@ -604,12 +611,12 @@
 
 		<t id="scout_req_camp">Your [Scout] needs a Scouting Camp to explore new areas.</t>
 		<t id="hero_cooldown">Waiting for ::name:: (::p::%)</t>
-		<t id="waiting_drakkar">Waiting for your Longship to return...</t>
+		<t id="waiting_drakkar">Waiting for the Longship to return...</t>
 
 		<t id="new_title">New title:</t>
 		<t id="new_age">::age:::</t>
 		<t id="fame_level_up">Word of your success as a leader has reached other clans, and you have gained a new ability.</t>
-		<t id="maxed_pop">You don't have enough space to increase your population. Build more houses.</t>
+		<t id="maxed_pop">Not have enough space to increase your population. You must build more houses.</t>
 		<t id="no_unit_to_heal">There are no wounded or sick units to heal within your territory.</t>
 		<t id="currently_healing">Healing: ::name:: (::p::%)</t>
 		<t id="no_growth">You need more [Happy] to grow your population.</t>
@@ -643,9 +650,16 @@
 			<t id="stop_route">Stop Route</t>
 			<t id="no_money">You don't have enough [Money]s to create a Great Trade Route.</t>
 			<t id="noLighthouse">Build a Lighthouse on this ::portKind:: to unlock Great Trade Routes.</t>
-			<t id="uniqueLighthouse">One of your ports already has a Lighthouse.</t>
+			<t id="uniqueLighthouse">One ::portKind:: already has a Lighthouse.</t>
 
 			<t id="loot_zone">Loot <img src="/r/::r::"/>::q::</t>
+
+			<t id="title_buy_slaves">Buy thralls</t>
+			<t id="buy_slaves_desc">Buy ::nb:: [Slave]s.<br/>Price increases +::slave_cost::[Money] each time.<br/>Price decreases -::decrease_cost::[Money] each month.</t>
+			<t id="buy_slaves_bt">Buy for <img src="/r/::res::"/>::cost::</t>
+			<t id="buy_slaves_cooldown">Cooldown ::val::%</t>
+			<t id="buy_slaves_cantPay">You don't have enough [Money] to buy [Slave]s.</t>
+			<t id="buy_slaves_too_many">You don't have enough space for new [Slave]s. The maximum thrall population depends on your clan size.</t>
 		</g>
 	</g>
 
@@ -657,25 +671,26 @@
 	</g>
 
 	<g id="happy_categories">
-		<t id="s1">Territory</t>
-		<t id="s2">Brewers</t>
-		<t id="s3">Military Units</t>
-		<t id="s4">Building Bonus</t>
-		<t id="s5">Food Reserves</t>
-		<t id="s6">Wealth</t>
-		<t id="s7"></t> <!-- Deprecated -->
-		<t id="s8">Feast</t>
-		<t id="s9">Warchief Glory</t>
-		<t id="s10">We want better houses!</t>
-		<t id="s11">We have too many wounded!</t>
-		<t id="s12">Our clan isn't famous!</t> <!-- Deprecated -->
-		<t id="s13">We want a better Town Hall!</t>
-		<t id="s14"></t> <!-- UnitsMalus, status_happy used -->
-		<t id="s15"></t> <!-- Population, status_happy.current used -->
-		<t id="s16">Geyser</t>
-		<t id="s17">Svarn's Gratitude</t>
-		<!-- s18 is somewhere else - see UI -->
-		<t id="s19">[SpecterWarrior]</t>
+		<t id="territory">Territory</t>
+		<t id="taverns">Brewers</t>
+		<t id="military">Military Units</t>
+		<t id="buildings">Building Bonus</t>
+		<t id="FoodReserve">Food Reserves</t>
+		<t id="_old">Wealth</t>
+		<t id="knowledge"></t> <!-- Deprecated -->
+		<t id="feasts">Feast</t>
+		<t id="heroes">Warchief Glory</t>
+		<t id="housing">Your clan wants better houses!</t>
+		<t id="wounded">You have too many wounded!</t>
+		<t id="_old2">Our clan isn't famous!</t> <!-- Deprecated -->
+		<t id="wantupgrade">Your clan wants a better [TownHall]!</t>
+		<t id="unitsmalus"></t> <!-- UnitsMalus, status_happy used -->
+		<t id="population"></t> <!-- Population, status_happy.current used -->
+		<t id="geyser">Geyser</t>
+		<t id="svarnrequest">Svarn's Gratitude</t>
+		<t id="greatroute">Great Trade Route</t>
+		<t id="specterwarrior">[SpecterWarrior]</t>
+		<t id="need_sacrifice">Sacrifice needed</t>
 	</g>
 
 	<g id="status_happy">
@@ -685,7 +700,7 @@
 		<t id="sick">We're sick!</t>
 		<t id="total">Current Happiness</t>
 		<t id="current">Expected Happiness</t>
-		<t id="next">You currently have <img src="/r/Happy"/><font color="#G">+::v::</font>. One new villager will join your clan every <font color="#R">::time::</font> days.</t>
+		<t id="next">We currently have <img src="/r/Happy"/><font color="#G">+::v::</font>. One new villager will join your clan every <font color="#R">::time::</font> days.</t>
 	</g>
 
 	<g id="tip">
@@ -707,9 +722,12 @@
 		<t id="wood_consumption">Firewood</t>
 
 		<t id="population_desc">This is your current clan size. You have enough houses for <font color="#R">::max::</font> people.</t>
+		<t id="slaves_desc">This is the current number of [Slave]s in your clan.
+		You can have up to <font color="#R">::max::</font> thralls. This number depends on your clan size.
+		Make sure that [Slave]s never outnumber your Vikings, otherwise they could rebel against you...</t>
 
-		<t id="warband_default">Your current Warband size. Build training camps to increase it.</t>
-		<t id="warband_maxed">Build more training camps to increase the size of your Warband!</t>
+		<t id="warband_default">Your current Warband size. Build military camps to increase it.</t>
+		<t id="warband_maxed">Build more military camps to increase the size of your Warband!</t>
 
 		<t id="population_lore">Population</t>
 
@@ -719,11 +737,9 @@
 
 		<t id="need_thall_upgrade">Requires upgraded Town Hall</t>
 
-		<t id="friend_no_attack">You are friendly with the [Myrkalfar]. They will not attack you anymore.</t>
+		<t id="friend_no_attack">You are friendly with the [Myrkalfar]s. They will not attack you anymore.</t>
 
-		<t id="require_res_limit">
-			Requires <font color="::color::"><img src="/r/::id::"/> ::value::</font>
-		</t>
+		<t id="require_res_limit">Requires <font color="::color::"><img src="/r/::id::"/>::value::</font></t>
 
 		<t id="percent_explored">::p::% explored</t>
 		<t id="percent_built">::p::% built</t>
@@ -759,6 +775,10 @@
 			<t id="next_age">Signy will reach <font color="#R">::name::</font> in <font color="#F">::date::</font></t>
 		</g>
 
+		<g id="status">
+			<t id="wounded_no_malus">Wounded clan members.</t>
+		</g>
+
 		<t id="cooldown">Cooldown: ::value:: months</t>
 		<t id="passive">Passive</t>
 
@@ -770,16 +790,16 @@
 
 		<t id="cant_repair_under_attack">You can't repair a building while <font color="#R">under attack</font>!</t>
 
-		<t id="calendar_winter"><font color="#R">Winter:</font> your military units get ::percent:: power when fighting outside of your territory. Food production is reduced and Wood consumption is increased.</t>
+		<t id="calendar_winter"><font color="#R">Winter:</font> Your military units get ::percent:: Attack Power when fighting outside of your territory. Food production is reduced and Wood consumption is increased.</t>
 		<t id="calendar_summer"><font color="#R">Summer:</font> make sure to stock up on Food for the coming winter.</t>
 		<t id="assigned_units">Number of assigned clan members</t>
+		<t id="assigned_slaves">Number of assigned [Slave]s</t>
 		<t id="assigned_sheep">Number of assigned [Sheep]s</t>
 		<t id="available_resources">Remaining ::name:: in this area</t>
 		<t id="default_upgrade">Allows you to train one more [::unit::], and all [::unit::]s in this area gain a ::percent:: [::res::] production bonus.</t>
 
 		<t id="hire_hero">Hire: [::unit::]</t>
 		<t id="hire_hero_maxed">You can only have one [::unit::].</t>
-		<t id="hire_hero_maxpop">You need more houses to recruit this [::unit::].</t>
 
 		<t id="rally_warchief">When activated, newly trained [::unit::]s will automatically rally to your [::name::].</t>
 		<t id="rally_warchief_campaign">When activated, newly trained [::unit::]s will automatically rally to [::name::].</t>
@@ -805,7 +825,7 @@
 		<t id="Vedrfolnir_healed">The Vedrfolnir scouts areas for the clan that helped him.</t>
 
 		<t id="require_tech">You need to learn <img src="/r/Lore"/>::name::.</t>
-		<t id="require_fame">You need to learn <img src="/r/Fame"/>::name::.</t>
+		<t id="cant_steal_lore" loc="false">You can't steal this Lore, [::clan_name::] clan is protected by the gods.</t>
 		<t id="greater_jord">Warchief and upgraded towers get +::percent::% Attack</t>
 		<t id="victory_title">::vname:: Victory</t>
 
@@ -829,12 +849,8 @@
 			<t id="fame">He currently has <img src="/r/Fame"/><font color="#F">::fame::</font>.</t>
 		</g>
 
-		<t id="feast_help">
-			A feast gives <font color="#G">+::const::</font> and <font color="#G">::percent::</font> bonus to all production and [Happy] for one month, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.
-		</t>
-		<t id="feast_help_no_fame">
-			A feast gives <font color="#G">+::const::</font> and <font color="#G">::percent::</font> bonus to all production and [Happy] for one month.
-		</t>
+		<t id="feast_help">A feast gives <font color="#G">+::const::</font> and <font color="#G">::percent::</font> bonus to all production and [Happy] for one month, as well as <font color="#F"><img src="/r/Fame"/>+::fame::</font>.</t>
+		<t id="feast_help_no_fame">A feast gives <font color="#G">+::const::</font> and <font color="#G">::percent::</font> bonus to all production and [Happy] for one month.</t>
 
 		<t id="helheim_progress">Controlled for ::months::/::max:: months</t>
 
@@ -856,32 +872,46 @@
 		<t id="free_tower_upgrade">You have free tower upgrades available!</t>
 
 		<g id="warnings">
-			<t id="food">Our clan is starving! We need to gather more Food!</t>
-			<t id="stock">Our Food reserves are maxed out! We need to build more Silos!</t>
-			<t id="wood">Our clan is freezing! We need to gather more Wood!</t>
-			<t id="money">We can't maintain our buildings! We need more Kröwns!</t>
-			<t id="pop">Our population cannot grow! We need more houses!</t>
-			<t id="happy">Our population isn't growing! We need more happiness!</t>
-			<t id="betterhappiness">Our people are surviving... but they could definitely be happier.</t>
-			<t id="goodhappiness">Our people are decently happy. Don't rest on your laurels, though!</t>
-			<t id="excellenthappiness">Our people are overjoyed and grateful to you. Keep it up!</t>
-			<t id="notconstructing">We need to bring a villager here to advance the construction!</t>
-			<t id="nobodyassigned">We don't have any clan member working here.</t>
-			<t id="burning">Our building is damaged! We need to send a [Villager] to repair it!</t>
-			<t id="nowork">Some of us don't have anything to do for now...</t>
-			<t id="nohome">Some of us don't have a house!</t>
-			<t id="nothappy">We are not happy!</t>
-			<t id="nofood">We're starving! We need to gather more Food!</t>
-			<t id="nowood">We're freezing! We need to gather more Wood!</t>
-			<t id="sick">Some of us are sick! We need to heal them before they die!</t>
-			<t id="tech_available">We have enough [Lore] to acquire Knowledge!</t>
-			<t id="blessing_available">We can obtain a new blessing from the gods!</t>
-			<t id="too_far_malus">We are too far from our territory! Our attack power is reduced by ::inv_percent::.</t>
+			<t id="food">Your clan is starving! You need to gather more Food!</t>
+			<t id="stock">Your Food reserves are maxed out! You need to build more Silos!</t>
+			<t id="wood">Your clan is freezing! You need to gather more Wood!</t>
+			<t id="money">You can't maintain your buildings! You need more Kröwns!</t>
+			<t id="pop">Your population cannot grow! You need more houses!</t>
+			<t id="happy">Your population isn't growing! You need more happiness!</t>
+			<t id="betterhappiness">Your people are surviving... but they could definitely be happier.</t>
+			<t id="goodhappiness">Your people are decently happy. Don't rest on your laurels, though!</t>
+			<t id="excellenthappiness">Your people are overjoyed and grateful to you. Keep it up!</t>
+			<t id="slave_happiness">Your [Slave]s' status doesn't affect your happiness.</t>
+			<t id="notconstructing">You need to bring a villager here to advance the construction!</t>
+			<t id="nobodyassigned">You don't have any clan member working here.</t>
+			<t id="clan_cant_use">Cannot be used by the [::clan_name::] clan.</t>
+			<t id="burning">Your building is damaged! You need to send a [Villager] to repair it!</t>
+			<t id="nowork">Some members don't have anything to do for now...</t>
+			<t id="nohome">Some members don't have a house!</t>
+			<t id="nothappy">Your clan is not happy!</t>
+			<t id="nofood">We're starving! You need to gather more Food!</t>
+			<t id="nowood">We're freezing! You need to gather more Wood!</t>
+			<t id="sick">Some members are sick! You need to heal them before they die!</t>
+			<t id="tech_available">You have enough [Lore] to acquire Knowledge!</t>
+			<t id="blessing_available">You can obtain a new blessing from the gods!</t>
+			<t id="too_far_malus">Your units are too far from your territory! Attack power is reduced by ::inv_percent::.</t>
 			<t id="military_path_available">Choose a Military Path</t>
 		</g>
 
+		<g id="sacrifice">
+			<t id="current_bonus">Currently active</t>
+			<t id="full_blood">[Blood] gauge is full</t>
+			<t id="no_bonus">No active Bonus</t>
+			<t id="gauge_tip">This is your [Blood] reserve. You can sacrifice your people to the $build(SacrificialPyre) to gain more and active specific blessings. Don't let it run out!</t>
+			<t id="need_blood">Sacrifice units to gain [Blood]</t>
+			<t id="need_fame">Requires <img src="/r/Fame"/><font color="#F">::req::</font> to unlock</t>
+			<t id="harbor">Assigned [Slave]s only produce [Money].</t>
+			<t id="fame_bonus">[SacrificeFame] is active.</t>
+			<t id="production_res_tip">(incl. <font color="#G">::production_value:: </font><img src="/r/SlavePop"/>)</t>
+		</g>
+
 		<t id="cant_colonize_occupied">You can't colonize an area that is defended.</t>
-		<t id="cant_colonize_warring">You can't colonize when you don't have a safe area you control next to it.</t>
+		<t id="cant_colonize_warring">You can't colonize if you don't have a safe area you control next to it.</t>
 		<t id="cant_colonize_attacked">You can't colonize while your nearby territory is under attack!</t>
 		<t id="cant_colonize_notallowed">You can't colonize this territory because it is not exploitable.</t>
 
@@ -914,27 +944,39 @@
 		<t id="trade_in_recap"><font color="::color::">::name::</font> is trading you <img src="/r/::res::"/><font color="#B">::amount::</font> for <img src="/r/Money"/><font color="#G">::money::</font>.</t>
 
 		<t id="chat_mute">Mute Options<br/><font color="#T" opacity="0.5">Toggle channels and/or players messages</font></t>
+
+		<t id="slave">Thrall</t>
 	</g>
 
 	<g id="tip_action">
+		<t id="wrong_kind">[::id::]s can't be assigned to this building</t>
+		<t id="no_slave_military">[Slave]s can't be assigned to this building</t>
+		<t id="need_kind">[::id::] required</t>
+		<t id="already_assigned">Already assigned to this building</t>
+		<t id="already_repaired">Already being repaired</t>
 
-		<t id="not_enough_warband">Grow your [Warband]</t>
-		<t id="cant_pay_warband_cost">Costs <img src="/r/Money"/><font color="#B">::cost::</font></t>
 		<t id="building_fully_assigned">This building is full.</t>
-		<t id="recruit_cost">[::id::] <img src="/r/Money"/><font color="#R">::cost::</font></t>
-		<t id="need_scout">[Scout] required</t>
+		<t id="not_enough_warband">Build more Camps to grow your [Warband] size</t>
+
+		<t id="cant_pay_warband_cost">Costs ::resList::</t>
+		<t id="recruit_cost">[::id::] ::resList::</t>
+		<t id="repair_cost">Repair <img src="/r/::r::"/><font color="::color::">::cost::</font></t>
+		<t id="not_for_clan">The [::clan::] clan can't use this building.</t>
+
 		<t id="ruin_explore">Explore</t>
 		<t id="wreck_scavenge">Scavenge</t>
 		<t id="brokenHouse_visit">Visit</t>
 		<t id="already_explored"><font color="#B">Already explored</font></t>
 		<t id="already_scavenged"><font color="#B">Already scavenged</font></t>
 		<t id="already_visited"><font color="#B">Already visited</font></t>
+
 		<t id="too_many_buildings_here"><img src="/r/Building"/><font color="#B">::count::/::max::</font> buildings in this area.</t>
-		<t id="repair_cost">Repair <img src="/r/::r::"/><font color="::color::">::cost::</font></t>
+		<t id="sacrifice">Sacrifice</t>
+		<t id="sacrifice_win_res" loc="false">$icon(Villager): <font color="#G">+::common_cost::</font>$icon(Blood)<br/>    $icon(SlavePop) : <font color="#G">+::slave_cost::</font>$icon(Blood)</t>
 	</g>
 
 	<g id="tip_help">
-		<t id="tip"></t>
+		<t id="s1"></t>
 	</g>
 
 	<g id="notify">
@@ -942,36 +984,36 @@
 		<t id="unknown_player">An Unknown Clan</t>
 
 		<g id="low">
-			<t id="food">Our clan is starving! We need to produce and store more [Food]!</t>
-			<t id="wood">Our clan is freezing! We need to produce and store more [Wood]!</t>
-			<t id="happy">Our clan is unhappy! We need to increase our [Happy] by recruiting [Innkeeper]s!</t>
-			<t id="money">We can't pay our <img src="/r/Money"/><font color="#B">building upkeep!</font> One of our <font color="#G">::name::</font> has been damaged. Repair it or it will burn!</t>
+			<t id="food">Your clan is starving! You need to produce and store more [Food]!</t>
+			<t id="wood">Your clan is freezing! You need to produce and store more [Wood]!</t>
+			<t id="happy">Your clan is unhappy! You need to increase your [Happy] by recruiting [Innkeeper]s!</t>
+			<t id="money">You can't pay your <img src="/r/Money"/><font color="#B">building upkeep!</font> One of your <font color="#G">::name::</font> has been damaged. Repair it or it will burn!</t>
 		</g>
 
-		<t id="not_enough_houses">Our clan can't grow because it needs <font color="#B">more houses</font>!</t>
-		<t id="not_enough_happy">Our clan can't grow because it is <font color="#B">unhappy</font>!</t>
+		<t id="not_enough_houses">Your clan can't grow because it needs <font color="#B">more houses</font>!</t>
+		<t id="not_enough_happy">Your clan can't grow because it is <font color="#B">unhappy</font>!</t>
 		<t id="route_cancelled">You have no [::res::]: Trade Route with <font color="::color::">::name::</font> has stopped.</t>
 		<t id="great_route_cancelled">You have no [::res::]: Great Trade Route has stopped.</t>
 
-		<t id="zone_explored">Our [Scout]s have explored a new area!</t>
+		<t id="zone_explored">Your [Scout]s have explored a new area!</t>
 		<t id="build_finished">Construction of <font color="#G">::name::</font> is complete.</t>
-		<t id="territory_under_attack">Our territory is <font color="#B">under attack!</font> We need to defend ourselves!</t>
-		<t id="units_under_attack">Some of our units are <font color="#B">under attack!</font> We need to defend ourselves!</t>
-		<t id="zone_lost">We've lost control of this area! Let's take it back!</t>
-		<t id="ruin_explored">Our scouts found ancient riches in the Ruins. We have gained <img src="/r/Money"/><font color="#G">::gold::</font> and <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
-		<t id="wreck_scavenged">Our scouts scavenged a Shipwreck. We have gained <img src="/r/Wood"/><font color="#G">::wood::</font> and <img src="/r/Money"/><font color="#G">::gold::</font>.</t>
-		<t id="brokenHouse_visited">Our scouts found some riches in the abandoned houses. We have gained <img src="/r/Wood"/><font color="#G">::wood::</font> and <img src="/r/Money"/><font color="#G">::gold::</font>.</t>
+		<t id="territory_under_attack">Your territory is <font color="#B">under attack!</font> You need to defend yourself!</t>
+		<t id="units_under_attack">Some of your units are <font color="#B">under attack!</font> You need to defend yourself!</t>
+		<t id="zone_lost">You've lost control of this area! Let's take it back!</t>
+		<t id="ruin_explored">Your scouts found ancient riches in the Ruins. You have gained <img src="/r/Money"/><font color="#G">::gold::</font> and <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
+		<t id="wreck_scavenged">Your scouts scavenged a Shipwreck. You have gained <img src="/r/Wood"/><font color="#G">::wood::</font> and <img src="/r/Money"/><font color="#G">::gold::</font>.</t>
+		<t id="brokenHouse_visited">Your scouts found some riches in the abandoned houses. You have gained <img src="/r/Wood"/><font color="#G">::wood::</font> and <img src="/r/Money"/><font color="#G">::gold::</font>.</t>
 		<t id="fame_player_reached_title"><font color="::color::">::name::</font> has gained the Fame title <font color="#G">::title::</font>!</t>
-		<t id="contact_faction">We have established contact with <font color="::color::">::name::</font>. How should we deal with them?</t>
-		<t id="contact_player">We have established contact with <font color="::color::">::name::</font>, leader of the ::clan:: Clan.</t>
-		<t id="wyvern_defeated">We defeated the Wyvern! We have gained ::resList::.</t>
-		<t id="wyvern_defeated_no_fame">We defeated the Wyvern!</t>
+		<t id="contact_faction">You have established contact with <font color="::color::">::name::</font>. How should you deal with them?</t>
+		<t id="contact_player">You have established contact with <font color="::color::">::name::</font>, leader of the ::clan:: Clan.</t>
+		<t id="wyvern_defeated">You defeated the Wyvern! You have gained ::resList::.</t>
+		<t id="wyvern_defeated_no_fame">You defeated the Wyvern!</t>
 		<t id="wyvern_defeated_by">The mighty Wyvern has been defeated by <font color="::color::">::name::</font>!</t>
 		<t id="beware"><font color="#B">BEWARE:</font></t>
 		<t id="beware_under_attack">You are under attack!</t>
 		<t id="beware_ally_under_attack">Your ally is under attack!</t>
 
-		<t id="food_maxed">We <font color="#R">can't store</font> any more <img src="/r/Food"/>Food! Build more Food Silos.</t>
+		<t id="food_maxed">You <font color="#R">can't store</font> any more <img src="/r/Food"/>Food! Build more [FoodSilo]s.</t>
 
 		<t id="faction_defeated"><font color="::color::">::name::</font> has been defeated!</t>
 		<t id="faction_defeated_res"><font color="::color::">::name::</font> has been defeated! You gain ::resList::.</t>
@@ -983,44 +1025,44 @@
 		<t id="giants_friends_with"><font color="::color::">::name::</font> has befriended <font color="::byColor::">::by::</font>! He has gained tremendous power with this alliance!</t>
 
 		<t id="myrk_attack">[Myrkalfar]s have launched an assault against <font color="::color::">::name::</font>.</t>
-		<t id="friend_no_attack"><font color="::color::">[Myrkalfar]s</font> are now your friends! They will not attack you anymore.</t>
+		<t id="friend_no_attack">You have befriended the [Myrkalfar]s. They will no longer attack you.</t>
 
-		<t id="lost_align">Our attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
+		<t id="lost_align">Your attack has <font color="#B">soured relations</font> with <font color="::color::">::name::</font>!</t>
 
-		<t id="scout_hurt">Our [Scout] was hurt while exploring a new area.</t>
-		<t id="scout_die">Our [Scout] <font color="#R">died</font> while exploring a new area.</t>
+		<t id="scout_hurt">Your [Scout] was hurt while exploring a new area.</t>
+		<t id="scout_die">Your [Scout] <font color="#R">died</font> while exploring a new area.</t>
 
-		<t id="victory_zone_discovered">We have discovered the <font color="#G">::name::</font>. We should take control of it to achieve victory (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
-		<t id="victory_zone_discovered_no_fame">We have discovered the <font color="#G">::name::</font>. We should take control of it to achieve victory.</t>
+		<t id="victory_zone_discovered">You have discovered the <font color="#G">::name::</font>. You should take control of it to achieve victory (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
+		<t id="victory_zone_discovered_no_fame">You have discovered the <font color="#G">::name::</font>. You should take control of it to achieve victory.</t>
 		<t id="victory_zone_discovered_by"><font color="::color::">::name::</font> has discovered the <font color="#G">::bname::</font>! Let's take control of it to achieve victory.</t>
-		<t id="victory_zone_discovered_nowin">We have discovered the <font color="#G">::name::</font>: it will help us achieve victory (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
-		<t id="victory_zone_discovered_nowin_nofame">We have discovered the <font color="#G">::name::</font>.</t>
-		<t id="victory_zone_discovered_by_nowin"><font color="::color::">::name::</font> has discovered the <font color="#G">::bname::</font>! It could help us achieve victory.</t>
+		<t id="victory_zone_discovered_nowin">You have discovered the <font color="#G">::name::</font>: it will help you achieve victory (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
+		<t id="victory_zone_discovered_nowin_nofame">You have discovered the <font color="#G">::name::</font>.</t>
+		<t id="victory_zone_discovered_by_nowin"><font color="::color::">::name::</font> has discovered the <font color="#G">::bname::</font>! It could help you achieve victory.</t>
 
-		<t id="volcan_discovered">We have discovered an active <font color="#G">::name::</font>! (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
-		<t id="volcan_discovered_no_fame">We have discovered an active <font color="#G">::name::</font>!</t>
+		<t id="volcan_discovered">You have discovered an active <font color="#G">::name::</font>! (you gain <img src="/r/Fame"/><font color="#F">::fame::</font>).</t>
+		<t id="volcan_discovered_no_fame">You have discovered an active <font color="#G">::name::</font>!</t>
 		<t id="volcan_discovered_by"><font color="::color::">::name::</font> has discovered an active <font color="#G">::bname::</font>!</t>
 
-		<t id="waiting_lore">We have enough [Lore] to acquire new Knowledge.</t>
+		<t id="waiting_lore">You have enough [Lore] to acquire new Knowledge.</t>
 
-		<t id="new_year">Congratulations! Our clan has made it to a <font color="#G">new year!</font></t>
+		<t id="new_year">Congratulations! Your clan has made it to a <font color="#G">new year!</font></t>
 
 		<t id="player_unlocked_blessing"><font color="::color::">::name::</font> has obtained ::blessing::! ::count:: more and they will achieve victory!</t>
 		<g id="player_blessing_count">
-			<t id="three">Three</t>
-			<t id="two">Two</t>
-			<t id="one">One</t>
+			<t>Three</t>
+			<t>Two</t>
+			<t>One</t>
 		</g>
 
-		<t id="zone_explored_sailors">Our [Sailor]s have explored a new area!</t>
+		<t id="zone_explored_sailors">Your [Sailor]s have explored a new area!</t>
 
-		<t id="camp_destroyed">We have destroyed a <font color="#R">::bname::</font> and gained ::resList::.</t>
-		<t id="bonus_colonize">We have colonized ::bname:: and gained ::resList::.</t>
+		<t id="camp_destroyed">You have destroyed a <font color="#R">::bname::</font> and gained ::resList::.</t>
+		<t id="bonus_colonize">You have colonized ::bname:: and gained ::resList::.</t>
 
-		<t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> has started colonizing the Yggdrasil! We need to hurry and stop them!</t>
+		<t id="yggdrasil_colonize_start"><font color="::color::">::name::</font> has started colonizing the Yggdrasil! You need to hurry and stop them!</t>
 		<t id="trading_step"><font color="::color::">::name::</font> has already produced <img src="/r/Money"/><font color="#B">::amount::</font>!</t>
 		<t id="trading_step_prestige"><font color="::color::">::name::</font> has already reached <img src="/r/Prestige"/><font color="#B">::amount::</font>!</t>
-		<t id="trading_step_prestige_owner">You reached <img src="/r/Prestige"/><font color="#G">::amount::</font>! New riches are coming to us!</t>
+		<t id="trading_step_prestige_owner">You reached <img src="/r/Prestige"/><font color="#G">::amount::</font>! New riches are coming to you!</t>
 		<t id="altar_built"><font color="::color::">::name::</font> has built a [Temple]!</t>
 		<t id="lighthouse_built"><font color="::color::">::name::</font> has built a [Lighthouse]!</t>
 		<t id="forged_part"><font color="::color::">::name::</font> has just finished forging the <font color="#R">::part::</font> to the Sword of Odin!</t>
@@ -1033,7 +1075,7 @@
 
 		<t id="place_control"><font color="::color::">::name::</font> just gained control of ::bname::!</t>
 
-		<t id="incoming_raid">A mercenary ship has been spotted near our coasts! We must prepare!</t>
+		<t id="incoming_raid">A mercenary ship has been spotted near your coasts! You must prepare!</t>
 		<t id="incoming_raid_other">A mercenary ship has been spotted nearby.</t>
 
 		<t id="ally_trade"><font color="::color::">::name::</font> has started trading [::res::] with you!</t>
@@ -1044,15 +1086,18 @@
 
 		<t id="mercenary_loot">Your [Mercenary]s have looted <img src="/r/::r::"/>::q::.</t>
 
-		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! He will now help us explore Northgard. We have gained <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
+		<t id="vedrfolnir_healed">[Vedrfolnir] is healed! He will now help you explore Northgard. You have gained <img src="/r/Lore"/><font color="#G">::lore::</font>.</t>
 		<t id="vedrfolnir_explored">[Vedrfolnir] has revealed a new area!</t>
 		<t id="vedrfolnir_left">[Vedrfolnir] has left Northgard!</t>
 
-		<t id="prestige_drakkar">A ship came back from a Great Trade Route. We have gained ::res1::, ::res2:: and ::res3::.</t>
+		<t id="prestige_drakkar">A ship came back from a Great Trade Route. You have gained ::res1::, ::res2:: and ::res3::.</t>
 		<t id="ancient_grave">You've gained control of ::nb:: [SpecterWarrior]s by studying an [AncientGraveyard]</t>
 
 		<t id="free_feast">You've gained a free feast.</t>
-		<t id="free_tower_upgrade">You've gained a free Defense Tower upgrade.</t>
+		<t id="free_tower_upgrade">You've gained a free [WatchTower] upgrade.</t>
+
+		<t id="slaves_revolution">There are more [Slave]s than other units in your clan! The rebellion is imminent!</t>
+		<t id="no_blood">You have no [Blood] and your clan is unhappy. You must offer a sacrifice to the gods to gain their favors!</t>
 	</g>
 
 	<g id="endgame_event">
@@ -1171,18 +1216,18 @@
 	</g>
 
 	<g id="generation_quotes">
-		<t id="s1">Sculpting island terrain...</t>
-		<t id="s2">Generating mountains...</t>
-		<t id="s3">Carving icy lakes...</t>
-		<t id="s4">Growing forests...</t>
-		<t id="s5">Spawning unfriendly creatures...</t>
-		<t id="s6">Almost ready!</t>
+		<t>Sculpting island terrain...</t>
+		<t>Generating mountains...</t>
+		<t>Carving icy lakes...</t>
+		<t>Growing forests...</t>
+		<t>Spawning unfriendly creatures...</t>
+		<t>Almost ready!</t>
 	</g>
 
 	<g id="map_loading_quotes">
-		<t id="s1">Locating island...</t>
-		<t id="s2">Heading to Town Hall...</t>
-		<t id="s3">Almost ready!</t>
+		<t>Locating island...</t>
+		<t>Heading to Town Hall...</t>
+		<t>Almost ready!</t>
 	</g>
 
 	<g id="client_loading_quotes">
@@ -1195,44 +1240,36 @@
 			Click the <font color="#G">Build</font> button to construct a building.
 			Select any spot in the area to place the building.
 		</t>
-
 		<t id="if_house">
 			Click <font color="#G">Build</font> to construct another building.
 			Select either a <font color="#R">Woodcutter's Lodge</font> to produce [Wood] or a <font color="#R">Scout Camp</font> to discover new areas.
 		</t>
-
 		<t id="click_villager">
 			Your building is ready! Click to select a [Villager].
 			Clicking twice will select <font color="#G">all units</font> with the same job in a given area.
 		</t>
-
 		<t id="recruit_wood">
 			Select a unit and right-click on the <font color="#G">Woodcutter's Lodge</font> to turn your [Villager]s into [Woodcutter]s.
 			You can right-click several times to issue multiple orders.
 		</t>
-
 		<t id="recruit_scout">
-			Select a unit and right-click on the <font color="#G">Scout Camp</font> to turn your [Villager]s into [Scout]s.
-		</t>
-
+			Select a unit and right-click on the <font color="#G">Scout Camp</font> to turn your [Villager]s into [Scout]s.</t>
 		<t id="need_scout">
-			You need [Scout]s to explore Northgard. Build a <font color="#G">Scout Camp</font> and turn one of your [Villager]s into a [Scout].
-		</t>
-
+			You need [Scout]s to explore Northgard.
+			Build a <font color="#G">Scout Camp</font> and turn one of your [Villager]s into a [Scout].</t>
 		<t id="need_wood">
-			You need [Woodcutter]s to produce [Wood]. Build a <font color="#G">Woodcutter's Lodge</font> and turn one of your [Villager]s into a Woodcutter.
-		</t>
+			You need [Woodcutter]s to produce [Wood].
+			Build a <font color="#G">Woodcutter's Lodge</font> and turn one of your [Villager]s into a Woodcutter.</t>
 		<t id="wait_discover">
 			Your [Scout]s will discover new areas.
 			Please wait until your [Scout] has finished discovering an area.
 		</t>
 		<t id="recruit_warrior">
 			This new area is defended by enemies!
-			Build a <font color="#G">Training Camp</font> and turn one of your [Villager]s into a [Warrior].
+			Build a <font color="#G">$build(::building::)</font> and turn one of your [Villager]s into a [::unit::].
 		</t>
 		<t id="attack">
-			Select your [Warrior] and right-click on the area occupied by foes to attack them!
-			Recruiting several [Warrior]s will increase your chances of victory but reduce your [Food]/[Wood] production.
+			Select your [::military_unit::] and right-click on the area occupied by foes to attack them!
 		</t>
 		<t id="colonize">
 			To expand your territory, you need to <font color="#G">colonize</font> the new area using [Food].
@@ -1250,10 +1287,10 @@
 	</g>
 
 	<g id="events">
-		<t id="rats_lost_food">Rats have infested our Food reserves, and we lost <img src="/r/Food"/><font color="#B">::count::</font>! We should build more Food Silos!</t>
-		<t id="rats_sickness">Rats have spread disease. <font color="#B">::count::</font> of our members are <font color="#B">sick</font>!</t>
-		<t id="rats_protected">Our silos have protected us from the rat infestation.</t>
-		<t id="earthquake">An earthquake has <font color="#B">damaged ::count:: of our buildings</font>. We need to repair them quickly!</t>
+		<t id="rats_lost_food">Rats have infested your Food reserves, and you lost <img src="/r/Food"/><font color="#B">::count::</font>! You should build more [FoodSilo]!</t>
+		<t id="rats_sickness">Rats have spread disease. <font color="#B">::count::</font> of your members are <font color="#B">sick</font>!</t>
+		<t id="rats_protected">Your silos have protected you from the rat infestation.</t>
+		<t id="earthquake">An earthquake has <font color="#B">damaged ::count:: of your buildings</font>. You need to repair them quickly!</t>
 		<t id="resourceGiven">Well done! You helped Svarn by giving him ::nbRes:: [::res::]. You get ::fame:: [Fame] and a [Happy] bonus until the next request.</t>
 		<t id="resourceFailed">You failed to help Svarn with [::res::]!</t>
 	</g>
@@ -1339,9 +1376,18 @@
 		<t id="waiting_friend_answer">Waiting for answer...</t>
 		<t id="friend_invite_time">Time remaining: ::v::s.</t>
 		<t id="server_zone">Game Server</t>
-		<t id="server_zones_labels">Europe|North America|Peer-to-Peer</t>
-		<t id="server_zones">eu|na|p2p</t>
-		<t id="leagueKind">Wood|Stone|Iron|Gold|Rimesteel</t>
+		<g id="server_zones_labels">
+			<t>Europe</t>
+			<t>North America</t>
+			<t>Peer to Peer</t>
+		</g>
+		<g id="leagueKind">
+			<t>Wood</t>
+			<t>Stone</t>
+			<t>Iron</t>
+			<t>Gold</t>
+			<t>Rimesteel</t>
+		</g>
 		<t id="league">::kind:: League</t>
 		<t id="db_timeout">The server is not responding. Check your connexion or try again later.</t>
 		<t id="db_invite_timeout">You've been invited to a Ranked game but your ranking couldn't be retrieved from the server.</t>
@@ -1360,5 +1406,47 @@
 			<t id="league_demoted1">The Gods are displeased.</t>
 			<t id="league_demoted2">You have been demoted to a lower league.</t>
 		</g>
+	</g>
+	<g id="pad" loc="false">
+		<t id="global_menus">Menus</t>
+		<t id="zone_actions">Zone Actions</t>
+		<t id="category_select">Select Category</t>
+		<t id="category_choose">Choose Building Category</t>
+		<t id="action_select">Select Action</t>
+		<t id="action_choose">Choose Action</t>
+		<t id="building_select">Select Building</t>
+		<t id="building_repair">Building is being repaired: ::value:: %"</t>
+		<t id="building_damaged">Building is damage.</t>
+		<t id="building_undamaged">Building is undamaged.</t>
+		<t id="building_upgraded">Building is upgraded.</t>
+		<t id="building_cant_upgrade">Can't be upgraded at the moment.</t>
+		<t id="assign_villager">Assign a [Villager] to build.</t>
+		<t id="zone_full">Zone is full.</t>
+		<t id="no_sheep">There is no sheep in this area.</t>
+		<t id="event_focus">Last Event Focus</t>
+		<t id="minimap_display">Toggle Minimap Display</t>
+		<t id="world_info">Toggle World Info</t>
+		<t id="organize_feast">Organize a Feast (<img src="/r/Food"/>::cost::)</t>
+
+		<t id="abilities_menu">Use Ability</t>
+		<t id="use_ability">Use ::name:: </t>
+		<t id="send_scout">Send [Scout]</t>
+		<t id="send_army_group">Send Group ::n::</t>
+		<t id="send_army_all">Send Army</t>
+		<t id="army_group_menu">Move Army</t>
+		<t id="retreat">Retreat Units</t>
+		<t id="colonize">Colonize Area (<img src="/r/::res::"/>::cost::)</t>
+		<t id="zone_upgrade">Develop Area (<img src="/r/Money"/>::cost::)</t>
+		<t id="explore">Explore Ruins</t>
+		<t id="hero">Hero</t>
+		<t id="civil_assist">Civilian assist</t>
+		<t id="retreat_civil">Retreat Civilians</t>
+		<t id="target_unit">Target ::unitKind::</t>
+		<t id="target_tower">Target Tower</t>
+		<t id="target_tower_stop">Stop Target Tower</t>
+		<t id="tool_upgrade">Upgrade Tool</t>
+		<t id="buy">Buy</t>
+		<t id="warchief_control">Toggle Warchief Control</t>
+		<t id="attack">Attack</t>
 	</g>
 </texts>
